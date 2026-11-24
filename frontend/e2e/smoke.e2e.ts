@@ -156,6 +156,7 @@ test("log filters and the timeline filter work", async ({ page }) => {
   // timeline click narrows the viewer, "Clear time filter" restores it
   const bars = page.locator('[aria-label^="Stacked bar timeline"] .recharts-bar-rectangle path');
   await expect.poll(() => bars.count()).toBeGreaterThan(0);
+  await page.locator('[aria-label^="Stacked bar timeline"]').scrollIntoViewIfNeeded(); // coordinates below are viewport-relative
   let clicked = false;
   for (let i = 0; i < (await bars.count()) && !clicked; i++) {
     const box = await bars.nth(i).boundingBox();

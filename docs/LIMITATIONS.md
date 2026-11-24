@@ -25,3 +25,7 @@
 - No license file is included: adding one needs the repository owner's decision (MIT was suggested but is not applied without explicit authorization).
 - The Docker smoke test (`scripts/smoke.sh`) is HTTP-level; there is no real-browser (Playwright/Cypress) test, so chart rendering and interactions are covered only by Vitest/jsdom.
 - Redaction is best-effort (see SECURITY.md).
+- The static demonstration contains only the seven pre-computed synthetic scenarios; it cannot analyze other input.
+- Six npm advisories remain in development tooling (Vitest/Vite); see "Dependency audit" in SECURITY.md.
+- Browser coverage is Chromium (desktop and Pixel-7-sized viewports); Firefox and Safari are untested.
+

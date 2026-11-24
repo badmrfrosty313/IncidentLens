@@ -119,9 +119,9 @@ Counts below are from the latest successful GitHub Actions run on the PR branch,
 
 | Check | Result |
 | --- | --- |
-| Backend tests (pytest, Python 3.11 and 3.13) | __BACKEND__ passed |
-| Frontend unit/component tests (Vitest) | __VITEST__ passed |
-| Browser smoke tests (Playwright, Chromium: 7 tests x desktop and mobile) | __E2E__ passed |
+| Backend tests (pytest, Python 3.11 and 3.13) | 227 passed |
+| Frontend unit/component tests (Vitest) | 57 passed |
+| Browser smoke tests (Playwright, Chromium: 7 tests x desktop and mobile) | 14 passed |
 | Demo scenarios vs documented expected outcomes | 7 / 7 |
 | TypeScript (strict) + production builds (full-stack and static) | pass |
 | Docker Compose build + HTTP smoke test of the running stack | pass |
@@ -132,7 +132,13 @@ Counts below are from the latest successful GitHub Actions run on the PR branch,
 Measured on a 2-vCPU Linux x86_64 sandbox, CPython 3.13.18 (not on CI hardware, not including HTTP or browser rendering).
 Full table and per-stage timings: [docs/BENCHMARKS.md](docs/BENCHMARKS.md).
 
-__BENCH__
+| Events | Input (MiB) | Runs | parse (s) | redact (s) | normalize (s) | analyze (s) | report (s) | Total (s) | Events/s | Peak RSS (MiB) |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1,000 | 0.10 | 3 | 0.002 | 0.003 | 0.005 | 0.015 | 0.001 | 0.027 | 37,473 | 31 |
+| 10,000 | 0.96 | 3 | 0.031 | 0.037 | 0.062 | 0.124 | 0.001 | 0.259 | 38,594 | 48 |
+| 100,000 | 9.61 | 3 | 0.300 | 0.337 | 0.863 | 1.382 | 0.002 | 2.950 | 33,894 | 224 |
+
+Run-to-run variance on a shared sandbox is noticeable (an earlier run of the same code measured about 40,500 events/s at 100,000 events); treat the figures as indicative.
 
 ## Security design and limits
 

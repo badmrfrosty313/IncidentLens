@@ -45,3 +45,24 @@ password / passwd / pwd / secret / token / api-key / access-key / credential, `A
 4. `backend/app/reporting.py` — output neutralization.
 5. `frontend/src/components/LogViewer.tsx`, `HypothesisList.tsx`, `IngestPanel.tsx` — rendering/ingesting untrusted text and files.
 6. `frontend/nginx.conf`, `docker-compose.yml`, Dockerfiles — deployment hardening.
+
+## Dependency audit (v0.1.0)
+
+Run by `.github/workflows/audit.yml` against the committed lockfile and requirements (job summary and artifact on each run).
+
+| Scope | Tool | Result |
+| --- | --- | --- |
+| Python (runtime + test dependencies) | `pip-audit` | No known vulnerabilities |
+| Frontend production dependencies (react, react-dom, recharts and their trees) | `npm audit --omit=dev` | 0 vulnerabilities |
+| Frontend development tooling | `npm audit` | **6 advisories, all in the Vitest 2.x / Vite 5.x toolchain; unresolved** |
+
+Resolved during release prep: `@playwright/test` was bumped from 1.48.2 to 1.56.1 (advisory: browser download without TLS certificate verification, fixed in 1.55.1).
+
+Unresolved advisories and why they do not affect the shipped product (none of these packages is in the production bundle, the Docker runtime image or the static site):
+
+- **esbuild <= 0.24.2 / Vite <= 6.4.3** (moderate): a website the developer visits could send requests to the *Vite development server* and read responses. Applies only while `npm run dev` runs on a developer machine. Mitigation: do not browse untrusted sites with the dev server running, or bind it to localhost only (the default). Production builds and `vite preview` of the static site are not the dev server.
+- **vitest / @vitest/mocker <= 4.1.11** (moderate: arbitrary file read through the mock redirect, code injection through manual mock registration) and **tinypool <= 2.1.1** (critical: prototype-pollution gadget leading to code execution through worker options): exploitation needs an attacker who can influence the test code or runner options. The test suite runs only the repository's own code with no untrusted input.
+- **Fix path:** `npm audit fix --force` proposes Vitest 4.x and Vite 8.x, both major upgrades. They were deferred as outside the scope of a release-preparation change (risk to the verified build) and are the first item of the next maintenance sprint.
+
+Not covered by this audit: the base container images (`python:3.12-slim`, `node:20-alpine`, `nginxinc/nginx-unprivileged`), GitHub Actions versions, and transitive risk that no advisory database lists. No image scan was run.
+

@@ -47,10 +47,13 @@ const test = base.extend<{ page: Page }>({
 });
 
 const isMobile = () => test.info().project.name === "mobile";
-const shot = async (page: Page, name: string, fullPage = true) => {
+/** Desktop: full-page. Mobile: the viewport, scrolled to `focus` (a full mobile page is ~15,000px tall). */
+const shot = async (page: Page, name: string, focus?: string) => {
   if (!capture) return;
   fs.mkdirSync(SHOTS, { recursive: true });
-  await page.screenshot({ path: path.join(SHOTS, `${test.info().project.name}-${name}.png`), fullPage });
+  const mobile = isMobile();
+  if (mobile && focus) await page.getByRole("heading", { name: focus, exact: false }).first().scrollIntoViewIfNeeded();
+  await page.screenshot({ path: path.join(SHOTS, `${test.info().project.name}-${name}.png`), fullPage: !mobile });
 };
 
 /** The scenario picker button (scoped: a hypothesis card can carry the same title). */
@@ -80,7 +83,7 @@ test("loads in static demonstration mode and says so", async ({ page }) => {
   await expect(page.getByTestId("static-demo-help")).toContainText("docker compose up");
   for (const s of scenarios) await expect(scenarioButton(page, s.name)).toBeVisible();
   expect(scenarios).toHaveLength(7);
-  await shot(page, "landing", false);
+  await shot(page, "landing");
 });
 
 test("every scenario can be selected and renders its analysis", async ({ page }) => {
@@ -105,7 +108,7 @@ test("charts actually render with data", async ({ page }) => {
   await expect.poll(() => page.locator(".recharts-bar-rectangle").count()).toBeGreaterThan(5);
   await expect.poll(() => page.locator(".recharts-pie-sector").count()).toBeGreaterThan(0);
   await expect(page.locator(".recharts-reference-area").first()).toBeVisible(); // an error spike is highlighted
-  await shot(page, "dashboard-cascade");
+  await shot(page, "dashboard-cascade", "Event timeline");
 });
 
 test("hypotheses and their evidence are shown", async ({ page }) => {
@@ -120,7 +123,7 @@ test("hypotheses and their evidence are shown", async ({ page }) => {
   await expect(page.getByRole("heading", { name: "Recommended diagnostic actions" }).first()).toBeVisible();
   await expect(page.getByRole("meter", { name: "Heuristic evidence score" }).first()).toBeVisible();
   await expect(page.getByText(/heuristic/i).first()).toBeVisible();
-  await shot(page, "hypotheses-db-pool");
+  await shot(page, "hypotheses-db-pool", "Ranked root-cause hypotheses");
 });
 
 test("log filters and the timeline filter work", async ({ page }) => {

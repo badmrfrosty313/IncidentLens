@@ -2,7 +2,7 @@ name: Capture screenshots
 
 # One-shot helper (delete after use): runs the browser suite against the static demonstration build with
 # screenshot capture on, then commits docs/screenshots/*.png. The authoring environment cannot download
-# workflow artifacts, so the screenshots are committed from CI instead. Triggered by editing this file.
+# workflow artifacts (rev 2: viewport-sized mobile shots), so the screenshots are committed from CI instead. Triggered by editing this file.
 on:
   push:
     branches: [sprint-1-mvp]
@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/screenshots
+          git add -A docs/screenshots
           git diff --cached --quiet && { echo "no screenshot changes"; exit 0; }
           git commit -m "docs: add application screenshots captured by the Playwright suite"
           git push

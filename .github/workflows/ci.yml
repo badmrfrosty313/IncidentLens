@@ -56,7 +56,8 @@ jobs:
 
   e2e:
     # Real-browser smoke test of the static demonstration build (fixtures come from the Python engine).
-    runs-on: ubuntu-latest
+    # Pinned: Playwright supports specific Ubuntu releases, and `ubuntu-latest` moved to one it does not support yet.
+    runs-on: ubuntu-24.04
     defaults:
       run:
         working-directory: frontend

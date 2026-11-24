@@ -6,6 +6,7 @@ import type {
   ReportFormat,
   ScenarioInfo,
 } from "../types/api";
+import { demoDataUrl, isStaticDemo } from "./mode";
 
 const API_BASE: string = (import.meta.env?.VITE_API_BASE as string | undefined) ?? "";
 
@@ -60,24 +61,57 @@ const json = (body: unknown): RequestInit => ({
   body: JSON.stringify(body),
 });
 
+const SCENARIO_ID = /^[a-z0-9-]{1,64}$/;
+
+async function staticFixture(file: string): Promise<Response> {
+  let res: Response;
+  try {
+    res = await fetch(demoDataUrl(file));
+  } catch {
+    throw new ApiError("Could not load the demonstration data.", 0, "network");
+  }
+  if (!res.ok) throw new ApiError(`Demonstration data not found (${res.status}).`, res.status, "not_found");
+  return res;
+}
+
+const STATIC_DISABLED = new ApiError(
+  "Static demonstration mode: analyzing your own logs is disabled. Run the full application locally (see the README).",
+  403,
+  "static_demo",
+);
+
 export async function getHealth(): Promise<{ status: string; version: string }> {
+  if (isStaticDemo()) {
+    const m = (await (await staticFixture("manifest.json")).json()) as { version: string };
+    return { status: "static", version: m.version };
+  }
   return (await request("/api/health")).json();
 }
 
 export async function listScenarios(): Promise<ScenarioInfo[]> {
+  if (isStaticDemo()) return (await staticFixture("scenarios.json")).json();
   return (await request("/api/demo")).json();
 }
 
 export async function runScenario(id: string): Promise<DemoResponse> {
+  if (isStaticDemo()) {
+    if (!SCENARIO_ID.test(id)) throw new ApiError("Unknown scenario.", 404, "unknown_scenario");
+    return (await staticFixture(`${id}.json`)).json();
+  }
   return (await request(`/api/demo/${encodeURIComponent(id)}`)).json();
 }
 
 export async function analyze(content: string, format: FormatHint = "auto"): Promise<AnalysisResponse> {
+  if (isStaticDemo()) throw STATIC_DISABLED;
   return (await request("/api/analyze", json({ content, format }))).json();
 }
 
 /** Fetch a Markdown or JSON incident report for whatever produced the current analysis. */
 export async function fetchReport(source: AnalysisSource, format: ReportFormat): Promise<string> {
+  if (isStaticDemo()) {
+    if (source.kind !== "demo" || !SCENARIO_ID.test(source.scenarioId)) throw STATIC_DISABLED;
+    return (await staticFixture(`${source.scenarioId}.report.${format === "markdown" ? "md" : "json"}`)).text();
+  }
   const res =
     source.kind === "demo"
       ? await request(`/api/demo/${encodeURIComponent(source.scenarioId)}/report?format=${format}`)

@@ -1,6 +1,6 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { describe, expect, it, vi } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { MAX_UPLOAD_BYTES } from "../lib/api";
 import { SCENARIO } from "../test/fixtures";
 import IngestPanel from "./IngestPanel";
@@ -69,5 +69,20 @@ describe("IngestPanel", () => {
     await userEvent.upload(screen.getByTestId("file-input"), new File(["   "], "empty.log"));
     expect(await screen.findByRole("alert")).toHaveTextContent(/empty/);
     expect(props.onAnalyze).not.toHaveBeenCalled();
+  });
+});
+
+describe("IngestPanel in static demonstration mode", () => {
+  afterEach(() => vi.unstubAllEnvs());
+
+  it("disables upload and manual entry, explains why, and still lists scenarios", async () => {
+    vi.stubEnv("VITE_STATIC_DEMO", "true");
+    const props = { scenarios: [SCENARIO], busy: false, activeScenarioId: null, onAnalyze: vi.fn(), onSelectScenario: vi.fn() };
+    render(<IngestPanel {...props} />);
+    expect(screen.getByRole("tab", { name: "Upload" })).toBeDisabled();
+    expect(screen.getByRole("tab", { name: "Manual entry" })).toBeDisabled();
+    expect(screen.getByTestId("static-demo-help")).toHaveTextContent(/docker compose up/);
+    await userEvent.click(screen.getByRole("button", { name: /Database connection pool exhaustion/ }));
+    expect(props.onSelectScenario).toHaveBeenCalledWith("db-pool-exhaustion");
   });
 });

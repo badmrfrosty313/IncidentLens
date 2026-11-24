@@ -1,4 +1,4 @@
-export type ApiStatus = "checking" | "online" | "offline";
+export type ApiStatus = "checking" | "online" | "offline" | "static";
 
 interface Props {
   status: ApiStatus;
@@ -9,6 +9,7 @@ const DOT: Record<ApiStatus, string> = {
   checking: "bg-slate-500",
   online: "bg-emerald-400",
   offline: "bg-rose-500",
+  static: "bg-amber-400",
 };
 
 export default function Header({ status, version }: Props) {
@@ -23,14 +24,14 @@ export default function Header({ status, version }: Props) {
           </svg>
           <div>
             <h1 className="text-base font-semibold leading-none tracking-tight text-white">IncidentLens</h1>
-            <p className="mt-1 text-xs text-slate-400">Raw logs → incident report. Deterministic, local, no API keys.</p>
+            <p className="mt-1 text-xs text-slate-400">Raw logs → incident report. Deterministic analysis, no API keys, no LLM.</p>
           </div>
         </div>
         <div className="flex items-center gap-2 text-xs text-slate-400" role="status" aria-live="polite">
           <span className={`h-2 w-2 rounded-full ${DOT[status]}`} aria-hidden="true" />
           <span>
-            API {status === "checking" ? "checking…" : status}
-            {status === "online" && version ? ` · v${version}` : ""}
+            {status === "static" ? "Static demo" : `API ${status === "checking" ? "checking…" : status}`}
+            {(status === "online" || status === "static") && version ? ` · v${version}` : ""}
           </span>
         </div>
       </div>

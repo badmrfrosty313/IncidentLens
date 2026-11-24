@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import type { DragEvent, KeyboardEvent } from "react";
 import { MAX_UPLOAD_BYTES } from "../lib/api";
 import { formatBytes } from "../lib/format";
+import { REPO_URL, isStaticDemo } from "../lib/mode";
 import type { FormatHint, ScenarioInfo } from "../types/api";
 
 type Tab = "upload" | "paste" | "demo";
@@ -32,6 +33,7 @@ export function readFileText(file: File): Promise<string> {
 }
 
 export default function IngestPanel({ scenarios, busy, activeScenarioId, onAnalyze, onSelectScenario }: Props) {
+  const staticDemo = isStaticDemo();
   const [tab, setTab] = useState<Tab>("demo");
   const [format, setFormat] = useState<FormatHint>("auto");
   const [text, setText] = useState("");
@@ -78,8 +80,10 @@ export default function IngestPanel({ scenarios, busy, activeScenarioId, onAnaly
     <button
       role="tab"
       aria-selected={tab === id}
+      disabled={staticDemo && id !== "demo"}
+      title={staticDemo && id !== "demo" ? "Disabled in the static demonstration: run IncidentLens locally to analyze your own logs" : undefined}
       onClick={() => setTab(id)}
-      className={`flex-1 border-b-2 px-2 py-2 text-sm font-medium transition ${
+      className={`flex-1 border-b-2 px-2 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-40 ${
         tab === id ? "border-accent text-white" : "border-transparent text-slate-400 hover:text-slate-200"
       }`}
     >
@@ -207,9 +211,23 @@ export default function IngestPanel({ scenarios, busy, activeScenarioId, onAnaly
             {error}
           </p>
         )}
-        <p className="text-[11px] leading-snug text-slate-500">
-          Logs are analyzed in memory by the local backend. Common secrets are redacted before analysis; nothing is stored or sent to third parties.
-        </p>
+        {staticDemo ? (
+          <div role="note" data-testid="static-demo-help" className="space-y-1.5 rounded border border-amber-400/30 bg-amber-400/5 p-2 text-[11px] leading-snug text-slate-300">
+            <p>
+              <strong className="text-amber-300">Upload and manual entry are disabled</strong> in this static demonstration. These results were
+              produced by the Python engine at build time; no server is involved and nothing you do here is sent anywhere.
+            </p>
+            <p>To analyze your own logs, run the full application locally:</p>
+            <pre className="overflow-x-auto rounded bg-ink-900 p-1.5 font-mono text-[10px] text-slate-300">{`git clone ${REPO_URL}.git
+cd IncidentLens
+docker compose up --build
+# then open http://localhost:8080`}</pre>
+          </div>
+        ) : (
+          <p className="text-[11px] leading-snug text-slate-500">
+            Logs are analyzed in memory by the local backend, which stores nothing and calls no external service. Redaction of common secrets is pattern-based and best-effort: it can miss secrets it has no pattern for.
+          </p>
+        )}
       </div>
     </section>
   );

@@ -81,9 +81,18 @@ RULES: tuple[_Rule, ...] = (
     _Rule(
         "secret_assignment",
         re.compile(
-            r"((?:password|passwd|pwd|secret|token|api[_-]?key|apikey|access[_-]?key|credential)[\w.-]{0,32}(?:\\?[\"'])?\s*[:=]\s*)"
-            # quoted values may be JSON-escaped (\") or unterminated (clipped line): take them to the end
-            r"(?!\[REDACTED)(?:\\?\"(?:[^\"\\]|\\[^\"])*(?:\\?\"|$)|'[^']*(?:'|$)|[^\s,;&}\])\"']+)",
+            r'''((?:password|passwd|pwd|secret|token|api[_-]?key|apikey|access[_-]?key|credential)[\w.-]{0,32}(?:\\?["'])?\s*[:=]\s*)'''
+            r'''(?!\[REDACTED)(?:'''
+            # Quoted values are consumed to their closing quote, or to the end of the text if there is none
+            # (a clipped or malformed line must not leave the secret's tail behind). Three quoting contexts:
+            #   \"...\"  value inside a JSON string; an inner quote appears as \\\"
+            r'''\\"(?:[^"\\]|\\\\\\"|\\\\|\\[^"\\]|\\\Z)*(?:\\"|\Z)'''
+            #   "..."    plain double quotes; any backslash escape (\") is consumed as a pair
+            r'''|"(?:[^"\\]|\\[\s\S]|\\\Z)*(?:"|\Z)'''
+            #   '...'    plain single quotes
+            r'''|'(?:[^'\\]|\\[\s\S]|\\\Z)*(?:'|\Z)'''
+            #   bare value
+            r'''|[^\s,;&}\])"']+)''',
             re.IGNORECASE,
         ),
         lambda m: m.group(1) + "[REDACTED]",

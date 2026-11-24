@@ -96,3 +96,23 @@ describe("App", () => {
     await waitFor(() => expect(createUrl).toHaveBeenCalled());
   });
 });
+
+describe("App in static demonstration mode", () => {
+  it("identifies itself, disables ad-hoc analysis and explains how to run locally", async () => {
+    vi.stubEnv("VITE_STATIC_DEMO", "true");
+    mocked.getHealth.mockResolvedValue({ status: "static", version: "0.1.0" });
+    render(<App />);
+    expect(await screen.findByTestId("static-demo-banner")).toHaveTextContent(/Static demonstration/);
+    expect(await screen.findByText(/Static demo · v0.1.0/)).toBeInTheDocument();
+    expect(screen.getByRole("tab", { name: "Upload" })).toBeDisabled();
+    expect(screen.getByTestId("static-demo-help")).toBeInTheDocument();
+    expect(screen.queryByText(/API is not reachable/)).not.toBeInTheDocument();
+    vi.unstubAllEnvs();
+  });
+
+  it("shows no static banner in full-stack mode", async () => {
+    render(<App />);
+    await screen.findByText(/API online/);
+    expect(screen.queryByTestId("static-demo-banner")).not.toBeInTheDocument();
+  });
+});

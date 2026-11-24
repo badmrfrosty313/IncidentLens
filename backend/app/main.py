@@ -24,7 +24,7 @@ DESCRIPTION = """
 Turns raw application logs (plaintext, JSON, JSONL) into a structured incident analysis.
 
 * Analysis is **deterministic** and runs entirely in-process: no external services, no API keys.
-* Common secrets are **redacted before analysis**; raw logs are never stored.
+* Common secrets are redacted before analysis by **best-effort pattern matching** (not a guarantee); the service has no storage layer and makes no outbound calls.
 * Hypothesis **evidence scores are heuristic ranking scores, not probabilities**.
 """
 

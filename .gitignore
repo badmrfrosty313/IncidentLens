@@ -35,3 +35,7 @@ Thumbs.db
 *.log
 !data/demo/*.log
 npm-debug.log*
+frontend/public/demo-data/
+
+frontend/playwright-report/
+frontend/test-results/

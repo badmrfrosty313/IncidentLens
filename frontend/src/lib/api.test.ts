@@ -72,3 +72,61 @@ describe("api client", () => {
     expect(JSON.parse(init.body as string)).toEqual({ content: "abc", format: "auto" });
   });
 });
+
+describe("static demonstration mode", () => {
+  const fixtures: Record<string, { body?: unknown; text?: string }> = {
+    "/IncidentLens/demo-data/manifest.json": { body: { version: "0.1.0" } },
+    "/IncidentLens/demo-data/scenarios.json": { body: [{ id: "db-pool-exhaustion" }] },
+    "/IncidentLens/demo-data/db-pool-exhaustion.json": { body: { scenario: { id: "db-pool-exhaustion" }, analysis: {} } },
+    "/IncidentLens/demo-data/db-pool-exhaustion.report.md": { text: "# IncidentLens incident report" },
+    "/IncidentLens/demo-data/db-pool-exhaustion.report.json": { text: "{}" },
+  };
+
+  function staticFetch() {
+    vi.stubEnv("VITE_STATIC_DEMO", "true");
+    vi.stubEnv("BASE_URL", "/IncidentLens/");
+    const fn = vi.fn(async (url: string) => {
+      const hit = fixtures[url];
+      return {
+        ok: Boolean(hit),
+        status: hit ? 200 : 404,
+        json: async () => hit?.body,
+        text: async () => hit?.text ?? "",
+      } as unknown as Response;
+    });
+    vi.stubGlobal("fetch", fn);
+    return fn;
+  }
+
+  afterEach(() => vi.unstubAllEnvs());
+
+  it("serves everything from generated fixtures and never touches /api", async () => {
+    const fn = staticFetch();
+    expect(await getHealth()).toEqual({ status: "static", version: "0.1.0" });
+    await listScenarios();
+    await runScenario("db-pool-exhaustion");
+    expect(await fetchReport({ kind: "demo", scenarioId: "db-pool-exhaustion" }, "markdown")).toContain("# IncidentLens");
+    expect(await fetchReport({ kind: "demo", scenarioId: "db-pool-exhaustion" }, "json")).toBe("{}");
+    const urls = fn.mock.calls.map((c) => c[0] as string);
+    expect(urls).toHaveLength(5);
+    expect(urls.every((u) => u.startsWith("/IncidentLens/demo-data/") && !u.includes("/api/"))).toBe(true);
+  });
+
+  it("refuses to analyze arbitrary content and makes no request", async () => {
+    const fn = staticFetch();
+    await expect(analyze("anything")).rejects.toMatchObject({ code: "static_demo" });
+    await expect(fetchReport({ kind: "content", content: "x", format: "auto", label: "l" }, "markdown")).rejects.toMatchObject({ code: "static_demo" });
+    expect(fn).not.toHaveBeenCalled();
+  });
+
+  it("rejects scenario ids that could escape the fixture directory", async () => {
+    const fn = staticFetch();
+    await expect(runScenario("../../etc/passwd")).rejects.toMatchObject({ code: "unknown_scenario" });
+    expect(fn).not.toHaveBeenCalled();
+  });
+
+  it("reports a missing fixture as a readable error", async () => {
+    staticFetch();
+    await expect(runScenario("nope")).rejects.toMatchObject({ status: 404, code: "not_found" });
+  });
+});

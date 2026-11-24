@@ -100,7 +100,6 @@ def safe_clip(text: str, limit: int) -> tuple[str, bool]:
 
 _PEM_BEGIN = re.compile(r"-----BEGIN [A-Z ]{0,30}PRIVATE KEY(?: BLOCK)?-----")
 _PEM_END = re.compile(r"-----END [A-Z ]{0,30}PRIVATE KEY(?: BLOCK)?-----")
-_MAX_KEY_BLOCK_LINES = 200
 
 
 def _check_count(n: int, limits: Limits) -> None:
@@ -117,6 +116,7 @@ def parse_plaintext(text: str, limits: Limits = DEFAULT_LIMITS) -> ParseResult:
     continuation = 0
     clipped = 0
     key_lines = -1  # >= 0 while inside a PEM private-key block
+    key_discarded = 0
     for number, raw_line in enumerate(text.splitlines(), start=1):
         if not raw_line.strip():
             continue
@@ -124,12 +124,16 @@ def parse_plaintext(text: str, limits: Limits = DEFAULT_LIMITS) -> ParseResult:
             # Key bodies are bare base64 lines that match no log shape; without this they would be
             # kept as "malformed" samples, outside the reach of the multi-line private-key rule.
             ends = _PEM_END.search(raw_line) is not None
-            if ends or key_lines >= _MAX_KEY_BLOCK_LINES or _parse_plain_line(raw_line[: limits.max_line_chars]) is not None:
+            # No length cap: a cap would turn the rest of a long key into "malformed" samples. The block
+            # ends at its END marker or at the next timestamped record, whichever comes first.
+            if ends or _parse_plain_line(raw_line[: limits.max_line_chars]) is not None:
                 key_lines = -1
                 if ends:
+                    key_discarded += 1
                     continue
             else:
                 key_lines += 1
+                key_discarded += 1
                 continue
         line, was_clipped = safe_clip(raw_line.replace("\x00", ""), limits.max_line_chars)
         clipped += was_clipped
@@ -157,6 +161,10 @@ def parse_plaintext(text: str, limits: Limits = DEFAULT_LIMITS) -> ParseResult:
         if key_lines < 0 and _PEM_BEGIN.search(line) and not _PEM_END.search(line):
             key_lines = 0
         _check_count(len(result.records) + len(result.malformed), limits)
+    if key_discarded:
+        result.warnings.append(
+            f"{key_discarded} line(s) inside PEM private-key block(s) were discarded without being kept or analyzed."
+        )
     if clipped:
         result.warnings.append(f"{clipped} over-long line(s) were clipped at {limits.max_line_chars:,} characters.")
     return result

@@ -21,6 +21,8 @@ export default defineConfig({
   webServer: {
     command: `npm run preview -- --host 127.0.0.1 --port ${PORT} --strictPort`,
     url: BASE,
+    // `vite preview` re-reads vite.config.ts, so it needs the same base path the site was built with.
+    env: { VITE_BASE: "/IncidentLens/" },
     reuseExistingServer: !process.env.CI,
     timeout: 60_000,
   },

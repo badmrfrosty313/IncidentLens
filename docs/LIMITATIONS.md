@@ -22,6 +22,6 @@
 
 - No authentication, persistence, history, multi-user features or streaming ingestion; each analysis is stateless.
 - The log viewer receives at most 5,000 events per analysis (warnings/errors first, INFO sampled). Totals and charts always cover every analyzed event.
-- No lockfile for the frontend is committed yet (the build environment had no network access); generate and commit `package-lock.json`, then switch CI/Docker to `npm ci`.
-- No license file is included; choose one before publishing.
+- No license file is included: adding one needs the repository owner's decision (MIT was suggested but is not applied without explicit authorization).
+- The Docker smoke test (`scripts/smoke.sh`) is HTTP-level; there is no real-browser (Playwright/Cypress) test, so chart rendering and interactions are covered only by Vitest/jsdom.
 - Redaction is best-effort (see SECURITY.md).

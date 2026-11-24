@@ -19,9 +19,9 @@ one run of the script on the machine below, not estimates. Re-run the script on 
 
 | Events | Input (MiB) | Runs | parse (s) | redact (s) | normalize (s) | analyze (s) | report (s) | Total (s) | Events/s | Peak RSS (MiB) |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1,000 | 0.10 | 3 | 0.002 | 0.003 | 0.005 | 0.013 | 0.001 | 0.025 | 40,315 | 31 |
-| 10,000 | 0.96 | 3 | 0.024 | 0.032 | 0.055 | 0.115 | 0.001 | 0.230 | 43,424 | 48 |
-| 100,000 | 9.61 | 3 | 0.240 | 0.278 | 0.733 | 1.151 | 0.002 | 2.489 | 40,183 | 224 |
+| 1,000 | 0.10 | 3 | 0.002 | 0.002 | 0.004 | 0.010 | 0.001 | 0.020 | 50,705 | 31 |
+| 10,000 | 0.96 | 3 | 0.021 | 0.028 | 0.055 | 0.113 | 0.001 | 0.219 | 45,568 | 48 |
+| 100,000 | 9.61 | 3 | 0.319 | 0.272 | 0.709 | 1.082 | 0.002 | 2.466 | 40,544 | 224 |
 
 Stage meanings: `parse` includes the input-size check and format detection; `report` is Markdown + JSON rendering.
 Benchmarks cover the in-process pipeline only (no HTTP transfer, JSON serialization of the API response, or browser rendering).

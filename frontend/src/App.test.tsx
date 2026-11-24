@@ -77,7 +77,7 @@ describe("App", () => {
     mocked.analyze.mockResolvedValue(makeAnalysis());
     render(<App />);
     await userEvent.click(screen.getByRole("tab", { name: "Manual entry" }));
-    await userEvent.type(screen.getByLabelText("Log content"), "2025-03-14T09:00:00Z ERROR [a] boom");
+    await userEvent.type(screen.getByLabelText("Log content"), "2025-03-14T09:00:00Z ERROR [[a] boom");  // "[[" types a literal "[" (user-event key syntax)
     await userEvent.click(screen.getByRole("button", { name: "Analyze" }));
     await waitFor(() => expect(mocked.analyze).toHaveBeenCalledWith("2025-03-14T09:00:00Z ERROR [a] boom", "auto"));
     expect(await screen.findByText("Ranked root-cause hypotheses")).toBeInTheDocument();

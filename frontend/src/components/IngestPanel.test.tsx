@@ -31,7 +31,7 @@ describe("IngestPanel", () => {
     const analyze = screen.getByRole("button", { name: "Analyze" });
     expect(analyze).toBeDisabled();
 
-    await userEvent.type(screen.getByLabelText("Log content"), "2025-03-14T09:00:00Z ERROR [a] boom");
+    await userEvent.type(screen.getByLabelText("Log content"), "2025-03-14T09:00:00Z ERROR [[a] boom");  // "[[" types a literal "[" (user-event key syntax)
     await userEvent.selectOptions(screen.getByLabelText("Log format"), "plaintext");
     expect(analyze).toBeEnabled();
     await userEvent.click(analyze);

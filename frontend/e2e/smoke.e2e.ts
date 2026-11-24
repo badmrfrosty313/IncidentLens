@@ -53,10 +53,14 @@ const shot = async (page: Page, name: string, fullPage = true) => {
   await page.screenshot({ path: path.join(SHOTS, `${test.info().project.name}-${name}.png`), fullPage });
 };
 
+/** The scenario picker button (scoped: a hypothesis card can carry the same title). */
+const scenarioButton = (page: Page, name: string) =>
+  page.getByRole("region", { name: "Log ingestion" }).getByRole("button", { name: new RegExp(name) });
+
 async function open(page: Page, id: string) {
   const info = scenarios.find((s) => s.id === id)!;
   await page.goto("./");
-  await page.getByRole("button", { name: new RegExp(info.name) }).click();
+  await scenarioButton(page, info.name).click();
   await expect(page.getByRole("heading", { name: "Ranked root-cause hypotheses" })).toBeVisible();
   return demo(id);
 }
@@ -74,7 +78,7 @@ test("loads in static demonstration mode and says so", async ({ page }) => {
   await expect(page.getByRole("tab", { name: "Upload" })).toBeDisabled();
   await expect(page.getByRole("tab", { name: "Manual entry" })).toBeDisabled();
   await expect(page.getByTestId("static-demo-help")).toContainText("docker compose up");
-  for (const s of scenarios) await expect(page.getByRole("button", { name: new RegExp(s.name) })).toBeVisible();
+  for (const s of scenarios) await expect(scenarioButton(page, s.name)).toBeVisible();
   expect(scenarios).toHaveLength(7);
   await shot(page, "landing", false);
 });
@@ -82,8 +86,8 @@ test("loads in static demonstration mode and says so", async ({ page }) => {
 test("every scenario can be selected and renders its analysis", async ({ page }) => {
   await page.goto("./");
   for (const s of scenarios) {
-    await page.getByRole("button", { name: new RegExp(s.name) }).click();
-    await expect(page.getByRole("button", { name: new RegExp(s.name) })).toHaveAttribute("aria-pressed", "true");
+    await scenarioButton(page, s.name).click();
+    await expect(scenarioButton(page, s.name)).toHaveAttribute("aria-pressed", "true");
     await expect(page.getByText(demo(s.id).analysis.verdict_reason, { exact: false }).first()).toBeVisible();
     await expect(page.getByRole("heading", { name: "Event timeline", exact: false })).toBeVisible();
   }
@@ -107,7 +111,7 @@ test("charts actually render with data", async ({ page }) => {
 test("hypotheses and their evidence are shown", async ({ page }) => {
   const d = await open(page, "db-pool-exhaustion");
   const top = d.analysis.hypotheses[0];
-  const card = page.getByRole("button", { name: new RegExp(top.title) });
+  const card = page.getByRole("region", { name: "Root-cause hypotheses" }).getByRole("button", { name: new RegExp(top.title) });
   await expect(card).toBeVisible();
   if ((await card.getAttribute("aria-expanded")) !== "true") await card.click();
   await expect(page.getByRole("heading", { name: "Supporting evidence" }).first()).toBeVisible();

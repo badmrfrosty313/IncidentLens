@@ -1,44 +1,161 @@
 # IncidentLens
 
-Turn raw application logs into an actionable incident report: severity, a timeline, ranked root-cause hypotheses with
-supporting evidence, and recommended next steps. Dark-mode observability dashboard, deterministic analysis, **no API keys,
-no database, no external calls**.
+[![CI](https://github.com/badmrfrosty313/IncidentLens/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/badmrfrosty313/IncidentLens/actions/workflows/ci.yml)
+![version](https://img.shields.io/badge/version-0.1.0-blue)
+![analysis](https://img.shields.io/badge/analysis-deterministic%2C%20no%20LLM-informational)
 
-> Portfolio project (software / AI / DevOps / SRE). The analysis engine is rule-based and fully explainable; an extension point
-> exists for an optional future LLM layer, but nothing in the MVP calls one.
+**Turn raw application logs into an incident report**: severity, an event timeline, ranked root-cause hypotheses with
+supporting evidence and a transparent score, and concrete next diagnostic steps. Paste or drop in plaintext, JSON or JSONL logs.
+
+- **Live demo (static, no backend):** <https://badmrfrosty313.github.io/IncidentLens/> *(published by the Pages workflow once the
+  owner merges to `main` and enables GitHub Pages; until then, build it locally with the commands below).*
+- **Deterministic by design.** The analysis is rule-based and explainable. **No LLM is called, no API keys are needed, nothing is
+  stored.** An extension point exists for a possible future, optional LLM layer (see [below](#deterministic-analysis-vs-a-possible-future-llm-layer)).
+
+![IncidentLens dashboard showing a cascading microservice failure](docs/screenshots/desktop-dashboard-cascade.png)
+
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/desktop-landing.png" alt="Landing view with the seven demo scenarios"></td>
+<td width="50%"><img src="docs/screenshots/desktop-hypotheses-db-pool.png" alt="Ranked hypotheses with evidence for database pool exhaustion"></td>
+</tr>
+<tr>
+<td align="center"><sub>Scenario picker and static-demo notice</sub></td>
+<td align="center"><sub>Hypotheses, evidence and score breakdown (full page)</sub></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><img src="docs/screenshots/mobile-dashboard-cascade.png" alt="Mobile layout" width="280"> <img src="docs/screenshots/mobile-hypotheses-db-pool.png" alt="Mobile hypotheses" width="280"></td>
+</tr>
+</table>
+
+*Screenshots are captured from the running application by the Playwright suite in CI.*
+
+## Quick start
+
+Requirements: Python 3.11+, Node 20+ (or just Docker).
+
+```bash
+# Full application with Docker: UI + API at http://localhost:8080
+docker compose up --build
+```
+
+```bash
+# Local development
+cd backend && python -m venv .venv && source .venv/bin/activate    # Windows: .venv\Scripts\activate
+pip install -r requirements-dev.txt
+uvicorn app.main:app --reload                                      # API on :8000, OpenAPI docs at /docs
+
+cd frontend && npm ci && npm run dev                               # UI on :5173, proxies /api to :8000
+```
+
+Open the UI and pick a demo scenario, or upload a file from [`data/demo/`](data/demo).
+
+```bash
+# Build and preview the static demonstration locally (what GitHub Pages serves)
+cd frontend && npm ci
+npm run demo:data                                  # the Python engine writes public/demo-data/*
+VITE_BASE=/IncidentLens/ npm run build:demo
+VITE_BASE=/IncidentLens/ npm run preview           # http://localhost:4173/IncidentLens/
+```
 
 ## Features
 
 | Area | What it does |
 | --- | --- |
-| Ingestion | Drag-and-drop upload or manual entry. Auto-detects **plaintext, JSON array, JSONL**. Normalizes timestamps (ISO-8601, epoch s/ms, naive = UTC), severity (names, syslog and pino numeric levels), service names and messages. Malformed records are counted and skipped, never fatal. Size and record-count limits are enforced. |
-| Redaction | API keys, auth tokens, passwords, JWTs, emails, database-URL credentials, `Authorization` headers and private keys are redacted **before** normalization and analysis using best-effort pattern matching (see [Security design](#security-design-and-limits)). The app has no persistence layer or transmitted. |
-| Analysis | Error grouping by message signature, severity distribution, affected services, error-spike detection, cascading-failure detection (ordered onset waves), per-service temporal correlation (with lag), recurring exception patterns. |
-| Hypotheses | Database pool exhaustion, network timeouts, memory exhaustion, authentication failures, dependency failures, rate limiting, HTTP 5xx. Each has evidence, a **transparent heuristic evidence score (not a probability)** with a per-component breakdown, affected services, and diagnostic actions. Returns *insufficient evidence* / *no incident* when appropriate. |
-| Dashboard | Totals, error/warning counts, affected services, incident severity, clickable stacked timeline (filters the log viewer), severity chart, error-frequency chart, ranked hypotheses, findings, filterable/searchable log viewer, investigation steps. |
-| Demo data | 7 synthetic scenarios (pool exhaustion, memory, auth, network timeout, cascade, healthy system, rate limiting) with documented, machine-checked expected outcomes: [docs/DEMO_SCENARIOS.md](docs/DEMO_SCENARIOS.md). |
-| Reports | Export Markdown or JSON (summary, timeline, hypotheses, evidence, steps). Log content is neutralized in Markdown. |
+| Ingestion | Drag-and-drop upload or manual entry. Auto-detects **plaintext, JSON array, JSONL**. Normalizes timestamps (ISO-8601, epoch s/ms/µs, naive = UTC), severity (names, syslog and pino numeric levels), service names and messages. Malformed records are counted and skipped, never fatal. Size and record-count limits are enforced. |
+| Redaction | API keys, auth tokens, passwords, JWTs, emails, database-URL credentials, `Authorization` headers and PEM private keys are redacted **before** normalization and analysis, using best-effort pattern matching (see [Security design](#security-design-and-limits)). |
+| Analysis | Error grouping by message signature, severity distribution, affected services, error-spike detection, cascading-failure detection (ordered onset waves), per-service temporal correlation with lag, recurring exception patterns. |
+| Hypotheses | Database pool exhaustion, network timeouts, memory exhaustion, authentication failures, dependency failures, rate limiting, HTTP 5xx. Each has evidence, a **heuristic score (not a probability)** with a per-component breakdown, affected services and diagnostic actions. Returns *insufficient evidence* / *no incident* when appropriate. |
+| Dashboard | Dark, responsive. Clickable stacked timeline (filters the log viewer), severity and error-frequency charts, ranked hypotheses, findings, filterable/searchable log viewer, investigation steps. |
+| Demo data | 7 synthetic scenarios with documented, machine-checked expected outcomes: [docs/DEMO_SCENARIOS.md](docs/DEMO_SCENARIOS.md). |
+| Reports | Export Markdown or JSON. Log-derived text is neutralized in Markdown (including table cells). |
+| Static demo | The same UI as a pre-rendered site: fixtures generated by the Python engine at build time, upload/manual entry disabled, no API calls. |
 
-## Quick start
+## Key engineering points
 
-Requirements: Python 3.11+, Node 20+.
+- **Clean pipeline, no framework in the core:** parse → redact → normalize → analyze → report are separate, individually tested
+  modules; FastAPI is a thin layer on top. The analysis core is the standard library plus pydantic.
+- **Explainable scoring:** every hypothesis shows the exact factors and points behind its 0-100 heuristic score, and the product
+  says plainly that it is not a probability. A healthy-system scenario must produce *no incident* (false-positive guard).
+- **Untrusted input handled as such:** bounded, anchored regexes (with adversarial-input tests), size/record limits that reject rather than
+  truncate, sanitized error responses, Markdown neutralization, text-node-only rendering in the UI.
+- **Reproducible demo:** seeded scenarios with expected outcomes checked by code; static-demo fixtures are generated from the engine in CI
+  (never hand-written) and a test asserts they equal what the live API serves.
+- **Verified in a real browser:** a Playwright suite runs against the static build on desktop and mobile viewports (charts render, filters
+  work, reports download, no backend requests, no console errors).
+- **Reviewed and hardened:** two rounds of independent review produced regression tests for each finding (see
+  [docs/SECURITY.md](docs/SECURITY.md)).
 
-```bash
-# 1. Backend (http://127.0.0.1:8000, OpenAPI docs at /docs)
-cd backend
-python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
-pip install -r requirements-dev.txt
-uvicorn app.main:app --reload
+## Architecture
 
-# 2. Frontend (http://localhost:5173, proxies /api to the backend)
-cd frontend
-npm ci
-npm run dev
+```mermaid
+flowchart LR
+  subgraph Input
+    U[Upload / paste] --> API
+    D[Demo scenarios<br/>seeded generators] --> API
+  end
+  subgraph Backend["Backend: FastAPI (thin) + pure-Python core"]
+    API[POST /api/analyze<br/>GET /api/demo] --> P[parsing<br/>detect + parse + limits]
+    P --> R[redaction<br/>8 ordered rules]
+    R --> N[normalization<br/>time, severity, service]
+    N --> A[analysis<br/>grouping, timeline, spikes,<br/>cascade, correlation, hypotheses]
+    A --> RP[reporting<br/>Markdown / JSON]
+  end
+  A -. optional future hook .-> L[llm.py<br/>interface only, not wired]
+  A --> UI[React dashboard<br/>Recharts]
+  RP --> UI
+  subgraph Static["Static demo (GitHub Pages)"]
+    X[export_static_demo.py<br/>runs the same engine at build time] --> F[(fixtures: JSON + reports)]
+    F --> UI2[same React app,<br/>VITE_STATIC_DEMO=true]
+  end
+  A --> X
 ```
 
-Open <http://localhost:5173> and pick a demo scenario, or upload a file from [`data/demo/`](data/demo).
+Details: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
-**Docker:** `docker compose up --build`, then open <http://localhost:8080> (nginx serves the UI and proxies `/api`).
+## Verified quality
+
+Counts below are from the latest successful GitHub Actions run on the PR branch, not estimates.
+
+| Check | Result |
+| --- | --- |
+| Backend tests (pytest, Python 3.11 and 3.13) | __BACKEND__ passed |
+| Frontend unit/component tests (Vitest) | __VITEST__ passed |
+| Browser smoke tests (Playwright, Chromium: 7 tests x desktop and mobile) | __E2E__ passed |
+| Demo scenarios vs documented expected outcomes | 7 / 7 |
+| TypeScript (strict) + production builds (full-stack and static) | pass |
+| Docker Compose build + HTTP smoke test of the running stack | pass |
+
+## Benchmarks (measured)
+
+`python backend/scripts/benchmark.py`: in-process pipeline (parse, redact, normalize, analyze, report), synthetic logs, median of 3 runs.
+Measured on a 2-vCPU Linux x86_64 sandbox, CPython 3.13.18 (not on CI hardware, not including HTTP or browser rendering).
+Full table and per-stage timings: [docs/BENCHMARKS.md](docs/BENCHMARKS.md).
+
+__BENCH__
+
+## Security design and limits
+
+All uploaded content is untrusted data. Highlights (full threat model in [docs/SECURITY.md](docs/SECURITY.md)):
+
+- Nothing is persisted and the analysis makes no network calls. The full application has **no authentication**: do not expose it to the
+  public internet as-is. The public demo is a static site; the FastAPI backend is never exposed.
+- Redaction is **best-effort pattern matching, not a guarantee.** It covers common secret shapes (including escaped, quoted and
+  unterminated values and PEM blocks) but cannot detect secrets that have no recognizable shape or key name, and it errs toward
+  over-redaction. Review exported reports before sharing.
+- Limits reject oversized input (413, including chunked uploads) rather than truncating; validation errors never echo submitted values.
+- Heuristic scores rank hypotheses; they are not probabilities, and the rules were tuned on synthetic scenarios only.
+
+More: [docs/LIMITATIONS.md](docs/LIMITATIONS.md).
+
+## Deterministic analysis vs a possible future LLM layer
+
+**Today:** every result comes from fixed rules and arithmetic over the redacted events. The same input always produces the same output,
+no model is called, and the repository contains no API keys or provider SDKs.
+
+**Possible future (not implemented):** `backend/app/llm.py` defines an interface for an *optional* enrichment step (for example, drafting
+narrative text from the already-redacted, already-scored findings). It is a hook only: nothing in the pipeline calls a model, and any
+future integration would need its own privacy review because it would send data to a third party.
 
 ## API
 
@@ -78,47 +195,36 @@ curl -s localhost:8000/api/analyze -H 'content-type: application/json' \
 ## Testing
 
 ```bash
-cd backend  && python -m pytest                      # unit + scenario + limits + reporting (+ API tests when fastapi/httpx are installed)
+cd backend  && python -m pytest                      # unit, scenario, limits, reporting, security regressions, API tests
 cd backend  && python scripts/evaluate_demos.py      # each scenario vs its documented expected outcome
 cd frontend && npm test                              # Vitest + Testing Library
 cd frontend && npm run build                         # type-check + production build
-docker compose up -d --build && scripts/smoke.sh     # HTTP smoke test of the containerised stack (nginx -> UI + API)
+cd frontend && npm run demo:data && npm run build:demo && npx playwright install chromium && npm run e2e   # browser smoke tests
+docker compose up -d --build && scripts/smoke.sh     # HTTP smoke test of the containerised stack
 ```
 
-Backend coverage: parsing/normalization, malformed input, redaction (including adversarial backtracking inputs and an end-to-end
-"no secret reaches the response or report" test), error grouping, spike/cascade/correlation, hypothesis generation and thresholds,
-healthy-system false positives, report generation and Markdown neutralization (including table-cell pipes), size/record limits, and the
-request-size middleware. `tests/test_security_regressions.py` covers the review findings: clipped, multi-line and JSON-escaped secrets,
-malformed numeric severities, high-cardinality services and adversarial inputs. HTTP API tests (`tests/test_api.py`,
-`tests/test_api_security.py`: sanitized 422s, chunked/oversized 413s) run when `fastapi` and `httpx` are installed. Frontend tests cover filtering, the API client,
-ingestion (including oversize rejection), the log viewer, hypothesis rendering and the end-to-end dashboard flow.
-
-CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs all of the above on every push and pull request, plus a Docker build and an HTTP smoke test of the running containers.
-
-## Benchmark
-
-```bash
-cd backend && python scripts/benchmark.py --write-docs    # 1,000 / 10,000 / 100,000 synthetic events, 3 runs each
-```
-
-Measured results, with the exact environment, are recorded in [docs/BENCHMARKS.md](docs/BENCHMARKS.md). They cover the in-process
-pipeline only (not HTTP transfer or browser rendering).
+CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs all of the above on every push and pull request. The Pages workflow
+([.github/workflows/pages.yml](.github/workflows/pages.yml)) deploys the static demo only after CI succeeds on `main`.
 
 ## Project layout
 
 ```
-backend/app/        parsing → redaction → normalization → analysis/ → reporting (+ pipeline.py, main.py, demo/)
+backend/app/        parsing -> redaction -> normalization -> analysis/ -> reporting (+ pipeline.py, main.py, demo/)
 backend/tests/      pytest suite
-backend/scripts/    benchmark, demo-data export, scenario evaluation
+backend/scripts/    benchmark, demo-data export, static-demo export, scenario evaluation
 frontend/src/       React + TypeScript + Tailwind + Recharts (components/, lib/, types/)
+frontend/e2e/       Playwright browser smoke tests
 data/demo/          exported synthetic datasets (upload these in the UI)
-docs/               ARCHITECTURE.md, SECURITY.md, LIMITATIONS.md, DEMO_SCENARIOS.md, BENCHMARKS.md
+docs/               ARCHITECTURE, SECURITY, LIMITATIONS, DEMO_SCENARIOS, BENCHMARKS, release notes, screenshots
 ```
-
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the design, [docs/SECURITY.md](docs/SECURITY.md) for the threat model and
-[docs/LIMITATIONS.md](docs/LIMITATIONS.md) for honest limits.
 
 ## Dependencies
 
-Backend: `fastapi`, `pydantic`, `uvicorn` (tests: `pytest`, `httpx`). The analysis core uses only the Python standard library + pydantic.
-Frontend: `react`, `react-dom`, `recharts` (dev: Vite, TypeScript, Tailwind CSS, Vitest, Testing Library).
+Backend: `fastapi`, `pydantic`, `uvicorn` (tests: `pytest`, `httpx`). Frontend: `react`, `react-dom`, `recharts`
+(dev: Vite, TypeScript, Tailwind CSS, Vitest, Testing Library, Playwright). Dependency audit status: [docs/SECURITY.md](docs/SECURITY.md).
+
+## License
+
+No license has been chosen yet; until the repository owner adds one, all rights are reserved.
+
+Release notes: [docs/RELEASE_NOTES_v0.1.0.md](docs/RELEASE_NOTES_v0.1.0.md).

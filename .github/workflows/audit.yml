@@ -45,3 +45,4 @@ jobs:
         with:
           name: dependency-audit
           path: audit
+# re-run after lockfile update

@@ -1,0 +1,47 @@
+name: Dependency audit
+
+# Informational: reports known vulnerabilities in Python and npm dependencies as a job summary and
+# artifact. It does not gate merges; unresolved findings are documented in docs/SECURITY.md.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["backend/requirements*.txt", "frontend/package*.json", ".github/workflows/audit.yml"]
+  schedule:
+    - cron: "17 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: pip-audit (runtime + dev requirements)
+        run: |
+          pip install pip-audit
+          mkdir -p audit
+          pip-audit -r backend/requirements-dev.txt --format json --output audit/pip-audit.json || true
+          pip-audit -r backend/requirements-dev.txt | tee audit/pip-audit.txt || true
+      - name: npm audit (production and all dependencies)
+        working-directory: frontend
+        run: |
+          npm ci --no-audit --no-fund
+          npm audit --omit=dev --json > ../audit/npm-audit-prod.json || true
+          npm audit --json > ../audit/npm-audit-all.json || true
+          { echo "### npm audit (production)"; npm audit --omit=dev || true; echo; echo "### npm audit (all, incl. dev tooling)"; npm audit || true; } | tee ../audit/npm-audit.txt
+      - name: Summary
+        run: |
+          { echo "## Dependency audit"; echo '```'; cat audit/pip-audit.txt; echo; cat audit/npm-audit.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dependency-audit
+          path: audit

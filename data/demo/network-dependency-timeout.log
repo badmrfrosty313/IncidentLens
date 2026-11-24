@@ -1,0 +1,1528 @@
+[2025-03-14T09:00:00Z] [INFO] notification-service: GET /api/v1/orders/50078 200 37ms request_id=acc70ca7
+[2025-03-14T09:00:01Z] [INFO] checkout-api: PUT /api/v1/search 200 119ms request_id=dfaee8de
+[2025-03-14T09:00:01Z] [INFO] checkout-api: GET /healthz 200 19ms request_id=af2eb996
+[2025-03-14T09:00:02Z] [INFO] checkout-api: GET /api/v1/orders 200 130ms request_id=25ffdcf9
+[2025-03-14T09:00:04Z] [INFO] checkout-api: PUT /api/v1/users/me 200 126ms request_id=784ecc3a
+[2025-03-14T09:00:04Z] [INFO] notification-service: PUT /api/v1/cart 200 18ms request_id=50ed2b48
+[2025-03-14T09:00:09Z] [INFO] payment-service: GET /api/v1/cart 200 97ms request_id=fe6adef4
+[2025-03-14T09:00:09Z] [INFO] notification-service: PUT /api/v1/users/me 200 108ms request_id=dbacfd90
+[2025-03-14T09:00:09Z] [INFO] payment-service: GET /api/v1/users/me 200 59ms request_id=7edb8408
+[2025-03-14T09:00:09Z] [INFO] notification-service: GET /healthz 200 44ms request_id=ec75bdb2
+[2025-03-14T09:00:10Z] [INFO] notification-service: PUT /api/v1/catalog 200 10ms request_id=6b0f111e
+[2025-03-14T09:00:10Z] [INFO] checkout-api: GET /api/v1/orders/45525 200 128ms request_id=5ec5e100
+[2025-03-14T09:00:11Z] [INFO] notification-service: POST /api/v1/orders 200 4ms request_id=419bb6ca
+[2025-03-14T09:00:13Z] [INFO] checkout-api: GET /api/v1/search 200 24ms request_id=22517764
+[2025-03-14T09:00:14Z] [INFO] checkout-api: PUT /api/v1/search 200 11ms request_id=13e43651
+[2025-03-14T09:00:18Z] [INFO] checkout-api: GET /api/v1/cart 200 118ms request_id=3bf61b9c
+[2025-03-14T09:00:19Z] [INFO] notification-service: POST /api/v1/search 200 22ms request_id=d1d148d1
+[2025-03-14T09:00:20Z] [INFO] notification-service: GET /api/v1/orders 200 40ms request_id=f0d0f675
+[2025-03-14T09:00:20Z] [INFO] notification-service: GET /api/v1/search 200 115ms request_id=c80be855
+[2025-03-14T09:00:25Z] [INFO] payment-service: POST /api/v1/cart 200 119ms request_id=fbd13293
+[2025-03-14T09:00:25Z] [INFO] checkout-api: GET /api/v1/catalog 200 22ms request_id=bcf17a31
+[2025-03-14T09:00:28Z] [INFO] notification-service: GET /api/v1/search 200 74ms request_id=7c641861
+[2025-03-14T09:00:29Z] [INFO] payment-service: POST /healthz 200 101ms request_id=36836f53
+[2025-03-14T09:00:29Z] [INFO] checkout-api: POST /api/v1/catalog 200 129ms request_id=66b2aef3
+[2025-03-14T09:00:29Z] [INFO] notification-service: POST /api/v1/cart 200 120ms request_id=5719061a
+[2025-03-14T09:00:31Z] [INFO] notification-service: GET /api/v1/users/me 200 55ms request_id=8aeb9fc3
+[2025-03-14T09:00:32Z] [INFO] notification-service: PUT /api/v1/orders/61885 200 92ms request_id=aa3ac61e
+[2025-03-14T09:00:32Z] [INFO] checkout-api: GET /api/v1/orders 200 63ms request_id=687db9f2
+[2025-03-14T09:00:33Z] [INFO] notification-service: GET /api/v1/users/me 200 81ms request_id=b422af25
+[2025-03-14T09:00:34Z] [INFO] notification-service: GET /healthz 200 37ms request_id=7b3054b3
+[2025-03-14T09:00:35Z] [INFO] payment-service: PUT /api/v1/orders 200 78ms request_id=489236f4
+[2025-03-14T09:00:36Z] [INFO] payment-service: GET /api/v1/catalog 200 77ms request_id=7e848fb8
+[2025-03-14T09:00:36Z] [INFO] notification-service: GET /api/v1/catalog 200 36ms request_id=cc165a07
+[2025-03-14T09:00:37Z] [INFO] notification-service: GET /api/v1/cart 200 127ms request_id=d0f9d013
+[2025-03-14T09:00:38Z] [INFO] notification-service: PUT /api/v1/search 200 105ms request_id=3b76a24e
+[2025-03-14T09:00:39Z] [INFO] checkout-api: GET /api/v1/orders/12572 200 39ms request_id=fb996059
+[2025-03-14T09:00:39Z] [INFO] notification-service: PUT /api/v1/cart 200 50ms request_id=39464fca
+[2025-03-14T09:00:40Z] [INFO] checkout-api: POST /api/v1/users/me 200 89ms request_id=9b82bc8c
+[2025-03-14T09:00:40Z] [INFO] payment-service: GET /healthz 200 30ms request_id=e34e5f43
+[2025-03-14T09:00:41Z] [INFO] checkout-api: GET /api/v1/cart 200 5ms request_id=3fe9dc30
+[2025-03-14T09:00:45Z] [INFO] notification-service: GET /api/v1/users/me 200 88ms request_id=3de96697
+[2025-03-14T09:00:45Z] [INFO] checkout-api: PUT /api/v1/cart 200 105ms request_id=97e2111b
+[2025-03-14T09:00:47Z] [INFO] checkout-api: PUT /api/v1/users/me 200 51ms request_id=a1d4640b
+[2025-03-14T09:00:47Z] [INFO] payment-service: GET /api/v1/orders/96149 200 124ms request_id=60c31875
+[2025-03-14T09:00:47Z] [INFO] payment-service: POST /api/v1/users/me 200 53ms request_id=176665f9
+[2025-03-14T09:00:49Z] [INFO] payment-service: GET /api/v1/orders 200 120ms request_id=63e71ef6
+[2025-03-14T09:00:49Z] [INFO] notification-service: PUT /healthz 200 140ms request_id=c79c29ec
+[2025-03-14T09:00:52Z] [INFO] checkout-api: POST /api/v1/catalog 200 54ms request_id=a1f366b9
+[2025-03-14T09:00:52Z] [INFO] notification-service: POST /api/v1/orders/38344 200 87ms request_id=648e99c0
+[2025-03-14T09:00:52Z] [INFO] payment-service: GET /api/v1/cart 200 136ms request_id=29d33dd2
+[2025-03-14T09:00:53Z] [INFO] payment-service: GET /api/v1/catalog 200 89ms request_id=f6f4d2a0
+[2025-03-14T09:00:54Z] [INFO] checkout-api: PUT /api/v1/search 200 55ms request_id=149d448a
+[2025-03-14T09:00:54Z] [INFO] payment-service: POST /api/v1/catalog 200 83ms request_id=c2a7bb2d
+[2025-03-14T09:00:57Z] [INFO] payment-service: PUT /api/v1/orders 200 14ms request_id=b9113b0d
+[2025-03-14T09:00:58Z] [INFO] payment-service: GET /api/v1/orders 200 18ms request_id=931a0cac
+[2025-03-14T09:00:59Z] [INFO] checkout-api: GET /api/v1/users/me 200 44ms request_id=f19139de
+[2025-03-14T09:01:00Z] [INFO] payment-service: GET /api/v1/catalog 200 132ms request_id=4edc50cb
+[2025-03-14T09:01:00Z] [INFO] checkout-api: POST /api/v1/orders 200 6ms request_id=d8bc99de
+[2025-03-14T09:01:02Z] [INFO] payment-service: POST /api/v1/orders 200 50ms request_id=6fdcfb95
+[2025-03-14T09:01:02Z] [INFO] payment-service: GET /api/v1/catalog 200 13ms request_id=f4e39e9d
+[2025-03-14T09:01:06Z] [INFO] checkout-api: PUT /api/v1/users/me 200 124ms request_id=2086a3fb
+[2025-03-14T09:01:07Z] [INFO] notification-service: POST /healthz 200 43ms request_id=64081a1b
+[2025-03-14T09:01:11Z] [INFO] payment-service: GET /api/v1/catalog 200 89ms request_id=e49e49a0
+[2025-03-14T09:01:11Z] [INFO] notification-service: POST /api/v1/catalog 200 17ms request_id=2cb80577
+[2025-03-14T09:01:11Z] [INFO] checkout-api: PUT /api/v1/orders 200 136ms request_id=7fe07639
+[2025-03-14T09:01:12Z] [INFO] payment-service: GET /api/v1/catalog 200 103ms request_id=910b98ff
+[2025-03-14T09:01:13Z] [INFO] notification-service: GET /api/v1/orders/1923 200 110ms request_id=32bf36af
+[2025-03-14T09:01:14Z] [INFO] notification-service: PUT /api/v1/orders 200 32ms request_id=55af4c02
+[2025-03-14T09:01:15Z] [INFO] payment-service: GET /api/v1/orders 200 9ms request_id=e1dfa711
+[2025-03-14T09:01:15Z] [INFO] notification-service: POST /api/v1/cart 200 102ms request_id=dfc2dc69
+[2025-03-14T09:01:17Z] [INFO] notification-service: GET /api/v1/users/me 200 43ms request_id=6de02d84
+[2025-03-14T09:01:17Z] [INFO] notification-service: GET /api/v1/search 200 4ms request_id=bceaca34
+[2025-03-14T09:01:19Z] [INFO] payment-service: GET /api/v1/users/me 200 114ms request_id=05c47d78
+[2025-03-14T09:01:19Z] [INFO] notification-service: POST /api/v1/catalog 200 124ms request_id=7ab10983
+[2025-03-14T09:01:22Z] [INFO] checkout-api: POST /api/v1/orders/55948 200 87ms request_id=68656a37
+[2025-03-14T09:01:23Z] [INFO] checkout-api: GET /api/v1/orders 200 85ms request_id=ad9b7391
+[2025-03-14T09:01:23Z] [INFO] payment-service: GET /api/v1/catalog 200 99ms request_id=dd475be3
+[2025-03-14T09:01:25Z] [INFO] checkout-api: PUT /api/v1/search 200 128ms request_id=c84b60de
+[2025-03-14T09:01:26Z] [INFO] payment-service: GET /api/v1/orders/76120 200 21ms request_id=7f3870f2
+[2025-03-14T09:01:27Z] [INFO] notification-service: GET /api/v1/catalog 200 6ms request_id=17749f4b
+[2025-03-14T09:01:27Z] [INFO] checkout-api: GET /api/v1/catalog 200 131ms request_id=221620f3
+[2025-03-14T09:01:27Z] [INFO] notification-service: GET /api/v1/orders/95145 200 60ms request_id=412168e0
+[2025-03-14T09:01:28Z] [INFO] checkout-api: GET /api/v1/orders 200 27ms request_id=216e84a6
+[2025-03-14T09:01:29Z] [INFO] notification-service: GET /api/v1/users/me 200 108ms request_id=d1aa4544
+[2025-03-14T09:01:29Z] [INFO] notification-service: PUT /api/v1/cart 200 35ms request_id=5198690e
+[2025-03-14T09:01:30Z] [INFO] checkout-api: GET /api/v1/orders 200 58ms request_id=e6ecaa77
+[2025-03-14T09:01:31Z] [INFO] notification-service: GET /api/v1/users/me 200 35ms request_id=9fca4f05
+[2025-03-14T09:01:31Z] [INFO] checkout-api: GET /api/v1/orders/97878 200 116ms request_id=295b3100
+[2025-03-14T09:01:31Z] [INFO] checkout-api: GET /api/v1/cart 200 130ms request_id=90c5f537
+[2025-03-14T09:01:34Z] [INFO] payment-service: GET /api/v1/orders/54672 200 56ms request_id=a6fcfa04
+[2025-03-14T09:01:35Z] [INFO] notification-service: GET /healthz 200 48ms request_id=80a5dc37
+[2025-03-14T09:01:37Z] [INFO] checkout-api: PUT /api/v1/cart 200 83ms request_id=a2d70bf0
+[2025-03-14T09:01:39Z] [INFO] checkout-api: GET /api/v1/orders 200 32ms request_id=7164a007
+[2025-03-14T09:01:39Z] [INFO] payment-service: GET /healthz 200 123ms request_id=3f756d8a
+[2025-03-14T09:01:40Z] [INFO] notification-service: GET /api/v1/orders 200 137ms request_id=d9d91673
+[2025-03-14T09:01:41Z] [INFO] payment-service: GET /api/v1/catalog 200 139ms request_id=ab454644
+[2025-03-14T09:01:41Z] [INFO] notification-service: GET /api/v1/users/me 200 58ms request_id=e6b0e583
+[2025-03-14T09:01:43Z] [INFO] checkout-api: GET /api/v1/cart 200 104ms request_id=a86bd338
+[2025-03-14T09:01:43Z] [INFO] checkout-api: PUT /api/v1/users/me 200 37ms request_id=8e801048
+[2025-03-14T09:01:45Z] [INFO] notification-service: GET /api/v1/catalog 200 25ms request_id=29b8652a
+[2025-03-14T09:01:47Z] [INFO] payment-service: POST /api/v1/cart 200 109ms request_id=cc332851
+[2025-03-14T09:01:48Z] [INFO] notification-service: POST /api/v1/catalog 200 60ms request_id=77949dc0
+[2025-03-14T09:01:48Z] [INFO] notification-service: PUT /healthz 200 123ms request_id=01b9138a
+[2025-03-14T09:01:49Z] [INFO] notification-service: GET /api/v1/orders 200 79ms request_id=7bef2c4a
+[2025-03-14T09:01:51Z] [INFO] checkout-api: POST /api/v1/catalog 200 72ms request_id=e1f03b67
+[2025-03-14T09:01:51Z] [INFO] payment-service: POST /healthz 200 94ms request_id=4cca5af7
+[2025-03-14T09:01:52Z] [INFO] payment-service: GET /api/v1/catalog 200 54ms request_id=c5533af6
+[2025-03-14T09:01:52Z] [INFO] checkout-api: POST /api/v1/orders 200 113ms request_id=9a2bff1e
+[2025-03-14T09:01:54Z] [INFO] payment-service: GET /api/v1/orders/80496 200 117ms request_id=c4181aa2
+[2025-03-14T09:01:55Z] [INFO] checkout-api: GET /api/v1/search 200 108ms request_id=237c3e31
+[2025-03-14T09:01:59Z] [INFO] payment-service: GET /api/v1/orders 200 54ms request_id=41b7c887
+[2025-03-14T09:01:59Z] [INFO] payment-service: GET /healthz 200 70ms request_id=dc606501
+[2025-03-14T09:02:00Z] [INFO] payment-service: GET /api/v1/orders 200 120ms request_id=3919e83f
+[2025-03-14T09:02:01Z] [INFO] checkout-api: PUT /api/v1/orders 200 136ms request_id=39c4e2e0
+[2025-03-14T09:02:04Z] [INFO] payment-service: GET /api/v1/search 200 15ms request_id=0cbff3a6
+[2025-03-14T09:02:04Z] [INFO] payment-service: GET /api/v1/catalog 200 56ms request_id=6afbb1c1
+[2025-03-14T09:02:05Z] [INFO] checkout-api: GET /api/v1/users/me 200 113ms request_id=a7c4db27
+[2025-03-14T09:02:06Z] [INFO] notification-service: GET /api/v1/catalog 200 69ms request_id=6a7d5b7d
+[2025-03-14T09:02:07Z] [INFO] notification-service: GET /api/v1/users/me 200 119ms request_id=4f1398d8
+[2025-03-14T09:02:07Z] [INFO] payment-service: GET /api/v1/search 200 99ms request_id=a7ede716
+[2025-03-14T09:02:07Z] [INFO] payment-service: GET /api/v1/catalog 200 107ms request_id=2fd566e4
+[2025-03-14T09:02:08Z] [INFO] checkout-api: POST /api/v1/catalog 200 117ms request_id=999b88ac
+[2025-03-14T09:02:08Z] [INFO] checkout-api: POST /api/v1/catalog 200 92ms request_id=a202076f
+[2025-03-14T09:02:09Z] [INFO] notification-service: PUT /api/v1/cart 200 38ms request_id=2ba3bb5c
+[2025-03-14T09:02:10Z] [INFO] notification-service: PUT /api/v1/users/me 200 13ms request_id=f6946990
+[2025-03-14T09:02:10Z] [INFO] checkout-api: GET /api/v1/users/me 200 40ms request_id=e42b65f2
+[2025-03-14T09:02:10Z] [INFO] checkout-api: GET /api/v1/cart 200 118ms request_id=fcd620ed
+[2025-03-14T09:02:11Z] [INFO] payment-service: PUT /healthz 200 56ms request_id=5b20b97c
+[2025-03-14T09:02:11Z] [INFO] notification-service: GET /api/v1/cart 200 55ms request_id=c8f3ee33
+[2025-03-14T09:02:13Z] [INFO] payment-service: PUT /api/v1/orders 200 64ms request_id=f633c770
+[2025-03-14T09:02:14Z] [INFO] notification-service: GET /api/v1/catalog 200 7ms request_id=f22c26e5
+[2025-03-14T09:02:14Z] [INFO] payment-service: PUT /healthz 200 32ms request_id=61c0f27c
+[2025-03-14T09:02:16Z] [INFO] notification-service: GET /healthz 200 65ms request_id=5e499659
+[2025-03-14T09:02:17Z] [INFO] notification-service: GET /api/v1/orders/79181 200 104ms request_id=d938b9e2
+[2025-03-14T09:02:17Z] [INFO] payment-service: GET /api/v1/orders/59313 200 126ms request_id=c15e4bdd
+[2025-03-14T09:02:19Z] [INFO] payment-service: PUT /api/v1/orders/40117 200 70ms request_id=0951f376
+[2025-03-14T09:02:19Z] [INFO] notification-service: GET /api/v1/orders 200 63ms request_id=6f4b2597
+[2025-03-14T09:02:20Z] [INFO] checkout-api: POST /api/v1/orders/46914 200 54ms request_id=57700b7b
+[2025-03-14T09:02:20Z] [INFO] payment-service: GET /healthz 200 30ms request_id=3063a914
+[2025-03-14T09:02:21Z] [INFO] payment-service: GET /healthz 200 17ms request_id=a5bb2162
+[2025-03-14T09:02:22Z] [INFO] checkout-api: GET /api/v1/users/me 200 122ms request_id=4ad60307
+[2025-03-14T09:02:23Z] [INFO] notification-service: POST /api/v1/search 200 12ms request_id=0694b1a3
+[2025-03-14T09:02:23Z] [INFO] notification-service: GET /healthz 200 16ms request_id=ef8e7ff0
+[2025-03-14T09:02:24Z] [INFO] checkout-api: POST /api/v1/catalog 200 49ms request_id=c7c50808
+[2025-03-14T09:02:24Z] [INFO] notification-service: GET /healthz 200 49ms request_id=aa376ae5
+[2025-03-14T09:02:25Z] [INFO] payment-service: PUT /api/v1/users/me 200 39ms request_id=27eca117
+[2025-03-14T09:02:28Z] [INFO] payment-service: POST /api/v1/orders/29169 200 79ms request_id=3ed2b98b
+[2025-03-14T09:02:32Z] [INFO] checkout-api: GET /api/v1/orders 200 108ms request_id=65ccaaab
+[2025-03-14T09:02:32Z] [INFO] payment-service: POST /api/v1/search 200 100ms request_id=253af4c8
+[2025-03-14T09:02:33Z] [INFO] checkout-api: PUT /api/v1/cart 200 117ms request_id=e70d0060
+[2025-03-14T09:02:33Z] [INFO] payment-service: PUT /api/v1/users/me 200 136ms request_id=2ac70c68
+[2025-03-14T09:02:33Z] [INFO] payment-service: GET /api/v1/orders 200 84ms request_id=34779805
+[2025-03-14T09:02:36Z] [INFO] payment-service: POST /api/v1/search 200 71ms request_id=abc5b334
+[2025-03-14T09:02:37Z] [INFO] checkout-api: PUT /api/v1/search 200 101ms request_id=ea619e94
+[2025-03-14T09:02:38Z] [INFO] payment-service: GET /api/v1/users/me 200 20ms request_id=67ad4573
+[2025-03-14T09:02:38Z] [INFO] checkout-api: POST /api/v1/cart 200 72ms request_id=8e647434
+[2025-03-14T09:02:39Z] [INFO] payment-service: POST /api/v1/orders 200 58ms request_id=b4e875a7
+[2025-03-14T09:02:39Z] [INFO] payment-service: GET /healthz 200 21ms request_id=aa920a1d
+[2025-03-14T09:02:40Z] [INFO] notification-service: GET /api/v1/catalog 200 129ms request_id=fcd8973a
+[2025-03-14T09:02:41Z] [INFO] checkout-api: GET /api/v1/users/me 200 121ms request_id=f9c57e6a
+[2025-03-14T09:02:42Z] [INFO] checkout-api: GET /api/v1/users/me 200 92ms request_id=afeb3336
+[2025-03-14T09:02:43Z] [INFO] payment-service: GET /api/v1/search 200 57ms request_id=2cfd9558
+[2025-03-14T09:02:44Z] [INFO] payment-service: POST /api/v1/search 200 55ms request_id=c1c0b36e
+[2025-03-14T09:02:45Z] [INFO] notification-service: GET /api/v1/users/me 200 132ms request_id=54ccd482
+[2025-03-14T09:02:45Z] [INFO] notification-service: GET /api/v1/users/me 200 105ms request_id=a39ec91d
+[2025-03-14T09:02:47Z] [INFO] notification-service: GET /api/v1/search 200 133ms request_id=fd416b88
+[2025-03-14T09:02:47Z] [INFO] payment-service: PUT /api/v1/users/me 200 58ms request_id=a4a47433
+[2025-03-14T09:02:48Z] [INFO] payment-service: GET /api/v1/cart 200 95ms request_id=8dcdab74
+[2025-03-14T09:02:49Z] [INFO] notification-service: GET /api/v1/cart 200 64ms request_id=74bd797c
+[2025-03-14T09:02:49Z] [INFO] checkout-api: POST /api/v1/orders 200 71ms request_id=15822287
+[2025-03-14T09:02:49Z] [INFO] notification-service: GET /api/v1/cart 200 86ms request_id=ad8b76c4
+[2025-03-14T09:02:51Z] [INFO] checkout-api: GET /api/v1/users/me 200 120ms request_id=af8e19d3
+[2025-03-14T09:02:51Z] [INFO] notification-service: GET /api/v1/catalog 200 139ms request_id=439d44f2
+[2025-03-14T09:02:52Z] [INFO] checkout-api: GET /api/v1/catalog 200 12ms request_id=88bfa744
+[2025-03-14T09:02:58Z] [INFO] payment-service: POST /healthz 200 86ms request_id=901e370f
+[2025-03-14T09:02:59Z] [INFO] payment-service: PUT /api/v1/users/me 200 43ms request_id=34c19081
+[2025-03-14T09:03:00Z] [INFO] payment-service: GET /api/v1/catalog 200 23ms request_id=c1e2636e
+[2025-03-14T09:03:00Z] [INFO] checkout-api: PUT /api/v1/users/me 200 90ms request_id=b4a48e3c
+[2025-03-14T09:03:01Z] [INFO] payment-service: GET /api/v1/cart 200 49ms request_id=859e54aa
+[2025-03-14T09:03:05Z] [INFO] notification-service: POST /api/v1/users/me 200 46ms request_id=1f3f879e
+[2025-03-14T09:03:06Z] [INFO] payment-service: GET /healthz 200 84ms request_id=9faaaaa0
+[2025-03-14T09:03:11Z] [INFO] notification-service: POST /api/v1/catalog 200 136ms request_id=f6572f66
+[2025-03-14T09:03:11Z] [INFO] payment-service: PUT /healthz 200 138ms request_id=b8209b2d
+[2025-03-14T09:03:11Z] [INFO] checkout-api: PUT /api/v1/catalog 200 20ms request_id=d947a06b
+[2025-03-14T09:03:11Z] [INFO] notification-service: GET /api/v1/search 200 70ms request_id=2b3a81fc
+[2025-03-14T09:03:14Z] [INFO] checkout-api: POST /api/v1/users/me 200 89ms request_id=9303c530
+[2025-03-14T09:03:14Z] [INFO] checkout-api: GET /api/v1/users/me 200 49ms request_id=ebf18232
+[2025-03-14T09:03:14Z] [INFO] checkout-api: POST /healthz 200 40ms request_id=96aab807
+[2025-03-14T09:03:15Z] [INFO] payment-service: PUT /api/v1/catalog 200 29ms request_id=08d554ae
+[2025-03-14T09:03:16Z] [INFO] payment-service: POST /api/v1/orders/92467 200 65ms request_id=5a1ef892
+[2025-03-14T09:03:20Z] [INFO] notification-service: GET /api/v1/catalog 200 23ms request_id=91c2fc4b
+[2025-03-14T09:03:21Z] [INFO] payment-service: GET /api/v1/orders/67006 200 118ms request_id=194fabb8
+[2025-03-14T09:03:21Z] [INFO] payment-service: PUT /api/v1/catalog 200 22ms request_id=bbab5f96
+[2025-03-14T09:03:22Z] [INFO] payment-service: GET /api/v1/catalog 200 39ms request_id=63ea3d60
+[2025-03-14T09:03:22Z] [INFO] checkout-api: GET /api/v1/catalog 200 139ms request_id=ae31063b
+[2025-03-14T09:03:23Z] [INFO] notification-service: PUT /api/v1/orders 200 81ms request_id=c1f1981a
+[2025-03-14T09:03:23Z] [INFO] payment-service: GET /api/v1/cart 200 93ms request_id=390ce0b7
+[2025-03-14T09:03:23Z] [INFO] checkout-api: GET /api/v1/search 200 114ms request_id=1fd264fc
+[2025-03-14T09:03:24Z] [INFO] payment-service: PUT /healthz 200 53ms request_id=2ce0fd1e
+[2025-03-14T09:03:24Z] [INFO] payment-service: PUT /healthz 200 77ms request_id=61b75b81
+[2025-03-14T09:03:25Z] [INFO] notification-service: POST /api/v1/search 200 4ms request_id=fca21416
+[2025-03-14T09:03:25Z] [INFO] payment-service: GET /api/v1/cart 200 83ms request_id=026c6144
+[2025-03-14T09:03:26Z] [INFO] payment-service: GET /api/v1/cart 200 71ms request_id=8283dcba
+[2025-03-14T09:03:26Z] [INFO] notification-service: GET /api/v1/orders 200 58ms request_id=43a9fec5
+[2025-03-14T09:03:26Z] [INFO] payment-service: GET /api/v1/orders/1486 200 135ms request_id=fc377385
+[2025-03-14T09:03:26Z] [INFO] notification-service: GET /api/v1/search 200 63ms request_id=2ee99d7f
+[2025-03-14T09:03:26Z] [INFO] notification-service: POST /api/v1/orders 200 48ms request_id=29eead54
+[2025-03-14T09:03:27Z] [INFO] payment-service: GET /api/v1/catalog 200 115ms request_id=b2d7ac9c
+[2025-03-14T09:03:27Z] [INFO] notification-service: GET /healthz 200 50ms request_id=dcd954e3
+[2025-03-14T09:03:28Z] [INFO] checkout-api: GET /api/v1/catalog 200 49ms request_id=cb454d12
+[2025-03-14T09:03:29Z] [INFO] checkout-api: GET /api/v1/orders 200 121ms request_id=3ca260de
+[2025-03-14T09:03:31Z] [INFO] checkout-api: PUT /api/v1/orders 200 28ms request_id=79d2389c
+[2025-03-14T09:03:31Z] [INFO] payment-service: GET /api/v1/catalog 200 109ms request_id=95cd846e
+[2025-03-14T09:03:32Z] [INFO] notification-service: PUT /api/v1/orders/96041 200 137ms request_id=08eae290
+[2025-03-14T09:03:32Z] [INFO] payment-service: PUT /api/v1/orders 200 95ms request_id=cbc3f532
+[2025-03-14T09:03:33Z] [INFO] notification-service: GET /healthz 200 66ms request_id=cba142ea
+[2025-03-14T09:03:33Z] [INFO] payment-service: PUT /api/v1/catalog 200 53ms request_id=b455faa4
+[2025-03-14T09:03:33Z] [INFO] checkout-api: GET /api/v1/users/me 200 136ms request_id=b66873ca
+[2025-03-14T09:03:34Z] [INFO] notification-service: PUT /api/v1/cart 200 136ms request_id=f15a7ed4
+[2025-03-14T09:03:34Z] [INFO] checkout-api: PUT /healthz 200 100ms request_id=4a861319
+[2025-03-14T09:03:34Z] [INFO] notification-service: POST /api/v1/users/me 200 94ms request_id=8a1cd16a
+[2025-03-14T09:03:35Z] [INFO] checkout-api: GET /api/v1/users/me 200 88ms request_id=35e63e79
+[2025-03-14T09:03:37Z] [INFO] notification-service: GET /api/v1/catalog 200 57ms request_id=06c7aa1e
+[2025-03-14T09:03:37Z] [INFO] checkout-api: GET /api/v1/search 200 54ms request_id=8f909df6
+[2025-03-14T09:03:38Z] [INFO] notification-service: POST /api/v1/users/me 200 31ms request_id=69150be7
+[2025-03-14T09:03:40Z] [INFO] payment-service: GET /api/v1/cart 200 92ms request_id=874fbc91
+[2025-03-14T09:03:40Z] [INFO] checkout-api: GET /api/v1/cart 200 66ms request_id=3b858fc0
+[2025-03-14T09:03:41Z] [INFO] payment-service: PUT /api/v1/search 200 57ms request_id=3b093972
+[2025-03-14T09:03:43Z] [INFO] payment-service: GET /api/v1/users/me 200 99ms request_id=4d3ad3b7
+[2025-03-14T09:03:43Z] [INFO] payment-service: GET /api/v1/orders 200 42ms request_id=afab491a
+[2025-03-14T09:03:46Z] [INFO] payment-service: POST /api/v1/users/me 200 104ms request_id=ae82b7c8
+[2025-03-14T09:03:46Z] [INFO] payment-service: GET /api/v1/users/me 200 105ms request_id=c7f6faa8
+[2025-03-14T09:03:47Z] [INFO] payment-service: GET /api/v1/catalog 200 50ms request_id=09af81e1
+[2025-03-14T09:03:48Z] [INFO] payment-service: GET /healthz 200 112ms request_id=c76dae43
+[2025-03-14T09:03:49Z] [INFO] checkout-api: GET /api/v1/catalog 200 74ms request_id=7652b443
+[2025-03-14T09:03:51Z] [INFO] checkout-api: GET /api/v1/search 200 73ms request_id=c36df8a1
+[2025-03-14T09:03:52Z] [INFO] checkout-api: POST /api/v1/orders 200 21ms request_id=c817d4d0
+[2025-03-14T09:03:53Z] [INFO] checkout-api: GET /api/v1/search 200 74ms request_id=8b1d545a
+[2025-03-14T09:03:54Z] [INFO] payment-service: GET /api/v1/users/me 200 55ms request_id=43526b61
+[2025-03-14T09:03:56Z] [INFO] checkout-api: GET /api/v1/search 200 138ms request_id=0dbad596
+[2025-03-14T09:03:56Z] [INFO] checkout-api: GET /api/v1/cart 200 40ms request_id=5ab43679
+[2025-03-14T09:03:56Z] [INFO] checkout-api: GET /healthz 200 15ms request_id=5a3bb2b0
+[2025-03-14T09:03:57Z] [INFO] notification-service: POST /api/v1/orders 200 94ms request_id=36d7b53d
+[2025-03-14T09:03:57Z] [INFO] payment-service: PUT /api/v1/orders 200 136ms request_id=eccdc800
+[2025-03-14T09:03:58Z] [INFO] checkout-api: POST /api/v1/catalog 200 57ms request_id=6a2a17f6
+[2025-03-14T09:03:59Z] [INFO] checkout-api: GET /api/v1/catalog 200 32ms request_id=106ee1c1
+[2025-03-14T09:04:02Z] [INFO] notification-service: GET /healthz 200 19ms request_id=04ad28dc
+[2025-03-14T09:04:03Z] [INFO] checkout-api: GET /api/v1/orders 200 87ms request_id=710d14b7
+[2025-03-14T09:04:05Z] [INFO] payment-service: PUT /api/v1/users/me 200 128ms request_id=65403856
+[2025-03-14T09:04:05Z] [INFO] notification-service: GET /api/v1/search 200 98ms request_id=7c5a8ec9
+[2025-03-14T09:04:05Z] [INFO] payment-service: GET /api/v1/orders/58930 200 43ms request_id=22f6708b
+[2025-03-14T09:04:06Z] [INFO] checkout-api: GET /api/v1/catalog 200 73ms request_id=de595b8d
+[2025-03-14T09:04:06Z] [INFO] payment-service: GET /api/v1/users/me 200 44ms request_id=8e1a4339
+[2025-03-14T09:04:08Z] [INFO] notification-service: GET /api/v1/orders/65844 200 47ms request_id=4fe8e65d
+[2025-03-14T09:04:09Z] [INFO] checkout-api: PUT /healthz 200 18ms request_id=7b4b0a68
+[2025-03-14T09:04:10Z] [INFO] notification-service: GET /api/v1/cart 200 35ms request_id=49a57364
+[2025-03-14T09:04:11Z] [INFO] checkout-api: GET /api/v1/cart 200 24ms request_id=281fe4c2
+[2025-03-14T09:04:11Z] [INFO] payment-service: GET /healthz 200 11ms request_id=68a483ea
+[2025-03-14T09:04:11Z] [INFO] notification-service: GET /healthz 200 107ms request_id=01ea9677
+[2025-03-14T09:04:11Z] [INFO] notification-service: POST /api/v1/catalog 200 13ms request_id=484bc2d9
+[2025-03-14T09:04:12Z] [INFO] notification-service: GET /healthz 200 58ms request_id=66160ebd
+[2025-03-14T09:04:13Z] [INFO] payment-service: POST /api/v1/cart 200 34ms request_id=93980c97
+[2025-03-14T09:04:18Z] [INFO] notification-service: GET /healthz 200 62ms request_id=5e9a0ab0
+[2025-03-14T09:04:18Z] [INFO] payment-service: POST /api/v1/users/me 200 68ms request_id=773753a8
+[2025-03-14T09:04:20Z] [INFO] notification-service: POST /api/v1/cart 200 5ms request_id=d7929f6f
+[2025-03-14T09:04:20Z] [INFO] payment-service: PUT /api/v1/orders 200 28ms request_id=0aae7023
+[2025-03-14T09:04:20Z] [INFO] checkout-api: POST /api/v1/cart 200 32ms request_id=f20a8c58
+[2025-03-14T09:04:21Z] [INFO] payment-service: PUT /api/v1/cart 200 117ms request_id=a84d0a18
+[2025-03-14T09:04:21Z] [INFO] checkout-api: PUT /healthz 200 60ms request_id=875014a5
+[2025-03-14T09:04:21Z] [INFO] payment-service: GET /api/v1/search 200 58ms request_id=7c50a889
+[2025-03-14T09:04:22Z] [INFO] checkout-api: GET /api/v1/orders/44895 200 46ms request_id=3f28cd81
+[2025-03-14T09:04:23Z] [INFO] payment-service: GET /api/v1/orders 200 31ms request_id=2bf6817c
+[2025-03-14T09:04:24Z] [INFO] checkout-api: POST /api/v1/orders 200 17ms request_id=b432e148
+[2025-03-14T09:04:25Z] [INFO] notification-service: POST /api/v1/users/me 200 13ms request_id=1e1d0252
+[2025-03-14T09:04:25Z] [INFO] notification-service: PUT /api/v1/search 200 112ms request_id=f3c92dfb
+[2025-03-14T09:04:26Z] [INFO] notification-service: GET /api/v1/search 200 130ms request_id=0fda41f5
+[2025-03-14T09:04:27Z] [INFO] notification-service: PUT /api/v1/cart 200 70ms request_id=4dff3d42
+[2025-03-14T09:04:27Z] [INFO] notification-service: PUT /api/v1/users/me 200 131ms request_id=02dbf728
+[2025-03-14T09:04:28Z] [INFO] payment-service: GET /api/v1/users/me 200 45ms request_id=723d3832
+[2025-03-14T09:04:28Z] [INFO] notification-service: GET /api/v1/users/me 200 13ms request_id=fb01a1f8
+[2025-03-14T09:04:28Z] [INFO] notification-service: PUT /healthz 200 105ms request_id=b59f650a
+[2025-03-14T09:04:29Z] [INFO] payment-service: GET /api/v1/search 200 30ms request_id=5aac8b47
+[2025-03-14T09:04:30Z] [INFO] checkout-api: PUT /api/v1/orders 200 37ms request_id=e285a9be
+[2025-03-14T09:04:31Z] [INFO] notification-service: GET /api/v1/cart 200 82ms request_id=44cbb815
+[2025-03-14T09:04:34Z] [INFO] checkout-api: GET /api/v1/orders 200 77ms request_id=85a5aaae
+[2025-03-14T09:04:34Z] [INFO] notification-service: GET /api/v1/search 200 138ms request_id=9bbea56f
+[2025-03-14T09:04:34Z] [INFO] notification-service: GET /api/v1/cart 200 127ms request_id=ce5815f6
+[2025-03-14T09:04:35Z] [INFO] payment-service: GET /api/v1/orders 200 131ms request_id=f39a7aa2
+[2025-03-14T09:04:35Z] [INFO] checkout-api: POST /api/v1/orders 200 109ms request_id=7ab3fd44
+[2025-03-14T09:04:39Z] [INFO] payment-service: POST /api/v1/cart 200 96ms request_id=35a88dc1
+[2025-03-14T09:04:39Z] [INFO] checkout-api: POST /api/v1/orders/49753 200 79ms request_id=65d142ec
+[2025-03-14T09:04:40Z] [INFO] payment-service: GET /healthz 200 25ms request_id=e4bc236c
+[2025-03-14T09:04:40Z] [INFO] checkout-api: POST /api/v1/orders 200 28ms request_id=2e587a63
+[2025-03-14T09:04:42Z] [INFO] checkout-api: GET /api/v1/catalog 200 41ms request_id=5def2412
+[2025-03-14T09:04:42Z] [INFO] notification-service: PUT /api/v1/orders/95687 200 138ms request_id=54b76be9
+[2025-03-14T09:04:42Z] [INFO] payment-service: PUT /api/v1/orders/25568 200 91ms request_id=b35e0abd
+[2025-03-14T09:04:44Z] [INFO] notification-service: PUT /api/v1/catalog 200 111ms request_id=2cbbf8d6
+[2025-03-14T09:04:46Z] [INFO] checkout-api: PUT /api/v1/orders 200 84ms request_id=89632c91
+[2025-03-14T09:04:46Z] [INFO] checkout-api: GET /api/v1/orders 200 35ms request_id=a09cd7f7
+[2025-03-14T09:04:46Z] [INFO] notification-service: GET /api/v1/users/me 200 78ms request_id=e78fe1a5
+[2025-03-14T09:04:47Z] [INFO] payment-service: GET /api/v1/orders/12588 200 37ms request_id=f9c8a115
+[2025-03-14T09:04:47Z] [INFO] checkout-api: GET /api/v1/cart 200 79ms request_id=e839c1f0
+[2025-03-14T09:04:49Z] [INFO] payment-service: POST /healthz 200 44ms request_id=39d9d1b5
+[2025-03-14T09:04:50Z] [INFO] notification-service: PUT /api/v1/orders/77117 200 5ms request_id=2da4ab86
+[2025-03-14T09:04:50Z] [INFO] payment-service: GET /api/v1/orders/65927 200 12ms request_id=045737d3
+[2025-03-14T09:04:51Z] [INFO] checkout-api: PUT /api/v1/catalog 200 55ms request_id=23692d29
+[2025-03-14T09:04:54Z] [INFO] notification-service: POST /api/v1/cart 200 74ms request_id=d5c3893a
+[2025-03-14T09:04:54Z] [INFO] payment-service: GET /api/v1/search 200 135ms request_id=3762b1b7
+[2025-03-14T09:04:57Z] [INFO] payment-service: PUT /api/v1/orders 200 123ms request_id=153bd47f
+[2025-03-14T09:04:57Z] [INFO] notification-service: GET /api/v1/orders/80201 200 7ms request_id=bbd5c9f6
+[2025-03-14T09:04:58Z] [INFO] notification-service: POST /api/v1/users/me 200 135ms request_id=5073ab54
+[2025-03-14T09:04:58Z] [INFO] payment-service: POST /api/v1/orders/26259 200 45ms request_id=5394d3cb
+[2025-03-14T09:04:59Z] [INFO] notification-service: GET /api/v1/cart 200 52ms request_id=189aee97
+[2025-03-14T09:05:00Z] [INFO] notification-service: POST /api/v1/users/me 200 78ms request_id=a8c1a7c2
+[2025-03-14T09:05:00Z] [INFO] checkout-api: PUT /api/v1/orders 200 38ms request_id=63844dde
+[2025-03-14T09:05:02Z] [INFO] payment-service: GET /api/v1/catalog 200 135ms request_id=528a8679
+[2025-03-14T09:05:02Z] [INFO] notification-service: GET /api/v1/catalog 200 116ms request_id=046b1f03
+[2025-03-14T09:05:03Z] [INFO] notification-service: GET /api/v1/catalog 200 97ms request_id=3d7bf060
+[2025-03-14T09:05:03Z] [INFO] payment-service: GET /api/v1/users/me 200 27ms request_id=cf79ad51
+[2025-03-14T09:05:04Z] [INFO] checkout-api: GET /api/v1/orders 200 53ms request_id=a9320977
+[2025-03-14T09:05:04Z] [INFO] payment-service: GET /api/v1/orders/36538 200 33ms request_id=143d9d7f
+[2025-03-14T09:05:04Z] [INFO] notification-service: PUT /api/v1/orders/10092 200 78ms request_id=82382f66
+[2025-03-14T09:05:05Z] [INFO] notification-service: GET /api/v1/users/me 200 20ms request_id=2b1c059e
+[2025-03-14T09:05:06Z] [INFO] notification-service: PUT /api/v1/orders 200 121ms request_id=236b893f
+[2025-03-14T09:05:07Z] [INFO] payment-service: GET /api/v1/search 200 70ms request_id=7218f408
+[2025-03-14T09:05:11Z] [INFO] payment-service: POST /healthz 200 118ms request_id=ac769a03
+[2025-03-14T09:05:13Z] [INFO] checkout-api: GET /api/v1/users/me 200 64ms request_id=4b912621
+[2025-03-14T09:05:13Z] [INFO] checkout-api: GET /api/v1/users/me 200 120ms request_id=451ad4c0
+[2025-03-14T09:05:13Z] [INFO] notification-service: GET /api/v1/users/me 200 51ms request_id=7b7610fc
+[2025-03-14T09:05:15Z] [INFO] payment-service: GET /api/v1/orders 200 94ms request_id=7c613d07
+[2025-03-14T09:05:16Z] [INFO] notification-service: POST /healthz 200 85ms request_id=0cc2a5c0
+[2025-03-14T09:05:18Z] [INFO] payment-service: GET /api/v1/users/me 200 44ms request_id=0f32c335
+[2025-03-14T09:05:19Z] [INFO] notification-service: POST /api/v1/orders 200 140ms request_id=ec855204
+[2025-03-14T09:05:19Z] [INFO] payment-service: GET /api/v1/cart 200 113ms request_id=38f721bb
+[2025-03-14T09:05:20Z] [INFO] notification-service: GET /api/v1/catalog 200 137ms request_id=419995bf
+[2025-03-14T09:05:21Z] [INFO] payment-service: GET /api/v1/orders 200 81ms request_id=3e4f66d9
+[2025-03-14T09:05:21Z] [INFO] checkout-api: GET /api/v1/orders 200 45ms request_id=f806a7e3
+[2025-03-14T09:05:22Z] [INFO] notification-service: POST /api/v1/orders 200 89ms request_id=efac7bae
+[2025-03-14T09:05:22Z] [INFO] payment-service: GET /api/v1/search 200 6ms request_id=19daf490
+[2025-03-14T09:05:22Z] [INFO] notification-service: GET /api/v1/orders 200 130ms request_id=2d7f35f9
+[2025-03-14T09:05:26Z] [INFO] notification-service: PUT /healthz 200 138ms request_id=1b048651
+[2025-03-14T09:05:26Z] [INFO] checkout-api: GET /healthz 200 115ms request_id=485b80f0
+[2025-03-14T09:05:27Z] [INFO] payment-service: GET /api/v1/orders/2791 200 60ms request_id=db7d7dbf
+[2025-03-14T09:05:27Z] [INFO] checkout-api: PUT /api/v1/users/me 200 113ms request_id=8eb1a3de
+[2025-03-14T09:05:27Z] [INFO] payment-service: PUT /api/v1/search 200 21ms request_id=836854aa
+[2025-03-14T09:05:29Z] [INFO] notification-service: GET /healthz 200 115ms request_id=be59ad3c
+[2025-03-14T09:05:29Z] [INFO] checkout-api: POST /api/v1/search 200 43ms request_id=55d8b03e
+[2025-03-14T09:05:30Z] [INFO] notification-service: PUT /api/v1/cart 200 79ms request_id=38e8d941
+[2025-03-14T09:05:32Z] [INFO] checkout-api: GET /api/v1/search 200 20ms request_id=57c3d032
+[2025-03-14T09:05:33Z] [INFO] notification-service: PUT /api/v1/orders/67054 200 59ms request_id=7306c107
+[2025-03-14T09:05:36Z] [INFO] notification-service: GET /api/v1/cart 200 139ms request_id=bbde699b
+[2025-03-14T09:05:38Z] [INFO] payment-service: POST /api/v1/orders 200 114ms request_id=97c86ec1
+[2025-03-14T09:05:40Z] [INFO] checkout-api: GET /api/v1/cart 200 113ms request_id=7d5e6373
+[2025-03-14T09:05:44Z] [INFO] checkout-api: GET /healthz 200 132ms request_id=6be97ba1
+[2025-03-14T09:05:45Z] [INFO] notification-service: PUT /api/v1/catalog 200 29ms request_id=9d4d5a9b
+[2025-03-14T09:05:46Z] [INFO] checkout-api: GET /api/v1/catalog 200 43ms request_id=032675c4
+[2025-03-14T09:05:47Z] [INFO] notification-service: PUT /api/v1/orders 200 120ms request_id=f0848315
+[2025-03-14T09:05:48Z] [INFO] payment-service: PUT /api/v1/catalog 200 28ms request_id=13ffa620
+[2025-03-14T09:05:49Z] [INFO] payment-service: PUT /api/v1/users/me 200 116ms request_id=0ef183c5
+[2025-03-14T09:05:51Z] [INFO] checkout-api: GET /api/v1/search 200 87ms request_id=0a32b958
+[2025-03-14T09:05:52Z] [INFO] payment-service: GET /api/v1/orders 200 102ms request_id=ac9187ce
+[2025-03-14T09:05:52Z] [INFO] payment-service: POST /api/v1/orders 200 76ms request_id=dd08a06c
+[2025-03-14T09:05:53Z] [INFO] payment-service: GET /api/v1/search 200 44ms request_id=00362768
+[2025-03-14T09:05:53Z] [INFO] checkout-api: POST /healthz 200 109ms request_id=b2670c25
+[2025-03-14T09:05:54Z] [INFO] notification-service: GET /api/v1/orders/34701 200 105ms request_id=709e4fe8
+[2025-03-14T09:05:56Z] [INFO] payment-service: POST /api/v1/cart 200 69ms request_id=5d0b64cf
+[2025-03-14T09:05:56Z] [INFO] notification-service: PUT /api/v1/orders/28214 200 136ms request_id=304f453c
+[2025-03-14T09:05:56Z] [INFO] checkout-api: GET /healthz 200 41ms request_id=4157c24b
+[2025-03-14T09:05:57Z] [INFO] checkout-api: PUT /api/v1/orders 200 91ms request_id=6871f920
+[2025-03-14T09:05:57Z] [INFO] checkout-api: GET /healthz 200 74ms request_id=51e75252
+[2025-03-14T09:05:58Z] [INFO] payment-service: GET /api/v1/catalog 200 131ms request_id=0ec1cedb
+[2025-03-14T09:05:58Z] [INFO] payment-service: GET /api/v1/catalog 200 34ms request_id=48aec11d
+[2025-03-14T09:05:59Z] [INFO] payment-service: GET /healthz 200 71ms request_id=5d297dbe
+[2025-03-14T09:05:59Z] [INFO] payment-service: GET /healthz 200 8ms request_id=e719b286
+[2025-03-14T09:06:01Z] [INFO] payment-service: GET /api/v1/orders/84459 200 54ms request_id=6f912812
+[2025-03-14T09:06:01Z] [INFO] notification-service: GET /api/v1/catalog 200 82ms request_id=6e77b595
+[2025-03-14T09:06:01Z] [INFO] notification-service: PUT /api/v1/orders 200 76ms request_id=27f65b97
+[2025-03-14T09:06:01Z] [INFO] notification-service: GET /api/v1/search 200 27ms request_id=8d617cf7
+[2025-03-14T09:06:03Z] [INFO] payment-service: POST /api/v1/cart 200 99ms request_id=f00be4b6
+[2025-03-14T09:06:04Z] [INFO] payment-service: GET /api/v1/cart 200 10ms request_id=f0cb54e9
+[2025-03-14T09:06:04Z] [INFO] notification-service: GET /api/v1/search 200 90ms request_id=261d87cf
+[2025-03-14T09:06:05Z] [INFO] payment-service: POST /api/v1/catalog 200 23ms request_id=ce9ba00f
+[2025-03-14T09:06:05Z] [INFO] checkout-api: PUT /api/v1/search 200 101ms request_id=793020fd
+[2025-03-14T09:06:05Z] [INFO] payment-service: POST /api/v1/orders 200 88ms request_id=8c023565
+[2025-03-14T09:06:05Z] [INFO] payment-service: PUT /api/v1/orders 200 16ms request_id=3d7719a4
+[2025-03-14T09:06:06Z] [INFO] payment-service: POST /api/v1/catalog 200 23ms request_id=3531c0ee
+[2025-03-14T09:06:09Z] [INFO] checkout-api: GET /api/v1/catalog 200 70ms request_id=2160e74a
+[2025-03-14T09:06:09Z] [INFO] checkout-api: GET /api/v1/catalog 200 116ms request_id=01e7e8e5
+[2025-03-14T09:06:09Z] [INFO] notification-service: GET /healthz 200 91ms request_id=79696ac7
+[2025-03-14T09:06:10Z] [INFO] notification-service: GET /api/v1/search 200 123ms request_id=0a830536
+[2025-03-14T09:06:11Z] [INFO] payment-service: GET /api/v1/search 200 16ms request_id=0d90a55c
+[2025-03-14T09:06:11Z] [INFO] notification-service: GET /api/v1/catalog 200 11ms request_id=d05acca2
+[2025-03-14T09:06:13Z] [INFO] checkout-api: GET /api/v1/orders/14339 200 137ms request_id=12d35cc2
+[2025-03-14T09:06:15Z] [INFO] checkout-api: GET /api/v1/orders/86158 200 103ms request_id=6b51d00b
+[2025-03-14T09:06:15Z] [INFO] payment-service: GET /api/v1/orders/53573 200 4ms request_id=8433ab04
+[2025-03-14T09:06:15Z] [INFO] notification-service: POST /api/v1/orders/63934 200 82ms request_id=f80bab82
+[2025-03-14T09:06:15Z] [INFO] checkout-api: GET /healthz 200 126ms request_id=48cdc425
+[2025-03-14T09:06:15Z] [INFO] payment-service: GET /api/v1/cart 200 23ms request_id=b30e37fa
+[2025-03-14T09:06:16Z] [INFO] checkout-api: GET /api/v1/cart 200 11ms request_id=1bbf1179
+[2025-03-14T09:06:16Z] [INFO] checkout-api: GET /api/v1/cart 200 111ms request_id=f358c058
+[2025-03-14T09:06:18Z] [INFO] checkout-api: POST /api/v1/orders/54141 200 114ms request_id=3a40e0c9
+[2025-03-14T09:06:19Z] [INFO] notification-service: POST /api/v1/orders 200 140ms request_id=c51135b7
+[2025-03-14T09:06:19Z] [INFO] notification-service: POST /healthz 200 70ms request_id=bd5d8d1a
+[2025-03-14T09:06:19Z] [INFO] notification-service: POST /api/v1/users/me 200 53ms request_id=51c5f1af
+[2025-03-14T09:06:20Z] [INFO] checkout-api: GET /api/v1/orders/31185 200 85ms request_id=b5e744e8
+[2025-03-14T09:06:20Z] [INFO] checkout-api: GET /api/v1/orders 200 137ms request_id=81dfe2d6
+[2025-03-14T09:06:22Z] [INFO] checkout-api: GET /api/v1/catalog 200 46ms request_id=b2cb5635
+[2025-03-14T09:06:22Z] [INFO] payment-service: GET /api/v1/orders 200 68ms request_id=3519b687
+[2025-03-14T09:06:23Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:06:28Z] [INFO] payment-service: GET /api/v1/cart 200 38ms request_id=e6ae180c
+[2025-03-14T09:06:28Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:06:28Z] [INFO] checkout-api: GET /api/v1/users/me 200 21ms request_id=803fe936
+[2025-03-14T09:06:30Z] [INFO] checkout-api: GET /api/v1/orders/49249 200 131ms request_id=42b01a1d
+[2025-03-14T09:06:30Z] [INFO] checkout-api: PUT /api/v1/orders 200 97ms request_id=7d359ead
+[2025-03-14T09:06:34Z] [INFO] notification-service: PUT /api/v1/search 200 6ms request_id=24743cb8
+[2025-03-14T09:06:36Z] [INFO] checkout-api: GET /api/v1/orders 200 39ms request_id=210d31db
+[2025-03-14T09:06:36Z] [INFO] notification-service: GET /healthz 200 48ms request_id=31ee03bf
+[2025-03-14T09:06:37Z] [INFO] notification-service: GET /api/v1/search 200 90ms request_id=047f0a24
+[2025-03-14T09:06:38Z] [INFO] notification-service: POST /api/v1/users/me 200 88ms request_id=53bafd9c
+[2025-03-14T09:06:39Z] [INFO] notification-service: GET /api/v1/orders/36531 200 40ms request_id=4911f5fd
+[2025-03-14T09:06:39Z] [INFO] checkout-api: POST /api/v1/cart 200 29ms request_id=05768b41
+[2025-03-14T09:06:39Z] [INFO] checkout-api: GET /api/v1/search 200 80ms request_id=b1f91cf9
+[2025-03-14T09:06:40Z] [INFO] payment-service: GET /api/v1/orders/60434 200 97ms request_id=79a034c8
+[2025-03-14T09:06:42Z] [INFO] notification-service: GET /api/v1/search 200 103ms request_id=093eb2fb
+[2025-03-14T09:06:43Z] [INFO] payment-service: GET /healthz 200 34ms request_id=bd3c89ed
+[2025-03-14T09:06:43Z] [INFO] notification-service: PUT /api/v1/cart 200 19ms request_id=cf19ea27
+[2025-03-14T09:06:44Z] [INFO] payment-service: GET /api/v1/users/me 200 42ms request_id=cddf24e9
+[2025-03-14T09:06:44Z] [INFO] checkout-api: PUT /api/v1/orders/92897 200 26ms request_id=f4419a12
+[2025-03-14T09:06:45Z] [INFO] checkout-api: GET /api/v1/orders/19484 200 62ms request_id=03ccec9f
+[2025-03-14T09:06:45Z] [INFO] checkout-api: PUT /healthz 200 70ms request_id=8e40287d
+[2025-03-14T09:06:45Z] [INFO] checkout-api: GET /api/v1/catalog 200 61ms request_id=f2153a65
+[2025-03-14T09:06:46Z] [INFO] checkout-api: GET /api/v1/orders 200 77ms request_id=d5773046
+[2025-03-14T09:06:47Z] [INFO] checkout-api: PUT /api/v1/orders 200 57ms request_id=131b6d63
+[2025-03-14T09:06:47Z] [INFO] checkout-api: PUT /api/v1/cart 200 115ms request_id=9876b705
+[2025-03-14T09:06:51Z] [INFO] checkout-api: PUT /api/v1/orders 200 113ms request_id=d31ffb13
+[2025-03-14T09:06:51Z] [INFO] payment-service: GET /healthz 200 53ms request_id=d0eab460
+[2025-03-14T09:06:52Z] [INFO] checkout-api: PUT /api/v1/search 200 82ms request_id=524fb853
+[2025-03-14T09:06:53Z] [INFO] notification-service: GET /api/v1/users/me 200 106ms request_id=8b6c341a
+[2025-03-14T09:06:53Z] [INFO] payment-service: POST /api/v1/users/me 200 47ms request_id=b980d8b6
+[2025-03-14T09:06:53Z] [INFO] notification-service: POST /api/v1/cart 200 138ms request_id=bab2c1da
+[2025-03-14T09:06:55Z] [INFO] notification-service: GET /api/v1/catalog 200 31ms request_id=396b262e
+[2025-03-14T09:06:55Z] [INFO] payment-service: GET /api/v1/orders 200 39ms request_id=8ab40b00
+[2025-03-14T09:06:56Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:06:56Z] [INFO] payment-service: PUT /api/v1/users/me 200 101ms request_id=c8d94776
+[2025-03-14T09:06:58Z] [INFO] checkout-api: GET /api/v1/cart 200 54ms request_id=6b222bf3
+[2025-03-14T09:06:58Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:06:59Z] [INFO] checkout-api: GET /api/v1/orders/99738 200 10ms request_id=093481d1
+[2025-03-14T09:07:00Z] [INFO] notification-service: GET /api/v1/catalog 200 51ms request_id=a0ff7df1
+[2025-03-14T09:07:00Z] [INFO] checkout-api: PUT /api/v1/orders 200 14ms request_id=f2470504
+[2025-03-14T09:07:00Z] [INFO] payment-service: POST /healthz 200 129ms request_id=99e0ace7
+[2025-03-14T09:07:01Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:07:04Z] [INFO] checkout-api: GET /api/v1/users/me 200 39ms request_id=b32a3f48
+[2025-03-14T09:07:05Z] [INFO] payment-service: GET /healthz 200 31ms request_id=22ecd81f
+[2025-03-14T09:07:06Z] [INFO] checkout-api: PUT /api/v1/search 200 118ms request_id=726cbcc5
+[2025-03-14T09:07:07Z] [INFO] payment-service: GET /api/v1/users/me 200 45ms request_id=0556a6e5
+[2025-03-14T09:07:07Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:07:08Z] [INFO] payment-service: GET /api/v1/search 200 85ms request_id=85d0283f
+[2025-03-14T09:07:10Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 1/3)
+[2025-03-14T09:07:11Z] [INFO] payment-service: GET /api/v1/search 200 99ms request_id=a2a97b14
+[2025-03-14T09:07:12Z] [INFO] payment-service: POST /api/v1/users/me 200 127ms request_id=52b859d3
+[2025-03-14T09:07:12Z] [INFO] checkout-api: PUT /api/v1/catalog 200 43ms request_id=63b1db07
+[2025-03-14T09:07:12Z] [INFO] payment-service: POST /api/v1/search 200 139ms request_id=dd3b174a
+[2025-03-14T09:07:12Z] [INFO] notification-service: GET /api/v1/users/me 200 117ms request_id=a1c13935
+[2025-03-14T09:07:13Z] [INFO] payment-service: POST /api/v1/catalog 200 33ms request_id=fe2ba225
+[2025-03-14T09:07:14Z] [INFO] payment-service: GET /api/v1/catalog 200 85ms request_id=5fea3244
+[2025-03-14T09:07:15Z] [INFO] payment-service: POST /healthz 200 57ms request_id=3a2e9e3c
+[2025-03-14T09:07:15Z] [INFO] payment-service: GET /healthz 200 116ms request_id=5430afcd
+[2025-03-14T09:07:16Z] [INFO] notification-service: GET /api/v1/cart 200 106ms request_id=8ca4d024
+[2025-03-14T09:07:16Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:07:16Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:07:20Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:07:21Z] [INFO] checkout-api: GET /api/v1/catalog 200 15ms request_id=6c308495
+[2025-03-14T09:07:21Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:07:23Z] [INFO] notification-service: GET /api/v1/catalog 200 66ms request_id=bcf6f995
+[2025-03-14T09:07:23Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:07:23Z] [INFO] payment-service: GET /api/v1/cart 200 124ms request_id=e69df646
+[2025-03-14T09:07:23Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.20:443
+[2025-03-14T09:07:24Z] [INFO] checkout-api: GET /api/v1/orders 200 27ms request_id=c2a989c1
+[2025-03-14T09:07:24Z] [INFO] notification-service: GET /api/v1/search 200 134ms request_id=eb9df2cf
+[2025-03-14T09:07:25Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:07:25Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:07:25Z] [INFO] payment-service: GET /api/v1/orders/25016 200 54ms request_id=3a78fbd9
+[2025-03-14T09:07:25Z] [INFO] payment-service: GET /api/v1/orders 200 101ms request_id=e1c8eda9
+[2025-03-14T09:07:26Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 1/3)
+[2025-03-14T09:07:26Z] [INFO] payment-service: POST /api/v1/cart 200 18ms request_id=dcf57e1a
+[2025-03-14T09:07:26Z] [INFO] checkout-api: PUT /api/v1/orders 200 71ms request_id=47adfef4
+[2025-03-14T09:07:27Z] [INFO] notification-service: POST /api/v1/catalog 200 114ms request_id=4b05f3aa
+[2025-03-14T09:07:27Z] [INFO] checkout-api: GET /healthz 200 124ms request_id=33529cda
+[2025-03-14T09:07:28Z] [INFO] payment-service: GET /api/v1/orders 200 130ms request_id=0e2a1868
+[2025-03-14T09:07:28Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.38:443
+[2025-03-14T09:07:29Z] [INFO] checkout-api: POST /api/v1/cart 200 108ms request_id=856cbdbc
+[2025-03-14T09:07:30Z] [INFO] checkout-api: GET /api/v1/orders/44026 200 85ms request_id=ecb98a7c
+[2025-03-14T09:07:31Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:07:31Z] [INFO] payment-service: GET /api/v1/cart 200 111ms request_id=0077a374
+[2025-03-14T09:07:32Z] [INFO] notification-service: GET /api/v1/cart 200 105ms request_id=ddf74c19
+[2025-03-14T09:07:33Z] [INFO] checkout-api: POST /api/v1/search 200 72ms request_id=e394553a
+[2025-03-14T09:07:33Z] [INFO] payment-service: PUT /api/v1/cart 200 104ms request_id=74821b6b
+[2025-03-14T09:07:34Z] [INFO] checkout-api: GET /api/v1/catalog 200 118ms request_id=be877863
+[2025-03-14T09:07:34Z] [INFO] notification-service: PUT /api/v1/users/me 200 6ms request_id=1d3242ba
+[2025-03-14T09:07:34Z] [INFO] notification-service: GET /api/v1/catalog 200 38ms request_id=8eb4f738
+[2025-03-14T09:07:35Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:07:36Z] [INFO] notification-service: GET /api/v1/search 200 55ms request_id=5156c448
+[2025-03-14T09:07:36Z] [INFO] notification-service: GET /api/v1/catalog 200 46ms request_id=93ce0381
+[2025-03-14T09:07:36Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:07:36Z] [INFO] checkout-api: POST /api/v1/search 200 132ms request_id=dd79b93c
+[2025-03-14T09:07:36Z] [INFO] payment-service: PUT /healthz 200 104ms request_id=69e6c25d
+[2025-03-14T09:07:36Z] [INFO] notification-service: GET /api/v1/orders/37790 200 11ms request_id=4730fed9
+[2025-03-14T09:07:37Z] [INFO] payment-service: GET /api/v1/catalog 200 127ms request_id=93e6bc70
+[2025-03-14T09:07:37Z] [INFO] notification-service: GET /api/v1/search 200 102ms request_id=8a53595d
+[2025-03-14T09:07:37Z] [INFO] notification-service: POST /api/v1/orders/33655 200 118ms request_id=939fa374
+[2025-03-14T09:07:38Z] [INFO] checkout-api: GET /api/v1/orders/57176 200 109ms request_id=55910db6
+[2025-03-14T09:07:39Z] [INFO] checkout-api: GET /api/v1/search 200 48ms request_id=bed1af06
+[2025-03-14T09:07:39Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:07:39Z] [INFO] payment-service: PUT /api/v1/orders/23393 200 56ms request_id=ff7c741b
+[2025-03-14T09:07:42Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:07:43Z] [INFO] checkout-api: GET /healthz 200 78ms request_id=1a8ac14d
+[2025-03-14T09:07:44Z] [INFO] payment-service: PUT /api/v1/orders 200 61ms request_id=d2c326eb
+[2025-03-14T09:07:44Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:07:44Z] [INFO] checkout-api: GET /api/v1/orders 200 41ms request_id=e1e9d44b
+[2025-03-14T09:07:45Z] [INFO] payment-service: GET /api/v1/cart 200 62ms request_id=7fd5adbf
+[2025-03-14T09:07:45Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:07:46Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:07:46Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.20:443
+[2025-03-14T09:07:46Z] [INFO] notification-service: GET /api/v1/catalog 200 14ms request_id=6752aae2
+[2025-03-14T09:07:46Z] [INFO] notification-service: PUT /api/v1/orders 200 111ms request_id=1896e97a
+[2025-03-14T09:07:47Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:07:47Z] [INFO] payment-service: GET /api/v1/orders/49263 200 104ms request_id=ef340bde
+[2025-03-14T09:07:50Z] [INFO] checkout-api: POST /api/v1/users/me 200 50ms request_id=8ab8ab22
+[2025-03-14T09:07:50Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:07:50Z] [INFO] notification-service: GET /api/v1/catalog 200 120ms request_id=bc3159fb
+[2025-03-14T09:07:51Z] [INFO] checkout-api: GET /api/v1/search 200 17ms request_id=95cbc85f
+[2025-03-14T09:07:51Z] [INFO] notification-service: PUT /healthz 200 73ms request_id=6ad0d241
+[2025-03-14T09:07:52Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 1/3)
+[2025-03-14T09:07:54Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.33:443
+[2025-03-14T09:07:54Z] [INFO] notification-service: GET /api/v1/catalog 200 122ms request_id=b4c4d8e6
+[2025-03-14T09:07:55Z] [INFO] checkout-api: GET /api/v1/catalog 200 15ms request_id=8790f59c
+[2025-03-14T09:07:55Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:07:55Z] [INFO] checkout-api: GET /api/v1/orders/33647 200 90ms request_id=e7c354dc
+[2025-03-14T09:07:56Z] [INFO] checkout-api: PUT /healthz 200 87ms request_id=2d30f3c5
+[2025-03-14T09:07:57Z] [INFO] payment-service: PUT /api/v1/catalog 200 66ms request_id=aa68a962
+[2025-03-14T09:07:57Z] [INFO] notification-service: GET /api/v1/orders 200 60ms request_id=d1f34d71
+[2025-03-14T09:07:58Z] [INFO] payment-service: PUT /api/v1/orders 200 99ms request_id=9768acaf
+[2025-03-14T09:07:58Z] [INFO] payment-service: PUT /healthz 200 130ms request_id=70320330
+[2025-03-14T09:07:58Z] [INFO] payment-service: GET /api/v1/catalog 200 103ms request_id=7ecf76c4
+[2025-03-14T09:07:58Z] [INFO] checkout-api: POST /healthz 200 59ms request_id=5c81c405
+[2025-03-14T09:07:59Z] [INFO] payment-service: GET /api/v1/cart 200 35ms request_id=a1b22ec0
+[2025-03-14T09:08:00Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:08:00Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:08:00Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.35:443
+[2025-03-14T09:08:01Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:08:02Z] [INFO] payment-service: PUT /api/v1/orders/73648 200 39ms request_id=2169314b
+[2025-03-14T09:08:02Z] [INFO] checkout-api: GET /api/v1/orders 200 93ms request_id=243bcd85
+[2025-03-14T09:08:02Z] [INFO] notification-service: GET /api/v1/orders/27678 200 83ms request_id=7bba20f2
+[2025-03-14T09:08:03Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:08:03Z] [INFO] notification-service: GET /api/v1/cart 200 51ms request_id=a8ec7fb3
+[2025-03-14T09:08:03Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.11:443
+[2025-03-14T09:08:06Z] [INFO] notification-service: GET /api/v1/cart 200 85ms request_id=77a1aa95
+[2025-03-14T09:08:06Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:08:07Z] [INFO] payment-service: GET /api/v1/search 200 12ms request_id=a65b3103
+[2025-03-14T09:08:08Z] [INFO] payment-service: POST /api/v1/orders 200 106ms request_id=fdea694b
+[2025-03-14T09:08:08Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.12:443
+[2025-03-14T09:08:08Z] [INFO] checkout-api: PUT /api/v1/search 200 47ms request_id=49ed4ba2
+[2025-03-14T09:08:09Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:08:11Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:08:11Z] [INFO] checkout-api: POST /api/v1/catalog 200 50ms request_id=9f09db4f
+[2025-03-14T09:08:11Z] [INFO] checkout-api: GET /api/v1/orders 200 129ms request_id=88f47d54
+[2025-03-14T09:08:12Z] [INFO] checkout-api: POST /api/v1/search 200 10ms request_id=4bdd0451
+[2025-03-14T09:08:13Z] [INFO] notification-service: PUT /healthz 200 81ms request_id=7e6216fe
+[2025-03-14T09:08:13Z] [INFO] checkout-api: GET /api/v1/orders/92556 200 46ms request_id=8f25a422
+[2025-03-14T09:08:13Z] [INFO] payment-service: GET /healthz 200 60ms request_id=3b9a5d69
+[2025-03-14T09:08:15Z] [INFO] notification-service: POST /api/v1/orders 200 26ms request_id=088f94d1
+[2025-03-14T09:08:16Z] [INFO] payment-service: GET /api/v1/users/me 200 43ms request_id=c270785b
+[2025-03-14T09:08:17Z] [INFO] notification-service: PUT /api/v1/cart 200 73ms request_id=d1eb90f8
+[2025-03-14T09:08:18Z] [INFO] notification-service: POST /healthz 200 50ms request_id=c5f83e3c
+[2025-03-14T09:08:18Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:08:19Z] [INFO] notification-service: PUT /api/v1/orders 200 102ms request_id=3cdae022
+[2025-03-14T09:08:19Z] [INFO] payment-service: POST /healthz 200 95ms request_id=b5017b5a
+[2025-03-14T09:08:19Z] [INFO] checkout-api: GET /healthz 200 129ms request_id=404cb508
+[2025-03-14T09:08:19Z] [INFO] notification-service: GET /api/v1/cart 200 105ms request_id=a661dfee
+[2025-03-14T09:08:19Z] [INFO] notification-service: PUT /api/v1/orders 200 67ms request_id=f638c023
+[2025-03-14T09:08:20Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:08:20Z] [INFO] payment-service: PUT /api/v1/catalog 200 97ms request_id=92b8239c
+[2025-03-14T09:08:21Z] [INFO] checkout-api: GET /api/v1/search 200 39ms request_id=ec5c06be
+[2025-03-14T09:08:21Z] [INFO] notification-service: GET /api/v1/cart 200 16ms request_id=f1e273b4
+[2025-03-14T09:08:22Z] [INFO] notification-service: PUT /api/v1/users/me 200 51ms request_id=772b20c4
+[2025-03-14T09:08:22Z] [INFO] notification-service: GET /api/v1/orders/44896 200 39ms request_id=d01d1581
+[2025-03-14T09:08:22Z] [INFO] payment-service: POST /api/v1/orders 200 30ms request_id=ebe93d1a
+[2025-03-14T09:08:22Z] [INFO] notification-service: GET /api/v1/orders 200 106ms request_id=e5ccc150
+[2025-03-14T09:08:23Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:08:25Z] [INFO] checkout-api: POST /api/v1/catalog 200 111ms request_id=a1e5fae8
+[2025-03-14T09:08:26Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:08:27Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.32:443
+[2025-03-14T09:08:28Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:08:28Z] [INFO] payment-service: GET /api/v1/catalog 200 108ms request_id=d3732ad1
+[2025-03-14T09:08:31Z] [INFO] notification-service: POST /api/v1/catalog 200 46ms request_id=57d64179
+[2025-03-14T09:08:32Z] [INFO] notification-service: GET /api/v1/catalog 200 63ms request_id=852d80c0
+[2025-03-14T09:08:33Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:08:33Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.38:443
+[2025-03-14T09:08:34Z] [INFO] checkout-api: PUT /api/v1/orders 200 92ms request_id=63786e5d
+[2025-03-14T09:08:34Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:08:34Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:08:34Z] [INFO] payment-service: GET /api/v1/catalog 200 99ms request_id=42d188a8
+[2025-03-14T09:08:35Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:08:35Z] [INFO] checkout-api: GET /api/v1/users/me 200 50ms request_id=f9a7094b
+[2025-03-14T09:08:35Z] [INFO] checkout-api: GET /api/v1/cart 200 92ms request_id=8f676ef7
+[2025-03-14T09:08:36Z] [INFO] notification-service: GET /api/v1/users/me 200 104ms request_id=bcf43917
+[2025-03-14T09:08:37Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:08:37Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:08:37Z] [INFO] notification-service: GET /api/v1/orders 200 30ms request_id=409e9bb3
+[2025-03-14T09:08:37Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:08:37Z] [INFO] notification-service: PUT /api/v1/catalog 200 134ms request_id=9c8ab595
+[2025-03-14T09:08:39Z] [INFO] notification-service: GET /api/v1/search 200 123ms request_id=a95ee3e9
+[2025-03-14T09:08:39Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.20:443
+[2025-03-14T09:08:39Z] [INFO] payment-service: PUT /api/v1/users/me 200 64ms request_id=6050f4bf
+[2025-03-14T09:08:39Z] [INFO] checkout-api: PUT /healthz 200 61ms request_id=1c0c74a5
+[2025-03-14T09:08:39Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:08:40Z] [INFO] notification-service: PUT /healthz 200 71ms request_id=7dc3da95
+[2025-03-14T09:08:40Z] [INFO] payment-service: GET /api/v1/catalog 200 76ms request_id=98303b25
+[2025-03-14T09:08:40Z] [INFO] payment-service: GET /api/v1/orders 200 9ms request_id=703b4516
+[2025-03-14T09:08:40Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:08:41Z] [INFO] checkout-api: GET /api/v1/cart 200 58ms request_id=22908cce
+[2025-03-14T09:08:43Z] [INFO] checkout-api: POST /api/v1/catalog 200 135ms request_id=5d6b80ed
+[2025-03-14T09:08:44Z] [INFO] payment-service: PUT /api/v1/cart 200 113ms request_id=94bfeb6d
+[2025-03-14T09:08:44Z] [INFO] checkout-api: GET /healthz 200 95ms request_id=bd6d03ce
+[2025-03-14T09:08:45Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:08:47Z] [INFO] payment-service: POST /api/v1/orders 200 26ms request_id=dfe6d6cb
+[2025-03-14T09:08:48Z] [INFO] notification-service: GET /api/v1/orders/69957 200 33ms request_id=d4cc0829
+[2025-03-14T09:08:49Z] [INFO] checkout-api: GET /api/v1/catalog 200 63ms request_id=092c32fc
+[2025-03-14T09:08:50Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:08:52Z] [INFO] checkout-api: GET /healthz 200 26ms request_id=e6238965
+[2025-03-14T09:08:52Z] [INFO] notification-service: GET /api/v1/users/me 200 128ms request_id=bd205644
+[2025-03-14T09:08:53Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:08:53Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:08:53Z] [INFO] notification-service: POST /api/v1/orders/58591 200 23ms request_id=604beb12
+[2025-03-14T09:08:54Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:08:54Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.25:443
+[2025-03-14T09:08:55Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:08:55Z] [INFO] payment-service: PUT /healthz 200 129ms request_id=e076c8b2
+[2025-03-14T09:08:55Z] [INFO] checkout-api: POST /healthz 200 56ms request_id=e30fbbe5
+[2025-03-14T09:08:55Z] [INFO] payment-service: PUT /healthz 200 92ms request_id=29f941ee
+[2025-03-14T09:08:55Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:08:58Z] [INFO] payment-service: GET /api/v1/catalog 200 47ms request_id=2e31cb55
+[2025-03-14T09:08:58Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:08:58Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:09:00Z] [INFO] payment-service: GET /api/v1/search 200 37ms request_id=ee7b4ccd
+[2025-03-14T09:09:01Z] [INFO] payment-service: GET /api/v1/catalog 200 63ms request_id=8e225f3c
+[2025-03-14T09:09:02Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:09:02Z] [INFO] notification-service: GET /healthz 200 109ms request_id=d5f073fc
+[2025-03-14T09:09:03Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:09:03Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:09:04Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 1/3)
+[2025-03-14T09:09:05Z] [INFO] notification-service: GET /api/v1/search 200 130ms request_id=33050577
+[2025-03-14T09:09:06Z] [INFO] checkout-api: PUT /healthz 200 77ms request_id=8c3bcd3e
+[2025-03-14T09:09:07Z] [INFO] payment-service: POST /api/v1/orders 200 37ms request_id=b776d6fb
+[2025-03-14T09:09:07Z] [INFO] payment-service: GET /api/v1/orders 200 65ms request_id=1adda3c7
+[2025-03-14T09:09:07Z] [INFO] payment-service: GET /api/v1/orders 200 111ms request_id=e686911c
+[2025-03-14T09:09:08Z] [INFO] notification-service: GET /healthz 200 22ms request_id=4302956e
+[2025-03-14T09:09:08Z] [INFO] payment-service: POST /healthz 200 24ms request_id=ca8a1a5a
+[2025-03-14T09:09:10Z] [INFO] checkout-api: GET /healthz 200 83ms request_id=bbfc1b32
+[2025-03-14T09:09:10Z] [INFO] notification-service: GET /api/v1/users/me 200 94ms request_id=6a038aaa
+[2025-03-14T09:09:10Z] [INFO] payment-service: PUT /healthz 200 39ms request_id=fd937059
+[2025-03-14T09:09:11Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 2/3)
+[2025-03-14T09:09:12Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:09:12Z] [INFO] checkout-api: GET /api/v1/catalog 200 81ms request_id=30b7ef5e
+[2025-03-14T09:09:13Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:09:13Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:09:15Z] [INFO] checkout-api: GET /api/v1/users/me 200 56ms request_id=82bc89ef
+[2025-03-14T09:09:16Z] [INFO] checkout-api: GET /api/v1/orders/46634 200 108ms request_id=7ca21764
+[2025-03-14T09:09:16Z] [INFO] checkout-api: GET /api/v1/catalog 200 11ms request_id=e6cb73b1
+[2025-03-14T09:09:16Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.35:443
+[2025-03-14T09:09:17Z] [INFO] checkout-api: PUT /api/v1/orders 200 132ms request_id=9dcb444e
+[2025-03-14T09:09:17Z] [INFO] checkout-api: POST /api/v1/search 200 70ms request_id=40fd8706
+[2025-03-14T09:09:18Z] [INFO] checkout-api: GET /api/v1/cart 200 65ms request_id=01bba1da
+[2025-03-14T09:09:18Z] [INFO] payment-service: GET /api/v1/search 200 75ms request_id=7cecec52
+[2025-03-14T09:09:19Z] [INFO] checkout-api: GET /api/v1/cart 200 23ms request_id=ff52713a
+[2025-03-14T09:09:20Z] [INFO] checkout-api: GET /api/v1/catalog 200 104ms request_id=f3472bb1
+[2025-03-14T09:09:20Z] [INFO] notification-service: GET /api/v1/cart 200 134ms request_id=ac174fbf
+[2025-03-14T09:09:20Z] [INFO] checkout-api: POST /api/v1/catalog 200 96ms request_id=f773cc6d
+[2025-03-14T09:09:20Z] [INFO] payment-service: POST /healthz 200 5ms request_id=a20dd3dd
+[2025-03-14T09:09:20Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.29:443
+[2025-03-14T09:09:21Z] [INFO] checkout-api: POST /api/v1/orders 200 28ms request_id=fcc04de4
+[2025-03-14T09:09:21Z] [INFO] payment-service: GET /api/v1/orders 200 49ms request_id=7504ff14
+[2025-03-14T09:09:21Z] [INFO] checkout-api: GET /healthz 200 25ms request_id=9ed27b19
+[2025-03-14T09:09:22Z] [INFO] checkout-api: GET /healthz 200 62ms request_id=221bf7ce
+[2025-03-14T09:09:23Z] [INFO] notification-service: GET /api/v1/orders/83017 200 47ms request_id=ebdd426a
+[2025-03-14T09:09:23Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:09:23Z] [INFO] checkout-api: PUT /healthz 200 103ms request_id=35231a49
+[2025-03-14T09:09:25Z] [INFO] payment-service: GET /healthz 200 93ms request_id=dbdc8d1a
+[2025-03-14T09:09:26Z] [INFO] payment-service: PUT /healthz 200 77ms request_id=485e3f28
+[2025-03-14T09:09:26Z] [INFO] payment-service: GET /api/v1/orders 200 56ms request_id=9369d06d
+[2025-03-14T09:09:26Z] [INFO] checkout-api: POST /api/v1/users/me 200 107ms request_id=7e4c6afa
+[2025-03-14T09:09:27Z] [INFO] checkout-api: GET /api/v1/search 200 103ms request_id=297c9cc5
+[2025-03-14T09:09:27Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:09:28Z] [INFO] notification-service: GET /api/v1/orders/30444 200 12ms request_id=e8e50609
+[2025-03-14T09:09:29Z] [INFO] notification-service: GET /api/v1/catalog 200 117ms request_id=0e92bf63
+[2025-03-14T09:09:29Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 2/3)
+[2025-03-14T09:09:29Z] [INFO] payment-service: GET /api/v1/catalog 200 31ms request_id=a4ec01c0
+[2025-03-14T09:09:29Z] [INFO] payment-service: POST /api/v1/orders/32683 200 139ms request_id=244abda9
+[2025-03-14T09:09:30Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:09:31Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:09:31Z] [INFO] notification-service: POST /api/v1/search 200 133ms request_id=ce2b9a32
+[2025-03-14T09:09:31Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:09:31Z] [INFO] checkout-api: PUT /healthz 200 64ms request_id=5493f101
+[2025-03-14T09:09:31Z] [INFO] notification-service: GET /api/v1/orders 200 118ms request_id=e358a37e
+[2025-03-14T09:09:31Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:09:31Z] [INFO] payment-service: GET /api/v1/search 200 63ms request_id=9eb44307
+[2025-03-14T09:09:32Z] [INFO] payment-service: GET /api/v1/cart 200 30ms request_id=66cbfd40
+[2025-03-14T09:09:35Z] [INFO] notification-service: GET /api/v1/orders/24921 200 13ms request_id=851d5970
+[2025-03-14T09:09:36Z] [INFO] notification-service: POST /api/v1/users/me 200 93ms request_id=b4f8cc7d
+[2025-03-14T09:09:36Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 2/3)
+[2025-03-14T09:09:37Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:09:37Z] [INFO] checkout-api: GET /api/v1/users/me 200 4ms request_id=378e05f3
+[2025-03-14T09:09:39Z] [INFO] checkout-api: GET /api/v1/cart 200 97ms request_id=14e89c30
+[2025-03-14T09:09:39Z] [INFO] checkout-api: GET /healthz 200 31ms request_id=87e2dbcf
+[2025-03-14T09:09:40Z] [INFO] checkout-api: GET /healthz 200 42ms request_id=3d0b7d71
+[2025-03-14T09:09:40Z] [INFO] notification-service: PUT /api/v1/users/me 200 117ms request_id=90562917
+[2025-03-14T09:09:41Z] [INFO] payment-service: PUT /api/v1/orders 200 14ms request_id=b982424d
+[2025-03-14T09:09:42Z] [INFO] checkout-api: POST /api/v1/users/me 200 70ms request_id=f4b1ffe4
+[2025-03-14T09:09:42Z] [INFO] checkout-api: PUT /api/v1/orders/82303 200 83ms request_id=3eab9441
+[2025-03-14T09:09:43Z] [INFO] notification-service: GET /api/v1/search 200 20ms request_id=eca43833
+[2025-03-14T09:09:43Z] [INFO] notification-service: GET /api/v1/orders/26465 200 136ms request_id=75da9993
+[2025-03-14T09:09:44Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 2/3)
+[2025-03-14T09:09:44Z] [INFO] checkout-api: PUT /api/v1/catalog 200 133ms request_id=4c8c1fd6
+[2025-03-14T09:09:44Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:09:45Z] [INFO] payment-service: GET /healthz 200 137ms request_id=eb8241d6
+[2025-03-14T09:09:46Z] [INFO] notification-service: GET /api/v1/users/me 200 135ms request_id=16497dd7
+[2025-03-14T09:09:46Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:09:47Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:09:47Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:09:48Z] [INFO] checkout-api: GET /api/v1/cart 200 6ms request_id=5b8125d7
+[2025-03-14T09:09:48Z] [INFO] payment-service: POST /api/v1/orders 200 63ms request_id=4476a2ec
+[2025-03-14T09:09:49Z] [INFO] payment-service: PUT /api/v1/users/me 200 34ms request_id=9a252889
+[2025-03-14T09:09:49Z] [INFO] checkout-api: GET /api/v1/users/me 200 59ms request_id=6a2a9bf4
+[2025-03-14T09:09:50Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 2/3)
+[2025-03-14T09:09:50Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:09:50Z] [INFO] notification-service: POST /healthz 200 47ms request_id=d7c0b324
+[2025-03-14T09:09:53Z] [INFO] payment-service: GET /api/v1/cart 200 80ms request_id=9ae6eb8e
+[2025-03-14T09:09:53Z] [INFO] notification-service: GET /api/v1/search 200 139ms request_id=faac213b
+[2025-03-14T09:09:54Z] [INFO] checkout-api: POST /api/v1/users/me 200 99ms request_id=aa69e727
+[2025-03-14T09:09:54Z] [INFO] checkout-api: PUT /api/v1/orders 200 121ms request_id=ce81a03c
+[2025-03-14T09:09:57Z] [INFO] checkout-api: PUT /api/v1/orders 200 30ms request_id=6ad0c9eb
+[2025-03-14T09:09:57Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:09:58Z] [INFO] payment-service: GET /api/v1/cart 200 16ms request_id=d41c7c5b
+[2025-03-14T09:09:58Z] [INFO] checkout-api: GET /api/v1/catalog 200 117ms request_id=c3e0b52f
+[2025-03-14T09:09:59Z] [INFO] payment-service: POST /api/v1/users/me 200 81ms request_id=24bd32b9
+[2025-03-14T09:09:59Z] [INFO] notification-service: GET /api/v1/orders/65088 200 29ms request_id=418da1ba
+[2025-03-14T09:10:00Z] [INFO] checkout-api: POST /api/v1/users/me 200 131ms request_id=3dd21962
+[2025-03-14T09:10:01Z] [INFO] notification-service: POST /api/v1/cart 200 116ms request_id=a6b66b6d
+[2025-03-14T09:10:02Z] [INFO] notification-service: GET /api/v1/search 200 49ms request_id=83b5f5a3
+[2025-03-14T09:10:02Z] [INFO] notification-service: GET /api/v1/search 200 81ms request_id=a8c7bae0
+[2025-03-14T09:10:02Z] [INFO] notification-service: PUT /api/v1/catalog 200 41ms request_id=8f4d57ce
+[2025-03-14T09:10:05Z] [INFO] notification-service: GET /api/v1/orders 200 19ms request_id=ef296c8d
+[2025-03-14T09:10:05Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.13:443
+[2025-03-14T09:10:05Z] [INFO] notification-service: POST /api/v1/catalog 200 34ms request_id=bb64d58a
+[2025-03-14T09:10:05Z] [INFO] payment-service: GET /api/v1/cart 200 41ms request_id=ca8c436b
+[2025-03-14T09:10:05Z] [INFO] notification-service: POST /api/v1/users/me 200 13ms request_id=91d3f0cf
+[2025-03-14T09:10:07Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 1/3)
+[2025-03-14T09:10:08Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:10:08Z] [INFO] notification-service: GET /api/v1/search 200 75ms request_id=182851f4
+[2025-03-14T09:10:08Z] [INFO] notification-service: GET /healthz 200 120ms request_id=f019e06b
+[2025-03-14T09:10:09Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:10:09Z] [INFO] checkout-api: PUT /api/v1/search 200 108ms request_id=9e15248f
+[2025-03-14T09:10:10Z] [INFO] notification-service: PUT /api/v1/search 200 131ms request_id=b4122c70
+[2025-03-14T09:10:10Z] [INFO] checkout-api: POST /api/v1/orders/58472 200 125ms request_id=365c8190
+[2025-03-14T09:10:11Z] [INFO] notification-service: PUT /api/v1/orders/94337 200 95ms request_id=4b10eb4c
+[2025-03-14T09:10:13Z] [INFO] checkout-api: POST /api/v1/cart 200 87ms request_id=b90606bc
+[2025-03-14T09:10:14Z] [INFO] notification-service: PUT /api/v1/orders 200 121ms request_id=2f4073a9
+[2025-03-14T09:10:14Z] [INFO] payment-service: POST /api/v1/users/me 200 45ms request_id=c6d1aa53
+[2025-03-14T09:10:15Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:10:16Z] [INFO] checkout-api: POST /api/v1/cart 200 86ms request_id=b4c024c8
+[2025-03-14T09:10:17Z] [INFO] checkout-api: PUT /api/v1/orders 200 123ms request_id=af7299bb
+[2025-03-14T09:10:18Z] [INFO] notification-service: GET /api/v1/orders/71962 200 78ms request_id=0f196c36
+[2025-03-14T09:10:18Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:10:19Z] [INFO] payment-service: GET /api/v1/catalog 200 137ms request_id=c45dcff3
+[2025-03-14T09:10:19Z] [INFO] notification-service: GET /api/v1/cart 200 102ms request_id=ab304344
+[2025-03-14T09:10:20Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.36:443
+[2025-03-14T09:10:20Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:10:20Z] [INFO] payment-service: POST /api/v1/orders/78560 200 38ms request_id=cf444b45
+[2025-03-14T09:10:21Z] [INFO] checkout-api: GET /healthz 200 105ms request_id=82e17a6f
+[2025-03-14T09:10:24Z] [INFO] checkout-api: GET /api/v1/orders/47982 200 11ms request_id=821f5744
+[2025-03-14T09:10:25Z] [INFO] notification-service: GET /api/v1/catalog 200 24ms request_id=e0a4a31b
+[2025-03-14T09:10:25Z] [INFO] notification-service: GET /api/v1/orders 200 105ms request_id=6501d5ad
+[2025-03-14T09:10:26Z] [INFO] notification-service: POST /api/v1/users/me 200 75ms request_id=7d430140
+[2025-03-14T09:10:26Z] [INFO] notification-service: POST /api/v1/orders 200 106ms request_id=d9551c12
+[2025-03-14T09:10:26Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:10:27Z] [INFO] notification-service: GET /api/v1/users/me 200 140ms request_id=099ff79a
+[2025-03-14T09:10:27Z] [INFO] checkout-api: GET /api/v1/cart 200 48ms request_id=41e6d336
+[2025-03-14T09:10:28Z] [INFO] notification-service: GET /healthz 200 37ms request_id=98ccba9a
+[2025-03-14T09:10:28Z] [INFO] payment-service: POST /api/v1/search 200 91ms request_id=cd981e42
+[2025-03-14T09:10:28Z] [INFO] notification-service: GET /healthz 200 34ms request_id=89abe898
+[2025-03-14T09:10:30Z] [INFO] checkout-api: GET /api/v1/cart 200 26ms request_id=3d2be54e
+[2025-03-14T09:10:30Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:10:30Z] [INFO] checkout-api: POST /api/v1/catalog 200 119ms request_id=43e46633
+[2025-03-14T09:10:31Z] [INFO] payment-service: GET /api/v1/search 200 100ms request_id=659fb270
+[2025-03-14T09:10:31Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:10:32Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:10:34Z] [INFO] checkout-api: GET /api/v1/catalog 200 14ms request_id=a3ec32f3
+[2025-03-14T09:10:37Z] [INFO] checkout-api: PUT /api/v1/orders 200 124ms request_id=8e7d53b2
+[2025-03-14T09:10:37Z] [INFO] notification-service: GET /api/v1/orders/5872 200 40ms request_id=5103eb25
+[2025-03-14T09:10:37Z] [INFO] notification-service: GET /api/v1/search 200 77ms request_id=dcc36d2d
+[2025-03-14T09:10:37Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:10:39Z] [INFO] notification-service: GET /api/v1/cart 200 34ms request_id=5e014eb4
+[2025-03-14T09:10:40Z] [INFO] checkout-api: PUT /api/v1/orders/91966 200 57ms request_id=899ef11b
+[2025-03-14T09:10:41Z] [INFO] checkout-api: PUT /api/v1/catalog 200 23ms request_id=6420a4b9
+[2025-03-14T09:10:42Z] [INFO] checkout-api: GET /healthz 200 64ms request_id=b684462a
+[2025-03-14T09:10:42Z] [INFO] checkout-api: PUT /healthz 200 93ms request_id=5f2a032b
+[2025-03-14T09:10:42Z] [INFO] checkout-api: GET /api/v1/catalog 200 8ms request_id=a8346a64
+[2025-03-14T09:10:43Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:10:43Z] [INFO] notification-service: GET /healthz 200 122ms request_id=3ab51604
+[2025-03-14T09:10:43Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 1/3)
+[2025-03-14T09:10:45Z] [INFO] notification-service: GET /api/v1/users/me 200 95ms request_id=c16a32e1
+[2025-03-14T09:10:46Z] [INFO] payment-service: GET /api/v1/search 200 20ms request_id=b47103be
+[2025-03-14T09:10:46Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:10:47Z] [INFO] payment-service: GET /api/v1/catalog 200 130ms request_id=1f1024fd
+[2025-03-14T09:10:47Z] [INFO] checkout-api: GET /api/v1/users/me 200 44ms request_id=40ac26fe
+[2025-03-14T09:10:48Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:10:48Z] [INFO] notification-service: PUT /api/v1/orders/80770 200 132ms request_id=313b8565
+[2025-03-14T09:10:49Z] [INFO] checkout-api: GET /api/v1/orders 200 99ms request_id=4eafae34
+[2025-03-14T09:10:50Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:10:50Z] [INFO] payment-service: PUT /api/v1/catalog 200 50ms request_id=987a3a64
+[2025-03-14T09:10:51Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.34:443
+[2025-03-14T09:10:51Z] [INFO] notification-service: GET /api/v1/catalog 200 5ms request_id=68e4fbad
+[2025-03-14T09:10:54Z] [INFO] notification-service: PUT /healthz 200 125ms request_id=3099dc6c
+[2025-03-14T09:10:54Z] [INFO] payment-service: PUT /api/v1/search 200 101ms request_id=9203ffd1
+[2025-03-14T09:10:54Z] [INFO] payment-service: GET /healthz 200 70ms request_id=1505aa3a
+[2025-03-14T09:10:56Z] [INFO] payment-service: GET /api/v1/search 200 119ms request_id=1bfe4d05
+[2025-03-14T09:10:56Z] [INFO] notification-service: GET /api/v1/catalog 200 80ms request_id=3aad2603
+[2025-03-14T09:10:57Z] [INFO] payment-service: GET /healthz 200 101ms request_id=8ac27670
+[2025-03-14T09:10:57Z] [INFO] checkout-api: GET /api/v1/cart 200 120ms request_id=4cc4f610
+[2025-03-14T09:10:57Z] [INFO] notification-service: PUT /api/v1/catalog 200 86ms request_id=301948b2
+[2025-03-14T09:10:58Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:10:59Z] [INFO] notification-service: GET /healthz 200 15ms request_id=56482aa7
+[2025-03-14T09:10:59Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:11:00Z] [INFO] notification-service: GET /api/v1/users/me 200 16ms request_id=3e2f0a45
+[2025-03-14T09:11:01Z] [INFO] payment-service: GET /api/v1/orders/52442 200 101ms request_id=f3485929
+[2025-03-14T09:11:02Z] [INFO] checkout-api: POST /api/v1/search 200 134ms request_id=4a27083d
+[2025-03-14T09:11:02Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:11:02Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:11:03Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:11:03Z] [INFO] payment-service: GET /api/v1/search 200 7ms request_id=cf695e31
+[2025-03-14T09:11:04Z] [INFO] notification-service: GET /api/v1/cart 200 110ms request_id=2c216ea4
+[2025-03-14T09:11:04Z] [INFO] payment-service: POST /api/v1/cart 200 130ms request_id=eb0c9445
+[2025-03-14T09:11:05Z] [INFO] notification-service: GET /api/v1/cart 200 55ms request_id=7d826ff5
+[2025-03-14T09:11:06Z] [INFO] payment-service: GET /api/v1/orders/40884 200 68ms request_id=9c3e07e9
+[2025-03-14T09:11:06Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.39:443
+[2025-03-14T09:11:07Z] [INFO] checkout-api: PUT /api/v1/users/me 200 22ms request_id=c0253394
+[2025-03-14T09:11:07Z] [INFO] payment-service: GET /api/v1/orders 200 131ms request_id=eb4c972e
+[2025-03-14T09:11:07Z] [INFO] payment-service: POST /api/v1/search 200 67ms request_id=024795ff
+[2025-03-14T09:11:09Z] [INFO] payment-service: POST /api/v1/orders/98158 200 38ms request_id=48500bc1
+[2025-03-14T09:11:11Z] [INFO] notification-service: GET /api/v1/users/me 200 4ms request_id=e9ad76f7
+[2025-03-14T09:11:11Z] [INFO] notification-service: PUT /healthz 200 67ms request_id=b0636cb0
+[2025-03-14T09:11:12Z] [INFO] payment-service: GET /api/v1/orders/20641 200 5ms request_id=410ffaa3
+[2025-03-14T09:11:13Z] [INFO] notification-service: GET /api/v1/catalog 200 5ms request_id=d6f90c10
+[2025-03-14T09:11:13Z] [INFO] notification-service: POST /api/v1/orders/78643 200 135ms request_id=b17a5452
+[2025-03-14T09:11:15Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.30:443
+[2025-03-14T09:11:15Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.28:443
+[2025-03-14T09:11:16Z] [INFO] checkout-api: GET /api/v1/catalog 200 85ms request_id=c9e339e8
+[2025-03-14T09:11:18Z] [INFO] payment-service: PUT /api/v1/users/me 200 107ms request_id=5b50ca0f
+[2025-03-14T09:11:20Z] [INFO] payment-service: GET /api/v1/catalog 200 119ms request_id=a8873a9a
+[2025-03-14T09:11:20Z] [INFO] notification-service: PUT /api/v1/cart 200 103ms request_id=4d01f1d1
+[2025-03-14T09:11:20Z] [INFO] payment-service: POST /api/v1/cart 200 49ms request_id=5a796b44
+[2025-03-14T09:11:21Z] [INFO] checkout-api: POST /api/v1/search 200 39ms request_id=01c655f2
+[2025-03-14T09:11:21Z] [INFO] checkout-api: POST /api/v1/users/me 200 30ms request_id=1b416d49
+[2025-03-14T09:11:22Z] [INFO] checkout-api: GET /api/v1/search 200 95ms request_id=bbb7b9f0
+[2025-03-14T09:11:22Z] [INFO] notification-service: GET /healthz 200 89ms request_id=3d133f5c
+[2025-03-14T09:11:23Z] [INFO] checkout-api: POST /api/v1/orders 200 133ms request_id=98adee70
+[2025-03-14T09:11:23Z] [INFO] notification-service: POST /api/v1/catalog 200 118ms request_id=f56d96fa
+[2025-03-14T09:11:24Z] [INFO] notification-service: GET /api/v1/catalog 200 86ms request_id=da335e77
+[2025-03-14T09:11:25Z] [INFO] checkout-api: POST /api/v1/search 200 114ms request_id=d76191b1
+[2025-03-14T09:11:25Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:11:25Z] [INFO] notification-service: PUT /api/v1/cart 200 89ms request_id=a133025d
+[2025-03-14T09:11:25Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:11:28Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:11:28Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:11:30Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:11:31Z] [INFO] notification-service: PUT /api/v1/catalog 200 110ms request_id=ad3a8b12
+[2025-03-14T09:11:31Z] [INFO] checkout-api: GET /api/v1/search 200 96ms request_id=c89e6945
+[2025-03-14T09:11:36Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:11:36Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:11:39Z] [INFO] notification-service: GET /api/v1/orders 200 112ms request_id=3cbc9064
+[2025-03-14T09:11:39Z] [INFO] notification-service: PUT /api/v1/catalog 200 132ms request_id=afd51616
+[2025-03-14T09:11:40Z] [INFO] notification-service: GET /api/v1/orders/19914 200 31ms request_id=c9726104
+[2025-03-14T09:11:40Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 2/3)
+[2025-03-14T09:11:40Z] [INFO] notification-service: PUT /api/v1/orders/30515 200 133ms request_id=0ad5a4ed
+[2025-03-14T09:11:41Z] [INFO] payment-service: GET /api/v1/search 200 6ms request_id=2c23cc3f
+[2025-03-14T09:11:41Z] [INFO] payment-service: GET /api/v1/cart 200 32ms request_id=7483c4d9
+[2025-03-14T09:11:42Z] [INFO] notification-service: GET /healthz 200 112ms request_id=eabd1415
+[2025-03-14T09:11:42Z] [INFO] notification-service: GET /api/v1/orders/36118 200 126ms request_id=a940a301
+[2025-03-14T09:11:42Z] [INFO] checkout-api: GET /api/v1/orders/87444 200 52ms request_id=242b1147
+[2025-03-14T09:11:44Z] [INFO] payment-service: GET /api/v1/orders/71308 200 36ms request_id=2d5a1005
+[2025-03-14T09:11:44Z] [INFO] payment-service: GET /api/v1/orders 200 5ms request_id=bbcb673c
+[2025-03-14T09:11:45Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:11:45Z] [INFO] checkout-api: PUT /api/v1/users/me 200 128ms request_id=926956b3
+[2025-03-14T09:11:45Z] [INFO] checkout-api: GET /api/v1/search 200 58ms request_id=e5bbfa6c
+[2025-03-14T09:11:46Z] [INFO] payment-service: GET /api/v1/cart 200 138ms request_id=662ad3ce
+[2025-03-14T09:11:46Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.38:443
+[2025-03-14T09:11:46Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:11:48Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:11:50Z] [INFO] notification-service: PUT /healthz 200 85ms request_id=c18b6166
+[2025-03-14T09:11:51Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 2/3)
+[2025-03-14T09:11:52Z] [INFO] payment-service: GET /api/v1/search 200 124ms request_id=467fef40
+[2025-03-14T09:11:52Z] [INFO] checkout-api: GET /api/v1/users/me 200 51ms request_id=0b07ab28
+[2025-03-14T09:11:54Z] [INFO] payment-service: GET /api/v1/users/me 200 98ms request_id=66d2d21d
+[2025-03-14T09:11:55Z] [INFO] notification-service: GET /api/v1/cart 200 6ms request_id=02139947
+[2025-03-14T09:11:56Z] [INFO] notification-service: GET /healthz 200 37ms request_id=457d3c1d
+[2025-03-14T09:11:56Z] [INFO] checkout-api: GET /healthz 200 78ms request_id=825541ec
+[2025-03-14T09:11:56Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.36:443
+[2025-03-14T09:11:56Z] [INFO] notification-service: GET /healthz 200 63ms request_id=f0242e7b
+[2025-03-14T09:11:56Z] [INFO] payment-service: GET /api/v1/orders/58662 200 60ms request_id=08ce0783
+[2025-03-14T09:11:59Z] [INFO] notification-service: GET /api/v1/users/me 200 103ms request_id=f185dce7
+[2025-03-14T09:11:59Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:12:00Z] [INFO] notification-service: POST /api/v1/catalog 200 98ms request_id=174a8403
+[2025-03-14T09:12:01Z] [INFO] checkout-api: POST /api/v1/catalog 200 109ms request_id=c3070332
+[2025-03-14T09:12:02Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:12:05Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:12:05Z] [INFO] notification-service: GET /healthz 200 70ms request_id=1ee422fd
+[2025-03-14T09:12:07Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:12:07Z] [INFO] checkout-api: PUT /api/v1/orders/43614 200 51ms request_id=ebebb237
+[2025-03-14T09:12:08Z] [INFO] payment-service: GET /healthz 200 26ms request_id=cbe44a2c
+[2025-03-14T09:12:08Z] [INFO] checkout-api: GET /api/v1/search 200 85ms request_id=eaf39034
+[2025-03-14T09:12:09Z] [INFO] notification-service: PUT /healthz 200 43ms request_id=8b3d6d9c
+[2025-03-14T09:12:12Z] [INFO] payment-service: GET /api/v1/orders/44872 200 66ms request_id=f01b7dce
+[2025-03-14T09:12:12Z] [INFO] notification-service: GET /api/v1/catalog 200 82ms request_id=e6f9ad51
+[2025-03-14T09:12:12Z] [INFO] payment-service: GET /api/v1/users/me 200 28ms request_id=20e6b03b
+[2025-03-14T09:12:12Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:12:13Z] [INFO] checkout-api: GET /api/v1/orders 200 85ms request_id=c03df61f
+[2025-03-14T09:12:16Z] [INFO] notification-service: PUT /api/v1/cart 200 77ms request_id=e91a14eb
+[2025-03-14T09:12:16Z] [INFO] payment-service: POST /api/v1/search 200 132ms request_id=d08c9af3
+[2025-03-14T09:12:18Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.29:443
+[2025-03-14T09:12:19Z] [INFO] payment-service: PUT /api/v1/orders 200 36ms request_id=aae1756b
+[2025-03-14T09:12:21Z] [INFO] checkout-api: POST /api/v1/users/me 200 138ms request_id=cab30a54
+[2025-03-14T09:12:22Z] [INFO] payment-service: GET /api/v1/search 200 51ms request_id=1534b7e1
+[2025-03-14T09:12:22Z] [INFO] payment-service: GET /healthz 200 102ms request_id=d50cdeed
+[2025-03-14T09:12:22Z] [INFO] payment-service: POST /api/v1/orders 200 22ms request_id=8deb7ed3
+[2025-03-14T09:12:22Z] [INFO] payment-service: POST /healthz 200 38ms request_id=e6f1f743
+[2025-03-14T09:12:23Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:12:23Z] [INFO] notification-service: GET /api/v1/search 200 14ms request_id=002cb252
+[2025-03-14T09:12:24Z] [INFO] checkout-api: GET /api/v1/catalog 200 36ms request_id=17a3ae70
+[2025-03-14T09:12:25Z] [INFO] checkout-api: GET /healthz 200 134ms request_id=deea0f6d
+[2025-03-14T09:12:25Z] [INFO] payment-service: GET /healthz 200 53ms request_id=4fa92cf2
+[2025-03-14T09:12:25Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:12:25Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:12:26Z] [INFO] payment-service: POST /api/v1/orders 200 18ms request_id=7b857805
+[2025-03-14T09:12:27Z] [INFO] payment-service: GET /api/v1/orders 200 24ms request_id=6bdc5fe1
+[2025-03-14T09:12:28Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:12:28Z] [INFO] notification-service: GET /api/v1/search 200 127ms request_id=65af1060
+[2025-03-14T09:12:29Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:12:30Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:12:30Z] [INFO] notification-service: PUT /api/v1/users/me 200 14ms request_id=a8843d6f
+[2025-03-14T09:12:31Z] [INFO] checkout-api: GET /healthz 200 95ms request_id=ca21a252
+[2025-03-14T09:12:33Z] [INFO] checkout-api: PUT /api/v1/orders/70156 200 25ms request_id=5e227433
+[2025-03-14T09:12:33Z] [INFO] notification-service: POST /healthz 200 35ms request_id=c69575b8
+[2025-03-14T09:12:33Z] [INFO] payment-service: GET /api/v1/users/me 200 127ms request_id=90992603
+[2025-03-14T09:12:34Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.35:443
+[2025-03-14T09:12:35Z] [INFO] notification-service: GET /api/v1/catalog 200 134ms request_id=3a265c68
+[2025-03-14T09:12:35Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:12:36Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:12:36Z] [INFO] payment-service: POST /api/v1/cart 200 19ms request_id=74daf5ba
+[2025-03-14T09:12:37Z] [INFO] payment-service: GET /api/v1/orders/51969 200 135ms request_id=8f20a592
+[2025-03-14T09:12:37Z] [INFO] payment-service: PUT /api/v1/orders 200 61ms request_id=47b51f39
+[2025-03-14T09:12:38Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.26:443
+[2025-03-14T09:12:38Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:12:38Z] [INFO] checkout-api: GET /healthz 200 54ms request_id=05404b34
+[2025-03-14T09:12:39Z] [INFO] notification-service: POST /api/v1/orders/42936 200 113ms request_id=d1fa0056
+[2025-03-14T09:12:39Z] [INFO] payment-service: GET /api/v1/cart 200 40ms request_id=18790e8c
+[2025-03-14T09:12:39Z] [INFO] checkout-api: PUT /api/v1/orders/16962 200 124ms request_id=27c465a9
+[2025-03-14T09:12:39Z] [INFO] checkout-api: POST /api/v1/search 200 71ms request_id=1da44c91
+[2025-03-14T09:12:40Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:12:40Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:12:40Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:12:41Z] [INFO] checkout-api: PUT /api/v1/orders/14566 200 48ms request_id=67223e18
+[2025-03-14T09:12:42Z] [INFO] payment-service: POST /api/v1/users/me 200 65ms request_id=166a62ea
+[2025-03-14T09:12:42Z] [INFO] payment-service: GET /api/v1/catalog 200 51ms request_id=6a017a7e
+[2025-03-14T09:12:45Z] [INFO] payment-service: GET /api/v1/orders/47856 200 44ms request_id=a07379f2
+[2025-03-14T09:12:46Z] [INFO] checkout-api: GET /api/v1/search 200 30ms request_id=6002e015
+[2025-03-14T09:12:46Z] [INFO] notification-service: GET /api/v1/catalog 200 43ms request_id=9e12f742
+[2025-03-14T09:12:47Z] [INFO] notification-service: GET /api/v1/search 200 45ms request_id=5a28d93d
+[2025-03-14T09:12:47Z] [INFO] payment-service: POST /api/v1/users/me 200 13ms request_id=e0f382d1
+[2025-03-14T09:12:49Z] [INFO] checkout-api: GET /api/v1/catalog 200 93ms request_id=659f6f17
+[2025-03-14T09:12:49Z] [INFO] notification-service: GET /api/v1/orders/13927 200 4ms request_id=56e5e155
+[2025-03-14T09:12:49Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:12:49Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:12:49Z] [INFO] notification-service: PUT /api/v1/orders/83812 200 95ms request_id=e9070731
+[2025-03-14T09:12:51Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:12:51Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 1/3)
+[2025-03-14T09:12:52Z] [INFO] checkout-api: GET /api/v1/orders 200 29ms request_id=b0f30cdc
+[2025-03-14T09:12:52Z] [INFO] checkout-api: GET /api/v1/catalog 200 28ms request_id=99b6e7da
+[2025-03-14T09:12:53Z] [INFO] payment-service: PUT /api/v1/search 200 93ms request_id=77c18ded
+[2025-03-14T09:12:53Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:12:53Z] [INFO] checkout-api: POST /api/v1/search 200 90ms request_id=b347a398
+[2025-03-14T09:12:53Z] [INFO] checkout-api: POST /api/v1/users/me 200 90ms request_id=4bab80eb
+[2025-03-14T09:12:56Z] [INFO] notification-service: PUT /api/v1/cart 200 99ms request_id=ee10f7b7
+[2025-03-14T09:12:57Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.37:443
+[2025-03-14T09:12:57Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.30:443
+[2025-03-14T09:12:57Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.26:443
+[2025-03-14T09:12:58Z] [INFO] payment-service: GET /api/v1/search 200 59ms request_id=a2ad6e27
+[2025-03-14T09:12:59Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 1/3)
+[2025-03-14T09:12:59Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:13:00Z] [INFO] checkout-api: GET /api/v1/search 200 136ms request_id=bcacdaf5
+[2025-03-14T09:13:00Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:13:00Z] [INFO] checkout-api: GET /api/v1/orders 200 140ms request_id=ace8ea35
+[2025-03-14T09:13:00Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:13:00Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:13:01Z] [INFO] notification-service: POST /api/v1/users/me 200 120ms request_id=d5c7205e
+[2025-03-14T09:13:02Z] [INFO] payment-service: GET /api/v1/users/me 200 48ms request_id=921710ac
+[2025-03-14T09:13:04Z] [INFO] notification-service: GET /healthz 200 54ms request_id=e90fc428
+[2025-03-14T09:13:04Z] [INFO] payment-service: GET /api/v1/orders 200 53ms request_id=7d7c2692
+[2025-03-14T09:13:04Z] [INFO] checkout-api: GET /healthz 200 57ms request_id=ae6b33c4
+[2025-03-14T09:13:07Z] [INFO] payment-service: GET /api/v1/users/me 200 19ms request_id=61b9272b
+[2025-03-14T09:13:07Z] [INFO] payment-service: PUT /api/v1/orders/3925 200 131ms request_id=5577832f
+[2025-03-14T09:13:07Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:13:07Z] [INFO] checkout-api: PUT /healthz 200 119ms request_id=0d828dfb
+[2025-03-14T09:13:08Z] [INFO] payment-service: GET /api/v1/orders/67649 200 69ms request_id=09f9d01f
+[2025-03-14T09:13:08Z] [INFO] payment-service: GET /healthz 200 137ms request_id=5272f4ce
+[2025-03-14T09:13:08Z] [INFO] payment-service: GET /api/v1/users/me 200 66ms request_id=1e4ff4e0
+[2025-03-14T09:13:08Z] [INFO] notification-service: POST /api/v1/catalog 200 136ms request_id=f1886576
+[2025-03-14T09:13:08Z] [INFO] payment-service: PUT /api/v1/catalog 200 21ms request_id=63fbb011
+[2025-03-14T09:13:09Z] [INFO] notification-service: GET /api/v1/orders/22204 200 124ms request_id=cbdac057
+[2025-03-14T09:13:10Z] [INFO] payment-service: GET /api/v1/search 200 131ms request_id=d936d768
+[2025-03-14T09:13:10Z] [INFO] notification-service: GET /api/v1/orders/33646 200 120ms request_id=6159b01f
+[2025-03-14T09:13:11Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:13:11Z] [INFO] checkout-api: POST /api/v1/orders/9146 200 69ms request_id=270944fb
+[2025-03-14T09:13:12Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:13:12Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.39:443
+[2025-03-14T09:13:13Z] [INFO] payment-service: GET /api/v1/search 200 98ms request_id=61fbdf6f
+[2025-03-14T09:13:14Z] [INFO] notification-service: PUT /api/v1/orders 200 63ms request_id=ead6e430
+[2025-03-14T09:13:16Z] [INFO] checkout-api: GET /api/v1/cart 200 30ms request_id=a881419c
+[2025-03-14T09:13:17Z] [INFO] payment-service: GET /api/v1/search 200 124ms request_id=5cb19c64
+[2025-03-14T09:13:19Z] [INFO] notification-service: POST /api/v1/catalog 200 116ms request_id=118c8b00
+[2025-03-14T09:13:20Z] [INFO] notification-service: GET /api/v1/orders 200 105ms request_id=f35f20cc
+[2025-03-14T09:13:20Z] [INFO] checkout-api: GET /api/v1/orders 200 126ms request_id=176df60d
+[2025-03-14T09:13:20Z] [INFO] checkout-api: GET /api/v1/cart 200 122ms request_id=363d1e92
+[2025-03-14T09:13:21Z] [INFO] notification-service: GET /healthz 200 109ms request_id=a4626b1d
+[2025-03-14T09:13:21Z] [INFO] notification-service: GET /api/v1/cart 200 123ms request_id=4b37297e
+[2025-03-14T09:13:21Z] [INFO] checkout-api: POST /api/v1/orders 200 75ms request_id=f7e8ba87
+[2025-03-14T09:13:21Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:13:21Z] [INFO] payment-service: PUT /api/v1/catalog 200 101ms request_id=5fee6e50
+[2025-03-14T09:13:21Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:13:22Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:13:22Z] [INFO] payment-service: GET /api/v1/catalog 200 65ms request_id=042a2044
+[2025-03-14T09:13:22Z] [INFO] checkout-api: GET /api/v1/orders 200 57ms request_id=b2d5afdb
+[2025-03-14T09:13:23Z] [INFO] checkout-api: POST /api/v1/orders 200 100ms request_id=87188901
+[2025-03-14T09:13:24Z] [INFO] notification-service: GET /api/v1/search 200 26ms request_id=4418540e
+[2025-03-14T09:13:24Z] [INFO] payment-service: GET /api/v1/users/me 200 88ms request_id=fd1c96cf
+[2025-03-14T09:13:27Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:13:28Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:13:28Z] [INFO] payment-service: PUT /api/v1/orders/31593 200 10ms request_id=adf60001
+[2025-03-14T09:13:29Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 1/3)
+[2025-03-14T09:13:29Z] [INFO] checkout-api: PUT /healthz 200 74ms request_id=cf721d0a
+[2025-03-14T09:13:30Z] [INFO] notification-service: GET /healthz 200 14ms request_id=da167ee8
+[2025-03-14T09:13:31Z] [INFO] notification-service: GET /api/v1/cart 200 66ms request_id=205afca5
+[2025-03-14T09:13:31Z] [INFO] checkout-api: GET /api/v1/users/me 200 125ms request_id=b12d5502
+[2025-03-14T09:13:32Z] [INFO] notification-service: PUT /api/v1/cart 200 39ms request_id=7987d7d5
+[2025-03-14T09:13:33Z] [INFO] notification-service: GET /api/v1/catalog 200 139ms request_id=fe37ed3b
+[2025-03-14T09:13:34Z] [INFO] notification-service: GET /api/v1/users/me 200 84ms request_id=50d7387b
+[2025-03-14T09:13:35Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:13:35Z] [INFO] checkout-api: GET /api/v1/users/me 200 121ms request_id=42687e06
+[2025-03-14T09:13:35Z] [INFO] payment-service: POST /api/v1/orders 200 29ms request_id=b138891a
+[2025-03-14T09:13:36Z] [INFO] payment-service: GET /api/v1/orders/4307 200 131ms request_id=a73ac690
+[2025-03-14T09:13:37Z] [INFO] notification-service: GET /api/v1/cart 200 50ms request_id=4041d90f
+[2025-03-14T09:13:37Z] [INFO] notification-service: PUT /api/v1/search 200 80ms request_id=56d9ad5b
+[2025-03-14T09:13:37Z] [INFO] notification-service: GET /api/v1/cart 200 44ms request_id=fc6f5f66
+[2025-03-14T09:13:37Z] [INFO] notification-service: PUT /api/v1/search 200 64ms request_id=f6907377
+[2025-03-14T09:13:38Z] [INFO] notification-service: POST /api/v1/catalog 200 56ms request_id=6454ab95
+[2025-03-14T09:13:38Z] [INFO] notification-service: PUT /api/v1/search 200 46ms request_id=23eeef62
+[2025-03-14T09:13:38Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:13:39Z] [INFO] notification-service: GET /api/v1/orders/60641 200 137ms request_id=bf9d8782
+[2025-03-14T09:13:40Z] [INFO] payment-service: POST /api/v1/cart 200 121ms request_id=ced945cc
+[2025-03-14T09:13:41Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:13:41Z] [INFO] payment-service: POST /api/v1/users/me 200 61ms request_id=d3c42d7a
+[2025-03-14T09:13:42Z] [INFO] notification-service: GET /api/v1/orders/52716 200 17ms request_id=20bf7aa0
+[2025-03-14T09:13:45Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:13:46Z] [INFO] notification-service: POST /api/v1/search 200 140ms request_id=f27717b1
+[2025-03-14T09:13:46Z] [INFO] notification-service: GET /api/v1/search 200 102ms request_id=bc3bc145
+[2025-03-14T09:13:49Z] [INFO] checkout-api: GET /api/v1/cart 200 93ms request_id=b94f87f1
+[2025-03-14T09:13:49Z] [INFO] checkout-api: PUT /api/v1/catalog 200 40ms request_id=e2736a63
+[2025-03-14T09:13:50Z] [INFO] checkout-api: POST /api/v1/orders/4785 200 91ms request_id=d67c0a7d
+[2025-03-14T09:13:51Z] [INFO] payment-service: GET /api/v1/catalog 200 10ms request_id=dd741347
+[2025-03-14T09:13:51Z] [INFO] payment-service: PUT /api/v1/users/me 200 54ms request_id=b6bb5db6
+[2025-03-14T09:13:51Z] [INFO] payment-service: POST /api/v1/orders 200 94ms request_id=966fb8a3
+[2025-03-14T09:13:51Z] [INFO] checkout-api: GET /api/v1/orders 200 103ms request_id=ac98dda0
+[2025-03-14T09:13:51Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:13:51Z] [INFO] checkout-api: POST /api/v1/cart 200 62ms request_id=adff4d07
+[2025-03-14T09:13:52Z] [INFO] notification-service: POST /api/v1/orders/67983 200 124ms request_id=fca55e25
+[2025-03-14T09:13:52Z] [INFO] checkout-api: PUT /healthz 200 108ms request_id=695bc4c6
+[2025-03-14T09:13:53Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:13:53Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:13:55Z] [INFO] notification-service: GET /api/v1/orders/45916 200 66ms request_id=1ab98f85
+[2025-03-14T09:13:56Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:13:58Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 2/3)
+[2025-03-14T09:13:59Z] [INFO] checkout-api: GET /api/v1/cart 200 52ms request_id=4e2c0ed1
+[2025-03-14T09:14:00Z] [INFO] payment-service: POST /healthz 200 52ms request_id=0ec731ad
+[2025-03-14T09:14:00Z] [INFO] payment-service: PUT /api/v1/users/me 200 46ms request_id=8431c397
+[2025-03-14T09:14:01Z] [INFO] payment-service: GET /healthz 200 95ms request_id=3571ee67
+[2025-03-14T09:14:02Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:14:02Z] [INFO] checkout-api: GET /api/v1/catalog 200 134ms request_id=c1f2f9b8
+[2025-03-14T09:14:02Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:14:04Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:14:06Z] [INFO] notification-service: GET /api/v1/orders/52259 200 97ms request_id=72f37a37
+[2025-03-14T09:14:06Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:14:07Z] [INFO] checkout-api: PUT /healthz 200 39ms request_id=e2a3c0b8
+[2025-03-14T09:14:07Z] [INFO] payment-service: GET /api/v1/orders 200 128ms request_id=b8e85856
+[2025-03-14T09:14:07Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:14:08Z] [INFO] payment-service: PUT /api/v1/search 200 124ms request_id=d23a1c75
+[2025-03-14T09:14:08Z] [INFO] notification-service: POST /api/v1/users/me 200 20ms request_id=f22e2890
+[2025-03-14T09:14:09Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.31:443
+[2025-03-14T09:14:09Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:14:09Z] [INFO] checkout-api: GET /healthz 200 83ms request_id=774bc2ca
+[2025-03-14T09:14:09Z] [INFO] checkout-api: GET /api/v1/orders/96486 200 29ms request_id=b1bcefc5
+[2025-03-14T09:14:10Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:14:10Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.18:443
+[2025-03-14T09:14:10Z] [INFO] notification-service: GET /api/v1/users/me 200 33ms request_id=e99973d4
+[2025-03-14T09:14:13Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:14:13Z] [INFO] notification-service: PUT /healthz 200 129ms request_id=4a5e7c59
+[2025-03-14T09:14:13Z] [INFO] notification-service: GET /healthz 200 70ms request_id=0f2618ac
+[2025-03-14T09:14:14Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.31:443
+[2025-03-14T09:14:14Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:14:15Z] [INFO] notification-service: GET /api/v1/cart 200 126ms request_id=db27d174
+[2025-03-14T09:14:15Z] [INFO] notification-service: GET /api/v1/users/me 200 75ms request_id=b3473382
+[2025-03-14T09:14:15Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:14:15Z] [INFO] notification-service: POST /healthz 200 75ms request_id=37202199
+[2025-03-14T09:14:17Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 1/3)
+[2025-03-14T09:14:17Z] [INFO] notification-service: GET /api/v1/users/me 200 39ms request_id=240a1d5d
+[2025-03-14T09:14:18Z] [INFO] payment-service: GET /api/v1/users/me 200 64ms request_id=7c9cd8ce
+[2025-03-14T09:14:18Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.22:443
+[2025-03-14T09:14:19Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.10:443
+[2025-03-14T09:14:20Z] [INFO] notification-service: GET /api/v1/users/me 200 140ms request_id=7876fe77
+[2025-03-14T09:14:21Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:14:22Z] [INFO] checkout-api: GET /healthz 200 57ms request_id=8db56197
+[2025-03-14T09:14:23Z] [INFO] checkout-api: PUT /api/v1/orders/24459 200 49ms request_id=327d8009
+[2025-03-14T09:14:24Z] [INFO] notification-service: GET /api/v1/orders/6304 200 68ms request_id=7158a1c9
+[2025-03-14T09:14:24Z] [INFO] checkout-api: GET /api/v1/users/me 200 45ms request_id=cb106e88
+[2025-03-14T09:14:24Z] [INFO] payment-service: GET /api/v1/catalog 200 59ms request_id=92229d5e
+[2025-03-14T09:14:25Z] [INFO] checkout-api: POST /api/v1/search 200 70ms request_id=e436540b
+[2025-03-14T09:14:25Z] [INFO] checkout-api: PUT /healthz 200 98ms request_id=2304fd3a
+[2025-03-14T09:14:26Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:14:26Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:14:26Z] [INFO] notification-service: GET /api/v1/search 200 9ms request_id=6fc30d45
+[2025-03-14T09:14:26Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:14:27Z] [INFO] payment-service: POST /api/v1/users/me 200 18ms request_id=a898202b
+[2025-03-14T09:14:28Z] [INFO] payment-service: GET /api/v1/search 200 78ms request_id=e212cbe1
+[2025-03-14T09:14:28Z] [INFO] payment-service: GET /api/v1/search 200 132ms request_id=1fd7bd7b
+[2025-03-14T09:14:29Z] [INFO] checkout-api: PUT /api/v1/search 200 66ms request_id=64c956e5
+[2025-03-14T09:14:30Z] [INFO] payment-service: GET /api/v1/orders 200 47ms request_id=8d24cc30
+[2025-03-14T09:14:30Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.24:443
+[2025-03-14T09:14:30Z] [INFO] checkout-api: GET /healthz 200 92ms request_id=de485d91
+[2025-03-14T09:14:32Z] [INFO] checkout-api: PUT /api/v1/cart 200 26ms request_id=14ea6a22
+[2025-03-14T09:14:32Z] [INFO] notification-service: GET /api/v1/users/me 200 84ms request_id=300c2c32
+[2025-03-14T09:14:33Z] [INFO] notification-service: PUT /api/v1/cart 200 134ms request_id=5557cbf7
+[2025-03-14T09:14:33Z] [INFO] checkout-api: GET /api/v1/catalog 200 5ms request_id=caa3fe4b
+[2025-03-14T09:14:34Z] [INFO] notification-service: PUT /api/v1/users/me 200 39ms request_id=4bc37718
+[2025-03-14T09:14:36Z] [INFO] notification-service: GET /healthz 200 5ms request_id=b157b772
+[2025-03-14T09:14:36Z] [INFO] payment-service: GET /api/v1/users/me 200 38ms request_id=5afac196
+[2025-03-14T09:14:36Z] [INFO] checkout-api: POST /api/v1/cart 200 27ms request_id=3849d0c7
+[2025-03-14T09:14:37Z] [INFO] payment-service: GET /api/v1/catalog 200 58ms request_id=0f359441
+[2025-03-14T09:14:39Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:14:39Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.38:443
+[2025-03-14T09:14:39Z] [INFO] notification-service: PUT /api/v1/search 200 109ms request_id=a1f19676
+[2025-03-14T09:14:39Z] [INFO] checkout-api: POST /api/v1/cart 200 83ms request_id=4d963f17
+[2025-03-14T09:14:40Z] [INFO] payment-service: PUT /api/v1/orders/69470 200 70ms request_id=681dc89a
+[2025-03-14T09:14:40Z] [INFO] checkout-api: GET /api/v1/orders/19874 200 16ms request_id=5792ca4b
+[2025-03-14T09:14:40Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:14:41Z] [INFO] notification-service: GET /api/v1/orders 200 106ms request_id=b18f729e
+[2025-03-14T09:14:43Z] [INFO] checkout-api: GET /api/v1/orders/90605 200 79ms request_id=abd0d098
+[2025-03-14T09:14:43Z] [INFO] checkout-api: GET /api/v1/orders 200 51ms request_id=0c6da340
+[2025-03-14T09:14:44Z] [INFO] payment-service: POST /healthz 200 127ms request_id=273444c5
+[2025-03-14T09:14:45Z] [INFO] checkout-api: GET /api/v1/users/me 200 97ms request_id=0bc75e15
+[2025-03-14T09:14:46Z] [INFO] payment-service: PUT /api/v1/search 200 72ms request_id=2b0c2b8f
+[2025-03-14T09:14:47Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:14:48Z] [INFO] payment-service: PUT /api/v1/orders/99001 200 58ms request_id=48b4563d
+[2025-03-14T09:14:50Z] [INFO] checkout-api: POST /healthz 200 71ms request_id=9e4aec04
+[2025-03-14T09:14:51Z] [INFO] notification-service: PUT /api/v1/search 200 36ms request_id=02bb751c
+[2025-03-14T09:14:52Z] [INFO] notification-service: POST /api/v1/users/me 200 67ms request_id=77d1f9e2
+[2025-03-14T09:14:53Z] [INFO] checkout-api: POST /api/v1/orders 200 28ms request_id=dd01e5e0
+[2025-03-14T09:14:54Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.25:443
+[2025-03-14T09:14:54Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:14:55Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.36:443
+[2025-03-14T09:14:56Z] [INFO] notification-service: GET /api/v1/users/me 200 55ms request_id=1557a6ee
+[2025-03-14T09:14:56Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:14:57Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:14:57Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:14:57Z] [INFO] payment-service: POST /api/v1/search 200 39ms request_id=2bc258ab
+[2025-03-14T09:14:57Z] [INFO] checkout-api: POST /api/v1/orders/39079 200 107ms request_id=907c9fbf
+[2025-03-14T09:14:57Z] [INFO] notification-service: GET /api/v1/users/me 200 124ms request_id=af2049b2
+[2025-03-14T09:14:57Z] [INFO] notification-service: GET /api/v1/users/me 200 45ms request_id=a9febab3
+[2025-03-14T09:14:58Z] [INFO] notification-service: POST /api/v1/orders 200 115ms request_id=43d70890
+[2025-03-14T09:15:00Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:15:00Z] [INFO] notification-service: GET /healthz 200 70ms request_id=d6ef1781
+[2025-03-14T09:15:01Z] [INFO] checkout-api: PUT /api/v1/search 200 69ms request_id=b7a6cb25
+[2025-03-14T09:15:01Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 2/3)
+[2025-03-14T09:15:02Z] [INFO] notification-service: GET /api/v1/orders/86227 200 53ms request_id=47bca2dc
+[2025-03-14T09:15:03Z] [INFO] payment-service: GET /api/v1/catalog 200 139ms request_id=13321b7c
+[2025-03-14T09:15:04Z] [INFO] payment-service: POST /api/v1/orders 200 78ms request_id=b6db9ba1
+[2025-03-14T09:15:07Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:15:08Z] [INFO] checkout-api: GET /api/v1/orders/14623 200 70ms request_id=cb005865
+[2025-03-14T09:15:08Z] [INFO] notification-service: POST /api/v1/users/me 200 63ms request_id=5ef51cf7
+[2025-03-14T09:15:08Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:15:10Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:15:10Z] [INFO] checkout-api: GET /api/v1/users/me 200 40ms request_id=9f78a82a
+[2025-03-14T09:15:12Z] [INFO] checkout-api: GET /api/v1/users/me 200 62ms request_id=74509a38
+[2025-03-14T09:15:12Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:15:12Z] [INFO] notification-service: GET /api/v1/orders 200 61ms request_id=32061ee3
+[2025-03-14T09:15:12Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:15:13Z] [INFO] payment-service: GET /api/v1/users/me 200 68ms request_id=2ed2871a
+[2025-03-14T09:15:13Z] [INFO] payment-service: GET /healthz 200 101ms request_id=4cd8c06e
+[2025-03-14T09:15:13Z] [INFO] notification-service: PUT /api/v1/cart 200 98ms request_id=62b55d63
+[2025-03-14T09:15:13Z] [INFO] payment-service: GET /api/v1/search 200 65ms request_id=2d11974f
+[2025-03-14T09:15:14Z] [INFO] payment-service: GET /api/v1/catalog 200 132ms request_id=6e5a8ccd
+[2025-03-14T09:15:14Z] [INFO] payment-service: PUT /api/v1/catalog 200 26ms request_id=95c62f0a
+[2025-03-14T09:15:14Z] [INFO] payment-service: GET /api/v1/orders 200 14ms request_id=c505eccd
+[2025-03-14T09:15:14Z] [INFO] payment-service: GET /api/v1/orders 200 29ms request_id=b6e8605e
+[2025-03-14T09:15:14Z] [INFO] payment-service: PUT /api/v1/orders 200 67ms request_id=6967ffa6
+[2025-03-14T09:15:15Z] [INFO] payment-service: POST /api/v1/catalog 200 36ms request_id=bd1bc0dd
+[2025-03-14T09:15:15Z] [INFO] notification-service: POST /api/v1/catalog 200 87ms request_id=71379e89
+[2025-03-14T09:15:16Z] [INFO] payment-service: GET /api/v1/users/me 200 80ms request_id=4e4f9847
+[2025-03-14T09:15:16Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:15:18Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:15:19Z] [ERROR] payment-service: Circuit breaker open for payment-provider, failing fast
+[2025-03-14T09:15:19Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:15:19Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:15:20Z] [INFO] payment-service: PUT /api/v1/users/me 200 16ms request_id=b8d232d5
+[2025-03-14T09:15:21Z] [INFO] payment-service: GET /healthz 200 135ms request_id=1002dbb4
+[2025-03-14T09:15:22Z] [INFO] payment-service: GET /api/v1/orders 200 74ms request_id=01f1ebd7
+[2025-03-14T09:15:23Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 2/3)
+[2025-03-14T09:15:23Z] [INFO] checkout-api: GET /healthz 200 121ms request_id=b5fc3a93
+[2025-03-14T09:15:24Z] [INFO] checkout-api: GET /healthz 200 136ms request_id=1c34aa4a
+[2025-03-14T09:15:24Z] [INFO] notification-service: PUT /api/v1/orders/29248 200 21ms request_id=4b56a4da
+[2025-03-14T09:15:24Z] [INFO] payment-service: GET /healthz 200 91ms request_id=03b3195d
+[2025-03-14T09:15:25Z] [INFO] notification-service: GET /api/v1/users/me 200 101ms request_id=521baee7
+[2025-03-14T09:15:25Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:15:26Z] [INFO] checkout-api: GET /api/v1/search 200 6ms request_id=0dcb7c71
+[2025-03-14T09:15:26Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 1/3)
+[2025-03-14T09:15:26Z] [INFO] notification-service: PUT /api/v1/cart 200 95ms request_id=3cbaa8a9
+[2025-03-14T09:15:27Z] [INFO] payment-service: PUT /api/v1/catalog 200 22ms request_id=90e392da
+[2025-03-14T09:15:28Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:15:29Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 2/3)
+[2025-03-14T09:15:30Z] [INFO] checkout-api: POST /api/v1/search 200 35ms request_id=ecc32130
+[2025-03-14T09:15:31Z] [INFO] payment-service: GET /api/v1/catalog 200 25ms request_id=ffa0be4e
+[2025-03-14T09:15:31Z] [INFO] notification-service: PUT /healthz 200 121ms request_id=7008b2d2
+[2025-03-14T09:15:34Z] [INFO] checkout-api: GET /api/v1/users/me 200 40ms request_id=a6f2fcc6
+[2025-03-14T09:15:34Z] [ERROR] payment-service: Circuit breaker open for payment-provider, failing fast
+[2025-03-14T09:15:35Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:15:35Z] [INFO] notification-service: GET /api/v1/orders 200 104ms request_id=1f1e8a81
+[2025-03-14T09:15:35Z] [INFO] checkout-api: POST /api/v1/cart 200 92ms request_id=aa762470
+[2025-03-14T09:15:35Z] [INFO] payment-service: POST /api/v1/orders 200 11ms request_id=7cafe94f
+[2025-03-14T09:15:35Z] [INFO] checkout-api: POST /healthz 200 67ms request_id=aac6a179
+[2025-03-14T09:15:38Z] [INFO] payment-service: POST /api/v1/search 200 100ms request_id=e7cd63a5
+[2025-03-14T09:15:39Z] [INFO] checkout-api: GET /api/v1/users/me 200 50ms request_id=7e9ecb7c
+[2025-03-14T09:15:40Z] [INFO] payment-service: PUT /api/v1/cart 200 137ms request_id=5a018cc1
+[2025-03-14T09:15:41Z] [INFO] payment-service: GET /api/v1/search 200 78ms request_id=3be5c68d
+[2025-03-14T09:15:41Z] [INFO] notification-service: POST /api/v1/cart 200 68ms request_id=6ee318b9
+[2025-03-14T09:15:41Z] [INFO] payment-service: GET /healthz 200 109ms request_id=7f832e8a
+[2025-03-14T09:15:43Z] [INFO] checkout-api: GET /api/v1/cart 200 87ms request_id=fc3dddb3
+[2025-03-14T09:15:43Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:15:43Z] [INFO] notification-service: GET /api/v1/search 200 17ms request_id=7f775255
+[2025-03-14T09:15:45Z] [ERROR] payment-service: ETIMEDOUT connecting to 203.0.113.14:443
+[2025-03-14T09:15:46Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:15:48Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:15:48Z] [INFO] checkout-api: PUT /api/v1/users/me 200 18ms request_id=633ead5b
+[2025-03-14T09:15:48Z] [INFO] payment-service: GET /api/v1/catalog 200 87ms request_id=e33bb976
+[2025-03-14T09:15:48Z] [INFO] notification-service: GET /healthz 200 101ms request_id=ee4371c7
+[2025-03-14T09:15:48Z] [INFO] notification-service: GET /api/v1/catalog 200 90ms request_id=de2cdbbe
+[2025-03-14T09:15:48Z] [INFO] notification-service: PUT /api/v1/search 200 37ms request_id=fbad898c
+[2025-03-14T09:15:50Z] [INFO] checkout-api: GET /api/v1/cart 200 120ms request_id=cb3a7d63
+[2025-03-14T09:15:51Z] [INFO] checkout-api: PUT /api/v1/search 200 114ms request_id=caabbb59
+[2025-03-14T09:15:52Z] [INFO] payment-service: POST /api/v1/orders/65848 200 131ms request_id=2a1aa69b
+[2025-03-14T09:15:52Z] [INFO] payment-service: POST /healthz 200 35ms request_id=5e8e5e17
+[2025-03-14T09:15:52Z] [INFO] notification-service: POST /api/v1/orders 200 119ms request_id=e10b0efb
+[2025-03-14T09:15:52Z] [INFO] notification-service: GET /api/v1/orders 200 98ms request_id=ada4e93e
+[2025-03-14T09:15:52Z] [INFO] checkout-api: GET /api/v1/search 200 117ms request_id=b0b82e44
+[2025-03-14T09:15:53Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:15:54Z] [INFO] notification-service: PUT /api/v1/users/me 200 109ms request_id=c36416c8
+[2025-03-14T09:15:54Z] [INFO] notification-service: GET /api/v1/orders 200 5ms request_id=f367ed3c
+[2025-03-14T09:15:55Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:15:57Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:15:57Z] [INFO] notification-service: PUT /api/v1/orders 200 74ms request_id=0dca0f9c
+[2025-03-14T09:15:58Z] [ERROR] payment-service: Circuit breaker open for payment-provider, failing fast
+[2025-03-14T09:15:58Z] [ERROR] payment-service: Circuit breaker open for payment-provider, failing fast
+[2025-03-14T09:15:59Z] [ERROR] payment-service: read timeout after 5000ms calling https://payments.partner.example/v2/charge (attempt 3/3)
+[2025-03-14T09:15:59Z] [ERROR] payment-service: Circuit breaker open for payment-provider, failing fast
+[2025-03-14T09:15:59Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:15:59Z] [INFO] notification-service: PUT /api/v1/catalog 200 73ms request_id=c72e7929
+[2025-03-14T09:15:59Z] [INFO] payment-service: GET /api/v1/catalog 200 25ms request_id=e1cba8d1
+[2025-03-14T09:16:00Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:16:01Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:16:03Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:16:03Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:16:03Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:16:07Z] [INFO] checkout-api: GET /api/v1/users/me 200 108ms request_id=9788ad5f
+[2025-03-14T09:16:07Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:16:07Z] [INFO] payment-service: GET /api/v1/cart 200 103ms request_id=042be927
+[2025-03-14T09:16:08Z] [INFO] checkout-api: GET /api/v1/orders 200 16ms request_id=bf31d51e
+[2025-03-14T09:16:08Z] [INFO] notification-service: PUT /api/v1/orders/57330 200 62ms request_id=b46952ee
+[2025-03-14T09:16:11Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:16:13Z] [ERROR] payment-service: Circuit breaker open for payment-provider, failing fast
+[2025-03-14T09:16:13Z] [INFO] checkout-api: GET /api/v1/orders 200 18ms request_id=b30578fd
+[2025-03-14T09:16:14Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:16:15Z] [INFO] payment-service: GET /api/v1/users/me 200 73ms request_id=1990fa11
+[2025-03-14T09:16:16Z] [INFO] checkout-api: GET /healthz 200 98ms request_id=42acff91
+[2025-03-14T09:16:18Z] [INFO] checkout-api: PUT /api/v1/orders/55999 200 62ms request_id=701ed564
+[2025-03-14T09:16:18Z] [INFO] notification-service: GET /api/v1/users/me 200 91ms request_id=7744a50c
+[2025-03-14T09:16:19Z] [INFO] payment-service: POST /api/v1/cart 200 125ms request_id=57d69201
+[2025-03-14T09:16:21Z] [INFO] payment-service: GET /api/v1/users/me 200 31ms request_id=6613a7b2
+[2025-03-14T09:16:22Z] [INFO] checkout-api: POST /api/v1/orders/31487 200 45ms request_id=156297a0
+[2025-03-14T09:16:22Z] [INFO] payment-service: PUT /api/v1/cart 200 83ms request_id=dab853f2
+[2025-03-14T09:16:23Z] [INFO] payment-service: PUT /healthz 200 112ms request_id=c32b4d05
+[2025-03-14T09:16:23Z] [INFO] checkout-api: GET /api/v1/search 200 102ms request_id=0828edaf
+[2025-03-14T09:16:24Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 1/3)
+[2025-03-14T09:16:24Z] [INFO] notification-service: GET /api/v1/cart 200 83ms request_id=af853b0b
+[2025-03-14T09:16:26Z] [ERROR] payment-service: Circuit breaker open for payment-provider, failing fast
+[2025-03-14T09:16:27Z] [INFO] checkout-api: GET /healthz 200 28ms request_id=b58b8a0f
+[2025-03-14T09:16:27Z] [INFO] payment-service: GET /api/v1/catalog 200 125ms request_id=cd380c5a
+[2025-03-14T09:16:27Z] [INFO] notification-service: GET /api/v1/cart 200 113ms request_id=f0145737
+[2025-03-14T09:16:28Z] [INFO] payment-service: PUT /api/v1/users/me 200 101ms request_id=05e69d79
+[2025-03-14T09:16:28Z] [INFO] payment-service: GET /api/v1/orders/93624 200 41ms request_id=d30bd89f
+[2025-03-14T09:16:28Z] [INFO] checkout-api: POST /api/v1/cart 200 128ms request_id=d5520ccd
+[2025-03-14T09:16:28Z] [ERROR] payment-service: Circuit breaker open for payment-provider, failing fast
+[2025-03-14T09:16:29Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 3/3)
+[2025-03-14T09:16:29Z] [INFO] notification-service: PUT /healthz 200 123ms request_id=7ab2a404
+[2025-03-14T09:16:29Z] [INFO] payment-service: POST /api/v1/orders/76665 200 30ms request_id=f027bdcb
+[2025-03-14T09:16:30Z] [WARNING] payment-service: Retrying payment charge after timeout (attempt 2/3)
+[2025-03-14T09:16:30Z] [INFO] checkout-api: GET /api/v1/orders 200 62ms request_id=29db4bd2
+[2025-03-14T09:16:31Z] [INFO] checkout-api: PUT /healthz 200 109ms request_id=2b16349d
+[2025-03-14T09:16:32Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:16:32Z] [INFO] notification-service: GET /api/v1/cart 200 139ms request_id=87f6b8d3
+[2025-03-14T09:16:33Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:16:35Z] [ERROR] checkout-api: 504 Gateway Timeout from payment-service while confirming order
+[2025-03-14T09:16:35Z] [INFO] checkout-api: GET /api/v1/search 200 11ms request_id=bb06c4e5
+[2025-03-14T09:16:35Z] [INFO] checkout-api: POST /api/v1/orders 200 43ms request_id=3a07ffd6
+[2025-03-14T09:16:36Z] [INFO] payment-service: GET /api/v1/orders/13581 200 40ms request_id=12e0d37f
+[2025-03-14T09:16:37Z] [ERROR] payment-service: context deadline exceeded while calling payment provider
+[2025-03-14T09:16:38Z] [INFO] notification-service: POST /api/v1/catalog 200 67ms request_id=a29b3ab1
+[2025-03-14T09:16:38Z] [INFO] checkout-api: GET /api/v1/orders 200 129ms request_id=2a53f185
+[2025-03-14T09:16:38Z] [INFO] payment-service: GET /healthz 200 124ms request_id=cf407304
+[2025-03-14T09:16:39Z] [INFO] payment-service: GET /api/v1/users/me 200 14ms request_id=e8bcc733
+[2025-03-14T09:16:41Z] [INFO] notification-service: GET /healthz 200 138ms request_id=f7e31ccf
+[2025-03-14T09:16:43Z] [INFO] notification-service: GET /api/v1/cart 200 16ms request_id=c05de3ed
+[2025-03-14T09:16:46Z] [INFO] payment-service: GET /healthz 200 35ms request_id=71ce505d
+[2025-03-14T09:16:47Z] [INFO] checkout-api: PUT /api/v1/orders/56783 200 68ms request_id=216941aa
+[2025-03-14T09:16:48Z] [INFO] checkout-api: GET /api/v1/catalog 200 83ms request_id=3e5d72ab
+[2025-03-14T09:16:50Z] [INFO] notification-service: POST /api/v1/search 200 89ms request_id=7de6d8e3
+[2025-03-14T09:16:51Z] [INFO] notification-service: POST /api/v1/search 200 74ms request_id=9494506e
+[2025-03-14T09:16:52Z] [INFO] checkout-api: GET /healthz 200 140ms request_id=01f0ee7c
+[2025-03-14T09:16:52Z] [INFO] checkout-api: PUT /api/v1/cart 200 5ms request_id=36336bfa
+[2025-03-14T09:16:53Z] [INFO] notification-service: GET /api/v1/users/me 200 137ms request_id=1f777012
+[2025-03-14T09:16:54Z] [INFO] notification-service: GET /healthz 200 118ms request_id=8bebb2fe
+[2025-03-14T09:16:54Z] [INFO] checkout-api: POST /api/v1/search 200 54ms request_id=75adf319
+[2025-03-14T09:16:56Z] [INFO] notification-service: GET /api/v1/orders/68308 200 11ms request_id=40cfbaa7
+[2025-03-14T09:16:56Z] [INFO] payment-service: PUT /api/v1/orders 200 90ms request_id=a9472b30
+[2025-03-14T09:16:56Z] [INFO] checkout-api: GET /api/v1/search 200 90ms request_id=a62038ef
+[2025-03-14T09:16:57Z] [INFO] checkout-api: GET /healthz 200 49ms request_id=fcb83f1e
+[2025-03-14T09:16:58Z] [INFO] payment-service: GET /api/v1/orders/13358 200 125ms request_id=9bb121f2
+[2025-03-14T09:16:58Z] [INFO] notification-service: GET /api/v1/search 200 139ms request_id=46b90ea8
+[2025-03-14T09:16:58Z] [INFO] checkout-api: PUT /healthz 200 33ms request_id=beb15430
+[2025-03-14T09:16:58Z] [INFO] notification-service: GET /healthz 200 106ms request_id=a0695f9f
+[2025-03-14T09:16:59Z] [INFO] checkout-api: PUT /api/v1/orders 200 101ms request_id=79b8ab0a
+[2025-03-14T09:17:02Z] [INFO] payment-service: POST /healthz 200 40ms request_id=6cb99d58
+[2025-03-14T09:17:02Z] [INFO] checkout-api: GET /api/v1/orders/93817 200 24ms request_id=3a114dcb
+[2025-03-14T09:17:03Z] [INFO] notification-service: PUT /api/v1/orders/44853 200 33ms request_id=94f194fd
+[2025-03-14T09:17:05Z] [INFO] notification-service: PUT /api/v1/orders 200 115ms request_id=d5302971
+[2025-03-14T09:17:06Z] [INFO] notification-service: PUT /api/v1/users/me 200 109ms request_id=1324e273
+[2025-03-14T09:17:07Z] [INFO] checkout-api: PUT /api/v1/catalog 200 111ms request_id=0ba52693
+[2025-03-14T09:17:08Z] [INFO] payment-service: GET /api/v1/search 200 31ms request_id=cd875c9a
+[2025-03-14T09:17:08Z] [INFO] checkout-api: GET /healthz 200 98ms request_id=0a46aea4
+[2025-03-14T09:17:09Z] [INFO] notification-service: GET /api/v1/users/me 200 114ms request_id=32e27c59
+[2025-03-14T09:17:10Z] [INFO] checkout-api: PUT /healthz 200 16ms request_id=8ab0e5f4
+[2025-03-14T09:17:10Z] [INFO] notification-service: GET /api/v1/orders 200 74ms request_id=655833bc
+[2025-03-14T09:17:11Z] [INFO] notification-service: GET /api/v1/search 200 100ms request_id=cab23465
+[2025-03-14T09:17:11Z] [INFO] checkout-api: POST /api/v1/orders/1848 200 7ms request_id=808a855d
+[2025-03-14T09:17:13Z] [INFO] checkout-api: POST /api/v1/orders/72716 200 32ms request_id=81dda346
+[2025-03-14T09:17:13Z] [INFO] notification-service: PUT /api/v1/orders 200 79ms request_id=fedb959d
+[2025-03-14T09:17:14Z] [INFO] notification-service: GET /api/v1/users/me 200 47ms request_id=68cb738a
+[2025-03-14T09:17:16Z] [INFO] notification-service: PUT /api/v1/users/me 200 130ms request_id=f0a39443
+[2025-03-14T09:17:17Z] [INFO] notification-service: GET /healthz 200 88ms request_id=45db2934
+[2025-03-14T09:17:18Z] [INFO] checkout-api: POST /api/v1/orders 200 124ms request_id=284eafbb
+[2025-03-14T09:17:18Z] [INFO] notification-service: POST /healthz 200 98ms request_id=ce795926
+[2025-03-14T09:17:18Z] [INFO] payment-service: POST /api/v1/search 200 26ms request_id=5906024a
+[2025-03-14T09:17:21Z] [INFO] checkout-api: PUT /api/v1/orders/58954 200 35ms request_id=d0ef1e30
+[2025-03-14T09:17:21Z] [INFO] checkout-api: PUT /api/v1/cart 200 78ms request_id=44227b17
+[2025-03-14T09:17:23Z] [INFO] notification-service: GET /api/v1/cart 200 136ms request_id=c05b4448
+[2025-03-14T09:17:25Z] [INFO] checkout-api: GET /healthz 200 83ms request_id=34f58cba
+[2025-03-14T09:17:26Z] [INFO] payment-service: GET /api/v1/cart 200 140ms request_id=b092a292
+[2025-03-14T09:17:27Z] [INFO] payment-service: GET /api/v1/search 200 58ms request_id=aa66416e
+[2025-03-14T09:17:28Z] [INFO] checkout-api: GET /api/v1/search 200 34ms request_id=fe57c268
+[2025-03-14T09:17:30Z] [INFO] payment-service: GET /api/v1/users/me 200 36ms request_id=4cfcad26
+[2025-03-14T09:17:33Z] [INFO] payment-service: GET /healthz 200 8ms request_id=174495e0
+[2025-03-14T09:17:34Z] [INFO] payment-service: PUT /api/v1/orders/29062 200 126ms request_id=b9ff33c1
+[2025-03-14T09:17:36Z] [INFO] checkout-api: PUT /healthz 200 64ms request_id=ce16b514
+[2025-03-14T09:17:36Z] [INFO] payment-service: GET /api/v1/catalog 200 134ms request_id=a0e9fd46
+[2025-03-14T09:17:37Z] [INFO] payment-service: GET /api/v1/users/me 200 5ms request_id=2f6a0418
+[2025-03-14T09:17:37Z] [INFO] payment-service: GET /api/v1/users/me 200 115ms request_id=bbda0ee8
+[2025-03-14T09:17:38Z] [INFO] payment-service: GET /api/v1/orders/71477 200 59ms request_id=863dfebf
+[2025-03-14T09:17:40Z] [INFO] checkout-api: GET /api/v1/users/me 200 112ms request_id=38ce0b16
+[2025-03-14T09:17:40Z] [INFO] notification-service: POST /api/v1/cart 200 120ms request_id=deb25972
+[2025-03-14T09:17:40Z] [INFO] notification-service: POST /api/v1/orders 200 112ms request_id=26884a8f
+[2025-03-14T09:17:43Z] [INFO] checkout-api: GET /api/v1/orders/94009 200 6ms request_id=457a8278
+[2025-03-14T09:17:43Z] [INFO] checkout-api: PUT /healthz 200 6ms request_id=13d12689
+[2025-03-14T09:17:44Z] [INFO] payment-service: GET /api/v1/orders 200 104ms request_id=e3822b6c
+[2025-03-14T09:17:45Z] [INFO] notification-service: GET /api/v1/cart 200 127ms request_id=6d52bef1
+[2025-03-14T09:17:46Z] [INFO] checkout-api: PUT /api/v1/search 200 78ms request_id=aa1a4440
+[2025-03-14T09:17:46Z] [INFO] payment-service: GET /api/v1/orders 200 57ms request_id=f390be49
+[2025-03-14T09:17:46Z] [INFO] checkout-api: PUT /api/v1/cart 200 34ms request_id=2b985281
+[2025-03-14T09:17:48Z] [INFO] checkout-api: PUT /api/v1/orders 200 27ms request_id=ae803ec3
+[2025-03-14T09:17:49Z] [INFO] payment-service: POST /api/v1/users/me 200 68ms request_id=e6ec48d6
+[2025-03-14T09:17:50Z] [INFO] notification-service: GET /api/v1/search 200 132ms request_id=2563a877
+[2025-03-14T09:17:50Z] [INFO] checkout-api: POST /api/v1/cart 200 59ms request_id=f4856b53
+[2025-03-14T09:17:53Z] [INFO] checkout-api: GET /api/v1/cart 200 42ms request_id=c4db4789
+[2025-03-14T09:17:54Z] [INFO] notification-service: GET /api/v1/orders 200 31ms request_id=f21f454f
+[2025-03-14T09:17:55Z] [INFO] checkout-api: GET /healthz 200 66ms request_id=795070b3
+[2025-03-14T09:17:55Z] [INFO] checkout-api: GET /api/v1/cart 200 123ms request_id=a715d7e1
+[2025-03-14T09:17:56Z] [INFO] notification-service: GET /api/v1/cart 200 77ms request_id=802c8a87
+[2025-03-14T09:17:58Z] [INFO] notification-service: PUT /api/v1/catalog 200 28ms request_id=bfd3c0ec
+[2025-03-14T09:17:59Z] [INFO] payment-service: GET /healthz 200 76ms request_id=9ee3cc50
+[2025-03-14T09:18:01Z] [INFO] checkout-api: POST /api/v1/users/me 200 98ms request_id=42f18628
+[2025-03-14T09:18:03Z] [INFO] checkout-api: GET /api/v1/cart 200 77ms request_id=c6aa61f2
+[2025-03-14T09:18:04Z] [INFO] payment-service: GET /api/v1/orders 200 57ms request_id=621b97cf
+[2025-03-14T09:18:07Z] [INFO] payment-service: GET /api/v1/catalog 200 79ms request_id=6553b6e9
+[2025-03-14T09:18:07Z] [INFO] checkout-api: GET /healthz 200 70ms request_id=3d82fcee
+[2025-03-14T09:18:07Z] [INFO] payment-service: GET /api/v1/search 200 73ms request_id=36bb5cb1
+[2025-03-14T09:18:09Z] [INFO] notification-service: GET /api/v1/search 200 102ms request_id=1833f4e0
+[2025-03-14T09:18:09Z] [INFO] payment-service: GET /api/v1/cart 200 4ms request_id=e1b35774
+[2025-03-14T09:18:10Z] [INFO] payment-service: PUT /api/v1/users/me 200 53ms request_id=ce723e01
+[2025-03-14T09:18:10Z] [INFO] checkout-api: PUT /api/v1/search 200 18ms request_id=7174e8e1
+[2025-03-14T09:18:11Z] [INFO] checkout-api: GET /api/v1/catalog 200 82ms request_id=6bba1365
+[2025-03-14T09:18:11Z] [INFO] checkout-api: POST /api/v1/orders/30598 200 104ms request_id=d706741f
+[2025-03-14T09:18:11Z] [INFO] checkout-api: PUT /healthz 200 10ms request_id=8efdf4f9
+[2025-03-14T09:18:12Z] [INFO] checkout-api: PUT /api/v1/orders 200 114ms request_id=529a8a57
+[2025-03-14T09:18:14Z] [INFO] checkout-api: GET /healthz 200 140ms request_id=1dd87dc2
+[2025-03-14T09:18:14Z] [INFO] checkout-api: GET /api/v1/catalog 200 75ms request_id=a59edde8
+[2025-03-14T09:18:15Z] [INFO] checkout-api: PUT /api/v1/orders/56115 200 133ms request_id=2df58527
+[2025-03-14T09:18:16Z] [INFO] checkout-api: PUT /api/v1/orders 200 112ms request_id=86672eae
+[2025-03-14T09:18:16Z] [INFO] payment-service: GET /api/v1/catalog 200 116ms request_id=b494534b
+[2025-03-14T09:18:17Z] [INFO] notification-service: GET /api/v1/users/me 200 16ms request_id=df991706
+[2025-03-14T09:18:20Z] [INFO] checkout-api: GET /api/v1/catalog 200 14ms request_id=2b65c008
+[2025-03-14T09:18:21Z] [INFO] notification-service: PUT /api/v1/users/me 200 131ms request_id=c6159a5e
+[2025-03-14T09:18:24Z] [INFO] payment-service: POST /api/v1/orders 200 45ms request_id=f14befe0
+[2025-03-14T09:18:24Z] [INFO] notification-service: POST /api/v1/search 200 127ms request_id=6b8e0a7a
+[2025-03-14T09:18:26Z] [INFO] notification-service: PUT /api/v1/cart 200 49ms request_id=db7e39f2
+[2025-03-14T09:18:26Z] [INFO] notification-service: POST /api/v1/search 200 133ms request_id=5cb76cc2
+[2025-03-14T09:18:27Z] [INFO] notification-service: GET /api/v1/cart 200 38ms request_id=23ef7b68
+[2025-03-14T09:18:27Z] [INFO] notification-service: GET /api/v1/cart 200 69ms request_id=74f8671a
+[2025-03-14T09:18:27Z] [INFO] checkout-api: PUT /api/v1/search 200 13ms request_id=266b70cf
+[2025-03-14T09:18:28Z] [INFO] checkout-api: POST /api/v1/orders 200 84ms request_id=a05407c7
+[2025-03-14T09:18:28Z] [INFO] notification-service: GET /api/v1/orders/48543 200 27ms request_id=79c86331
+[2025-03-14T09:18:28Z] [INFO] payment-service: POST /api/v1/orders 200 44ms request_id=a93ec006
+[2025-03-14T09:18:32Z] [INFO] payment-service: POST /api/v1/catalog 200 59ms request_id=090f3144
+[2025-03-14T09:18:32Z] [INFO] notification-service: POST /api/v1/search 200 66ms request_id=86b031ac
+[2025-03-14T09:18:34Z] [INFO] payment-service: PUT /api/v1/cart 200 42ms request_id=6a9ffd02
+[2025-03-14T09:18:35Z] [INFO] checkout-api: GET /api/v1/users/me 200 108ms request_id=f9b5aca1
+[2025-03-14T09:18:38Z] [INFO] checkout-api: POST /healthz 200 55ms request_id=5397710d
+[2025-03-14T09:18:40Z] [INFO] payment-service: PUT /api/v1/cart 200 54ms request_id=66621641
+[2025-03-14T09:18:42Z] [INFO] payment-service: GET /healthz 200 70ms request_id=24872bbc
+[2025-03-14T09:18:43Z] [INFO] payment-service: GET /healthz 200 39ms request_id=413ab9d4
+[2025-03-14T09:18:44Z] [INFO] checkout-api: PUT /api/v1/catalog 200 47ms request_id=c579e26a
+[2025-03-14T09:18:45Z] [INFO] payment-service: GET /api/v1/orders/35129 200 66ms request_id=aa1aa0f9
+[2025-03-14T09:18:45Z] [INFO] notification-service: GET /healthz 200 32ms request_id=ec3555d6
+[2025-03-14T09:18:46Z] [INFO] checkout-api: POST /api/v1/users/me 200 135ms request_id=efcd8a40
+[2025-03-14T09:18:47Z] [INFO] notification-service: PUT /api/v1/orders 200 61ms request_id=64b792ce
+[2025-03-14T09:18:48Z] [INFO] checkout-api: POST /api/v1/search 200 119ms request_id=26576c7c
+[2025-03-14T09:18:49Z] [INFO] payment-service: GET /healthz 200 138ms request_id=992c23c4
+[2025-03-14T09:18:51Z] [INFO] payment-service: GET /api/v1/users/me 200 101ms request_id=7332be7a
+[2025-03-14T09:18:51Z] [INFO] notification-service: PUT /healthz 200 18ms request_id=71aae8f1
+[2025-03-14T09:18:52Z] [INFO] payment-service: POST /api/v1/catalog 200 120ms request_id=5c8433ec
+[2025-03-14T09:18:53Z] [INFO] checkout-api: POST /api/v1/search 200 88ms request_id=bd6ece6d
+[2025-03-14T09:18:54Z] [INFO] payment-service: GET /api/v1/catalog 200 19ms request_id=79233b4c
+[2025-03-14T09:18:54Z] [INFO] payment-service: PUT /api/v1/users/me 200 73ms request_id=7e061d5b
+[2025-03-14T09:18:55Z] [INFO] notification-service: GET /healthz 200 57ms request_id=8fc0ee0a
+[2025-03-14T09:18:57Z] [INFO] checkout-api: GET /api/v1/orders/4565 200 112ms request_id=d9e1c96c
+[2025-03-14T09:18:58Z] [INFO] checkout-api: PUT /api/v1/users/me 200 112ms request_id=5460dd95
+[2025-03-14T09:19:00Z] [INFO] payment-service: POST /api/v1/search 200 47ms request_id=137c2d46
+[2025-03-14T09:19:00Z] [INFO] notification-service: POST /healthz 200 54ms request_id=0fd1c83c
+[2025-03-14T09:19:01Z] [INFO] payment-service: GET /api/v1/orders 200 58ms request_id=f33fd090
+[2025-03-14T09:19:04Z] [INFO] notification-service: GET /api/v1/search 200 38ms request_id=3b158051
+[2025-03-14T09:19:05Z] [INFO] payment-service: GET /api/v1/catalog 200 57ms request_id=d70515f0
+[2025-03-14T09:19:06Z] [INFO] payment-service: GET /api/v1/orders/79974 200 121ms request_id=06c90dc8
+[2025-03-14T09:19:07Z] [INFO] payment-service: PUT /healthz 200 30ms request_id=539d17de
+[2025-03-14T09:19:08Z] [INFO] checkout-api: POST /api/v1/users/me 200 13ms request_id=5a5f4a0b
+[2025-03-14T09:19:09Z] [INFO] checkout-api: POST /api/v1/search 200 9ms request_id=7050d529
+[2025-03-14T09:19:10Z] [INFO] checkout-api: GET /api/v1/cart 200 9ms request_id=46648746
+[2025-03-14T09:19:11Z] [INFO] payment-service: POST /healthz 200 58ms request_id=41d3c077
+[2025-03-14T09:19:12Z] [INFO] checkout-api: GET /api/v1/catalog 200 17ms request_id=2c4fa6ad
+[2025-03-14T09:19:13Z] [INFO] payment-service: PUT /api/v1/orders/85885 200 83ms request_id=9918cf67
+[2025-03-14T09:19:13Z] [INFO] checkout-api: GET /api/v1/cart 200 133ms request_id=541d7cf7
+[2025-03-14T09:19:15Z] [INFO] notification-service: GET /api/v1/cart 200 57ms request_id=dd35d570
+[2025-03-14T09:19:16Z] [INFO] payment-service: GET /api/v1/cart 200 57ms request_id=1badc19b
+[2025-03-14T09:19:16Z] [INFO] payment-service: POST /api/v1/catalog 200 81ms request_id=8d1ff5c2
+[2025-03-14T09:19:17Z] [INFO] notification-service: GET /healthz 200 64ms request_id=d130599d
+[2025-03-14T09:19:18Z] [INFO] checkout-api: POST /api/v1/catalog 200 127ms request_id=bbfb49b0
+[2025-03-14T09:19:19Z] [INFO] payment-service: GET /api/v1/users/me 200 109ms request_id=d13b02e7
+[2025-03-14T09:19:19Z] [INFO] checkout-api: GET /api/v1/search 200 23ms request_id=69361a18
+[2025-03-14T09:19:21Z] [INFO] payment-service: GET /api/v1/search 200 90ms request_id=d8d69485
+[2025-03-14T09:19:25Z] [INFO] checkout-api: GET /api/v1/catalog 200 9ms request_id=276df501
+[2025-03-14T09:19:26Z] [INFO] notification-service: PUT /api/v1/cart 200 76ms request_id=5ccbcd3a
+[2025-03-14T09:19:27Z] [INFO] payment-service: POST /api/v1/catalog 200 21ms request_id=37a64108
+[2025-03-14T09:19:27Z] [INFO] payment-service: GET /api/v1/cart 200 16ms request_id=de57d414
+[2025-03-14T09:19:27Z] [INFO] notification-service: POST /healthz 200 15ms request_id=14f31885
+[2025-03-14T09:19:28Z] [INFO] notification-service: GET /api/v1/users/me 200 69ms request_id=582d0057
+[2025-03-14T09:19:28Z] [INFO] notification-service: GET /api/v1/cart 200 12ms request_id=bc0486e1
+[2025-03-14T09:19:28Z] [INFO] checkout-api: GET /api/v1/users/me 200 45ms request_id=ea0d7ff7
+[2025-03-14T09:19:29Z] [INFO] notification-service: GET /api/v1/catalog 200 78ms request_id=3e7efa9e
+[2025-03-14T09:19:30Z] [INFO] payment-service: GET /api/v1/catalog 200 72ms request_id=3b6b2278
+[2025-03-14T09:19:31Z] [INFO] checkout-api: GET /api/v1/catalog 200 12ms request_id=6c459650
+[2025-03-14T09:19:32Z] [INFO] notification-service: GET /api/v1/search 200 50ms request_id=c8ca6301
+[2025-03-14T09:19:33Z] [INFO] checkout-api: POST /healthz 200 119ms request_id=ce0b0df8
+[2025-03-14T09:19:35Z] [INFO] checkout-api: POST /api/v1/catalog 200 134ms request_id=5b570373
+[2025-03-14T09:19:35Z] [INFO] checkout-api: POST /api/v1/orders/55264 200 122ms request_id=22fb88d8
+[2025-03-14T09:19:37Z] [INFO] checkout-api: POST /api/v1/cart 200 28ms request_id=40d38280
+[2025-03-14T09:19:38Z] [INFO] payment-service: GET /api/v1/search 200 99ms request_id=ece77ec1
+[2025-03-14T09:19:38Z] [INFO] notification-service: PUT /api/v1/orders/67791 200 74ms request_id=383098d3
+[2025-03-14T09:19:40Z] [INFO] checkout-api: GET /api/v1/users/me 200 55ms request_id=d55be1d7
+[2025-03-14T09:19:40Z] [INFO] payment-service: PUT /api/v1/cart 200 86ms request_id=7e8780a1
+[2025-03-14T09:19:40Z] [INFO] payment-service: GET /api/v1/search 200 43ms request_id=bf872b29
+[2025-03-14T09:19:40Z] [INFO] checkout-api: POST /api/v1/orders 200 115ms request_id=1d1a1f69
+[2025-03-14T09:19:41Z] [INFO] checkout-api: GET /api/v1/orders 200 128ms request_id=ac230766
+[2025-03-14T09:19:42Z] [INFO] notification-service: GET /api/v1/search 200 109ms request_id=49f8f836
+[2025-03-14T09:19:42Z] [INFO] checkout-api: POST /api/v1/search 200 93ms request_id=222edce0
+[2025-03-14T09:19:43Z] [INFO] payment-service: GET /api/v1/cart 200 88ms request_id=19f914cb
+[2025-03-14T09:19:47Z] [INFO] payment-service: GET /api/v1/orders 200 66ms request_id=3fef518c
+[2025-03-14T09:19:48Z] [INFO] notification-service: GET /api/v1/orders/43082 200 54ms request_id=b0e921a8
+[2025-03-14T09:19:50Z] [INFO] checkout-api: GET /healthz 200 28ms request_id=c92b0787
+[2025-03-14T09:19:51Z] [INFO] checkout-api: GET /api/v1/orders 200 5ms request_id=bf00ba4c
+[2025-03-14T09:19:52Z] [INFO] notification-service: POST /api/v1/search 200 23ms request_id=8ee6c026
+[2025-03-14T09:19:53Z] [INFO] checkout-api: GET /api/v1/catalog 200 42ms request_id=f7819463
+[2025-03-14T09:19:53Z] [INFO] notification-service: POST /api/v1/search 200 78ms request_id=b883a284
+[2025-03-14T09:19:54Z] [INFO] payment-service: PUT /api/v1/cart 200 78ms request_id=474f4c34
+[2025-03-14T09:19:56Z] [INFO] payment-service: GET /healthz 200 19ms request_id=b73bf0d8
+[2025-03-14T09:19:56Z] [INFO] payment-service: GET /api/v1/cart 200 27ms request_id=73006e15
+[2025-03-14T09:19:59Z] [INFO] payment-service: PUT /api/v1/catalog 200 53ms request_id=e456771a

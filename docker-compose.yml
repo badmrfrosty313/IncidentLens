@@ -1,0 +1,23 @@
+services:
+  backend:
+    build: ./backend
+    environment:
+      # Browser requests go through the nginx proxy (same origin), so CORS is not needed here.
+      INCIDENTLENS_CORS_ORIGINS: "http://localhost:8080"
+    restart: unless-stopped
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:8080"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    tmpfs:
+      - /tmp

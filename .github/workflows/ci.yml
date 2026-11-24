@@ -1,0 +1,61 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.13"]
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: backend/requirements-dev.txt
+      - run: pip install -r requirements-dev.txt
+      - name: Unit and API tests
+        run: python -m pytest
+      - name: Demo scenarios match their documented expected outcomes
+        run: python scripts/evaluate_demos.py
+      - name: Committed demo data and docs are in sync with the generators
+        run: |
+          python scripts/export_demo_data.py
+          git diff --exit-code -- ../data ../docs/DEMO_SCENARIOS.md
+      - name: Benchmark smoke test (1k and 10k events)
+        run: python scripts/benchmark.py --sizes 1000 10000 --runs 1
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      # Switch to `npm ci` (and enable the npm cache) once package-lock.json is committed.
+      - run: npm install --no-audit --no-fund
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: [backend, frontend]
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker compose build

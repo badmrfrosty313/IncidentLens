@@ -1,0 +1,1613 @@
+2025-03-14T09:00:00.435Z INFO     [billing-api] GET /api/v1/cart 200 80ms request_id=9108e2be
+2025-03-14T09:00:00.942Z INFO     [billing-api] PUT /api/v1/orders 200 101ms request_id=c75d06df
+2025-03-14T09:00:02.185Z INFO     [billing-api] PUT /api/v1/catalog 200 47ms request_id=37f45f0c
+2025-03-14T09:00:03.105Z INFO     [api-gateway] GET /api/v1/orders 200 129ms request_id=fc743e1e
+2025-03-14T09:00:04.450Z INFO     [orders-api] GET /api/v1/cart 200 43ms request_id=6cb3bd94
+2025-03-14T09:00:04.710Z INFO     [orders-api] GET /api/v1/search 200 96ms request_id=97dc1593
+2025-03-14T09:00:05.000Z INFO     [orders-api] Connected to postgres://orders_app:Tr0ub4dor-9x@db-primary.internal:5432/orders (pool size=20)
+2025-03-14T09:00:05.297Z INFO     [billing-api] GET /api/v1/catalog 200 33ms request_id=d58289db
+2025-03-14T09:00:06.357Z INFO     [orders-api] GET /api/v1/cart 200 91ms request_id=a23b9f8e
+2025-03-14T09:00:06.613Z INFO     [billing-api] PUT /api/v1/orders/49280 200 6ms request_id=5f43f773
+2025-03-14T09:00:06.808Z INFO     [orders-api] POST /api/v1/orders 200 50ms request_id=b64df535
+2025-03-14T09:00:07.199Z INFO     [api-gateway] PUT /api/v1/cart 200 112ms request_id=a99d0fa4
+2025-03-14T09:00:10.189Z INFO     [billing-api] POST /api/v1/catalog 200 6ms request_id=f328f3e9
+2025-03-14T09:00:10.217Z INFO     [orders-api] GET /api/v1/catalog 200 29ms request_id=17e29d08
+2025-03-14T09:00:11.332Z INFO     [api-gateway] PUT /healthz 200 43ms request_id=fc51be5a
+2025-03-14T09:00:11.991Z INFO     [billing-api] POST /api/v1/cart 200 74ms request_id=d44edb87
+2025-03-14T09:00:12.073Z INFO     [billing-api] PUT /api/v1/users/me 200 9ms request_id=4a11a7c5
+2025-03-14T09:00:12.486Z INFO     [api-gateway] GET /api/v1/search 200 59ms request_id=d2258edd
+2025-03-14T09:00:13.230Z INFO     [billing-api] GET /api/v1/users/me 200 129ms request_id=3e469705
+2025-03-14T09:00:14.891Z INFO     [orders-api] PUT /api/v1/search 200 139ms request_id=d74c1084
+2025-03-14T09:00:15.032Z INFO     [api-gateway] GET /api/v1/catalog 200 92ms request_id=1d780b9d
+2025-03-14T09:00:17.360Z INFO     [billing-api] GET /api/v1/catalog 200 133ms request_id=f0a0c55b
+2025-03-14T09:00:19.231Z INFO     [orders-api] POST /api/v1/cart 200 11ms request_id=a3c7763f
+2025-03-14T09:00:19.842Z INFO     [api-gateway] GET /api/v1/cart 200 93ms request_id=3fb811cd
+2025-03-14T09:00:19.933Z INFO     [orders-api] PUT /healthz 200 123ms request_id=ccdf225c
+2025-03-14T09:00:20.175Z INFO     [orders-api] GET /api/v1/orders/60504 200 106ms request_id=a8e73877
+2025-03-14T09:00:21.020Z INFO     [billing-api] GET /healthz 200 118ms request_id=70f49b19
+2025-03-14T09:00:21.666Z INFO     [billing-api] GET /api/v1/search 200 78ms request_id=14aea381
+2025-03-14T09:00:23.230Z INFO     [orders-api] PUT /api/v1/orders/24246 200 79ms request_id=d26c9187
+2025-03-14T09:00:24.193Z INFO     [orders-api] POST /api/v1/cart 200 82ms request_id=1e77ce04
+2025-03-14T09:00:24.417Z INFO     [orders-api] GET /api/v1/orders/84605 200 15ms request_id=6547f7fc
+2025-03-14T09:00:25.201Z INFO     [api-gateway] POST /api/v1/search 200 127ms request_id=ffc0a359
+2025-03-14T09:00:25.229Z INFO     [orders-api] GET /healthz 200 30ms request_id=b2201c8a
+2025-03-14T09:00:27.128Z INFO     [orders-api] GET /api/v1/orders/53745 200 60ms request_id=53ffe346
+2025-03-14T09:00:29.092Z INFO     [billing-api] GET /api/v1/orders/59879 200 27ms request_id=d717fae4
+2025-03-14T09:00:30.676Z INFO     [api-gateway] GET /api/v1/orders 200 124ms request_id=213d4dee
+2025-03-14T09:00:30.800Z INFO     [api-gateway] GET /api/v1/catalog 200 107ms request_id=afdd0603
+2025-03-14T09:00:31.878Z INFO     [billing-api] GET /api/v1/search 200 58ms request_id=1d35c83a
+2025-03-14T09:00:32.095Z INFO     [billing-api] PUT /api/v1/users/me 200 79ms request_id=4e89d406
+2025-03-14T09:00:32.247Z INFO     [api-gateway] GET /api/v1/orders/37785 200 8ms request_id=9c2d3bb5
+2025-03-14T09:00:32.830Z INFO     [orders-api] GET /api/v1/users/me 200 75ms request_id=0e965825
+2025-03-14T09:00:33.535Z INFO     [orders-api] GET /api/v1/orders/79297 200 104ms request_id=c491099f
+2025-03-14T09:00:34.428Z INFO     [billing-api] GET /api/v1/search 200 38ms request_id=23a994f4
+2025-03-14T09:00:34.477Z INFO     [orders-api] GET /api/v1/orders 200 61ms request_id=a82e7189
+2025-03-14T09:00:36.602Z INFO     [billing-api] GET /healthz 200 76ms request_id=b0b75602
+2025-03-14T09:00:38.938Z INFO     [api-gateway] GET /api/v1/search 200 89ms request_id=88a28610
+2025-03-14T09:00:39.821Z INFO     [orders-api] GET /api/v1/users/me 200 88ms request_id=ff589ea4
+2025-03-14T09:00:41.521Z INFO     [billing-api] POST /api/v1/search 200 136ms request_id=ee218526
+2025-03-14T09:00:41.593Z INFO     [api-gateway] GET /api/v1/orders/72982 200 79ms request_id=b846bc27
+2025-03-14T09:00:42.111Z INFO     [orders-api] POST /healthz 200 116ms request_id=1aaeb0ab
+2025-03-14T09:00:42.141Z INFO     [api-gateway] GET /api/v1/orders/83022 200 95ms request_id=cbd89d70
+2025-03-14T09:00:42.818Z INFO     [orders-api] GET /api/v1/cart 200 82ms request_id=7dd952f6
+2025-03-14T09:00:43.264Z INFO     [api-gateway] GET /api/v1/search 200 59ms request_id=6c799c69
+2025-03-14T09:00:43.709Z WARNING  [orders-api] Slow query detected: SELECT * FROM orders WHERE status = 'open' took 1222ms
+2025-03-14T09:00:44.509Z INFO     [billing-api] PUT /api/v1/users/me 200 93ms request_id=385014c8
+2025-03-14T09:00:48.062Z INFO     [api-gateway] GET /healthz 200 23ms request_id=e27943cc
+2025-03-14T09:00:50.377Z INFO     [api-gateway] GET /api/v1/orders 200 31ms request_id=c5e160a6
+2025-03-14T09:00:50.665Z INFO     [billing-api] GET /api/v1/orders/42798 200 68ms request_id=1f4d8470
+2025-03-14T09:00:51.124Z INFO     [api-gateway] GET /api/v1/orders/19973 200 84ms request_id=3f2ea6b2
+2025-03-14T09:00:52.926Z INFO     [api-gateway] GET /api/v1/orders 200 65ms request_id=1f1a1ff5
+2025-03-14T09:00:52.981Z INFO     [api-gateway] GET /api/v1/orders 200 63ms request_id=5fe2bdbb
+2025-03-14T09:00:53.282Z INFO     [orders-api] POST /api/v1/search 200 52ms request_id=78582805
+2025-03-14T09:00:53.647Z INFO     [billing-api] PUT /api/v1/orders/61158 200 85ms request_id=af09ba3d
+2025-03-14T09:00:55.695Z INFO     [orders-api] POST /api/v1/orders 200 28ms request_id=1fce540d
+2025-03-14T09:00:56.923Z INFO     [orders-api] GET /api/v1/orders 200 4ms request_id=bb7b1b86
+2025-03-14T09:00:57.352Z INFO     [orders-api] POST /api/v1/catalog 200 92ms request_id=b009f956
+2025-03-14T09:00:58.297Z INFO     [billing-api] GET /api/v1/orders/97356 200 4ms request_id=8edf5b89
+2025-03-14T09:00:58.967Z INFO     [orders-api] GET /api/v1/orders 200 87ms request_id=99c50171
+2025-03-14T09:01:02.815Z INFO     [billing-api] GET /api/v1/users/me 200 25ms request_id=068c02e5
+2025-03-14T09:01:09.643Z INFO     [api-gateway] GET /healthz 200 130ms request_id=408be055
+2025-03-14T09:01:12.123Z INFO     [billing-api] GET /api/v1/users/me 200 78ms request_id=899f5827
+2025-03-14T09:01:12.675Z INFO     [orders-api] GET /api/v1/orders/60556 200 64ms request_id=9a9fc8f4
+2025-03-14T09:01:13.897Z INFO     [api-gateway] GET /healthz 200 35ms request_id=b0f2f1e5
+2025-03-14T09:01:14.177Z INFO     [api-gateway] GET /healthz 200 80ms request_id=49c919d4
+2025-03-14T09:01:18.985Z INFO     [api-gateway] GET /api/v1/search 200 96ms request_id=71e3083d
+2025-03-14T09:01:19.172Z INFO     [billing-api] GET /healthz 200 109ms request_id=8cf5d22e
+2025-03-14T09:01:19.757Z INFO     [api-gateway] GET /api/v1/orders/23912 200 131ms request_id=f2bbcdbe
+2025-03-14T09:01:20.799Z INFO     [billing-api] GET /api/v1/cart 200 110ms request_id=19a5d983
+2025-03-14T09:01:21.645Z INFO     [orders-api] POST /api/v1/cart 200 33ms request_id=d7095d73
+2025-03-14T09:01:22.279Z INFO     [billing-api] GET /api/v1/orders/70059 200 78ms request_id=2fa61eb0
+2025-03-14T09:01:22.971Z INFO     [billing-api] GET /api/v1/cart 200 50ms request_id=0c3b9031
+2025-03-14T09:01:23.217Z INFO     [billing-api] GET /healthz 200 42ms request_id=b9b84e45
+2025-03-14T09:01:24.279Z INFO     [orders-api] PUT /api/v1/cart 200 104ms request_id=e22da803
+2025-03-14T09:01:24.982Z INFO     [api-gateway] GET /api/v1/catalog 200 93ms request_id=bd1ba24f
+2025-03-14T09:01:26.200Z INFO     [orders-api] PUT /healthz 200 102ms request_id=807f6559
+2025-03-14T09:01:26.984Z INFO     [api-gateway] PUT /api/v1/catalog 200 130ms request_id=b830e0ca
+2025-03-14T09:01:27.346Z INFO     [billing-api] GET /api/v1/catalog 200 53ms request_id=878d7a9a
+2025-03-14T09:01:27.750Z INFO     [api-gateway] GET /healthz 200 105ms request_id=e901b126
+2025-03-14T09:01:27.815Z INFO     [billing-api] GET /api/v1/cart 200 56ms request_id=67b24d45
+2025-03-14T09:01:28.123Z INFO     [orders-api] GET /api/v1/catalog 200 6ms request_id=075ef7db
+2025-03-14T09:01:29.128Z INFO     [billing-api] GET /api/v1/catalog 200 110ms request_id=704aa18e
+2025-03-14T09:01:30.563Z INFO     [billing-api] GET /api/v1/users/me 200 18ms request_id=9128a0ce
+2025-03-14T09:01:30.695Z INFO     [billing-api] PUT /healthz 200 103ms request_id=c85263fa
+2025-03-14T09:01:32.319Z INFO     [billing-api] GET /api/v1/users/me 200 129ms request_id=344c4394
+2025-03-14T09:01:33.566Z INFO     [api-gateway] GET /healthz 200 40ms request_id=d4fb8c1a
+2025-03-14T09:01:33.801Z INFO     [billing-api] GET /api/v1/catalog 200 113ms request_id=f4017b00
+2025-03-14T09:01:34.476Z INFO     [api-gateway] GET /api/v1/catalog 200 4ms request_id=da4dd459
+2025-03-14T09:01:34.532Z INFO     [orders-api] PUT /healthz 200 103ms request_id=21d960ce
+2025-03-14T09:01:34.813Z INFO     [api-gateway] GET /api/v1/catalog 200 134ms request_id=b40a1d94
+2025-03-14T09:01:37.559Z INFO     [api-gateway] PUT /healthz 200 73ms request_id=26f1b474
+2025-03-14T09:01:42.862Z INFO     [orders-api] POST /api/v1/search 200 71ms request_id=2696fbbf
+2025-03-14T09:01:43.806Z INFO     [orders-api] GET /healthz 200 54ms request_id=54ed5a66
+2025-03-14T09:01:46.005Z INFO     [orders-api] GET /api/v1/cart 200 11ms request_id=f00caeb3
+2025-03-14T09:01:47.089Z INFO     [billing-api] GET /api/v1/search 200 38ms request_id=acbc073b
+2025-03-14T09:01:47.341Z INFO     [billing-api] GET /api/v1/search 200 108ms request_id=fd3f1099
+2025-03-14T09:01:49.772Z INFO     [api-gateway] GET /healthz 200 99ms request_id=7b7f14a7
+2025-03-14T09:01:51.251Z INFO     [api-gateway] GET /api/v1/users/me 200 98ms request_id=1b297109
+2025-03-14T09:01:51.359Z INFO     [api-gateway] POST /api/v1/orders/79661 200 73ms request_id=52be7d92
+2025-03-14T09:01:52.924Z INFO     [orders-api] PUT /api/v1/cart 200 22ms request_id=251ac1c9
+2025-03-14T09:01:57.622Z INFO     [orders-api] GET /api/v1/orders/21716 200 30ms request_id=ef3e382e
+2025-03-14T09:01:59.293Z INFO     [billing-api] PUT /healthz 200 71ms request_id=54b2bd6e
+2025-03-14T09:02:00.317Z INFO     [orders-api] GET /api/v1/orders/39192 200 36ms request_id=f8b8e075
+2025-03-14T09:02:00.970Z INFO     [billing-api] GET /healthz 200 33ms request_id=98feab5d
+2025-03-14T09:02:01.406Z INFO     [orders-api] PUT /api/v1/users/me 200 115ms request_id=27766be3
+2025-03-14T09:02:03.840Z INFO     [api-gateway] GET /healthz 200 69ms request_id=d1f9439d
+2025-03-14T09:02:05.059Z INFO     [billing-api] GET /api/v1/users/me 200 9ms request_id=eb0a250c
+2025-03-14T09:02:05.577Z INFO     [billing-api] GET /api/v1/search 200 111ms request_id=02e73f60
+2025-03-14T09:02:05.712Z INFO     [billing-api] GET /api/v1/orders 200 118ms request_id=512bc650
+2025-03-14T09:02:05.792Z INFO     [api-gateway] POST /api/v1/cart 200 74ms request_id=cecea79f
+2025-03-14T09:02:06.106Z INFO     [billing-api] PUT /healthz 200 120ms request_id=df109a3b
+2025-03-14T09:02:06.640Z INFO     [api-gateway] POST /api/v1/orders 200 50ms request_id=f0deac61
+2025-03-14T09:02:06.743Z INFO     [api-gateway] PUT /api/v1/search 200 91ms request_id=bcfb7946
+2025-03-14T09:02:08.715Z INFO     [orders-api] GET /healthz 200 37ms request_id=400ae7db
+2025-03-14T09:02:08.958Z INFO     [api-gateway] PUT /api/v1/users/me 200 62ms request_id=af951349
+2025-03-14T09:02:10.373Z INFO     [api-gateway] PUT /healthz 200 102ms request_id=d390488e
+2025-03-14T09:02:10.548Z INFO     [api-gateway] GET /api/v1/cart 200 122ms request_id=02491d54
+2025-03-14T09:02:11.291Z INFO     [billing-api] GET /api/v1/search 200 92ms request_id=35fdca8a
+2025-03-14T09:02:12.433Z INFO     [orders-api] GET /healthz 200 129ms request_id=b7dc4c14
+2025-03-14T09:02:12.718Z INFO     [billing-api] GET /api/v1/search 200 33ms request_id=daa34dab
+2025-03-14T09:02:12.958Z INFO     [api-gateway] PUT /api/v1/users/me 200 88ms request_id=aa2fc00e
+2025-03-14T09:02:14.019Z INFO     [orders-api] GET /api/v1/orders/64119 200 117ms request_id=6fb55ed0
+2025-03-14T09:02:15.764Z INFO     [api-gateway] GET /api/v1/cart 200 20ms request_id=3e03fda6
+2025-03-14T09:02:16.347Z INFO     [orders-api] GET /api/v1/orders 200 97ms request_id=42dd7014
+2025-03-14T09:02:17.342Z INFO     [billing-api] GET /api/v1/orders/93839 200 72ms request_id=8bb03518
+2025-03-14T09:02:17.754Z INFO     [api-gateway] GET /api/v1/users/me 200 27ms request_id=edfbe446
+2025-03-14T09:02:18.140Z INFO     [billing-api] PUT /healthz 200 28ms request_id=4cd4d660
+2025-03-14T09:02:18.517Z INFO     [api-gateway] GET /api/v1/cart 200 82ms request_id=807f9116
+2025-03-14T09:02:18.620Z INFO     [orders-api] GET /api/v1/orders 200 131ms request_id=897cb3b9
+2025-03-14T09:02:18.937Z INFO     [orders-api] GET /healthz 200 103ms request_id=0c3483b3
+2025-03-14T09:02:20.065Z INFO     [billing-api] GET /api/v1/users/me 200 20ms request_id=83777dc6
+2025-03-14T09:02:20.150Z INFO     [api-gateway] GET /api/v1/orders 200 28ms request_id=3959e588
+2025-03-14T09:02:20.162Z INFO     [orders-api] POST /api/v1/catalog 200 63ms request_id=a32e6a6b
+2025-03-14T09:02:23.421Z INFO     [billing-api] POST /healthz 200 124ms request_id=2434fb1a
+2025-03-14T09:02:24.534Z INFO     [api-gateway] GET /api/v1/orders/88153 200 35ms request_id=5eb3f38b
+2025-03-14T09:02:24.622Z INFO     [orders-api] PUT /api/v1/cart 200 58ms request_id=0864ee12
+2025-03-14T09:02:25.291Z INFO     [billing-api] GET /healthz 200 41ms request_id=232b5683
+2025-03-14T09:02:25.700Z INFO     [orders-api] POST /api/v1/orders 200 78ms request_id=20b3efd8
+2025-03-14T09:02:26.694Z INFO     [orders-api] POST /api/v1/catalog 200 87ms request_id=2f8eed14
+2025-03-14T09:02:26.735Z INFO     [orders-api] GET /api/v1/search 200 14ms request_id=662abe46
+2025-03-14T09:02:27.184Z INFO     [orders-api] POST /api/v1/orders/52712 200 40ms request_id=eba41267
+2025-03-14T09:02:27.344Z INFO     [orders-api] GET /api/v1/catalog 200 7ms request_id=471e0fd7
+2025-03-14T09:02:28.048Z INFO     [billing-api] GET /api/v1/users/me 200 7ms request_id=4807fa4d
+2025-03-14T09:02:28.741Z INFO     [orders-api] GET /api/v1/search 200 46ms request_id=aee86652
+2025-03-14T09:02:30.972Z INFO     [orders-api] POST /api/v1/orders/51945 200 109ms request_id=a165e964
+2025-03-14T09:02:31.963Z INFO     [orders-api] GET /api/v1/catalog 200 135ms request_id=bf2de437
+2025-03-14T09:02:32.001Z INFO     [billing-api] PUT /api/v1/catalog 200 87ms request_id=4b36ea34
+2025-03-14T09:02:32.688Z INFO     [billing-api] GET /api/v1/orders 200 86ms request_id=7a513fc6
+2025-03-14T09:02:34.091Z INFO     [api-gateway] PUT /api/v1/orders/82021 200 107ms request_id=0f9d089e
+2025-03-14T09:02:34.832Z INFO     [api-gateway] PUT /api/v1/cart 200 48ms request_id=b3a92777
+2025-03-14T09:02:35.013Z INFO     [orders-api] GET /healthz 200 26ms request_id=c25bb600
+2025-03-14T09:02:35.050Z INFO     [billing-api] GET /healthz 200 15ms request_id=28ea2391
+2025-03-14T09:02:36.024Z INFO     [api-gateway] POST /api/v1/cart 200 25ms request_id=bace72fc
+2025-03-14T09:02:36.198Z WARNING  [orders-api] Slow query detected: SELECT * FROM orders WHERE status = 'open' took 1274ms
+2025-03-14T09:02:37.142Z INFO     [api-gateway] GET /healthz 200 17ms request_id=51990a86
+2025-03-14T09:02:37.367Z INFO     [billing-api] GET /healthz 200 47ms request_id=afd5f902
+2025-03-14T09:02:38.382Z INFO     [orders-api] GET /api/v1/search 200 79ms request_id=a7b01e44
+2025-03-14T09:02:38.740Z INFO     [api-gateway] PUT /api/v1/orders/43020 200 35ms request_id=4e8dbace
+2025-03-14T09:02:40.358Z INFO     [billing-api] PUT /api/v1/users/me 200 125ms request_id=8580e991
+2025-03-14T09:02:41.129Z INFO     [orders-api] POST /api/v1/orders 200 139ms request_id=674d17c2
+2025-03-14T09:02:41.923Z INFO     [orders-api] GET /api/v1/search 200 97ms request_id=54b7fa74
+2025-03-14T09:02:42.036Z INFO     [orders-api] GET /api/v1/users/me 200 95ms request_id=16ba00ea
+2025-03-14T09:02:42.401Z INFO     [billing-api] PUT /api/v1/orders/49908 200 74ms request_id=e061c786
+2025-03-14T09:02:43.674Z INFO     [api-gateway] PUT /api/v1/users/me 200 15ms request_id=7e6416b7
+2025-03-14T09:02:46.274Z INFO     [orders-api] PUT /api/v1/search 200 99ms request_id=733befe2
+2025-03-14T09:02:46.838Z INFO     [api-gateway] PUT /healthz 200 105ms request_id=cea505fc
+2025-03-14T09:02:47.885Z INFO     [billing-api] GET /api/v1/orders/97790 200 42ms request_id=b64aee79
+2025-03-14T09:02:48.418Z INFO     [billing-api] GET /api/v1/users/me 200 22ms request_id=cdd8b445
+2025-03-14T09:02:51.225Z INFO     [billing-api] GET /api/v1/users/me 200 98ms request_id=af5c3979
+2025-03-14T09:02:52.003Z INFO     [billing-api] PUT /api/v1/cart 200 93ms request_id=48bb87eb
+2025-03-14T09:02:52.270Z INFO     [orders-api] PUT /api/v1/cart 200 70ms request_id=ce0d483d
+2025-03-14T09:02:53.672Z INFO     [billing-api] GET /api/v1/cart 200 24ms request_id=0d0cf8e7
+2025-03-14T09:02:54.025Z INFO     [api-gateway] GET /healthz 200 28ms request_id=3810973b
+2025-03-14T09:02:54.079Z INFO     [orders-api] POST /api/v1/orders 200 65ms request_id=efaa2536
+2025-03-14T09:02:54.081Z INFO     [billing-api] GET /api/v1/orders/6724 200 124ms request_id=6fa64501
+2025-03-14T09:02:54.084Z INFO     [billing-api] GET /api/v1/users/me 200 128ms request_id=969327ab
+2025-03-14T09:02:55.009Z INFO     [billing-api] POST /healthz 200 114ms request_id=9b9067ec
+2025-03-14T09:02:55.967Z INFO     [billing-api] GET /api/v1/orders 200 80ms request_id=8ee88d22
+2025-03-14T09:02:58.013Z INFO     [orders-api] GET /api/v1/catalog 200 131ms request_id=69750d43
+2025-03-14T09:02:58.292Z INFO     [orders-api] GET /api/v1/users/me 200 9ms request_id=8b465630
+2025-03-14T09:03:00.178Z INFO     [api-gateway] POST /api/v1/cart 200 98ms request_id=5190c94b
+2025-03-14T09:03:01.473Z INFO     [orders-api] PUT /api/v1/orders/94629 200 105ms request_id=a1151488
+2025-03-14T09:03:01.759Z INFO     [orders-api] PUT /api/v1/cart 200 91ms request_id=ae0c5763
+2025-03-14T09:03:03.185Z INFO     [api-gateway] GET /api/v1/catalog 200 67ms request_id=40a3f4c7
+2025-03-14T09:03:05.356Z INFO     [api-gateway] GET /api/v1/users/me 200 44ms request_id=fe8abbda
+2025-03-14T09:03:07.379Z INFO     [orders-api] GET /api/v1/users/me 200 86ms request_id=2bbb8f69
+2025-03-14T09:03:09.484Z INFO     [orders-api] GET /api/v1/users/me 200 21ms request_id=5285efc6
+2025-03-14T09:03:09.579Z INFO     [orders-api] PUT /api/v1/users/me 200 90ms request_id=06d096b8
+2025-03-14T09:03:10.503Z INFO     [api-gateway] PUT /api/v1/cart 200 136ms request_id=b961b238
+2025-03-14T09:03:11.144Z INFO     [billing-api] GET /healthz 200 81ms request_id=3ad21aa5
+2025-03-14T09:03:13.765Z INFO     [orders-api] POST /api/v1/orders 200 22ms request_id=a03d3c27
+2025-03-14T09:03:17.517Z INFO     [billing-api] PUT /api/v1/search 200 94ms request_id=701e16ae
+2025-03-14T09:03:23.134Z INFO     [api-gateway] PUT /api/v1/orders 200 15ms request_id=e22379b2
+2025-03-14T09:03:23.535Z INFO     [orders-api] PUT /api/v1/search 200 106ms request_id=2fec55fb
+2025-03-14T09:03:24.148Z INFO     [billing-api] POST /healthz 200 53ms request_id=d7fd509b
+2025-03-14T09:03:24.399Z INFO     [orders-api] PUT /api/v1/users/me 200 131ms request_id=81bb0b1a
+2025-03-14T09:03:24.828Z INFO     [orders-api] GET /api/v1/catalog 200 83ms request_id=bfab599b
+2025-03-14T09:03:28.137Z INFO     [billing-api] POST /api/v1/cart 200 73ms request_id=53036eb9
+2025-03-14T09:03:28.386Z INFO     [billing-api] GET /api/v1/catalog 200 112ms request_id=0f800ccb
+2025-03-14T09:03:28.833Z INFO     [billing-api] GET /healthz 200 97ms request_id=6166ca82
+2025-03-14T09:03:30.871Z INFO     [api-gateway] GET /api/v1/orders 200 64ms request_id=ea0b8e50
+2025-03-14T09:03:31.032Z INFO     [billing-api] PUT /api/v1/orders/39784 200 83ms request_id=5abc9b8c
+2025-03-14T09:03:31.067Z INFO     [billing-api] PUT /api/v1/search 200 134ms request_id=796a67bc
+2025-03-14T09:03:31.683Z INFO     [api-gateway] GET /healthz 200 74ms request_id=4336b5d7
+2025-03-14T09:03:32.295Z INFO     [orders-api] POST /api/v1/catalog 200 102ms request_id=617a7d14
+2025-03-14T09:03:32.314Z INFO     [orders-api] GET /healthz 200 7ms request_id=e95d58d5
+2025-03-14T09:03:33.757Z INFO     [api-gateway] PUT /api/v1/users/me 200 117ms request_id=dc18a4af
+2025-03-14T09:03:36.371Z INFO     [api-gateway] GET /api/v1/orders 200 30ms request_id=68298471
+2025-03-14T09:03:36.849Z INFO     [orders-api] PUT /api/v1/orders 200 80ms request_id=9390d97f
+2025-03-14T09:03:37.010Z INFO     [api-gateway] GET /api/v1/orders 200 42ms request_id=6798c279
+2025-03-14T09:03:40.051Z INFO     [api-gateway] PUT /healthz 200 18ms request_id=67c9e3f4
+2025-03-14T09:03:41.215Z INFO     [api-gateway] PUT /api/v1/users/me 200 33ms request_id=acc8310e
+2025-03-14T09:03:41.514Z INFO     [orders-api] GET /healthz 200 62ms request_id=40238e78
+2025-03-14T09:03:43.361Z INFO     [orders-api] PUT /api/v1/cart 200 19ms request_id=c5554bd9
+2025-03-14T09:03:44.152Z INFO     [orders-api] GET /api/v1/orders 200 8ms request_id=f1a7aee6
+2025-03-14T09:03:44.995Z INFO     [billing-api] POST /api/v1/orders/82563 200 95ms request_id=e9c39f8e
+2025-03-14T09:03:45.825Z INFO     [orders-api] POST /api/v1/users/me 200 68ms request_id=8e77c8f4
+2025-03-14T09:03:46.305Z INFO     [billing-api] GET /api/v1/cart 200 118ms request_id=804c6c33
+2025-03-14T09:03:47.172Z INFO     [api-gateway] GET /api/v1/catalog 200 29ms request_id=c6f9866b
+2025-03-14T09:03:48.614Z INFO     [billing-api] PUT /healthz 200 91ms request_id=edb940dc
+2025-03-14T09:03:50.746Z INFO     [api-gateway] GET /api/v1/orders/97145 200 48ms request_id=bae12d77
+2025-03-14T09:03:52.977Z INFO     [billing-api] PUT /api/v1/orders 200 134ms request_id=f5d3e851
+2025-03-14T09:03:53.852Z INFO     [billing-api] POST /api/v1/search 200 85ms request_id=c38d55c7
+2025-03-14T09:03:54.963Z INFO     [api-gateway] GET /healthz 200 50ms request_id=72241dbc
+2025-03-14T09:03:55.428Z INFO     [api-gateway] PUT /api/v1/orders/19318 200 119ms request_id=03af291f
+2025-03-14T09:03:55.479Z INFO     [api-gateway] POST /api/v1/cart 200 91ms request_id=4260e40e
+2025-03-14T09:03:56.911Z INFO     [api-gateway] PUT /api/v1/catalog 200 40ms request_id=da21ea51
+2025-03-14T09:03:57.083Z INFO     [orders-api] GET /api/v1/users/me 200 34ms request_id=a3deb76f
+2025-03-14T09:03:59.026Z INFO     [orders-api] PUT /api/v1/cart 200 126ms request_id=f8d03f88
+2025-03-14T09:03:59.493Z INFO     [orders-api] GET /api/v1/orders 200 79ms request_id=3d5d8106
+2025-03-14T09:04:03.600Z INFO     [orders-api] GET /api/v1/orders 200 7ms request_id=04a7a525
+2025-03-14T09:04:05.901Z INFO     [orders-api] POST /api/v1/users/me 200 54ms request_id=28f37954
+2025-03-14T09:04:06.204Z INFO     [billing-api] POST /healthz 200 89ms request_id=afcc5b19
+2025-03-14T09:04:06.209Z INFO     [billing-api] POST /healthz 200 127ms request_id=62573361
+2025-03-14T09:04:09.481Z INFO     [billing-api] GET /api/v1/users/me 200 50ms request_id=10967156
+2025-03-14T09:04:11.311Z INFO     [orders-api] POST /api/v1/catalog 200 106ms request_id=731e2d05
+2025-03-14T09:04:11.690Z INFO     [orders-api] GET /api/v1/search 200 119ms request_id=9943ea18
+2025-03-14T09:04:12.176Z INFO     [billing-api] GET /api/v1/search 200 42ms request_id=95531e9f
+2025-03-14T09:04:13.102Z INFO     [billing-api] POST /api/v1/cart 200 44ms request_id=4ec1d9b1
+2025-03-14T09:04:14.883Z INFO     [api-gateway] POST /api/v1/users/me 200 60ms request_id=83cf7a6e
+2025-03-14T09:04:15.609Z INFO     [api-gateway] GET /api/v1/orders 200 130ms request_id=d942ab10
+2025-03-14T09:04:16.874Z INFO     [orders-api] GET /api/v1/cart 200 48ms request_id=c0d78424
+2025-03-14T09:04:17.400Z INFO     [api-gateway] PUT /api/v1/search 200 76ms request_id=da8a25fc
+2025-03-14T09:04:17.742Z INFO     [billing-api] PUT /api/v1/search 200 103ms request_id=57477d2c
+2025-03-14T09:04:20.176Z INFO     [api-gateway] POST /api/v1/orders 200 52ms request_id=811c3c7c
+2025-03-14T09:04:24.497Z INFO     [billing-api] GET /api/v1/users/me 200 136ms request_id=ddb23f2d
+2025-03-14T09:04:25.588Z INFO     [billing-api] POST /api/v1/orders 200 140ms request_id=f1157ad7
+2025-03-14T09:04:26.116Z INFO     [billing-api] PUT /api/v1/cart 200 99ms request_id=1b19816f
+2025-03-14T09:04:26.186Z INFO     [orders-api] GET /healthz 200 41ms request_id=f3368d61
+2025-03-14T09:04:27.065Z INFO     [billing-api] POST /api/v1/orders 200 95ms request_id=2cfad671
+2025-03-14T09:04:27.559Z INFO     [orders-api] GET /api/v1/search 200 51ms request_id=9544d93c
+2025-03-14T09:04:28.954Z INFO     [api-gateway] GET /api/v1/catalog 200 66ms request_id=0892a16d
+2025-03-14T09:04:28.996Z INFO     [api-gateway] PUT /api/v1/orders/93140 200 5ms request_id=212b5964
+2025-03-14T09:04:29.161Z INFO     [api-gateway] GET /healthz 200 131ms request_id=fae1125c
+2025-03-14T09:04:29.779Z INFO     [orders-api] POST /api/v1/catalog 200 50ms request_id=e4a4c479
+2025-03-14T09:04:29.982Z INFO     [billing-api] PUT /api/v1/search 200 60ms request_id=5c9a2d43
+2025-03-14T09:04:30.403Z INFO     [api-gateway] GET /api/v1/orders/3668 200 32ms request_id=15d05d07
+2025-03-14T09:04:32.705Z INFO     [billing-api] GET /healthz 200 106ms request_id=cb11a905
+2025-03-14T09:04:32.711Z INFO     [orders-api] PUT /api/v1/cart 200 111ms request_id=e3e41037
+2025-03-14T09:04:33.463Z INFO     [orders-api] GET /healthz 200 43ms request_id=78dc9f1e
+2025-03-14T09:04:34.496Z WARNING  [orders-api] Slow query detected: SELECT * FROM orders WHERE status = 'open' took 621ms
+2025-03-14T09:04:36.155Z INFO     [api-gateway] PUT /api/v1/orders 200 130ms request_id=a4e6f956
+2025-03-14T09:04:36.187Z INFO     [orders-api] POST /api/v1/orders 200 41ms request_id=dfca20b0
+2025-03-14T09:04:36.648Z INFO     [billing-api] GET /healthz 200 48ms request_id=923649d5
+2025-03-14T09:04:39.128Z INFO     [orders-api] POST /healthz 200 138ms request_id=a74232d7
+2025-03-14T09:04:39.699Z INFO     [billing-api] GET /api/v1/orders/41097 200 28ms request_id=14b60c33
+2025-03-14T09:04:40.656Z INFO     [billing-api] POST /api/v1/orders/99758 200 50ms request_id=9e557352
+2025-03-14T09:04:41.542Z INFO     [orders-api] GET /api/v1/users/me 200 104ms request_id=eea5b446
+2025-03-14T09:04:42.013Z INFO     [orders-api] GET /api/v1/catalog 200 25ms request_id=f2ca660c
+2025-03-14T09:04:42.274Z INFO     [api-gateway] GET /api/v1/users/me 200 47ms request_id=1310876b
+2025-03-14T09:04:42.300Z INFO     [orders-api] GET /healthz 200 88ms request_id=c665d9ad
+2025-03-14T09:04:43.026Z INFO     [api-gateway] GET /api/v1/cart 200 91ms request_id=078316d5
+2025-03-14T09:04:44.040Z INFO     [api-gateway] GET /api/v1/users/me 200 63ms request_id=fcfdd28b
+2025-03-14T09:04:44.129Z INFO     [billing-api] GET /api/v1/cart 200 82ms request_id=1d7d2f45
+2025-03-14T09:04:47.379Z INFO     [orders-api] GET /api/v1/cart 200 68ms request_id=38fe3a9b
+2025-03-14T09:04:47.581Z INFO     [orders-api] GET /api/v1/users/me 200 26ms request_id=3e0f27e3
+2025-03-14T09:04:49.404Z INFO     [billing-api] POST /api/v1/users/me 200 24ms request_id=fa491885
+2025-03-14T09:04:50.021Z INFO     [api-gateway] GET /api/v1/catalog 200 8ms request_id=5d4d045d
+2025-03-14T09:04:51.436Z INFO     [billing-api] POST /api/v1/orders/17018 200 81ms request_id=0cfab8b5
+2025-03-14T09:04:51.642Z INFO     [api-gateway] GET /api/v1/search 200 102ms request_id=a0b63832
+2025-03-14T09:04:53.217Z INFO     [api-gateway] GET /api/v1/search 200 49ms request_id=0319b83d
+2025-03-14T09:04:54.956Z INFO     [billing-api] PUT /api/v1/orders/42424 200 62ms request_id=77f9be84
+2025-03-14T09:04:55.282Z INFO     [api-gateway] GET /healthz 200 86ms request_id=2596a186
+2025-03-14T09:04:56.181Z INFO     [api-gateway] GET /api/v1/catalog 200 96ms request_id=43d07aba
+2025-03-14T09:04:57.535Z INFO     [orders-api] PUT /api/v1/catalog 200 87ms request_id=f1401519
+2025-03-14T09:04:58.180Z INFO     [orders-api] GET /api/v1/search 200 52ms request_id=55cffbea
+2025-03-14T09:04:58.639Z INFO     [billing-api] PUT /api/v1/catalog 200 61ms request_id=59f7dec0
+2025-03-14T09:05:03.501Z INFO     [orders-api] GET /api/v1/catalog 200 103ms request_id=4ba3b9fa
+2025-03-14T09:05:04.287Z INFO     [billing-api] GET /api/v1/search 200 69ms request_id=5b017c0c
+2025-03-14T09:05:04.479Z INFO     [billing-api] GET /api/v1/cart 200 12ms request_id=bee44a12
+2025-03-14T09:05:05.343Z INFO     [api-gateway] PUT /api/v1/catalog 200 98ms request_id=c6626cee
+2025-03-14T09:05:06.290Z INFO     [api-gateway] GET /api/v1/catalog 200 26ms request_id=71f965b9
+2025-03-14T09:05:07.071Z INFO     [orders-api] GET /api/v1/cart 200 17ms request_id=fa5c5209
+2025-03-14T09:05:07.180Z INFO     [billing-api] GET /api/v1/catalog 200 66ms request_id=c91d2649
+2025-03-14T09:05:07.739Z INFO     [billing-api] GET /api/v1/search 200 124ms request_id=70c47a5c
+2025-03-14T09:05:08.720Z INFO     [billing-api] GET /api/v1/search 200 6ms request_id=e120ce05
+2025-03-14T09:05:09.765Z INFO     [orders-api] GET /healthz 200 103ms request_id=bfcf6b84
+2025-03-14T09:05:10.487Z INFO     [api-gateway] GET /api/v1/orders/85502 200 114ms request_id=24b040eb
+2025-03-14T09:05:11.158Z WARNING  [orders-api] Slow query detected: SELECT * FROM orders WHERE status = 'open' took 971ms
+2025-03-14T09:05:11.191Z INFO     [orders-api] GET /api/v1/orders 200 102ms request_id=3bf9ae04
+2025-03-14T09:05:11.946Z INFO     [api-gateway] GET /healthz 200 30ms request_id=3a6192d4
+2025-03-14T09:05:12.009Z INFO     [orders-api] PUT /api/v1/orders 200 138ms request_id=576ecf1d
+2025-03-14T09:05:15.253Z INFO     [api-gateway] PUT /api/v1/users/me 200 61ms request_id=595e7f58
+2025-03-14T09:05:15.484Z INFO     [billing-api] GET /healthz 200 88ms request_id=2e547376
+2025-03-14T09:05:16.863Z INFO     [billing-api] POST /api/v1/catalog 200 78ms request_id=a3bad393
+2025-03-14T09:05:17.743Z INFO     [orders-api] PUT /api/v1/users/me 200 15ms request_id=f66e83b3
+2025-03-14T09:05:18.217Z INFO     [api-gateway] PUT /api/v1/users/me 200 105ms request_id=b0a46613
+2025-03-14T09:05:19.565Z INFO     [billing-api] PUT /api/v1/cart 200 109ms request_id=42a6d6d7
+2025-03-14T09:05:19.680Z INFO     [billing-api] GET /api/v1/orders/11730 200 104ms request_id=12f63595
+2025-03-14T09:05:19.800Z INFO     [orders-api] GET /api/v1/orders 200 104ms request_id=33cfad7e
+2025-03-14T09:05:21.452Z INFO     [api-gateway] PUT /api/v1/cart 200 30ms request_id=e2693ef0
+2025-03-14T09:05:22.014Z INFO     [billing-api] PUT /api/v1/catalog 200 40ms request_id=9dd24f36
+2025-03-14T09:05:22.713Z INFO     [billing-api] GET /api/v1/orders 200 65ms request_id=172bd070
+2025-03-14T09:05:23.105Z INFO     [billing-api] GET /api/v1/cart 200 82ms request_id=fceb398c
+2025-03-14T09:05:23.370Z INFO     [api-gateway] GET /api/v1/orders/91561 200 36ms request_id=52d102e9
+2025-03-14T09:05:23.745Z INFO     [orders-api] PUT /api/v1/search 200 55ms request_id=dec55e05
+2025-03-14T09:05:23.997Z INFO     [billing-api] GET /api/v1/catalog 200 70ms request_id=8fb4dd57
+2025-03-14T09:05:24.797Z INFO     [orders-api] POST /api/v1/users/me 200 11ms request_id=2de9a1cd
+2025-03-14T09:05:25.729Z INFO     [api-gateway] POST /api/v1/catalog 200 118ms request_id=4761afd8
+2025-03-14T09:05:26.006Z INFO     [api-gateway] GET /healthz 200 18ms request_id=fcc0b2b5
+2025-03-14T09:05:26.388Z INFO     [api-gateway] GET /healthz 200 101ms request_id=2a205cd5
+2025-03-14T09:05:26.560Z INFO     [billing-api] GET /healthz 200 59ms request_id=d2fb4367
+2025-03-14T09:05:26.962Z INFO     [billing-api] GET /healthz 200 31ms request_id=bda62436
+2025-03-14T09:05:27.079Z INFO     [orders-api] GET /api/v1/orders/37533 200 4ms request_id=ce32f23b
+2025-03-14T09:05:28.960Z INFO     [api-gateway] PUT /api/v1/catalog 200 40ms request_id=7cc5fe28
+2025-03-14T09:05:30.014Z INFO     [api-gateway] GET /api/v1/users/me 200 27ms request_id=004dc2f0
+2025-03-14T09:05:30.900Z INFO     [billing-api] POST /api/v1/users/me 200 82ms request_id=12d1bbcf
+2025-03-14T09:05:30.962Z INFO     [billing-api] GET /api/v1/catalog 200 127ms request_id=fbc164ca
+2025-03-14T09:05:32.125Z INFO     [billing-api] GET /api/v1/search 200 29ms request_id=25798cce
+2025-03-14T09:05:32.577Z INFO     [billing-api] GET /api/v1/users/me 200 38ms request_id=45497dff
+2025-03-14T09:05:33.089Z INFO     [orders-api] POST /api/v1/orders/57163 200 99ms request_id=f5415c25
+2025-03-14T09:05:33.633Z INFO     [billing-api] GET /api/v1/orders/51271 200 111ms request_id=136f10a0
+2025-03-14T09:05:33.902Z INFO     [billing-api] POST /api/v1/users/me 200 20ms request_id=2f9c07a8
+2025-03-14T09:05:34.834Z INFO     [orders-api] POST /api/v1/orders/25031 200 44ms request_id=c3771de6
+2025-03-14T09:05:35.554Z INFO     [billing-api] GET /api/v1/catalog 200 60ms request_id=76ecc79b
+2025-03-14T09:05:35.985Z INFO     [api-gateway] POST /api/v1/cart 200 24ms request_id=66b2a11a
+2025-03-14T09:05:36.267Z INFO     [orders-api] POST /api/v1/cart 200 134ms request_id=74b2f8f6
+2025-03-14T09:05:36.544Z INFO     [billing-api] POST /api/v1/search 200 105ms request_id=a82b5d55
+2025-03-14T09:05:37.287Z INFO     [orders-api] POST /healthz 200 45ms request_id=21b533ef
+2025-03-14T09:05:37.387Z INFO     [billing-api] GET /api/v1/orders/2419 200 32ms request_id=ad1c9401
+2025-03-14T09:05:39.076Z INFO     [billing-api] GET /api/v1/search 200 5ms request_id=4c95b9bc
+2025-03-14T09:05:41.459Z INFO     [billing-api] GET /api/v1/search 200 19ms request_id=f815bdc4
+2025-03-14T09:05:41.496Z INFO     [api-gateway] GET /api/v1/orders/56438 200 135ms request_id=a4e57492
+2025-03-14T09:05:42.245Z INFO     [api-gateway] GET /api/v1/orders 200 78ms request_id=37f13e6f
+2025-03-14T09:05:42.570Z INFO     [billing-api] GET /api/v1/users/me 200 23ms request_id=ee45546e
+2025-03-14T09:05:44.212Z INFO     [billing-api] GET /api/v1/users/me 200 28ms request_id=aba3f0c4
+2025-03-14T09:05:44.255Z INFO     [orders-api] GET /api/v1/orders/38504 200 7ms request_id=4790e0ee
+2025-03-14T09:05:44.855Z INFO     [billing-api] PUT /api/v1/cart 200 90ms request_id=3a4ebce4
+2025-03-14T09:05:45.781Z INFO     [api-gateway] GET /api/v1/orders 200 107ms request_id=669a9d67
+2025-03-14T09:05:47.797Z INFO     [api-gateway] GET /api/v1/catalog 200 57ms request_id=dc38a85e
+2025-03-14T09:05:48.031Z INFO     [billing-api] POST /api/v1/cart 200 101ms request_id=19738c7f
+2025-03-14T09:05:48.431Z INFO     [api-gateway] GET /api/v1/orders/46400 200 56ms request_id=d37c7047
+2025-03-14T09:05:49.177Z INFO     [orders-api] POST /api/v1/cart 200 110ms request_id=f51cb8f8
+2025-03-14T09:05:49.384Z INFO     [billing-api] GET /api/v1/cart 200 47ms request_id=1e3ab3f7
+2025-03-14T09:05:49.964Z INFO     [api-gateway] PUT /healthz 200 127ms request_id=0fc8e155
+2025-03-14T09:05:50.195Z INFO     [billing-api] GET /api/v1/catalog 200 131ms request_id=4b04d0c0
+2025-03-14T09:05:50.907Z INFO     [billing-api] PUT /api/v1/users/me 200 115ms request_id=bdb55a2b
+2025-03-14T09:05:51.424Z INFO     [billing-api] GET /api/v1/catalog 200 87ms request_id=d395df9e
+2025-03-14T09:05:52.538Z INFO     [orders-api] GET /healthz 200 125ms request_id=b8c4e8f6
+2025-03-14T09:05:53.309Z INFO     [api-gateway] GET /api/v1/cart 200 136ms request_id=f0378169
+2025-03-14T09:05:54.186Z INFO     [orders-api] GET /api/v1/search 200 49ms request_id=5a60b9de
+2025-03-14T09:05:54.208Z INFO     [orders-api] GET /healthz 200 8ms request_id=5f137c50
+2025-03-14T09:05:54.356Z INFO     [api-gateway] GET /api/v1/cart 200 24ms request_id=6c848db7
+2025-03-14T09:05:54.451Z INFO     [orders-api] PUT /api/v1/cart 200 63ms request_id=b88aef11
+2025-03-14T09:05:55.592Z INFO     [billing-api] GET /api/v1/users/me 200 138ms request_id=4fe87085
+2025-03-14T09:05:56.559Z INFO     [orders-api] PUT /api/v1/users/me 200 81ms request_id=c3181281
+2025-03-14T09:05:57.558Z INFO     [orders-api] GET /api/v1/catalog 200 81ms request_id=ed6c60a5
+2025-03-14T09:05:57.762Z INFO     [billing-api] GET /api/v1/users/me 200 121ms request_id=b2e9d867
+2025-03-14T09:06:00.248Z INFO     [api-gateway] GET /api/v1/cart 200 69ms request_id=3d9ffbd6
+2025-03-14T09:06:02.638Z INFO     [billing-api] PUT /api/v1/orders/81799 200 20ms request_id=734ede5e
+2025-03-14T09:06:02.733Z INFO     [api-gateway] PUT /api/v1/search 200 96ms request_id=1a70b374
+2025-03-14T09:06:02.955Z INFO     [billing-api] PUT /api/v1/orders/40836 200 40ms request_id=087919aa
+2025-03-14T09:06:04.225Z INFO     [api-gateway] GET /api/v1/cart 200 137ms request_id=95ab107a
+2025-03-14T09:06:05.231Z INFO     [billing-api] GET /api/v1/cart 200 14ms request_id=f0035c5c
+2025-03-14T09:06:05.294Z INFO     [orders-api] GET /api/v1/search 200 95ms request_id=ff09d77b
+2025-03-14T09:06:08.843Z INFO     [orders-api] GET /api/v1/search 200 89ms request_id=cf73c608
+2025-03-14T09:06:10.232Z INFO     [orders-api] GET /api/v1/catalog 200 74ms request_id=83edab02
+2025-03-14T09:06:12.471Z INFO     [orders-api] GET /api/v1/orders 200 12ms request_id=178c0028
+2025-03-14T09:06:12.522Z INFO     [orders-api] GET /healthz 200 29ms request_id=9973c1b7
+2025-03-14T09:06:13.157Z INFO     [orders-api] POST /api/v1/orders/92375 200 94ms request_id=de67500c
+2025-03-14T09:06:13.274Z INFO     [orders-api] GET /api/v1/orders/35312 200 137ms request_id=9c48f49d
+2025-03-14T09:06:13.552Z INFO     [api-gateway] GET /api/v1/catalog 200 139ms request_id=aef701e8
+2025-03-14T09:06:14.056Z INFO     [api-gateway] GET /api/v1/orders 200 12ms request_id=c18e2942
+2025-03-14T09:06:14.058Z INFO     [billing-api] PUT /api/v1/catalog 200 101ms request_id=bd87f952
+2025-03-14T09:06:14.324Z INFO     [orders-api] POST /api/v1/catalog 200 81ms request_id=5ff9f41a
+2025-03-14T09:06:15.223Z INFO     [orders-api] POST /healthz 200 10ms request_id=4319dea2
+2025-03-14T09:06:17.142Z INFO     [billing-api] GET /healthz 200 69ms request_id=8e7a57d0
+2025-03-14T09:06:18.158Z INFO     [orders-api] GET /api/v1/catalog 200 89ms request_id=495621dd
+2025-03-14T09:06:18.734Z INFO     [orders-api] GET /api/v1/orders/66948 200 60ms request_id=cd73cff3
+2025-03-14T09:06:19.648Z INFO     [orders-api] GET /api/v1/users/me 200 113ms request_id=ab5774dc
+2025-03-14T09:06:20.172Z INFO     [billing-api] POST /healthz 200 137ms request_id=7a6d68c1
+2025-03-14T09:06:20.174Z INFO     [billing-api] GET /healthz 200 95ms request_id=8475b85e
+2025-03-14T09:06:21.574Z INFO     [api-gateway] GET /api/v1/catalog 200 129ms request_id=b7d4d402
+2025-03-14T09:06:22.516Z INFO     [orders-api] POST /api/v1/search 200 86ms request_id=db193dff
+2025-03-14T09:06:22.672Z INFO     [api-gateway] PUT /api/v1/catalog 200 139ms request_id=6753f7a0
+2025-03-14T09:06:23.160Z INFO     [orders-api] POST /api/v1/search 200 53ms request_id=8e12df2a
+2025-03-14T09:06:23.971Z INFO     [billing-api] GET /healthz 200 128ms request_id=8b7bdb02
+2025-03-14T09:06:24.925Z INFO     [api-gateway] GET /api/v1/search 200 122ms request_id=d2b86c57
+2025-03-14T09:06:25.144Z WARNING  [orders-api] Slow query detected: SELECT * FROM orders WHERE status = 'open' took 1182ms
+2025-03-14T09:06:27.135Z INFO     [billing-api] GET /api/v1/orders 200 30ms request_id=62197f02
+2025-03-14T09:06:28.126Z INFO     [orders-api] GET /api/v1/catalog 200 104ms request_id=1300d535
+2025-03-14T09:06:28.722Z INFO     [billing-api] PUT /api/v1/orders/97632 200 96ms request_id=b8a962ab
+2025-03-14T09:06:29.684Z INFO     [api-gateway] GET /api/v1/catalog 200 19ms request_id=01e23012
+2025-03-14T09:06:30.828Z INFO     [billing-api] GET /api/v1/cart 200 88ms request_id=52b24c95
+2025-03-14T09:06:31.946Z WARNING  [orders-api] Slow query detected: SELECT * FROM orders WHERE status = 'open' took 767ms
+2025-03-14T09:06:32.888Z INFO     [api-gateway] POST /api/v1/catalog 200 77ms request_id=68131271
+2025-03-14T09:06:32.997Z INFO     [api-gateway] GET /healthz 200 70ms request_id=b8a2d983
+2025-03-14T09:06:33.392Z INFO     [api-gateway] GET /api/v1/search 200 81ms request_id=b1721d8b
+2025-03-14T09:06:34.998Z INFO     [billing-api] GET /api/v1/orders 200 45ms request_id=8d6964d9
+2025-03-14T09:06:37.991Z INFO     [api-gateway] POST /healthz 200 85ms request_id=d18b4d50
+2025-03-14T09:06:38.846Z INFO     [api-gateway] GET /api/v1/orders/48870 200 69ms request_id=0fbc71be
+2025-03-14T09:06:39.606Z INFO     [billing-api] GET /api/v1/search 200 81ms request_id=89de579a
+2025-03-14T09:06:40.341Z INFO     [api-gateway] POST /api/v1/users/me 200 25ms request_id=1f6b7269
+2025-03-14T09:06:41.315Z INFO     [api-gateway] POST /api/v1/search 200 85ms request_id=39dc41b9
+2025-03-14T09:06:43.092Z INFO     [orders-api] GET /api/v1/search 200 33ms request_id=f4982b65
+2025-03-14T09:06:43.115Z INFO     [api-gateway] GET /api/v1/orders/38205 200 26ms request_id=c07088c6
+2025-03-14T09:06:43.831Z INFO     [billing-api] GET /api/v1/catalog 200 6ms request_id=ab9d5025
+2025-03-14T09:06:44.210Z INFO     [api-gateway] GET /api/v1/users/me 200 123ms request_id=d6961387
+2025-03-14T09:06:45.034Z INFO     [orders-api] GET /api/v1/orders/34987 200 78ms request_id=4affb6fd
+2025-03-14T09:06:45.817Z INFO     [api-gateway] PUT /api/v1/orders/55139 200 75ms request_id=83286564
+2025-03-14T09:06:47.358Z INFO     [billing-api] PUT /api/v1/users/me 200 133ms request_id=a07d0d8f
+2025-03-14T09:06:48.043Z INFO     [billing-api] GET /api/v1/search 200 13ms request_id=4f9597ad
+2025-03-14T09:06:49.283Z INFO     [orders-api] PUT /healthz 200 136ms request_id=dd79e789
+2025-03-14T09:06:50.342Z INFO     [billing-api] GET /api/v1/catalog 200 76ms request_id=bf303e21
+2025-03-14T09:06:51.621Z INFO     [billing-api] PUT /healthz 200 26ms request_id=8cb95c1b
+2025-03-14T09:06:52.651Z INFO     [billing-api] GET /api/v1/search 200 108ms request_id=9458bf27
+2025-03-14T09:06:53.896Z INFO     [billing-api] GET /healthz 200 132ms request_id=042831ae
+2025-03-14T09:06:54.636Z INFO     [billing-api] GET /api/v1/users/me 200 27ms request_id=8d8e991e
+2025-03-14T09:06:55.742Z INFO     [billing-api] GET /api/v1/catalog 200 15ms request_id=8f9e1382
+2025-03-14T09:06:56.543Z INFO     [billing-api] POST /api/v1/catalog 200 58ms request_id=eb958f80
+2025-03-14T09:06:57.375Z INFO     [orders-api] POST /api/v1/orders 200 36ms request_id=d885ddf0
+2025-03-14T09:06:57.506Z INFO     [billing-api] GET /api/v1/cart 200 128ms request_id=3e78c6ac
+2025-03-14T09:06:58.449Z INFO     [orders-api] PUT /api/v1/search 200 88ms request_id=2bc52a2f
+2025-03-14T09:06:59.012Z INFO     [api-gateway] GET /healthz 200 110ms request_id=9bae00b1
+2025-03-14T09:06:59.480Z INFO     [api-gateway] POST /api/v1/orders 200 128ms request_id=e066de1f
+2025-03-14T09:06:59.955Z INFO     [orders-api] GET /healthz 200 95ms request_id=e1e88f25
+2025-03-14T09:07:00.141Z INFO     [orders-api] GET /api/v1/orders/78372 200 24ms request_id=1dbb84c2
+2025-03-14T09:07:00.357Z INFO     [orders-api] POST /api/v1/users/me 200 116ms request_id=751b693a
+2025-03-14T09:07:01.059Z INFO     [billing-api] POST /healthz 200 119ms request_id=b5eb9680
+2025-03-14T09:07:01.648Z INFO     [api-gateway] GET /api/v1/catalog 200 34ms request_id=b312d2f0
+2025-03-14T09:07:03.762Z INFO     [billing-api] PUT /api/v1/orders/59222 200 65ms request_id=3e86bb34
+2025-03-14T09:07:04.521Z INFO     [orders-api] GET /api/v1/users/me 200 24ms request_id=257c6749
+2025-03-14T09:07:04.808Z INFO     [api-gateway] POST /api/v1/cart 200 98ms request_id=524f2d81
+2025-03-14T09:07:04.967Z INFO     [api-gateway] GET /healthz 200 49ms request_id=34736076
+2025-03-14T09:07:05.473Z INFO     [orders-api] PUT /healthz 200 113ms request_id=765363ce
+2025-03-14T09:07:05.527Z INFO     [billing-api] GET /api/v1/search 200 12ms request_id=88afc956
+2025-03-14T09:07:06.349Z INFO     [billing-api] PUT /api/v1/users/me 200 102ms request_id=ca4f754b
+2025-03-14T09:07:08.019Z INFO     [api-gateway] PUT /healthz 200 11ms request_id=ef18d421
+2025-03-14T09:07:08.028Z INFO     [billing-api] GET /api/v1/cart 200 67ms request_id=5e674708
+2025-03-14T09:07:08.364Z INFO     [orders-api] GET /api/v1/search 200 29ms request_id=95d77721
+2025-03-14T09:07:08.403Z INFO     [api-gateway] PUT /api/v1/orders 200 28ms request_id=fb3be9a6
+2025-03-14T09:07:08.761Z INFO     [billing-api] GET /api/v1/orders/19705 200 17ms request_id=7b1d057f
+2025-03-14T09:07:11.288Z INFO     [orders-api] PUT /api/v1/orders 200 51ms request_id=f5fa6393
+2025-03-14T09:07:12.623Z INFO     [orders-api] GET /healthz 200 84ms request_id=47d4f7d9
+2025-03-14T09:07:13.468Z INFO     [billing-api] PUT /api/v1/users/me 200 26ms request_id=335521c8
+2025-03-14T09:07:13.500Z INFO     [billing-api] POST /api/v1/orders/10783 200 37ms request_id=0050b080
+2025-03-14T09:07:13.777Z INFO     [orders-api] GET /api/v1/orders 200 110ms request_id=eb0bddbd
+2025-03-14T09:07:14.349Z INFO     [api-gateway] GET /api/v1/orders 200 105ms request_id=67c6caef
+2025-03-14T09:07:14.998Z INFO     [billing-api] GET /api/v1/search 200 70ms request_id=5923c362
+2025-03-14T09:07:15.111Z INFO     [billing-api] PUT /api/v1/cart 200 40ms request_id=ac859d65
+2025-03-14T09:07:15.707Z INFO     [orders-api] POST /api/v1/users/me 200 131ms request_id=d7bb1408
+2025-03-14T09:07:17.098Z INFO     [api-gateway] GET /api/v1/orders/7268 200 132ms request_id=5a5a9086
+2025-03-14T09:07:17.452Z INFO     [billing-api] GET /api/v1/users/me 200 136ms request_id=8172db43
+2025-03-14T09:07:17.535Z INFO     [billing-api] GET /api/v1/orders/59012 200 122ms request_id=80406e4e
+2025-03-14T09:07:17.964Z INFO     [api-gateway] PUT /api/v1/orders 200 55ms request_id=cbb3e413
+2025-03-14T09:07:18.625Z INFO     [api-gateway] POST /api/v1/search 200 90ms request_id=4a826091
+2025-03-14T09:07:18.870Z INFO     [orders-api] GET /api/v1/users/me 200 83ms request_id=8e03ca63
+2025-03-14T09:07:19.566Z INFO     [api-gateway] PUT /api/v1/orders 200 100ms request_id=aee4627b
+2025-03-14T09:07:19.817Z INFO     [api-gateway] POST /api/v1/search 200 87ms request_id=3d235422
+2025-03-14T09:07:19.904Z WARNING  [orders-api] Connection pool utilization 85% (in_use=17, size=20)
+2025-03-14T09:07:20.507Z INFO     [billing-api] PUT /healthz 200 11ms request_id=f2e8e608
+2025-03-14T09:07:21.072Z INFO     [api-gateway] GET /api/v1/search 200 23ms request_id=f2ae55f1
+2025-03-14T09:07:21.842Z INFO     [billing-api] PUT /api/v1/orders 200 85ms request_id=dfaebb14
+2025-03-14T09:07:25.443Z INFO     [orders-api] GET /api/v1/cart 200 76ms request_id=1cd89b01
+2025-03-14T09:07:26.391Z INFO     [orders-api] GET /api/v1/orders/33937 200 91ms request_id=edc46c51
+2025-03-14T09:07:26.533Z INFO     [billing-api] GET /api/v1/orders 200 105ms request_id=c90cedb5
+2025-03-14T09:07:27.482Z INFO     [api-gateway] GET /api/v1/catalog 200 38ms request_id=5d6d665f
+2025-03-14T09:07:27.857Z INFO     [billing-api] GET /api/v1/users/me 200 132ms request_id=0c570b13
+2025-03-14T09:07:27.907Z INFO     [api-gateway] PUT /api/v1/orders/60596 200 65ms request_id=682ff1b7
+2025-03-14T09:07:30.118Z INFO     [api-gateway] POST /healthz 200 43ms request_id=cf6c9466
+2025-03-14T09:07:30.654Z INFO     [api-gateway] GET /api/v1/orders/67903 200 29ms request_id=2fa888cc
+2025-03-14T09:07:30.831Z INFO     [api-gateway] PUT /healthz 200 99ms request_id=0d8900ce
+2025-03-14T09:07:33.194Z INFO     [api-gateway] GET /api/v1/search 200 74ms request_id=cc675a2a
+2025-03-14T09:07:34.497Z INFO     [billing-api] GET /api/v1/catalog 200 5ms request_id=a23802d7
+2025-03-14T09:07:35.179Z INFO     [orders-api] GET /api/v1/search 200 26ms request_id=d964ee02
+2025-03-14T09:07:35.278Z INFO     [billing-api] PUT /api/v1/catalog 200 60ms request_id=8d97e45b
+2025-03-14T09:07:35.921Z INFO     [api-gateway] GET /api/v1/search 200 84ms request_id=539edf45
+2025-03-14T09:07:37.881Z INFO     [billing-api] GET /api/v1/orders 200 130ms request_id=37015ca9
+2025-03-14T09:07:39.635Z INFO     [orders-api] GET /api/v1/orders/64137 200 34ms request_id=b31aa61d
+2025-03-14T09:07:40.412Z INFO     [billing-api] GET /healthz 200 16ms request_id=2fd6ddb3
+2025-03-14T09:07:40.889Z INFO     [orders-api] PUT /healthz 200 60ms request_id=5b1b03f3
+2025-03-14T09:07:41.450Z INFO     [orders-api] GET /api/v1/orders/98404 200 134ms request_id=49795ff3
+2025-03-14T09:07:41.772Z INFO     [orders-api] GET /healthz 200 99ms request_id=35b368fc
+2025-03-14T09:07:42.855Z INFO     [billing-api] POST /api/v1/orders/56403 200 22ms request_id=7d026078
+2025-03-14T09:07:44.830Z INFO     [api-gateway] POST /api/v1/catalog 200 11ms request_id=cb8bac74
+2025-03-14T09:07:46.932Z INFO     [orders-api] GET /api/v1/orders/22606 200 34ms request_id=aa6fc2ae
+2025-03-14T09:07:47.030Z WARNING  [orders-api] Connection pool utilization 84% (in_use=17, size=20)
+2025-03-14T09:07:48.332Z INFO     [billing-api] GET /api/v1/search 200 5ms request_id=360b251c
+2025-03-14T09:07:48.435Z INFO     [api-gateway] GET /healthz 200 72ms request_id=ded1f2aa
+2025-03-14T09:07:52.377Z INFO     [api-gateway] PUT /api/v1/catalog 200 80ms request_id=26090575
+2025-03-14T09:07:53.571Z INFO     [api-gateway] POST /api/v1/search 200 62ms request_id=6c47914d
+2025-03-14T09:07:54.580Z INFO     [api-gateway] PUT /api/v1/orders 200 121ms request_id=a7ebb023
+2025-03-14T09:07:54.709Z INFO     [billing-api] GET /api/v1/search 200 135ms request_id=42824859
+2025-03-14T09:07:55.009Z INFO     [billing-api] PUT /api/v1/search 200 93ms request_id=054bf90d
+2025-03-14T09:07:55.223Z INFO     [billing-api] POST /api/v1/orders/36565 200 106ms request_id=a5b6631d
+2025-03-14T09:07:56.489Z INFO     [billing-api] GET /api/v1/search 200 40ms request_id=12e08db4
+2025-03-14T09:07:56.742Z INFO     [billing-api] PUT /api/v1/search 200 46ms request_id=d914c89e
+2025-03-14T09:07:56.847Z INFO     [billing-api] GET /api/v1/orders 200 100ms request_id=04948739
+2025-03-14T09:07:58.902Z INFO     [api-gateway] PUT /api/v1/search 200 80ms request_id=e3fe9e36
+2025-03-14T09:08:00.460Z INFO     [billing-api] POST /api/v1/cart 200 105ms request_id=bd06c2b1
+2025-03-14T09:08:00.924Z INFO     [billing-api] GET /healthz 200 82ms request_id=a5bb57de
+2025-03-14T09:08:01.021Z INFO     [api-gateway] POST /api/v1/users/me 200 103ms request_id=b72dc6c5
+2025-03-14T09:08:01.278Z INFO     [orders-api] POST /api/v1/cart 200 110ms request_id=6839b994
+2025-03-14T09:08:03.605Z INFO     [billing-api] GET /api/v1/orders 200 105ms request_id=dda68468
+2025-03-14T09:08:04.195Z INFO     [api-gateway] GET /api/v1/orders/11352 200 43ms request_id=71ffa08a
+2025-03-14T09:08:04.481Z WARNING  [orders-api] Connection pool utilization 80% (in_use=16, size=20)
+2025-03-14T09:08:05.037Z INFO     [api-gateway] GET /api/v1/orders 200 94ms request_id=42db79a3
+2025-03-14T09:08:05.149Z INFO     [api-gateway] GET /api/v1/cart 200 81ms request_id=cb045741
+2025-03-14T09:08:09.060Z INFO     [billing-api] PUT /api/v1/users/me 200 32ms request_id=b10b4d67
+2025-03-14T09:08:09.194Z INFO     [billing-api] GET /healthz 200 47ms request_id=11b332d1
+2025-03-14T09:08:09.272Z INFO     [orders-api] GET /api/v1/catalog 200 139ms request_id=dd95b0a1
+2025-03-14T09:08:09.342Z INFO     [billing-api] GET /api/v1/orders/63316 200 139ms request_id=dff57320
+2025-03-14T09:08:09.808Z INFO     [orders-api] GET /healthz 200 78ms request_id=08a86796
+2025-03-14T09:08:12.265Z INFO     [orders-api] GET /healthz 200 11ms request_id=478875c6
+2025-03-14T09:08:12.594Z INFO     [billing-api] PUT /api/v1/cart 200 78ms request_id=b6cbaa7c
+2025-03-14T09:08:13.254Z INFO     [billing-api] GET /api/v1/orders 200 30ms request_id=acbe33e8
+2025-03-14T09:08:13.356Z INFO     [billing-api] GET /healthz 200 23ms request_id=f99021be
+2025-03-14T09:08:13.433Z INFO     [orders-api] PUT /api/v1/cart 200 4ms request_id=99fe235b
+2025-03-14T09:08:15.341Z WARNING  [orders-api] Connection pool utilization 86% (in_use=18, size=20)
+2025-03-14T09:08:16.089Z INFO     [orders-api] PUT /api/v1/search 200 75ms request_id=c1d47265
+2025-03-14T09:08:16.376Z INFO     [api-gateway] GET /api/v1/catalog 200 90ms request_id=ee649145
+2025-03-14T09:08:17.591Z INFO     [orders-api] GET /api/v1/users/me 200 116ms request_id=dd511bfb
+2025-03-14T09:08:17.637Z INFO     [api-gateway] GET /api/v1/orders/81074 200 76ms request_id=5f801e39
+2025-03-14T09:08:18.026Z INFO     [billing-api] GET /api/v1/orders 200 49ms request_id=83b467df
+2025-03-14T09:08:18.243Z INFO     [api-gateway] GET /api/v1/orders/71098 200 118ms request_id=c3905174
+2025-03-14T09:08:18.436Z INFO     [api-gateway] PUT /api/v1/users/me 200 31ms request_id=425b786a
+2025-03-14T09:08:18.653Z INFO     [api-gateway] POST /api/v1/orders 200 129ms request_id=3d573204
+2025-03-14T09:08:19.778Z INFO     [orders-api] GET /healthz 200 114ms request_id=da86c594
+2025-03-14T09:08:21.269Z INFO     [api-gateway] POST /healthz 200 33ms request_id=798d7b9c
+2025-03-14T09:08:22.253Z INFO     [api-gateway] GET /api/v1/catalog 200 17ms request_id=5ff4fa42
+2025-03-14T09:08:22.822Z INFO     [billing-api] GET /api/v1/cart 200 26ms request_id=bd0900f7
+2025-03-14T09:08:24.350Z INFO     [billing-api] PUT /api/v1/cart 200 133ms request_id=5e9e4579
+2025-03-14T09:08:25.512Z INFO     [billing-api] POST /api/v1/orders/80609 200 88ms request_id=c8143ef1
+2025-03-14T09:08:25.589Z INFO     [billing-api] PUT /api/v1/cart 200 16ms request_id=5514405c
+2025-03-14T09:08:26.762Z INFO     [api-gateway] GET /healthz 200 114ms request_id=77bc394e
+2025-03-14T09:08:28.115Z INFO     [api-gateway] POST /api/v1/catalog 200 138ms request_id=9cec6d81
+2025-03-14T09:08:28.297Z INFO     [billing-api] GET /api/v1/orders 200 128ms request_id=80c1ad5f
+2025-03-14T09:08:29.137Z INFO     [billing-api] GET /api/v1/cart 200 83ms request_id=240991c3
+2025-03-14T09:08:29.300Z INFO     [api-gateway] PUT /healthz 200 107ms request_id=2255d5dc
+2025-03-14T09:08:29.522Z INFO     [orders-api] PUT /api/v1/users/me 200 108ms request_id=c77070d9
+2025-03-14T09:08:29.689Z INFO     [api-gateway] GET /api/v1/users/me 200 6ms request_id=f9793027
+2025-03-14T09:08:30.506Z INFO     [api-gateway] GET /healthz 200 13ms request_id=8c131645
+2025-03-14T09:08:30.843Z INFO     [api-gateway] GET /api/v1/cart 200 120ms request_id=ea9e8190
+2025-03-14T09:08:31.639Z INFO     [api-gateway] GET /api/v1/search 200 64ms request_id=91b844f4
+2025-03-14T09:08:34.968Z INFO     [billing-api] GET /api/v1/cart 200 36ms request_id=49871c7b
+2025-03-14T09:08:35.771Z INFO     [orders-api] GET /healthz 200 64ms request_id=f8e451c6
+2025-03-14T09:08:35.871Z INFO     [api-gateway] POST /api/v1/search 200 103ms request_id=2891a8fa
+2025-03-14T09:08:36.028Z INFO     [api-gateway] PUT /api/v1/users/me 200 83ms request_id=24db82a1
+2025-03-14T09:08:38.032Z INFO     [orders-api] GET /healthz 200 29ms request_id=4de1b20b
+2025-03-14T09:08:38.334Z INFO     [api-gateway] GET /api/v1/orders/55192 200 127ms request_id=f589b394
+2025-03-14T09:08:38.388Z WARNING  [orders-api] Connection pool utilization 88% (in_use=18, size=20)
+2025-03-14T09:08:39.992Z WARNING  [orders-api] Connection pool utilization 81% (in_use=16, size=20)
+2025-03-14T09:08:40.080Z INFO     [billing-api] GET /healthz 200 40ms request_id=b9c65e1f
+2025-03-14T09:08:40.775Z INFO     [api-gateway] GET /api/v1/catalog 200 65ms request_id=0084f781
+2025-03-14T09:08:41.280Z INFO     [api-gateway] GET /api/v1/search 200 10ms request_id=4efd17d6
+2025-03-14T09:08:41.281Z INFO     [orders-api] POST /healthz 200 51ms request_id=9617c2e4
+2025-03-14T09:08:41.328Z INFO     [orders-api] GET /api/v1/cart 200 25ms request_id=2c0754ec
+2025-03-14T09:08:42.148Z INFO     [api-gateway] GET /api/v1/catalog 200 24ms request_id=678f87c3
+2025-03-14T09:08:42.837Z INFO     [api-gateway] GET /api/v1/search 200 7ms request_id=cbd2eadd
+2025-03-14T09:08:42.930Z INFO     [api-gateway] GET /api/v1/orders 200 68ms request_id=36355aa9
+2025-03-14T09:08:44.433Z INFO     [orders-api] GET /healthz 200 107ms request_id=1520f41f
+2025-03-14T09:08:45.365Z INFO     [api-gateway] POST /api/v1/orders 200 114ms request_id=5ae69f0d
+2025-03-14T09:08:46.409Z INFO     [billing-api] POST /api/v1/cart 200 55ms request_id=f51943f3
+2025-03-14T09:08:47.270Z INFO     [api-gateway] GET /healthz 200 116ms request_id=0419fc0f
+2025-03-14T09:08:47.668Z INFO     [api-gateway] GET /api/v1/catalog 200 109ms request_id=52f29f73
+2025-03-14T09:08:47.696Z INFO     [api-gateway] GET /api/v1/search 200 100ms request_id=145e5902
+2025-03-14T09:08:48.410Z INFO     [api-gateway] GET /api/v1/search 200 42ms request_id=8e58a299
+2025-03-14T09:08:50.814Z INFO     [orders-api] GET /api/v1/orders 200 83ms request_id=0b9e2322
+2025-03-14T09:08:51.752Z INFO     [billing-api] GET /api/v1/cart 200 87ms request_id=a617da04
+2025-03-14T09:08:51.924Z INFO     [api-gateway] GET /api/v1/orders/3499 200 24ms request_id=a726710a
+2025-03-14T09:08:53.989Z INFO     [orders-api] POST /api/v1/catalog 200 108ms request_id=4aaa31c5
+2025-03-14T09:08:54.016Z INFO     [orders-api] PUT /api/v1/users/me 200 24ms request_id=92ee6c59
+2025-03-14T09:08:54.265Z INFO     [orders-api] GET /api/v1/users/me 200 74ms request_id=0a767749
+2025-03-14T09:08:54.586Z INFO     [orders-api] PUT /api/v1/orders/84676 200 88ms request_id=a5155b1f
+2025-03-14T09:08:54.986Z INFO     [orders-api] GET /api/v1/cart 200 55ms request_id=8b690f92
+2025-03-14T09:08:55.965Z INFO     [orders-api] POST /api/v1/cart 200 78ms request_id=d1020fa9
+2025-03-14T09:08:56.069Z INFO     [api-gateway] GET /healthz 200 98ms request_id=d2331695
+2025-03-14T09:08:57.326Z INFO     [billing-api] GET /api/v1/cart 200 88ms request_id=4b73e6da
+2025-03-14T09:08:58.655Z INFO     [orders-api] GET /api/v1/catalog 200 119ms request_id=4e0ef19b
+2025-03-14T09:08:58.786Z INFO     [billing-api] PUT /api/v1/orders/70809 200 25ms request_id=29756cb9
+2025-03-14T09:08:59.586Z INFO     [orders-api] GET /api/v1/orders/91452 200 14ms request_id=0a7072da
+2025-03-14T09:09:01.652Z INFO     [api-gateway] POST /api/v1/search 200 104ms request_id=bb20faaa
+2025-03-14T09:09:02.830Z INFO     [orders-api] GET /api/v1/users/me 200 107ms request_id=58930c0c
+2025-03-14T09:09:03.382Z INFO     [api-gateway] GET /api/v1/catalog 200 92ms request_id=5d07a17b
+2025-03-14T09:09:03.917Z INFO     [billing-api] GET /api/v1/orders/65508 200 69ms request_id=915016dc
+2025-03-14T09:09:04.854Z INFO     [orders-api] GET /api/v1/cart 200 114ms request_id=cacc8aed
+2025-03-14T09:09:05.679Z INFO     [api-gateway] POST /api/v1/orders 200 46ms request_id=e9f7f009
+2025-03-14T09:09:05.725Z INFO     [api-gateway] GET /api/v1/users/me 200 63ms request_id=eb2a1c9f
+2025-03-14T09:09:05.881Z INFO     [api-gateway] GET /api/v1/catalog 200 14ms request_id=3efeecf3
+2025-03-14T09:09:05.969Z INFO     [billing-api] POST /api/v1/orders 200 52ms request_id=8fe89f10
+2025-03-14T09:09:09.152Z WARNING  [orders-api] Connection pool utilization 82% (in_use=16, size=20)
+2025-03-14T09:09:10.108Z INFO     [orders-api] POST /api/v1/catalog 200 140ms request_id=bddd3c54
+2025-03-14T09:09:11.940Z INFO     [billing-api] GET /api/v1/orders 200 99ms request_id=f63033d2
+2025-03-14T09:09:15.086Z INFO     [orders-api] GET /api/v1/cart 200 136ms request_id=066ac13f
+2025-03-14T09:09:15.233Z INFO     [orders-api] POST /healthz 200 26ms request_id=50b634a6
+2025-03-14T09:09:15.414Z INFO     [billing-api] GET /api/v1/search 200 129ms request_id=f44db31e
+2025-03-14T09:09:16.424Z INFO     [orders-api] POST /api/v1/orders/88943 200 18ms request_id=4030683c
+2025-03-14T09:09:16.854Z INFO     [api-gateway] GET /api/v1/catalog 200 19ms request_id=d4bd09a7
+2025-03-14T09:09:17.220Z INFO     [orders-api] POST /api/v1/users/me 200 82ms request_id=b8923134
+2025-03-14T09:09:17.609Z INFO     [billing-api] POST /api/v1/orders/43376 200 67ms request_id=53468c0e
+2025-03-14T09:09:17.989Z INFO     [api-gateway] GET /healthz 200 76ms request_id=3eec4cbd
+2025-03-14T09:09:18.094Z INFO     [orders-api] PUT /api/v1/cart 200 115ms request_id=e8b7f832
+2025-03-14T09:09:19.296Z INFO     [billing-api] PUT /api/v1/search 200 114ms request_id=a2c01682
+2025-03-14T09:09:19.343Z INFO     [api-gateway] POST /api/v1/orders/33770 200 32ms request_id=863e6c75
+2025-03-14T09:09:19.642Z INFO     [billing-api] GET /api/v1/orders 200 88ms request_id=dada08d8
+2025-03-14T09:09:21.900Z INFO     [api-gateway] POST /api/v1/users/me 200 107ms request_id=4a04a534
+2025-03-14T09:09:23.000Z WARNING  [orders-api] Connection pool utilization 87% (in_use=18, size=20)
+2025-03-14T09:09:23.467Z INFO     [api-gateway] GET /api/v1/users/me 200 111ms request_id=32e0aeb6
+2025-03-14T09:09:23.471Z INFO     [api-gateway] POST /api/v1/orders 200 31ms request_id=43e2d105
+2025-03-14T09:09:24.054Z INFO     [billing-api] POST /api/v1/users/me 200 24ms request_id=36778369
+2025-03-14T09:09:26.839Z INFO     [orders-api] GET /api/v1/orders/16797 200 9ms request_id=3a0bd6e0
+2025-03-14T09:09:27.250Z INFO     [billing-api] POST /api/v1/orders 200 129ms request_id=1a50836d
+2025-03-14T09:09:28.156Z INFO     [orders-api] POST /api/v1/users/me 200 118ms request_id=7b192953
+2025-03-14T09:09:28.437Z WARNING  [orders-api] Connection pool utilization 83% (in_use=17, size=20)
+2025-03-14T09:09:28.685Z INFO     [orders-api] GET /api/v1/users/me 200 80ms request_id=28dbb969
+2025-03-14T09:09:29.682Z INFO     [api-gateway] PUT /api/v1/orders/35378 200 29ms request_id=54de27bb
+2025-03-14T09:09:30.061Z INFO     [api-gateway] POST /api/v1/orders/31849 200 103ms request_id=724e95f9
+2025-03-14T09:09:30.428Z INFO     [api-gateway] GET /api/v1/users/me 200 14ms request_id=7dcd5a7e
+2025-03-14T09:09:30.758Z INFO     [api-gateway] POST /api/v1/search 200 120ms request_id=ad1579d1
+2025-03-14T09:09:31.351Z INFO     [billing-api] GET /api/v1/search 200 139ms request_id=6bf08add
+2025-03-14T09:09:33.168Z INFO     [orders-api] GET /api/v1/orders/20854 200 62ms request_id=a76c8a0a
+2025-03-14T09:09:33.191Z INFO     [orders-api] GET /healthz 200 41ms request_id=b7d72453
+2025-03-14T09:09:33.796Z INFO     [billing-api] PUT /api/v1/cart 200 24ms request_id=d4455ffb
+2025-03-14T09:09:37.334Z INFO     [billing-api] PUT /api/v1/cart 200 77ms request_id=360300c2
+2025-03-14T09:09:40.469Z INFO     [api-gateway] GET /api/v1/orders/37237 200 130ms request_id=44a86704
+2025-03-14T09:09:40.593Z INFO     [api-gateway] POST /api/v1/orders/70715 200 17ms request_id=690560e5
+2025-03-14T09:09:41.999Z INFO     [billing-api] GET /api/v1/orders 200 33ms request_id=ee1d0786
+2025-03-14T09:09:42.334Z INFO     [billing-api] GET /api/v1/orders 200 56ms request_id=5d40d936
+2025-03-14T09:09:42.723Z INFO     [billing-api] POST /api/v1/catalog 200 90ms request_id=f9832908
+2025-03-14T09:09:43.444Z INFO     [orders-api] GET /api/v1/cart 200 51ms request_id=286674a5
+2025-03-14T09:09:44.498Z INFO     [api-gateway] GET /api/v1/users/me 200 132ms request_id=9a257fe3
+2025-03-14T09:09:45.225Z INFO     [api-gateway] GET /healthz 200 97ms request_id=58fd423b
+2025-03-14T09:09:45.606Z INFO     [billing-api] PUT /healthz 200 67ms request_id=0369a431
+2025-03-14T09:09:46.276Z INFO     [billing-api] GET /api/v1/orders 200 67ms request_id=451aa037
+2025-03-14T09:09:46.970Z INFO     [api-gateway] POST /api/v1/users/me 200 76ms request_id=6e23198a
+2025-03-14T09:09:49.255Z INFO     [billing-api] GET /api/v1/cart 200 22ms request_id=289548bc
+2025-03-14T09:09:49.734Z INFO     [orders-api] GET /api/v1/orders 200 72ms request_id=4cedf06e
+2025-03-14T09:09:49.919Z INFO     [billing-api] GET /api/v1/orders/76612 200 134ms request_id=f27453d7
+2025-03-14T09:09:50.439Z INFO     [api-gateway] GET /api/v1/cart 200 25ms request_id=efd0dc64
+2025-03-14T09:09:50.696Z INFO     [orders-api] PUT /healthz 200 56ms request_id=31ad3bbe
+2025-03-14T09:09:53.014Z INFO     [orders-api] POST /api/v1/orders 200 101ms request_id=793992a3
+2025-03-14T09:09:55.044Z INFO     [billing-api] GET /api/v1/users/me 200 105ms request_id=b78353e9
+2025-03-14T09:09:55.071Z INFO     [billing-api] GET /api/v1/orders/57481 200 25ms request_id=15340473
+2025-03-14T09:09:55.876Z INFO     [api-gateway] GET /api/v1/cart 200 32ms request_id=c6f6677a
+2025-03-14T09:09:56.272Z INFO     [orders-api] GET /healthz 200 75ms request_id=63980f0e
+2025-03-14T09:09:56.385Z INFO     [orders-api] GET /healthz 200 44ms request_id=9b333ee9
+2025-03-14T09:09:57.651Z INFO     [api-gateway] PUT /api/v1/catalog 200 114ms request_id=84f1a82c
+2025-03-14T09:09:57.691Z INFO     [orders-api] POST /api/v1/cart 200 50ms request_id=a05e9653
+2025-03-14T09:09:57.697Z INFO     [billing-api] POST /api/v1/catalog 200 87ms request_id=0648ba7c
+2025-03-14T09:09:58.327Z INFO     [orders-api] GET /api/v1/orders 200 45ms request_id=898bbcaf
+2025-03-14T09:09:58.877Z INFO     [api-gateway] POST /api/v1/orders/21782 200 19ms request_id=2bdb7d1f
+2025-03-14T09:09:59.822Z INFO     [api-gateway] GET /api/v1/orders/64207 200 51ms request_id=23f8c266
+2025-03-14T09:10:00.123Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=60) after 30000ms
+2025-03-14T09:10:01.237Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=39) after 30000ms
+2025-03-14T09:10:01.365Z INFO     [billing-api] GET /api/v1/orders/20398 200 71ms request_id=7cdd41ff
+2025-03-14T09:10:01.543Z INFO     [orders-api] PUT /api/v1/catalog 200 60ms request_id=8beabf29
+2025-03-14T09:10:01.656Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=42) after 30000ms
+2025-03-14T09:10:03.062Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=15) after 30000ms
+2025-03-14T09:10:03.279Z INFO     [billing-api] GET /api/v1/search 200 6ms request_id=a686e749
+2025-03-14T09:10:03.410Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=9) after 30000ms
+2025-03-14T09:10:04.224Z INFO     [api-gateway] PUT /api/v1/orders 200 60ms request_id=eae3732d
+2025-03-14T09:10:04.831Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=42) after 30000ms
+2025-03-14T09:10:04.994Z INFO     [orders-api] GET /api/v1/search 200 57ms request_id=49c12d8e
+2025-03-14T09:10:05.020Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=56) after 30000ms
+2025-03-14T09:10:05.140Z INFO     [orders-api] GET /api/v1/users/me 200 70ms request_id=b43451b8
+2025-03-14T09:10:06.779Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=30) after 30000ms
+2025-03-14T09:10:07.320Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=52) after 30000ms
+2025-03-14T09:10:07.336Z INFO     [orders-api] PUT /api/v1/users/me 200 41ms request_id=db6d59c6
+2025-03-14T09:10:07.550Z INFO     [api-gateway] PUT /api/v1/orders 200 135ms request_id=1a022440
+2025-03-14T09:10:08.052Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=17) after 30000ms
+2025-03-14T09:10:09.842Z INFO     [billing-api] GET /api/v1/orders/33842 200 124ms request_id=f906a0e6
+2025-03-14T09:10:10.212Z INFO     [api-gateway] GET /api/v1/users/me 200 10ms request_id=4666ff93
+2025-03-14T09:10:11.822Z INFO     [orders-api] GET /api/v1/orders/58579 200 69ms request_id=62f868a5
+2025-03-14T09:10:11.927Z INFO     [billing-api] GET /api/v1/search 200 77ms request_id=b05d7132
+2025-03-14T09:10:14.866Z INFO     [billing-api] GET /api/v1/search 200 64ms request_id=dbdcbf6a
+2025-03-14T09:10:15.339Z INFO     [billing-api] POST /healthz 200 56ms request_id=b06974cf
+2025-03-14T09:10:15.541Z INFO     [billing-api] POST /healthz 200 4ms request_id=ffeb3950
+2025-03-14T09:10:16.219Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=45) after 30000ms
+2025-03-14T09:10:18.580Z INFO     [api-gateway] GET /api/v1/cart 200 48ms request_id=b036ac20
+2025-03-14T09:10:19.067Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=56) after 30000ms
+2025-03-14T09:10:19.588Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=34) after 30000ms
+2025-03-14T09:10:20.692Z INFO     [billing-api] POST /api/v1/users/me 200 52ms request_id=5775de15
+2025-03-14T09:10:21.664Z INFO     [api-gateway] GET /api/v1/search 200 59ms request_id=451ad4c2
+2025-03-14T09:10:22.120Z INFO     [billing-api] POST /api/v1/catalog 200 39ms request_id=6be09f07
+2025-03-14T09:10:22.478Z INFO     [orders-api] PUT /healthz 200 92ms request_id=f30a6578
+2025-03-14T09:10:23.416Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=30) after 30000ms
+2025-03-14T09:10:23.569Z INFO     [orders-api] POST /api/v1/search 200 9ms request_id=34ee9c58
+2025-03-14T09:10:23.627Z INFO     [orders-api] POST /healthz 200 10ms request_id=58d64ca9
+2025-03-14T09:10:24.514Z INFO     [orders-api] GET /api/v1/search 200 97ms request_id=87124778
+2025-03-14T09:10:25.511Z INFO     [orders-api] POST /healthz 200 89ms request_id=ae3d2ec4
+2025-03-14T09:10:26.298Z INFO     [api-gateway] GET /api/v1/orders 200 127ms request_id=07d638ff
+2025-03-14T09:10:28.429Z INFO     [orders-api] GET /api/v1/orders 200 63ms request_id=18046611
+2025-03-14T09:10:28.541Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=44) after 30000ms
+2025-03-14T09:10:29.081Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=35) after 30000ms
+2025-03-14T09:10:30.293Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=56) after 30000ms
+2025-03-14T09:10:30.566Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=15) after 30000ms
+2025-03-14T09:10:30.806Z INFO     [billing-api] PUT /api/v1/users/me 200 42ms request_id=1a8e4bb1
+2025-03-14T09:10:30.959Z INFO     [api-gateway] PUT /api/v1/search 200 132ms request_id=7e366c67
+2025-03-14T09:10:31.166Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=50) after 30000ms
+2025-03-14T09:10:31.345Z INFO     [api-gateway] PUT /healthz 200 120ms request_id=b5630aaf
+2025-03-14T09:10:31.966Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=45) after 30000ms
+2025-03-14T09:10:32.676Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:10:32.868Z INFO     [orders-api] PUT /api/v1/orders 200 4ms request_id=52735d46
+2025-03-14T09:10:33.080Z INFO     [billing-api] PUT /api/v1/orders 200 103ms request_id=a6a1d138
+2025-03-14T09:10:33.466Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=24) after 30000ms
+2025-03-14T09:10:33.667Z INFO     [orders-api] POST /healthz 200 136ms request_id=4b7e1bbc
+2025-03-14T09:10:33.798Z INFO     [orders-api] GET /api/v1/orders/79947 200 110ms request_id=ea0215bf
+2025-03-14T09:10:34.237Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=8) after 30000ms
+2025-03-14T09:10:34.813Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=20) after 30000ms
+2025-03-14T09:10:34.932Z INFO     [api-gateway] PUT /healthz 200 77ms request_id=87741e87
+2025-03-14T09:10:35.812Z INFO     [billing-api] GET /api/v1/search 200 82ms request_id=37428d3c
+2025-03-14T09:10:37.133Z INFO     [api-gateway] GET /api/v1/orders/56252 200 62ms request_id=4ba0d3e8
+2025-03-14T09:10:38.843Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=54) after 30000ms
+2025-03-14T09:10:42.100Z INFO     [api-gateway] GET /api/v1/catalog 200 9ms request_id=5ef397cd
+2025-03-14T09:10:42.193Z INFO     [billing-api] PUT /healthz 200 93ms request_id=7e0adcb6
+2025-03-14T09:10:42.513Z INFO     [orders-api] GET /api/v1/users/me 200 65ms request_id=4581163c
+2025-03-14T09:10:42.969Z INFO     [billing-api] GET /api/v1/cart 200 73ms request_id=e58001b8
+2025-03-14T09:10:43.333Z INFO     [api-gateway] POST /api/v1/catalog 200 44ms request_id=ad0fc0d1
+2025-03-14T09:10:43.371Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:10:44.413Z INFO     [billing-api] GET /api/v1/orders/18307 200 99ms request_id=e2a783b8
+2025-03-14T09:10:45.630Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=45) after 30000ms
+2025-03-14T09:10:45.752Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=12) after 30000ms
+2025-03-14T09:10:46.279Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=33) after 30000ms
+2025-03-14T09:10:48.272Z INFO     [api-gateway] PUT /api/v1/cart 200 55ms request_id=3a0fb39e
+2025-03-14T09:10:49.217Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=41) after 30000ms
+2025-03-14T09:10:50.413Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=36) after 30000ms
+2025-03-14T09:10:50.431Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=55) after 30000ms
+2025-03-14T09:10:50.572Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/65693
+2025-03-14T09:10:50.855Z INFO     [orders-api] GET /api/v1/orders/89777 200 131ms request_id=51c20ddb
+2025-03-14T09:10:51.774Z INFO     [billing-api] GET /api/v1/users/me 200 70ms request_id=8d7f7e48
+2025-03-14T09:10:52.003Z INFO     [api-gateway] GET /api/v1/catalog 200 22ms request_id=420e1e59
+2025-03-14T09:10:52.641Z INFO     [orders-api] GET /api/v1/catalog 200 11ms request_id=f8328c3a
+2025-03-14T09:10:52.697Z INFO     [orders-api] POST /api/v1/orders/92387 200 116ms request_id=6fac9856
+2025-03-14T09:10:52.952Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/52332
+2025-03-14T09:10:52.994Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:10:53.425Z INFO     [orders-api] GET /healthz 200 109ms request_id=ad1783dc
+2025-03-14T09:10:54.051Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/61797
+2025-03-14T09:10:55.186Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=39) after 30000ms
+2025-03-14T09:10:56.338Z INFO     [api-gateway] PUT /api/v1/search 200 111ms request_id=f598d9a8
+2025-03-14T09:10:57.208Z INFO     [billing-api] GET /api/v1/catalog 200 126ms request_id=e2f2510c
+2025-03-14T09:10:58.244Z INFO     [api-gateway] GET /api/v1/orders 200 122ms request_id=0eb7e20b
+2025-03-14T09:10:58.408Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=60) after 30000ms
+2025-03-14T09:10:58.876Z INFO     [api-gateway] GET /api/v1/search 200 90ms request_id=efb88d55
+2025-03-14T09:10:59.311Z INFO     [api-gateway] GET /api/v1/search 200 75ms request_id=5862522b
+2025-03-14T09:10:59.737Z INFO     [orders-api] GET /api/v1/orders/19596 200 81ms request_id=ee4fb26f
+2025-03-14T09:10:59.766Z INFO     [api-gateway] GET /healthz 200 121ms request_id=8bbc47cd
+2025-03-14T09:11:00.043Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/93553
+2025-03-14T09:11:00.070Z INFO     [billing-api] GET /api/v1/orders/18910 200 29ms request_id=6e50b1ca
+2025-03-14T09:11:01.589Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/41414
+2025-03-14T09:11:02.503Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/59449
+2025-03-14T09:11:02.665Z INFO     [orders-api] GET /api/v1/catalog 200 96ms request_id=6247aef9
+2025-03-14T09:11:02.667Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/15324
+2025-03-14T09:11:02.804Z INFO     [api-gateway] PUT /healthz 200 84ms request_id=5598484e
+2025-03-14T09:11:03.293Z INFO     [api-gateway] GET /api/v1/orders 200 12ms request_id=c5f16e37
+2025-03-14T09:11:03.359Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/49362
+2025-03-14T09:11:03.402Z INFO     [billing-api] POST /healthz 200 93ms request_id=6fd9ff5f
+2025-03-14T09:11:04.577Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/29949
+2025-03-14T09:11:04.824Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=17) after 30000ms
+2025-03-14T09:11:05.694Z INFO     [api-gateway] GET /api/v1/search 200 134ms request_id=c41cc423
+2025-03-14T09:11:06.601Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:11:06.774Z INFO     [api-gateway] GET /api/v1/orders 200 42ms request_id=dbe97798
+2025-03-14T09:11:06.877Z INFO     [api-gateway] PUT /api/v1/catalog 200 78ms request_id=1cb220fe
+2025-03-14T09:11:07.289Z INFO     [billing-api] GET /api/v1/search 200 60ms request_id=968b29ce
+2025-03-14T09:11:08.396Z INFO     [orders-api] PUT /api/v1/users/me 200 107ms request_id=36046c30
+2025-03-14T09:11:08.882Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/53428
+2025-03-14T09:11:09.432Z INFO     [billing-api] GET /api/v1/orders/47690 200 79ms request_id=c1dffe1b
+2025-03-14T09:11:09.491Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/22467
+2025-03-14T09:11:11.136Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=48) after 30000ms
+2025-03-14T09:11:11.319Z INFO     [api-gateway] POST /api/v1/orders/7698 200 34ms request_id=9b2584cf
+2025-03-14T09:11:11.373Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=24) after 30000ms
+2025-03-14T09:11:12.600Z INFO     [orders-api] POST /api/v1/orders 200 106ms request_id=74c610cb
+2025-03-14T09:11:14.418Z INFO     [billing-api] GET /api/v1/search 200 63ms request_id=a2f4557a
+2025-03-14T09:11:14.658Z INFO     [orders-api] GET /api/v1/cart 200 106ms request_id=beb2bd39
+2025-03-14T09:11:15.262Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/58816
+2025-03-14T09:11:15.424Z INFO     [orders-api] POST /api/v1/orders 200 13ms request_id=25cd7307
+2025-03-14T09:11:16.665Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=15) after 30000ms
+2025-03-14T09:11:16.928Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=34) after 30000ms
+2025-03-14T09:11:17.110Z INFO     [api-gateway] GET /api/v1/search 200 130ms request_id=ecf09dc1
+2025-03-14T09:11:17.224Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=12) after 30000ms
+2025-03-14T09:11:17.410Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/84238
+2025-03-14T09:11:18.215Z INFO     [billing-api] POST /api/v1/search 200 59ms request_id=b302f0af
+2025-03-14T09:11:18.436Z INFO     [billing-api] GET /api/v1/cart 200 29ms request_id=2fd79cb0
+2025-03-14T09:11:19.670Z INFO     [orders-api] GET /healthz 200 55ms request_id=29ff3855
+2025-03-14T09:11:19.954Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=13) after 30000ms
+2025-03-14T09:11:20.773Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=60) after 30000ms
+2025-03-14T09:11:21.609Z INFO     [orders-api] GET /api/v1/search 200 108ms request_id=566dae13
+2025-03-14T09:11:21.684Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=49) after 30000ms
+2025-03-14T09:11:22.006Z INFO     [orders-api] GET /healthz 200 99ms request_id=4ea79840
+2025-03-14T09:11:22.061Z INFO     [billing-api] GET /api/v1/catalog 200 60ms request_id=98c29a33
+2025-03-14T09:11:23.112Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/36837
+2025-03-14T09:11:23.356Z INFO     [api-gateway] GET /api/v1/users/me 200 5ms request_id=01d04bf1
+2025-03-14T09:11:24.795Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=48) after 30000ms
+2025-03-14T09:11:26.863Z INFO     [billing-api] GET /api/v1/catalog 200 12ms request_id=078770d0
+2025-03-14T09:11:27.144Z INFO     [orders-api] GET /api/v1/orders/86482 200 28ms request_id=fb4e2fd4
+2025-03-14T09:11:27.394Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/26587
+2025-03-14T09:11:27.460Z INFO     [api-gateway] GET /api/v1/cart 200 107ms request_id=c0211812
+2025-03-14T09:11:27.468Z INFO     [billing-api] GET /api/v1/search 200 57ms request_id=5643c6af
+2025-03-14T09:11:28.180Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/89543
+2025-03-14T09:11:30.089Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/81280
+2025-03-14T09:11:30.414Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=39) after 30000ms
+2025-03-14T09:11:30.456Z INFO     [orders-api] GET /api/v1/orders 200 100ms request_id=3d80934d
+2025-03-14T09:11:31.902Z INFO     [api-gateway] PUT /api/v1/search 200 125ms request_id=e51277ea
+2025-03-14T09:11:32.446Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=60) after 30000ms
+2025-03-14T09:11:32.499Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=45) after 30000ms
+2025-03-14T09:11:33.404Z INFO     [billing-api] GET /api/v1/catalog 200 21ms request_id=918e047b
+2025-03-14T09:11:34.239Z INFO     [api-gateway] POST /api/v1/users/me 200 91ms request_id=b0113188
+2025-03-14T09:11:36.014Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=15) after 30000ms
+2025-03-14T09:11:36.243Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=59) after 30000ms
+2025-03-14T09:11:37.157Z INFO     [orders-api] POST /api/v1/cart 200 20ms request_id=fb083dc1
+2025-03-14T09:11:37.960Z INFO     [api-gateway] GET /api/v1/catalog 200 63ms request_id=88ba87ed
+2025-03-14T09:11:38.426Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/26959
+2025-03-14T09:11:38.902Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/2442
+2025-03-14T09:11:38.999Z INFO     [orders-api] GET /api/v1/users/me 200 11ms request_id=921b8dce
+2025-03-14T09:11:39.507Z INFO     [billing-api] GET /api/v1/cart 200 59ms request_id=efeb66b1
+2025-03-14T09:11:39.948Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=17) after 30000ms
+2025-03-14T09:11:40.224Z INFO     [orders-api] GET /api/v1/users/me 200 139ms request_id=66104ca1
+2025-03-14T09:11:40.517Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/4404
+2025-03-14T09:11:41.057Z INFO     [orders-api] POST /api/v1/orders 200 90ms request_id=09d2b3a6
+2025-03-14T09:11:42.347Z INFO     [billing-api] GET /api/v1/users/me 200 81ms request_id=d9d0f8c6
+2025-03-14T09:11:42.405Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/92006
+2025-03-14T09:11:42.632Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=20) after 30000ms
+2025-03-14T09:11:42.716Z INFO     [orders-api] PUT /api/v1/orders 200 98ms request_id=98897f05
+2025-03-14T09:11:42.855Z INFO     [billing-api] GET /api/v1/orders/74488 200 62ms request_id=67531b0e
+2025-03-14T09:11:43.158Z INFO     [billing-api] GET /api/v1/orders 200 103ms request_id=a785c664
+2025-03-14T09:11:43.731Z INFO     [api-gateway] POST /healthz 200 56ms request_id=c4ab613a
+2025-03-14T09:11:44.428Z INFO     [orders-api] GET /healthz 200 90ms request_id=fd6b75c7
+2025-03-14T09:11:45.726Z INFO     [billing-api] GET /api/v1/catalog 200 130ms request_id=4440fb17
+2025-03-14T09:11:46.639Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/79838
+2025-03-14T09:11:47.493Z INFO     [api-gateway] GET /api/v1/users/me 200 15ms request_id=644de727
+2025-03-14T09:11:48.041Z INFO     [billing-api] GET /api/v1/orders 200 6ms request_id=9eb45e16
+2025-03-14T09:11:48.295Z INFO     [orders-api] PUT /healthz 200 107ms request_id=551dd11c
+2025-03-14T09:11:48.462Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/82974
+2025-03-14T09:11:48.836Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/95968
+2025-03-14T09:11:49.667Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=23) after 30000ms
+2025-03-14T09:11:50.338Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/42379
+2025-03-14T09:11:50.462Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=19) after 30000ms
+2025-03-14T09:11:53.685Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=46) after 30000ms
+2025-03-14T09:11:54.261Z INFO     [billing-api] PUT /api/v1/search 200 83ms request_id=6d8c2a9f
+2025-03-14T09:11:54.823Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=9) after 30000ms
+2025-03-14T09:11:55.078Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=17) after 30000ms
+2025-03-14T09:11:55.387Z INFO     [orders-api] POST /api/v1/search 200 41ms request_id=a718e634
+2025-03-14T09:11:57.058Z INFO     [billing-api] GET /healthz 200 71ms request_id=e1277793
+2025-03-14T09:11:57.388Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/47478
+2025-03-14T09:11:57.416Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/69911
+2025-03-14T09:11:57.945Z INFO     [api-gateway] POST /api/v1/catalog 200 116ms request_id=7ca6a4f7
+2025-03-14T09:11:58.048Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:11:59.434Z INFO     [orders-api] PUT /api/v1/cart 200 74ms request_id=662d0d65
+2025-03-14T09:11:59.699Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/72077
+2025-03-14T09:12:00.158Z INFO     [api-gateway] POST /api/v1/users/me 200 132ms request_id=b0b3c28f
+2025-03-14T09:12:00.648Z INFO     [api-gateway] GET /api/v1/orders/36849 200 13ms request_id=1ee7e7d8
+2025-03-14T09:12:01.254Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=29) after 30000ms
+2025-03-14T09:12:02.049Z INFO     [api-gateway] GET /api/v1/orders 200 47ms request_id=1806b3dd
+2025-03-14T09:12:02.096Z INFO     [billing-api] PUT /api/v1/orders/96997 200 38ms request_id=39116133
+2025-03-14T09:12:02.833Z INFO     [billing-api] POST /api/v1/cart 200 79ms request_id=1690d0a1
+2025-03-14T09:12:03.185Z INFO     [billing-api] GET /api/v1/orders 200 138ms request_id=79a4a83d
+2025-03-14T09:12:04.067Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/22456
+2025-03-14T09:12:04.194Z INFO     [orders-api] GET /api/v1/search 200 14ms request_id=a0738a4c
+2025-03-14T09:12:04.431Z INFO     [orders-api] POST /api/v1/users/me 200 36ms request_id=2c05ec7c
+2025-03-14T09:12:04.975Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/73593
+2025-03-14T09:12:05.913Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/28382
+2025-03-14T09:12:07.001Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=57) after 30000ms
+2025-03-14T09:12:07.199Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=60) after 30000ms
+2025-03-14T09:12:08.212Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/88936
+2025-03-14T09:12:09.233Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/72076
+2025-03-14T09:12:09.274Z INFO     [orders-api] GET /api/v1/search 200 39ms request_id=c230b98f
+2025-03-14T09:12:09.898Z INFO     [orders-api] GET /api/v1/orders/55631 200 89ms request_id=a89467d3
+2025-03-14T09:12:11.406Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/88974
+2025-03-14T09:12:12.314Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=53) after 30000ms
+2025-03-14T09:12:13.267Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=49) after 30000ms
+2025-03-14T09:12:13.659Z INFO     [api-gateway] PUT /api/v1/orders 200 27ms request_id=fe688479
+2025-03-14T09:12:14.422Z INFO     [billing-api] GET /api/v1/search 200 5ms request_id=c82c453a
+2025-03-14T09:12:14.824Z INFO     [billing-api] GET /api/v1/search 200 4ms request_id=7fc3375d
+2025-03-14T09:12:15.200Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/39845
+2025-03-14T09:12:15.228Z INFO     [billing-api] PUT /api/v1/catalog 200 134ms request_id=58b9b377
+2025-03-14T09:12:15.309Z INFO     [billing-api] POST /api/v1/cart 200 41ms request_id=987f09ea
+2025-03-14T09:12:15.480Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/39486
+2025-03-14T09:12:15.890Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/75099
+2025-03-14T09:12:16.353Z INFO     [api-gateway] POST /api/v1/orders/74890 200 52ms request_id=f43012e0
+2025-03-14T09:12:16.357Z INFO     [api-gateway] GET /api/v1/users/me 200 139ms request_id=25b70d96
+2025-03-14T09:12:16.649Z INFO     [orders-api] GET /api/v1/cart 200 89ms request_id=7d97949d
+2025-03-14T09:12:16.763Z INFO     [billing-api] GET /api/v1/users/me 200 51ms request_id=e19da4de
+2025-03-14T09:12:16.837Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=18) after 30000ms
+2025-03-14T09:12:17.350Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/40441
+2025-03-14T09:12:17.455Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=14) after 30000ms
+2025-03-14T09:12:17.555Z INFO     [orders-api] POST /api/v1/cart 200 104ms request_id=643f0663
+2025-03-14T09:12:17.674Z INFO     [orders-api] PUT /api/v1/orders 200 20ms request_id=4e751209
+2025-03-14T09:12:18.090Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/47991
+2025-03-14T09:12:19.573Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=24) after 30000ms
+2025-03-14T09:12:19.654Z INFO     [billing-api] GET /api/v1/cart 200 118ms request_id=afd18833
+2025-03-14T09:12:20.330Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/69131
+2025-03-14T09:12:20.508Z INFO     [api-gateway] GET /api/v1/search 200 18ms request_id=740b69d7
+2025-03-14T09:12:21.659Z INFO     [api-gateway] POST /api/v1/cart 200 127ms request_id=61e70893
+2025-03-14T09:12:23.055Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/12449
+2025-03-14T09:12:23.606Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=26) after 30000ms
+2025-03-14T09:12:23.955Z INFO     [billing-api] GET /api/v1/search 200 58ms request_id=d484aef4
+2025-03-14T09:12:24.253Z INFO     [billing-api] POST /api/v1/search 200 105ms request_id=31bbfbe1
+2025-03-14T09:12:24.818Z INFO     [billing-api] GET /api/v1/orders 200 25ms request_id=13fe6c8d
+2025-03-14T09:12:25.158Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/30383
+2025-03-14T09:12:25.815Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/45830
+2025-03-14T09:12:26.339Z INFO     [billing-api] GET /api/v1/search 200 33ms request_id=60d6fdca
+2025-03-14T09:12:26.374Z INFO     [billing-api] POST /healthz 200 35ms request_id=e7b7f579
+2025-03-14T09:12:27.093Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/96789
+2025-03-14T09:12:27.201Z INFO     [orders-api] PUT /api/v1/search 200 97ms request_id=cd784f9c
+2025-03-14T09:12:27.843Z INFO     [api-gateway] GET /healthz 200 56ms request_id=fea5cb6f
+2025-03-14T09:12:27.891Z INFO     [billing-api] PUT /api/v1/users/me 200 119ms request_id=773389df
+2025-03-14T09:12:28.087Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/25065
+2025-03-14T09:12:28.574Z INFO     [orders-api] POST /api/v1/orders/45604 200 82ms request_id=261f49fc
+2025-03-14T09:12:29.156Z INFO     [orders-api] POST /api/v1/orders 200 20ms request_id=038b148b
+2025-03-14T09:12:29.618Z INFO     [orders-api] GET /api/v1/catalog 200 124ms request_id=365e884e
+2025-03-14T09:12:29.728Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/8611
+2025-03-14T09:12:29.963Z INFO     [api-gateway] GET /api/v1/orders 200 32ms request_id=be99b0e5
+2025-03-14T09:12:30.785Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=40) after 30000ms
+2025-03-14T09:12:30.921Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=25) after 30000ms
+2025-03-14T09:12:31.004Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=54) after 30000ms
+2025-03-14T09:12:31.838Z INFO     [api-gateway] GET /api/v1/search 200 107ms request_id=f5c55a0f
+2025-03-14T09:12:32.977Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/27156
+2025-03-14T09:12:33.672Z INFO     [billing-api] GET /api/v1/search 200 23ms request_id=f0d96e59
+2025-03-14T09:12:34.336Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/67118
+2025-03-14T09:12:34.562Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=20) after 30000ms
+2025-03-14T09:12:35.230Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=19) after 30000ms
+2025-03-14T09:12:35.754Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=38) after 30000ms
+2025-03-14T09:12:36.066Z INFO     [billing-api] GET /api/v1/search 200 67ms request_id=47800549
+2025-03-14T09:12:36.915Z INFO     [orders-api] POST /api/v1/catalog 200 10ms request_id=9b27e402
+2025-03-14T09:12:37.131Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/97096
+2025-03-14T09:12:38.269Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:12:38.586Z INFO     [orders-api] GET /api/v1/catalog 200 66ms request_id=38e2ca87
+2025-03-14T09:12:38.854Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=37) after 30000ms
+2025-03-14T09:12:38.976Z INFO     [api-gateway] POST /api/v1/orders 200 25ms request_id=75c54b23
+2025-03-14T09:12:39.753Z INFO     [billing-api] GET /api/v1/orders 200 87ms request_id=03f382ef
+2025-03-14T09:12:39.789Z INFO     [billing-api] GET /api/v1/search 200 98ms request_id=454d4daf
+2025-03-14T09:12:40.140Z INFO     [api-gateway] GET /api/v1/catalog 200 139ms request_id=02a7a590
+2025-03-14T09:12:41.448Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/58732
+2025-03-14T09:12:41.467Z INFO     [api-gateway] GET /api/v1/search 200 36ms request_id=a66e5a11
+2025-03-14T09:12:44.156Z INFO     [api-gateway] PUT /api/v1/catalog 200 115ms request_id=b26315c4
+2025-03-14T09:12:44.589Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=21) after 30000ms
+2025-03-14T09:12:45.489Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=24) after 30000ms
+2025-03-14T09:12:46.641Z INFO     [orders-api] GET /api/v1/orders 200 99ms request_id=103c3b9a
+2025-03-14T09:12:47.300Z INFO     [billing-api] GET /api/v1/search 200 42ms request_id=264798fa
+2025-03-14T09:12:48.375Z INFO     [orders-api] POST /api/v1/orders/17714 200 138ms request_id=56e45e9c
+2025-03-14T09:12:48.675Z INFO     [orders-api] PUT /api/v1/users/me 200 7ms request_id=a585982e
+2025-03-14T09:12:49.007Z INFO     [orders-api] PUT /api/v1/cart 200 15ms request_id=271295ab
+2025-03-14T09:12:49.472Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=26) after 30000ms
+2025-03-14T09:12:49.706Z INFO     [api-gateway] GET /api/v1/orders/91098 200 14ms request_id=d58f4f92
+2025-03-14T09:12:51.018Z INFO     [billing-api] PUT /api/v1/search 200 33ms request_id=d54082c6
+2025-03-14T09:12:51.444Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=36) after 30000ms
+2025-03-14T09:12:52.042Z INFO     [api-gateway] GET /api/v1/orders 200 35ms request_id=61df4dea
+2025-03-14T09:12:52.461Z INFO     [billing-api] GET /api/v1/orders/45129 200 27ms request_id=9dc621df
+2025-03-14T09:12:52.837Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=41) after 30000ms
+2025-03-14T09:12:53.122Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=51) after 30000ms
+2025-03-14T09:12:53.405Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/6777
+2025-03-14T09:12:53.438Z INFO     [billing-api] PUT /api/v1/orders 200 12ms request_id=bfef56ad
+2025-03-14T09:12:53.729Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=54) after 30000ms
+2025-03-14T09:12:54.075Z INFO     [billing-api] PUT /healthz 200 76ms request_id=c25d775b
+2025-03-14T09:12:54.519Z INFO     [billing-api] PUT /api/v1/orders 200 112ms request_id=953c317b
+2025-03-14T09:12:54.710Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=18) after 30000ms
+2025-03-14T09:12:56.103Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:12:56.134Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/3349
+2025-03-14T09:12:56.360Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=57) after 30000ms
+2025-03-14T09:12:56.595Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/9476
+2025-03-14T09:12:57.136Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:12:57.231Z INFO     [api-gateway] GET /api/v1/orders 200 87ms request_id=a961585d
+2025-03-14T09:12:57.535Z INFO     [billing-api] GET /api/v1/orders/96267 200 129ms request_id=402aeab3
+2025-03-14T09:12:57.735Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=33) after 30000ms
+2025-03-14T09:12:58.510Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/66659
+2025-03-14T09:12:58.762Z INFO     [billing-api] GET /api/v1/orders/73187 200 52ms request_id=f1273b38
+2025-03-14T09:12:58.795Z INFO     [billing-api] GET /api/v1/orders 200 77ms request_id=0dacebba
+2025-03-14T09:13:00.575Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=53) after 30000ms
+2025-03-14T09:13:00.703Z INFO     [billing-api] POST /api/v1/cart 200 128ms request_id=5479f9ca
+2025-03-14T09:13:01.381Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/58013
+2025-03-14T09:13:01.930Z INFO     [orders-api] POST /api/v1/users/me 200 138ms request_id=a2b75e0a
+2025-03-14T09:13:02.644Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/34012
+2025-03-14T09:13:03.009Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=28) after 30000ms
+2025-03-14T09:13:04.712Z INFO     [api-gateway] GET /api/v1/users/me 200 67ms request_id=f6232320
+2025-03-14T09:13:05.447Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/87061
+2025-03-14T09:13:05.485Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=24) after 30000ms
+2025-03-14T09:13:06.410Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=21) after 30000ms
+2025-03-14T09:13:06.716Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/26726
+2025-03-14T09:13:07.921Z INFO     [api-gateway] GET /healthz 200 124ms request_id=55af54a9
+2025-03-14T09:13:09.013Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/74259
+2025-03-14T09:13:09.084Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:13:09.977Z INFO     [billing-api] PUT /api/v1/search 200 18ms request_id=01d98a3d
+2025-03-14T09:13:10.005Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/38895
+2025-03-14T09:13:10.976Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=32) after 30000ms
+2025-03-14T09:13:11.087Z INFO     [orders-api] GET /api/v1/catalog 200 132ms request_id=bb105f87
+2025-03-14T09:13:11.723Z INFO     [api-gateway] GET /api/v1/orders/76613 200 32ms request_id=1c48cc28
+2025-03-14T09:13:11.756Z INFO     [billing-api] GET /healthz 200 73ms request_id=c7f51bc8
+2025-03-14T09:13:12.130Z INFO     [api-gateway] GET /api/v1/cart 200 69ms request_id=3964dbe7
+2025-03-14T09:13:12.401Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=29) after 30000ms
+2025-03-14T09:13:12.485Z INFO     [api-gateway] GET /api/v1/catalog 200 6ms request_id=60ae1b05
+2025-03-14T09:13:12.499Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=20) after 30000ms
+2025-03-14T09:13:12.800Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=54) after 30000ms
+2025-03-14T09:13:13.759Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=51) after 30000ms
+2025-03-14T09:13:14.601Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=8) after 30000ms
+2025-03-14T09:13:15.010Z INFO     [orders-api] GET /healthz 200 84ms request_id=42e44a7d
+2025-03-14T09:13:15.081Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/73833
+2025-03-14T09:13:16.215Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/16055
+2025-03-14T09:13:16.354Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=37) after 30000ms
+2025-03-14T09:13:16.957Z INFO     [orders-api] GET /api/v1/search 200 45ms request_id=d110c8c5
+2025-03-14T09:13:16.981Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/8449
+2025-03-14T09:13:17.285Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/51109
+2025-03-14T09:13:17.353Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:13:17.493Z INFO     [orders-api] POST /api/v1/orders 200 95ms request_id=4123cf72
+2025-03-14T09:13:18.492Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=42) after 30000ms
+2025-03-14T09:13:19.407Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/67357
+2025-03-14T09:13:19.780Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/75714
+2025-03-14T09:13:20.164Z INFO     [api-gateway] PUT /api/v1/orders 200 124ms request_id=1eccf3aa
+2025-03-14T09:13:20.857Z INFO     [billing-api] GET /api/v1/cart 200 122ms request_id=55e3f34c
+2025-03-14T09:13:21.494Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/56492
+2025-03-14T09:13:21.857Z INFO     [api-gateway] GET /api/v1/orders 200 13ms request_id=b21e4477
+2025-03-14T09:13:21.968Z INFO     [orders-api] POST /api/v1/users/me 200 97ms request_id=23f482cf
+2025-03-14T09:13:22.105Z INFO     [api-gateway] GET /api/v1/catalog 200 116ms request_id=5212ba3e
+2025-03-14T09:13:22.171Z INFO     [billing-api] GET /api/v1/catalog 200 31ms request_id=d7a9cdb0
+2025-03-14T09:13:22.223Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=8) after 30000ms
+2025-03-14T09:13:22.988Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/27749
+2025-03-14T09:13:23.854Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=23) after 30000ms
+2025-03-14T09:13:24.393Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/68217
+2025-03-14T09:13:25.716Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=53) after 30000ms
+2025-03-14T09:13:25.789Z INFO     [api-gateway] POST /api/v1/search 200 33ms request_id=22af9416
+2025-03-14T09:13:25.904Z INFO     [billing-api] GET /api/v1/cart 200 7ms request_id=755c4899
+2025-03-14T09:13:26.105Z INFO     [orders-api] GET /api/v1/cart 200 60ms request_id=6a2b9d8e
+2025-03-14T09:13:26.619Z INFO     [billing-api] GET /api/v1/orders 200 122ms request_id=01d0237c
+2025-03-14T09:13:26.971Z INFO     [orders-api] POST /api/v1/search 200 95ms request_id=9fc910b7
+2025-03-14T09:13:27.191Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/36568
+2025-03-14T09:13:29.008Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=10) after 30000ms
+2025-03-14T09:13:29.780Z INFO     [orders-api] GET /api/v1/users/me 200 105ms request_id=26273d07
+2025-03-14T09:13:30.129Z INFO     [orders-api] GET /api/v1/orders/57518 200 137ms request_id=785e8078
+2025-03-14T09:13:31.191Z INFO     [api-gateway] GET /api/v1/search 200 44ms request_id=70a5c3e5
+2025-03-14T09:13:32.331Z INFO     [billing-api] GET /api/v1/orders/51761 200 51ms request_id=7ffb23de
+2025-03-14T09:13:33.600Z INFO     [billing-api] GET /api/v1/catalog 200 136ms request_id=44ab21ed
+2025-03-14T09:13:33.881Z INFO     [billing-api] POST /api/v1/orders 200 101ms request_id=1007def3
+2025-03-14T09:13:33.992Z INFO     [api-gateway] PUT /api/v1/orders/24009 200 129ms request_id=24ce9c71
+2025-03-14T09:13:34.030Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/84021
+2025-03-14T09:13:34.570Z INFO     [orders-api] GET /api/v1/cart 200 24ms request_id=9461bd61
+2025-03-14T09:13:34.631Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=48) after 30000ms
+2025-03-14T09:13:34.669Z INFO     [orders-api] GET /api/v1/users/me 200 18ms request_id=28049446
+2025-03-14T09:13:34.826Z INFO     [billing-api] GET /api/v1/orders 200 102ms request_id=450e42b5
+2025-03-14T09:13:34.877Z INFO     [api-gateway] GET /api/v1/orders/37525 200 27ms request_id=47b5a88d
+2025-03-14T09:13:34.880Z INFO     [api-gateway] GET /api/v1/users/me 200 34ms request_id=51cde12d
+2025-03-14T09:13:34.994Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=52) after 30000ms
+2025-03-14T09:13:36.502Z INFO     [orders-api] POST /api/v1/search 200 80ms request_id=af92f565
+2025-03-14T09:13:36.687Z INFO     [billing-api] PUT /api/v1/search 200 14ms request_id=d3748f08
+2025-03-14T09:13:37.016Z INFO     [orders-api] GET /api/v1/cart 200 49ms request_id=05129ab8
+2025-03-14T09:13:37.196Z INFO     [orders-api] PUT /api/v1/orders 200 29ms request_id=1b8d16b7
+2025-03-14T09:13:37.796Z INFO     [billing-api] POST /api/v1/orders 200 44ms request_id=a6017ebe
+2025-03-14T09:13:38.944Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/59048
+2025-03-14T09:13:39.360Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/50450
+2025-03-14T09:13:41.138Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/77594
+2025-03-14T09:13:41.314Z INFO     [api-gateway] GET /api/v1/cart 200 80ms request_id=60124f68
+2025-03-14T09:13:41.323Z INFO     [api-gateway] GET /api/v1/search 200 84ms request_id=b068a379
+2025-03-14T09:13:42.502Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=20) after 30000ms
+2025-03-14T09:13:42.729Z INFO     [orders-api] GET /api/v1/search 200 90ms request_id=b38f7e8e
+2025-03-14T09:13:42.819Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/72539
+2025-03-14T09:13:42.921Z INFO     [orders-api] GET /api/v1/orders 200 9ms request_id=6f947507
+2025-03-14T09:13:43.057Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=34) after 30000ms
+2025-03-14T09:13:43.445Z INFO     [orders-api] GET /api/v1/catalog 200 47ms request_id=dca98b58
+2025-03-14T09:13:44.015Z INFO     [orders-api] GET /api/v1/catalog 200 118ms request_id=71219b21
+2025-03-14T09:13:44.451Z INFO     [orders-api] GET /api/v1/catalog 200 136ms request_id=3fd96eef
+2025-03-14T09:13:45.344Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/61839
+2025-03-14T09:13:45.462Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=58) after 30000ms
+2025-03-14T09:13:45.521Z INFO     [orders-api] GET /api/v1/orders/83688 200 49ms request_id=c08ae78a
+2025-03-14T09:13:46.186Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=35) after 30000ms
+2025-03-14T09:13:46.347Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=25) after 30000ms
+2025-03-14T09:13:46.509Z INFO     [orders-api] GET /api/v1/orders/55567 200 12ms request_id=df8f7cab
+2025-03-14T09:13:46.543Z INFO     [api-gateway] PUT /healthz 200 122ms request_id=4069ab2d
+2025-03-14T09:13:47.457Z INFO     [orders-api] POST /api/v1/orders/9914 200 20ms request_id=eecc87e1
+2025-03-14T09:13:49.784Z INFO     [orders-api] POST /api/v1/catalog 200 61ms request_id=5173652d
+2025-03-14T09:13:50.012Z INFO     [orders-api] GET /api/v1/orders/58895 200 65ms request_id=1c6a9cc5
+2025-03-14T09:13:50.226Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=10) after 30000ms
+2025-03-14T09:13:50.661Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/55384
+2025-03-14T09:13:50.907Z INFO     [api-gateway] GET /api/v1/users/me 200 88ms request_id=f89a6643
+2025-03-14T09:13:51.361Z INFO     [billing-api] PUT /api/v1/orders/73327 200 107ms request_id=c03e3242
+2025-03-14T09:13:52.710Z INFO     [billing-api] GET /api/v1/search 200 135ms request_id=2d88f002
+2025-03-14T09:13:52.998Z INFO     [api-gateway] POST /api/v1/orders 200 90ms request_id=54a4a7b1
+2025-03-14T09:13:53.502Z INFO     [billing-api] GET /api/v1/orders/12487 200 80ms request_id=48ada58e
+2025-03-14T09:13:55.185Z INFO     [orders-api] GET /api/v1/catalog 200 53ms request_id=d33e6663
+2025-03-14T09:13:55.393Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:13:55.526Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=51) after 30000ms
+2025-03-14T09:13:55.577Z INFO     [orders-api] GET /api/v1/cart 200 118ms request_id=a8058d02
+2025-03-14T09:13:56.638Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=34) after 30000ms
+2025-03-14T09:13:56.793Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=15) after 30000ms
+2025-03-14T09:13:57.018Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=39) after 30000ms
+2025-03-14T09:13:57.149Z INFO     [api-gateway] GET /api/v1/orders/59579 200 14ms request_id=2fd76dbc
+2025-03-14T09:13:57.595Z INFO     [api-gateway] POST /api/v1/cart 200 72ms request_id=0729c41b
+2025-03-14T09:13:58.258Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=40) after 30000ms
+2025-03-14T09:13:58.380Z INFO     [billing-api] POST /api/v1/catalog 200 48ms request_id=ef17c0f3
+2025-03-14T09:14:00.064Z INFO     [billing-api] PUT /api/v1/catalog 200 22ms request_id=27486335
+2025-03-14T09:14:00.790Z INFO     [orders-api] POST /api/v1/catalog 200 61ms request_id=446ec65e
+2025-03-14T09:14:01.804Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=48) after 30000ms
+2025-03-14T09:14:01.984Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/6471
+2025-03-14T09:14:02.329Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=38) after 30000ms
+2025-03-14T09:14:02.466Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/39654
+2025-03-14T09:14:02.883Z INFO     [billing-api] PUT /healthz 200 9ms request_id=cf16a176
+2025-03-14T09:14:03.653Z INFO     [billing-api] GET /api/v1/orders/11288 200 39ms request_id=2d0f70ec
+2025-03-14T09:14:03.974Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/32874
+2025-03-14T09:14:03.976Z INFO     [orders-api] GET /api/v1/orders 200 101ms request_id=1a962696
+2025-03-14T09:14:04.071Z INFO     [api-gateway] POST /healthz 200 18ms request_id=ddc81660
+2025-03-14T09:14:04.166Z INFO     [orders-api] GET /api/v1/users/me 200 56ms request_id=e61b87ef
+2025-03-14T09:14:04.377Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=46) after 30000ms
+2025-03-14T09:14:05.839Z INFO     [orders-api] GET /healthz 200 134ms request_id=4357c547
+2025-03-14T09:14:06.157Z INFO     [api-gateway] POST /api/v1/search 200 13ms request_id=91e7dcd2
+2025-03-14T09:14:06.667Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=17) after 30000ms
+2025-03-14T09:14:07.969Z INFO     [billing-api] GET /healthz 200 29ms request_id=60669249
+2025-03-14T09:14:08.548Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:14:09.278Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=34) after 30000ms
+2025-03-14T09:14:09.772Z INFO     [orders-api] PUT /api/v1/search 200 68ms request_id=768679af
+2025-03-14T09:14:10.370Z INFO     [orders-api] PUT /api/v1/orders/25667 200 99ms request_id=61bb8001
+2025-03-14T09:14:10.871Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=23) after 30000ms
+2025-03-14T09:14:11.556Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/34379
+2025-03-14T09:14:12.653Z INFO     [orders-api] PUT /api/v1/orders 200 55ms request_id=3264a7d7
+2025-03-14T09:14:13.104Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/90346
+2025-03-14T09:14:13.456Z INFO     [billing-api] GET /api/v1/orders/1382 200 57ms request_id=a63f8200
+2025-03-14T09:14:13.830Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=32) after 30000ms
+2025-03-14T09:14:13.980Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/30478
+2025-03-14T09:14:14.326Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=11) after 30000ms
+2025-03-14T09:14:14.441Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=9) after 30000ms
+2025-03-14T09:14:15.169Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=60) after 30000ms
+2025-03-14T09:14:15.316Z INFO     [billing-api] PUT /healthz 200 30ms request_id=42fe8b0f
+2025-03-14T09:14:15.389Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=35) after 30000ms
+2025-03-14T09:14:15.600Z INFO     [api-gateway] GET /api/v1/cart 200 129ms request_id=4938de66
+2025-03-14T09:14:15.687Z INFO     [api-gateway] GET /api/v1/orders/26981 200 140ms request_id=b812288e
+2025-03-14T09:14:15.974Z INFO     [orders-api] PUT /api/v1/catalog 200 37ms request_id=63c37627
+2025-03-14T09:14:16.709Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/4554
+2025-03-14T09:14:17.197Z INFO     [orders-api] POST /api/v1/users/me 200 51ms request_id=09804e06
+2025-03-14T09:14:17.553Z INFO     [billing-api] GET /api/v1/orders/27632 200 10ms request_id=26ffd0a9
+2025-03-14T09:14:17.646Z INFO     [api-gateway] GET /api/v1/cart 200 23ms request_id=1c703072
+2025-03-14T09:14:18.494Z INFO     [api-gateway] PUT /api/v1/orders 200 5ms request_id=2e7e19c6
+2025-03-14T09:14:18.659Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=37) after 30000ms
+2025-03-14T09:14:18.941Z INFO     [billing-api] GET /api/v1/orders/36512 200 59ms request_id=6b2d7b36
+2025-03-14T09:14:18.942Z INFO     [billing-api] PUT /api/v1/search 200 33ms request_id=c2ed4d51
+2025-03-14T09:14:19.870Z INFO     [billing-api] GET /api/v1/users/me 200 82ms request_id=3a9de3e1
+2025-03-14T09:14:20.951Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=54) after 30000ms
+2025-03-14T09:14:22.254Z INFO     [api-gateway] POST /api/v1/orders 200 6ms request_id=f9206360
+2025-03-14T09:14:22.332Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/34013
+2025-03-14T09:14:23.029Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=24) after 30000ms
+2025-03-14T09:14:24.866Z INFO     [orders-api] GET /api/v1/orders/23076 200 25ms request_id=4f90a34f
+2025-03-14T09:14:25.679Z INFO     [orders-api] GET /api/v1/catalog 200 26ms request_id=1aa4ca50
+2025-03-14T09:14:25.683Z INFO     [orders-api] GET /api/v1/orders/71120 200 100ms request_id=9ddd1a8c
+2025-03-14T09:14:26.863Z INFO     [api-gateway] GET /healthz 200 20ms request_id=fc3fad16
+2025-03-14T09:14:27.109Z INFO     [api-gateway] PUT /healthz 200 4ms request_id=4376fced
+2025-03-14T09:14:27.657Z INFO     [orders-api] GET /api/v1/search 200 138ms request_id=15649804
+2025-03-14T09:14:27.884Z INFO     [api-gateway] POST /api/v1/orders/22729 200 101ms request_id=26c36828
+2025-03-14T09:14:28.216Z INFO     [api-gateway] POST /api/v1/orders/24950 200 10ms request_id=0ced8c3d
+2025-03-14T09:14:28.734Z INFO     [api-gateway] POST /api/v1/orders 200 116ms request_id=ff2bfa99
+2025-03-14T09:14:28.919Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=13) after 30000ms
+2025-03-14T09:14:29.333Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=21) after 30000ms
+2025-03-14T09:14:29.456Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=44) after 30000ms
+2025-03-14T09:14:29.756Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=40) after 30000ms
+2025-03-14T09:14:29.867Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/41942
+2025-03-14T09:14:30.002Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=23) after 30000ms
+2025-03-14T09:14:30.186Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=25) after 30000ms
+2025-03-14T09:14:30.762Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=8) after 30000ms
+2025-03-14T09:14:32.314Z INFO     [api-gateway] GET /healthz 200 98ms request_id=f88a6581
+2025-03-14T09:14:32.434Z INFO     [api-gateway] GET /api/v1/cart 200 5ms request_id=3550a8eb
+2025-03-14T09:14:32.691Z INFO     [billing-api] GET /api/v1/catalog 200 24ms request_id=a80b1948
+2025-03-14T09:14:32.707Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/60393
+2025-03-14T09:14:34.092Z INFO     [orders-api] GET /api/v1/cart 200 118ms request_id=96e037f9
+2025-03-14T09:14:34.884Z INFO     [api-gateway] POST /api/v1/cart 200 137ms request_id=92a23c19
+2025-03-14T09:14:35.543Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/67617
+2025-03-14T09:14:36.461Z INFO     [billing-api] GET /api/v1/catalog 200 138ms request_id=253aa28b
+2025-03-14T09:14:36.533Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=23) after 30000ms
+2025-03-14T09:14:36.733Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=48) after 30000ms
+2025-03-14T09:14:36.927Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=16) after 30000ms
+2025-03-14T09:14:38.520Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=25) after 30000ms
+2025-03-14T09:14:39.009Z INFO     [api-gateway] GET /api/v1/users/me 200 120ms request_id=4150080f
+2025-03-14T09:14:39.825Z INFO     [api-gateway] GET /api/v1/users/me 200 12ms request_id=8752f8e5
+2025-03-14T09:14:39.979Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=31) after 30000ms
+2025-03-14T09:14:40.436Z INFO     [billing-api] PUT /api/v1/users/me 200 43ms request_id=043696a3
+2025-03-14T09:14:40.790Z INFO     [api-gateway] PUT /api/v1/orders 200 102ms request_id=2480429a
+2025-03-14T09:14:40.917Z INFO     [api-gateway] PUT /api/v1/cart 200 13ms request_id=fb42e151
+2025-03-14T09:14:41.452Z INFO     [api-gateway] GET /api/v1/search 200 106ms request_id=fba8d1af
+2025-03-14T09:14:42.719Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/15129
+2025-03-14T09:14:43.049Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:14:43.526Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=40) after 30000ms
+2025-03-14T09:14:43.528Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:14:44.350Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=42) after 30000ms
+2025-03-14T09:14:44.754Z INFO     [billing-api] POST /api/v1/users/me 200 126ms request_id=f61c674c
+2025-03-14T09:14:45.230Z INFO     [orders-api] GET /healthz 200 12ms request_id=b8e7280b
+2025-03-14T09:14:45.363Z INFO     [billing-api] POST /api/v1/orders/63278 200 77ms request_id=3893f967
+2025-03-14T09:14:45.859Z INFO     [api-gateway] PUT /api/v1/orders/27327 200 118ms request_id=f9a057d6
+2025-03-14T09:14:46.582Z INFO     [billing-api] GET /api/v1/orders/69872 200 6ms request_id=a137998e
+2025-03-14T09:14:46.605Z INFO     [orders-api] GET /api/v1/orders 200 111ms request_id=4ce7712f
+2025-03-14T09:14:46.754Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=11) after 30000ms
+2025-03-14T09:14:47.128Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/85856
+2025-03-14T09:14:47.128Z INFO     [api-gateway] GET /api/v1/cart 200 118ms request_id=231103a2
+2025-03-14T09:14:47.614Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:14:47.989Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=55) after 30000ms
+2025-03-14T09:14:48.262Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/53747
+2025-03-14T09:14:48.267Z INFO     [api-gateway] POST /api/v1/cart 200 16ms request_id=5611db8a
+2025-03-14T09:14:49.655Z CRITICAL [orders-db-proxy] FATAL: remaining connection slots are reserved for non-replication superuser connections
+2025-03-14T09:14:49.781Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=20) after 30000ms
+2025-03-14T09:14:50.318Z INFO     [billing-api] POST /healthz 200 5ms request_id=90b34f62
+2025-03-14T09:14:51.051Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=58) after 30000ms
+2025-03-14T09:14:51.679Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/70977
+2025-03-14T09:14:51.849Z INFO     [api-gateway] GET /healthz 200 108ms request_id=d2071a19
+2025-03-14T09:14:52.035Z INFO     [orders-api] GET /api/v1/users/me 200 84ms request_id=ae0a85d3
+2025-03-14T09:14:52.520Z INFO     [orders-api] GET /api/v1/cart 200 27ms request_id=8549b50e
+2025-03-14T09:14:53.362Z INFO     [api-gateway] POST /api/v1/orders 200 5ms request_id=df302b04
+2025-03-14T09:14:54.032Z INFO     [api-gateway] PUT /healthz 200 20ms request_id=37557161
+2025-03-14T09:14:54.328Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=18) after 30000ms
+2025-03-14T09:14:54.818Z INFO     [api-gateway] GET /healthz 200 28ms request_id=927ab4f5
+2025-03-14T09:14:54.870Z INFO     [api-gateway] POST /api/v1/orders/44250 200 45ms request_id=39fa172a
+2025-03-14T09:14:55.303Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=14) after 30000ms
+2025-03-14T09:14:55.312Z INFO     [api-gateway] POST /api/v1/orders/84315 200 106ms request_id=4c975c20
+2025-03-14T09:14:56.273Z INFO     [api-gateway] POST /api/v1/cart 200 134ms request_id=8497ac76
+2025-03-14T09:14:56.839Z INFO     [orders-api] GET /healthz 200 93ms request_id=e2796587
+2025-03-14T09:14:56.945Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/70566
+2025-03-14T09:14:58.405Z INFO     [api-gateway] GET /api/v1/orders 200 33ms request_id=30b9f3a2
+2025-03-14T09:14:58.546Z INFO     [orders-api] PUT /api/v1/catalog 200 14ms request_id=fd022ec8
+2025-03-14T09:14:59.873Z INFO     [orders-api] PUT /api/v1/catalog 200 34ms request_id=ae4b44ef
+2025-03-14T09:15:00.365Z INFO     [billing-api] GET /api/v1/orders 200 14ms request_id=12a62df8
+2025-03-14T09:15:00.700Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/25687
+2025-03-14T09:15:00.799Z INFO     [billing-api] GET /api/v1/orders/28406 200 95ms request_id=bcb3ee52
+2025-03-14T09:15:01.132Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/75053
+2025-03-14T09:15:01.480Z INFO     [billing-api] GET /api/v1/catalog 200 24ms request_id=f7706e32
+2025-03-14T09:15:01.622Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/74496
+2025-03-14T09:15:02.191Z INFO     [orders-api] PUT /api/v1/cart 200 108ms request_id=a0dfc15b
+2025-03-14T09:15:02.321Z INFO     [api-gateway] GET /api/v1/orders 200 78ms request_id=9d0d1998
+2025-03-14T09:15:03.001Z INFO     [orders-api] POST /api/v1/search 200 132ms request_id=52d0633d
+2025-03-14T09:15:03.024Z INFO     [orders-api] GET /api/v1/users/me 200 8ms request_id=bcb6d51e
+2025-03-14T09:15:03.189Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=28) after 30000ms
+2025-03-14T09:15:03.194Z INFO     [orders-api] PUT /api/v1/search 200 61ms request_id=89f359d8
+2025-03-14T09:15:03.400Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=32) after 30000ms
+2025-03-14T09:15:04.550Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=51) after 30000ms
+2025-03-14T09:15:04.665Z INFO     [api-gateway] GET /api/v1/users/me 200 33ms request_id=49c9be54
+2025-03-14T09:15:05.091Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=56) after 30000ms
+2025-03-14T09:15:05.531Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/97858
+2025-03-14T09:15:06.135Z INFO     [api-gateway] GET /api/v1/search 200 12ms request_id=3d7a465b
+2025-03-14T09:15:06.658Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/41955
+2025-03-14T09:15:07.445Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=54) after 30000ms
+2025-03-14T09:15:09.298Z INFO     [api-gateway] GET /api/v1/orders/36881 200 88ms request_id=c70b8bd6
+2025-03-14T09:15:09.438Z INFO     [api-gateway] PUT /api/v1/catalog 200 128ms request_id=4c16c1a8
+2025-03-14T09:15:09.454Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/42724
+2025-03-14T09:15:10.293Z INFO     [orders-api] GET /api/v1/orders 200 107ms request_id=096d26c7
+2025-03-14T09:15:10.756Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=18) after 30000ms
+2025-03-14T09:15:11.189Z INFO     [orders-api] POST /api/v1/users/me 200 80ms request_id=91d94a3a
+2025-03-14T09:15:12.704Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/98251
+2025-03-14T09:15:12.735Z INFO     [billing-api] POST /api/v1/orders 200 127ms request_id=ff75e0fa
+2025-03-14T09:15:12.753Z INFO     [api-gateway] GET /api/v1/catalog 200 116ms request_id=93f063a3
+2025-03-14T09:15:13.343Z INFO     [orders-api] GET /api/v1/users/me 200 108ms request_id=6263f5f8
+2025-03-14T09:15:13.459Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/88002
+2025-03-14T09:15:13.830Z INFO     [api-gateway] GET /api/v1/orders 200 19ms request_id=e2aca704
+2025-03-14T09:15:14.182Z INFO     [billing-api] GET /healthz 200 68ms request_id=a40925d3
+2025-03-14T09:15:15.181Z INFO     [billing-api] GET /api/v1/search 200 83ms request_id=5291f275
+2025-03-14T09:15:15.920Z INFO     [api-gateway] GET /healthz 200 130ms request_id=c1d0b672
+2025-03-14T09:15:19.086Z INFO     [orders-api] POST /api/v1/orders/44618 200 8ms request_id=41cb7249
+2025-03-14T09:15:19.394Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=37) after 30000ms
+2025-03-14T09:15:19.800Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=23) after 30000ms
+2025-03-14T09:15:19.922Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=15) after 30000ms
+2025-03-14T09:15:21.698Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/86990
+2025-03-14T09:15:21.798Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/21680
+2025-03-14T09:15:24.363Z INFO     [api-gateway] GET /api/v1/orders 200 65ms request_id=63172240
+2025-03-14T09:15:24.461Z INFO     [orders-api] GET /api/v1/catalog 200 101ms request_id=228bd73f
+2025-03-14T09:15:24.587Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/53543
+2025-03-14T09:15:24.622Z INFO     [orders-api] GET /api/v1/cart 200 103ms request_id=14093d0b
+2025-03-14T09:15:24.830Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=12) after 30000ms
+2025-03-14T09:15:24.932Z INFO     [billing-api] GET /api/v1/cart 200 132ms request_id=e89f6a5e
+2025-03-14T09:15:25.110Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=44) after 30000ms
+2025-03-14T09:15:25.332Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=35) after 30000ms
+2025-03-14T09:15:25.404Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=32) after 30000ms
+2025-03-14T09:15:25.488Z INFO     [billing-api] GET /api/v1/search 200 127ms request_id=86ff4870
+2025-03-14T09:15:27.536Z INFO     [orders-api] POST /healthz 200 111ms request_id=2b71ad4a
+2025-03-14T09:15:27.550Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=37) after 30000ms
+2025-03-14T09:15:27.643Z INFO     [api-gateway] POST /api/v1/catalog 200 20ms request_id=637af590
+2025-03-14T09:15:28.250Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/83149
+2025-03-14T09:15:28.278Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=58) after 30000ms
+2025-03-14T09:15:28.405Z INFO     [api-gateway] GET /api/v1/users/me 200 27ms request_id=365bae66
+2025-03-14T09:15:28.874Z INFO     [api-gateway] GET /healthz 200 124ms request_id=f7acc5af
+2025-03-14T09:15:29.291Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=55) after 30000ms
+2025-03-14T09:15:29.374Z INFO     [api-gateway] POST /healthz 200 39ms request_id=af8e80a2
+2025-03-14T09:15:31.233Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=37) after 30000ms
+2025-03-14T09:15:31.622Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/41347
+2025-03-14T09:15:32.813Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/88773
+2025-03-14T09:15:33.586Z INFO     [api-gateway] POST /api/v1/orders/91734 200 13ms request_id=7dc21def
+2025-03-14T09:15:33.917Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/68188
+2025-03-14T09:15:34.435Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=14) after 30000ms
+2025-03-14T09:15:35.075Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/72331
+2025-03-14T09:15:37.459Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=50) after 30000ms
+2025-03-14T09:15:38.556Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=23) after 30000ms
+2025-03-14T09:15:38.566Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/8081
+2025-03-14T09:15:38.691Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/94837
+2025-03-14T09:15:39.475Z INFO     [api-gateway] GET /api/v1/catalog 200 8ms request_id=ee9c3145
+2025-03-14T09:15:39.568Z INFO     [orders-api] GET /api/v1/catalog 200 122ms request_id=1bb7a218
+2025-03-14T09:15:40.463Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=44) after 30000ms
+2025-03-14T09:15:41.156Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=58) after 30000ms
+2025-03-14T09:15:41.293Z INFO     [orders-api] GET /api/v1/users/me 200 37ms request_id=05153c5b
+2025-03-14T09:15:41.304Z INFO     [api-gateway] GET /api/v1/cart 200 8ms request_id=6210eed7
+2025-03-14T09:15:41.915Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=21) after 30000ms
+2025-03-14T09:15:43.307Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=40) after 30000ms
+2025-03-14T09:15:43.538Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=38) after 30000ms
+2025-03-14T09:15:43.986Z INFO     [api-gateway] POST /api/v1/search 200 21ms request_id=39c697b7
+2025-03-14T09:15:45.195Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/58047
+2025-03-14T09:15:45.451Z INFO     [orders-api] PUT /api/v1/users/me 200 125ms request_id=dcfb1dae
+2025-03-14T09:15:46.299Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/40321
+2025-03-14T09:15:46.422Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=15) after 30000ms
+2025-03-14T09:15:46.599Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=23) after 30000ms
+2025-03-14T09:15:47.518Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=34) after 30000ms
+2025-03-14T09:15:47.668Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/97593
+2025-03-14T09:15:47.966Z INFO     [orders-api] GET /api/v1/orders/29926 200 96ms request_id=35f04b41
+2025-03-14T09:15:47.968Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=12) after 30000ms
+2025-03-14T09:15:47.974Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=46) after 30000ms
+2025-03-14T09:15:48.476Z INFO     [billing-api] GET /api/v1/users/me 200 91ms request_id=2d21af94
+2025-03-14T09:15:48.601Z INFO     [orders-api] GET /healthz 200 53ms request_id=1db65ce4
+2025-03-14T09:15:48.684Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/89050
+2025-03-14T09:15:48.729Z INFO     [orders-api] POST /api/v1/search 200 48ms request_id=877d760a
+2025-03-14T09:15:49.414Z INFO     [orders-api] GET /api/v1/cart 200 52ms request_id=cdd80cc9
+2025-03-14T09:15:50.145Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=32) after 30000ms
+2025-03-14T09:15:50.796Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/36390
+2025-03-14T09:15:51.078Z INFO     [orders-api] GET /healthz 200 27ms request_id=8fcb98d1
+2025-03-14T09:15:52.047Z INFO     [orders-api] PUT /api/v1/orders/69868 200 129ms request_id=54fd0bc7
+2025-03-14T09:15:53.494Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=43) after 30000ms
+2025-03-14T09:15:54.064Z INFO     [api-gateway] GET /api/v1/cart 200 77ms request_id=49d0a130
+2025-03-14T09:15:55.847Z INFO     [orders-api] PUT /api/v1/catalog 200 13ms request_id=aec70e98
+2025-03-14T09:15:56.748Z INFO     [orders-api] PUT /healthz 200 121ms request_id=18c637b7
+2025-03-14T09:15:57.243Z INFO     [orders-api] PUT /api/v1/search 200 36ms request_id=d7e5fe16
+2025-03-14T09:15:57.297Z INFO     [api-gateway] GET /api/v1/catalog 200 42ms request_id=b8682ba7
+2025-03-14T09:15:57.363Z INFO     [billing-api] GET /api/v1/orders 200 77ms request_id=4ddadb64
+2025-03-14T09:15:57.683Z INFO     [api-gateway] GET /api/v1/orders 200 137ms request_id=bae37e41
+2025-03-14T09:15:58.442Z INFO     [orders-api] GET /api/v1/catalog 200 43ms request_id=4715aaf4
+2025-03-14T09:15:58.452Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/26058
+2025-03-14T09:15:58.965Z INFO     [api-gateway] PUT /api/v1/orders/81439 200 111ms request_id=bf312068
+2025-03-14T09:16:01.627Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=57) after 30000ms
+2025-03-14T09:16:01.736Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=35) after 30000ms
+2025-03-14T09:16:02.134Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/16559
+2025-03-14T09:16:02.377Z INFO     [orders-api] GET /api/v1/users/me 200 123ms request_id=c4180d75
+2025-03-14T09:16:02.636Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/27423
+2025-03-14T09:16:03.313Z INFO     [orders-api] POST /api/v1/cart 200 25ms request_id=d45bf4f2
+2025-03-14T09:16:03.933Z INFO     [orders-api] PUT /api/v1/cart 200 51ms request_id=577d2483
+2025-03-14T09:16:04.605Z INFO     [billing-api] GET /api/v1/orders 200 99ms request_id=2253dfb2
+2025-03-14T09:16:05.096Z INFO     [api-gateway] GET /api/v1/orders/31083 200 34ms request_id=a4a894a2
+2025-03-14T09:16:05.107Z INFO     [api-gateway] POST /api/v1/orders/37458 200 83ms request_id=ad3322d9
+2025-03-14T09:16:05.122Z INFO     [api-gateway] GET /api/v1/cart 200 73ms request_id=78a43c16
+2025-03-14T09:16:05.730Z INFO     [orders-api] GET /api/v1/catalog 200 63ms request_id=546ca196
+2025-03-14T09:16:08.338Z INFO     [api-gateway] GET /api/v1/orders 200 110ms request_id=44714363
+2025-03-14T09:16:09.509Z INFO     [orders-api] POST /api/v1/catalog 200 115ms request_id=0b5b22ce
+2025-03-14T09:16:10.290Z INFO     [billing-api] GET /api/v1/orders/68598 200 53ms request_id=51b626e1
+2025-03-14T09:16:10.316Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/97174
+2025-03-14T09:16:10.789Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=52) after 30000ms
+2025-03-14T09:16:11.016Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=59) after 30000ms
+2025-03-14T09:16:11.254Z INFO     [orders-api] GET /api/v1/orders 200 80ms request_id=6d8c49a9
+2025-03-14T09:16:11.285Z INFO     [billing-api] PUT /api/v1/users/me 200 57ms request_id=c55c74a3
+2025-03-14T09:16:11.315Z INFO     [api-gateway] GET /api/v1/orders/31314 200 7ms request_id=7ef6ff00
+2025-03-14T09:16:11.933Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/24833
+2025-03-14T09:16:12.807Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/70933
+2025-03-14T09:16:14.588Z INFO     [orders-api] GET /api/v1/orders 200 136ms request_id=29b58798
+2025-03-14T09:16:14.743Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/42906
+2025-03-14T09:16:15.419Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=55) after 30000ms
+2025-03-14T09:16:15.872Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=26) after 30000ms
+2025-03-14T09:16:16.311Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/69924
+2025-03-14T09:16:16.631Z INFO     [billing-api] GET /api/v1/catalog 200 17ms request_id=0826d80e
+2025-03-14T09:16:17.408Z INFO     [api-gateway] POST /api/v1/orders 200 102ms request_id=91033e21
+2025-03-14T09:16:17.487Z INFO     [api-gateway] GET /healthz 200 8ms request_id=b12f410f
+2025-03-14T09:16:17.505Z INFO     [api-gateway] GET /api/v1/users/me 200 7ms request_id=e287b59d
+2025-03-14T09:16:17.597Z INFO     [api-gateway] GET /healthz 200 17ms request_id=234ebc8b
+2025-03-14T09:16:18.025Z INFO     [api-gateway] POST /api/v1/orders/65343 200 12ms request_id=78a3f99f
+2025-03-14T09:16:18.209Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=53) after 30000ms
+2025-03-14T09:16:18.545Z INFO     [api-gateway] POST /healthz 200 23ms request_id=e3b722ad
+2025-03-14T09:16:18.981Z INFO     [orders-api] PUT /api/v1/orders/59675 200 47ms request_id=4503b3c3
+2025-03-14T09:16:19.410Z INFO     [billing-api] POST /api/v1/users/me 200 76ms request_id=f5a32d34
+2025-03-14T09:16:19.958Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=45) after 30000ms
+2025-03-14T09:16:20.508Z INFO     [billing-api] PUT /api/v1/catalog 200 66ms request_id=c29702bf
+2025-03-14T09:16:21.262Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/36961
+2025-03-14T09:16:21.360Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/98185
+2025-03-14T09:16:23.181Z INFO     [orders-api] GET /api/v1/catalog 200 45ms request_id=f5a21ff3
+2025-03-14T09:16:23.799Z INFO     [billing-api] GET /api/v1/catalog 200 125ms request_id=e1069609
+2025-03-14T09:16:23.902Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=49) after 30000ms
+2025-03-14T09:16:24.190Z INFO     [orders-api] GET /healthz 200 8ms request_id=01cafe14
+2025-03-14T09:16:24.353Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=17) after 30000ms
+2025-03-14T09:16:25.607Z INFO     [billing-api] POST /api/v1/orders/37055 200 97ms request_id=0c018e56
+2025-03-14T09:16:25.904Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/95215
+2025-03-14T09:16:26.218Z INFO     [api-gateway] GET /api/v1/cart 200 15ms request_id=07afdbe2
+2025-03-14T09:16:27.514Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/10788
+2025-03-14T09:16:27.831Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=51) after 30000ms
+2025-03-14T09:16:29.015Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=48) after 30000ms
+2025-03-14T09:16:29.844Z INFO     [orders-api] POST /api/v1/catalog 200 22ms request_id=e28f9f44
+2025-03-14T09:16:31.056Z INFO     [billing-api] GET /api/v1/orders 200 98ms request_id=6992fa59
+2025-03-14T09:16:31.568Z INFO     [orders-api] GET /api/v1/users/me 200 65ms request_id=6f9ca75f
+2025-03-14T09:16:32.159Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=15) after 30000ms
+2025-03-14T09:16:32.735Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=25) after 30000ms
+2025-03-14T09:16:33.434Z INFO     [orders-api] PUT /api/v1/orders 200 5ms request_id=21ad8564
+2025-03-14T09:16:33.675Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/20903
+2025-03-14T09:16:33.749Z INFO     [api-gateway] PUT /healthz 200 125ms request_id=2a94a441
+2025-03-14T09:16:34.901Z INFO     [billing-api] GET /api/v1/orders/59193 200 33ms request_id=10bba0e9
+2025-03-14T09:16:36.290Z INFO     [billing-api] POST /api/v1/orders/4260 200 67ms request_id=531ceabd
+2025-03-14T09:16:37.583Z INFO     [api-gateway] PUT /api/v1/search 200 81ms request_id=9e787662
+2025-03-14T09:16:38.428Z ERROR    [orders-api] TimeoutError: unable to acquire connection from pool (size=20, in_use=20, waiting=48) after 30000ms
+2025-03-14T09:16:39.082Z ERROR    [api-gateway] upstream orders-api returned status=500 for GET /api/v1/orders/88256
+2025-03-14T09:16:39.232Z INFO     [orders-api] GET /api/v1/users/me 200 128ms request_id=7bb765c6
+2025-03-14T09:16:39.444Z INFO     [billing-api] PUT /api/v1/users/me 200 134ms request_id=335adb8d
+2025-03-14T09:16:39.701Z INFO     [orders-api] GET /api/v1/orders/45134 200 103ms request_id=b5ec2d64
+2025-03-14T09:16:40.255Z INFO     [orders-api] GET /api/v1/cart 200 57ms request_id=7c1f1c12
+2025-03-14T09:16:40.858Z INFO     [billing-api] POST /api/v1/search 200 135ms request_id=c2430e1e
+2025-03-14T09:16:41.532Z INFO     [billing-api] GET /api/v1/catalog 200 19ms request_id=35089d53
+2025-03-14T09:16:43.911Z INFO     [api-gateway] POST /healthz 200 39ms request_id=aab1d4dd
+2025-03-14T09:16:45.119Z INFO     [api-gateway] GET /api/v1/cart 200 111ms request_id=a3157eaf
+2025-03-14T09:16:47.077Z INFO     [api-gateway] GET /api/v1/cart 200 94ms request_id=c4d096f7
+2025-03-14T09:16:49.063Z INFO     [billing-api] GET /api/v1/orders 200 101ms request_id=39b7c13f
+2025-03-14T09:16:49.690Z INFO     [api-gateway] PUT /healthz 200 45ms request_id=2cb4a408
+2025-03-14T09:16:49.860Z INFO     [api-gateway] PUT /api/v1/orders 200 110ms request_id=8f472909
+2025-03-14T09:16:50.000Z WARNING  [orders-api] Connection pool resized to 40 by operator
+2025-03-14T09:16:51.961Z INFO     [api-gateway] GET /api/v1/orders/23843 200 38ms request_id=843cb367
+2025-03-14T09:16:53.529Z INFO     [orders-api] GET /api/v1/users/me 200 131ms request_id=83da60e3
+2025-03-14T09:16:53.937Z INFO     [billing-api] GET /api/v1/cart 200 84ms request_id=d60eb09f
+2025-03-14T09:16:54.362Z INFO     [orders-api] GET /api/v1/search 200 106ms request_id=7440e072
+2025-03-14T09:16:54.455Z INFO     [billing-api] PUT /api/v1/search 200 51ms request_id=603d6b6c
+2025-03-14T09:16:55.515Z INFO     [billing-api] GET /api/v1/catalog 200 21ms request_id=dc8afadf
+2025-03-14T09:16:55.824Z INFO     [billing-api] GET /api/v1/users/me 200 97ms request_id=5a3f776e
+2025-03-14T09:16:55.947Z INFO     [billing-api] PUT /api/v1/orders/58407 200 32ms request_id=5a739603
+2025-03-14T09:16:57.966Z INFO     [orders-api] PUT /api/v1/orders 200 124ms request_id=daa283ad
+2025-03-14T09:16:59.568Z INFO     [billing-api] PUT /api/v1/catalog 200 125ms request_id=7ce59c80
+2025-03-14T09:17:01.534Z INFO     [api-gateway] PUT /api/v1/search 200 115ms request_id=f7db6210
+2025-03-14T09:17:01.734Z INFO     [billing-api] PUT /healthz 200 6ms request_id=2d2442ed
+2025-03-14T09:17:02.620Z INFO     [api-gateway] POST /api/v1/search 200 15ms request_id=5a9e4805
+2025-03-14T09:17:05.859Z INFO     [orders-api] GET /api/v1/cart 200 53ms request_id=27e1e2c4
+2025-03-14T09:17:06.237Z INFO     [api-gateway] GET /api/v1/orders 200 25ms request_id=cd2e3ff8
+2025-03-14T09:17:06.360Z INFO     [api-gateway] GET /api/v1/users/me 200 40ms request_id=5c93c4c5
+2025-03-14T09:17:07.000Z INFO     [orders-api] POST /healthz 200 9ms request_id=4a087023
+2025-03-14T09:17:08.161Z INFO     [billing-api] GET /api/v1/search 200 25ms request_id=373ffa57
+2025-03-14T09:17:08.808Z INFO     [api-gateway] PUT /api/v1/search 200 127ms request_id=b30a505c
+2025-03-14T09:17:08.866Z INFO     [orders-api] PUT /healthz 200 29ms request_id=4aa859bc
+2025-03-14T09:17:12.220Z INFO     [api-gateway] GET /api/v1/orders 200 97ms request_id=835e6899
+2025-03-14T09:17:13.383Z INFO     [api-gateway] GET /api/v1/search 200 4ms request_id=2c28e56a
+2025-03-14T09:17:13.610Z INFO     [orders-api] PUT /api/v1/users/me 200 127ms request_id=0c472a93
+2025-03-14T09:17:14.128Z INFO     [orders-api] POST /api/v1/orders/89409 200 90ms request_id=b53f157c
+2025-03-14T09:17:14.437Z INFO     [orders-api] GET /api/v1/search 200 98ms request_id=1f5b6f58
+2025-03-14T09:17:14.899Z INFO     [api-gateway] GET /api/v1/users/me 200 135ms request_id=07401710
+2025-03-14T09:17:15.600Z INFO     [orders-api] GET /api/v1/orders/3482 200 25ms request_id=df8ad876
+2025-03-14T09:17:15.670Z INFO     [orders-api] GET /api/v1/orders/7774 200 6ms request_id=41942bf0
+2025-03-14T09:17:18.288Z INFO     [orders-api] POST /api/v1/orders 200 80ms request_id=2b4ee629
+2025-03-14T09:17:19.006Z INFO     [billing-api] PUT /api/v1/cart 200 35ms request_id=2e9a85cf
+2025-03-14T09:17:19.755Z INFO     [api-gateway] PUT /api/v1/search 200 85ms request_id=f21c87fb
+2025-03-14T09:17:20.045Z INFO     [billing-api] POST /api/v1/orders/83607 200 7ms request_id=3236c35a
+2025-03-14T09:17:21.609Z INFO     [orders-api] GET /api/v1/orders/20873 200 121ms request_id=eca46c4d
+2025-03-14T09:17:22.977Z INFO     [billing-api] POST /api/v1/users/me 200 85ms request_id=074944b8
+2025-03-14T09:17:24.821Z INFO     [billing-api] PUT /api/v1/users/me 200 28ms request_id=533c53e6
+2025-03-14T09:17:29.201Z INFO     [billing-api] GET /api/v1/cart 200 123ms request_id=5016ae2d
+2025-03-14T09:17:29.773Z INFO     [billing-api] PUT /api/v1/search 200 58ms request_id=ab369e9a
+2025-03-14T09:17:29.929Z INFO     [orders-api] POST /api/v1/orders 200 53ms request_id=d2d7da7c
+2025-03-14T09:17:30.930Z INFO     [orders-api] GET /api/v1/users/me 200 5ms request_id=1f3142ca
+2025-03-14T09:17:31.180Z INFO     [orders-api] GET /api/v1/orders 200 127ms request_id=064dc271
+2025-03-14T09:17:31.255Z INFO     [orders-api] POST /api/v1/orders/52394 200 137ms request_id=49d4ba44
+2025-03-14T09:17:32.295Z INFO     [billing-api] GET /api/v1/catalog 200 86ms request_id=314306bf
+2025-03-14T09:17:32.592Z INFO     [orders-api] GET /healthz 200 94ms request_id=91462b09
+2025-03-14T09:17:32.594Z INFO     [billing-api] POST /api/v1/users/me 200 18ms request_id=661a2867
+2025-03-14T09:17:33.476Z INFO     [api-gateway] POST /api/v1/orders 200 113ms request_id=bbbe4548
+2025-03-14T09:17:33.727Z INFO     [api-gateway] PUT /api/v1/orders/56112 200 15ms request_id=0dc9b667
+2025-03-14T09:17:34.069Z INFO     [api-gateway] POST /api/v1/orders/29018 200 48ms request_id=797e68da
+2025-03-14T09:17:34.290Z INFO     [billing-api] GET /api/v1/orders 200 38ms request_id=8d91b8e0
+2025-03-14T09:17:34.504Z INFO     [orders-api] GET /api/v1/orders/4849 200 22ms request_id=394eb0a1
+2025-03-14T09:17:34.587Z INFO     [orders-api] GET /api/v1/search 200 72ms request_id=1cf9c474
+2025-03-14T09:17:34.656Z INFO     [api-gateway] GET /api/v1/cart 200 26ms request_id=3165c21d
+2025-03-14T09:17:36.146Z INFO     [billing-api] GET /api/v1/orders/90214 200 137ms request_id=303fc2f7
+2025-03-14T09:17:36.232Z INFO     [billing-api] GET /api/v1/orders/14841 200 137ms request_id=aa2c6158
+2025-03-14T09:17:37.375Z INFO     [billing-api] GET /api/v1/orders 200 119ms request_id=a713044b
+2025-03-14T09:17:38.432Z INFO     [billing-api] GET /api/v1/users/me 200 29ms request_id=1b653f43
+2025-03-14T09:17:39.469Z INFO     [orders-api] GET /api/v1/catalog 200 96ms request_id=41c4c261
+2025-03-14T09:17:40.133Z INFO     [orders-api] PUT /healthz 200 129ms request_id=4076d36b
+2025-03-14T09:17:40.645Z INFO     [api-gateway] POST /api/v1/cart 200 22ms request_id=eb61563a
+2025-03-14T09:17:40.687Z INFO     [api-gateway] GET /api/v1/search 200 139ms request_id=6e7dc31e
+2025-03-14T09:17:40.731Z INFO     [billing-api] GET /api/v1/orders/74065 200 81ms request_id=599b0a62
+2025-03-14T09:17:41.190Z INFO     [billing-api] GET /api/v1/orders/98784 200 11ms request_id=a15c80b7
+2025-03-14T09:17:41.356Z INFO     [billing-api] GET /api/v1/search 200 62ms request_id=5c9b2a57
+2025-03-14T09:17:42.589Z INFO     [orders-api] GET /api/v1/catalog 200 62ms request_id=3f1afc6e
+2025-03-14T09:17:43.010Z INFO     [billing-api] PUT /api/v1/catalog 200 23ms request_id=3c68885e
+2025-03-14T09:17:43.200Z INFO     [api-gateway] GET /api/v1/catalog 200 26ms request_id=f23c31ee
+2025-03-14T09:17:43.783Z INFO     [orders-api] POST /api/v1/catalog 200 132ms request_id=f302b61e
+2025-03-14T09:17:45.328Z INFO     [orders-api] GET /api/v1/search 200 125ms request_id=0d8996f0
+2025-03-14T09:17:46.620Z INFO     [billing-api] GET /api/v1/catalog 200 32ms request_id=aca5ab95
+2025-03-14T09:17:46.804Z INFO     [billing-api] GET /api/v1/cart 200 37ms request_id=5e25e8c8
+2025-03-14T09:17:48.531Z INFO     [api-gateway] GET /healthz 200 81ms request_id=f77fda68
+2025-03-14T09:17:48.979Z INFO     [api-gateway] GET /healthz 200 135ms request_id=b8f6fb4a
+2025-03-14T09:17:49.678Z INFO     [billing-api] GET /api/v1/catalog 200 106ms request_id=1cc62061
+2025-03-14T09:17:50.986Z INFO     [orders-api] POST /api/v1/cart 200 115ms request_id=38b26996
+2025-03-14T09:17:53.336Z INFO     [orders-api] POST /api/v1/search 200 53ms request_id=cc94b8e4
+2025-03-14T09:17:55.128Z INFO     [billing-api] POST /healthz 200 25ms request_id=4406660c
+2025-03-14T09:17:55.426Z INFO     [api-gateway] PUT /api/v1/orders 200 62ms request_id=1ae22c66
+2025-03-14T09:17:56.725Z INFO     [orders-api] GET /api/v1/catalog 200 19ms request_id=10dc8806
+2025-03-14T09:17:57.383Z INFO     [api-gateway] POST /api/v1/users/me 200 66ms request_id=334c99b6
+2025-03-14T09:17:58.428Z INFO     [orders-api] GET /api/v1/orders/78444 200 16ms request_id=d15406f8
+2025-03-14T09:18:00.219Z INFO     [orders-api] PUT /api/v1/cart 200 42ms request_id=cc127adf
+2025-03-14T09:18:00.466Z INFO     [orders-api] GET /api/v1/search 200 118ms request_id=cf4f6abd
+2025-03-14T09:18:00.739Z INFO     [api-gateway] POST /api/v1/orders 200 6ms request_id=4d9e23e1
+2025-03-14T09:18:01.995Z INFO     [api-gateway] PUT /api/v1/cart 200 94ms request_id=7a43cb3c
+2025-03-14T09:18:04.298Z INFO     [orders-api] GET /api/v1/search 200 120ms request_id=34652b55
+2025-03-14T09:18:04.359Z INFO     [billing-api] GET /api/v1/cart 200 82ms request_id=92673e6a
+2025-03-14T09:18:07.268Z INFO     [billing-api] GET /api/v1/catalog 200 7ms request_id=df50a93e
+2025-03-14T09:18:08.177Z INFO     [orders-api] GET /healthz 200 40ms request_id=75606d37
+2025-03-14T09:18:10.053Z INFO     [api-gateway] PUT /api/v1/cart 200 95ms request_id=7796668d
+2025-03-14T09:18:11.161Z INFO     [orders-api] GET /healthz 200 30ms request_id=4fcbe517
+2025-03-14T09:18:14.248Z INFO     [api-gateway] PUT /api/v1/cart 200 76ms request_id=3075e9b9
+2025-03-14T09:18:14.873Z INFO     [orders-api] GET /api/v1/orders/56523 200 76ms request_id=0cca9d22
+2025-03-14T09:18:15.333Z INFO     [api-gateway] GET /api/v1/search 200 19ms request_id=b3f2d503
+2025-03-14T09:18:16.409Z INFO     [api-gateway] GET /api/v1/search 200 82ms request_id=448fbda6
+2025-03-14T09:18:20.103Z INFO     [billing-api] POST /api/v1/search 200 65ms request_id=45831148
+2025-03-14T09:18:20.156Z INFO     [api-gateway] GET /api/v1/catalog 200 111ms request_id=b00b8c0a
+2025-03-14T09:18:20.248Z INFO     [orders-api] GET /api/v1/orders 200 17ms request_id=c977cc37
+2025-03-14T09:18:20.291Z INFO     [billing-api] POST /healthz 200 66ms request_id=5a2fa154
+2025-03-14T09:18:21.293Z INFO     [billing-api] GET /api/v1/catalog 200 12ms request_id=e1524df2
+2025-03-14T09:18:21.721Z INFO     [orders-api] POST /api/v1/orders/58569 200 133ms request_id=d555033c
+2025-03-14T09:18:26.516Z INFO     [api-gateway] GET /api/v1/catalog 200 7ms request_id=696cde7c
+2025-03-14T09:18:27.766Z INFO     [orders-api] PUT /api/v1/orders/88017 200 36ms request_id=61e6bba7
+2025-03-14T09:18:29.607Z INFO     [billing-api] GET /api/v1/orders 200 102ms request_id=465676b5
+2025-03-14T09:18:29.821Z INFO     [api-gateway] GET /api/v1/search 200 15ms request_id=48d835e8
+2025-03-14T09:18:30.241Z INFO     [orders-api] PUT /api/v1/cart 200 27ms request_id=f8f760f8
+2025-03-14T09:18:30.345Z INFO     [api-gateway] GET /api/v1/catalog 200 36ms request_id=1ac88f1d
+2025-03-14T09:18:31.054Z INFO     [api-gateway] GET /api/v1/orders 200 51ms request_id=eaec0d4e
+2025-03-14T09:18:32.289Z INFO     [billing-api] GET /api/v1/orders 200 114ms request_id=2044a1a9
+2025-03-14T09:18:33.288Z INFO     [orders-api] GET /api/v1/cart 200 71ms request_id=223313d0
+2025-03-14T09:18:33.430Z INFO     [billing-api] PUT /api/v1/search 200 12ms request_id=1e594b83
+2025-03-14T09:18:33.774Z INFO     [api-gateway] PUT /api/v1/cart 200 134ms request_id=1e50fbcb
+2025-03-14T09:18:35.366Z INFO     [orders-api] PUT /api/v1/orders 200 89ms request_id=25971e79
+2025-03-14T09:18:35.489Z INFO     [billing-api] POST /api/v1/users/me 200 126ms request_id=234d1b0e
+2025-03-14T09:18:36.237Z INFO     [orders-api] GET /api/v1/orders 200 32ms request_id=25f7c5dc
+2025-03-14T09:18:37.043Z INFO     [api-gateway] GET /healthz 200 62ms request_id=1458d6e9
+2025-03-14T09:18:37.193Z INFO     [api-gateway] POST /api/v1/catalog 200 42ms request_id=321fc078
+2025-03-14T09:18:38.887Z INFO     [billing-api] GET /api/v1/users/me 200 47ms request_id=ca1261ab
+2025-03-14T09:18:39.221Z INFO     [billing-api] GET /api/v1/orders 200 134ms request_id=5c190dc5
+2025-03-14T09:18:40.006Z INFO     [orders-api] POST /api/v1/cart 200 126ms request_id=a0abc8dd
+2025-03-14T09:18:40.494Z INFO     [orders-api] GET /api/v1/cart 200 136ms request_id=6f233e46
+2025-03-14T09:18:40.738Z INFO     [orders-api] GET /api/v1/search 200 35ms request_id=a6d1007e
+2025-03-14T09:18:41.684Z INFO     [api-gateway] GET /api/v1/cart 200 134ms request_id=e7601a7b
+2025-03-14T09:18:42.091Z INFO     [billing-api] POST /api/v1/users/me 200 125ms request_id=abacc94f
+2025-03-14T09:18:42.564Z INFO     [billing-api] PUT /api/v1/orders/5926 200 87ms request_id=245bc57b
+2025-03-14T09:18:43.722Z INFO     [api-gateway] GET /api/v1/cart 200 83ms request_id=9ea7efba
+2025-03-14T09:18:43.738Z INFO     [orders-api] GET /api/v1/orders/9515 200 17ms request_id=c9b42ae5
+2025-03-14T09:18:44.228Z INFO     [billing-api] PUT /api/v1/search 200 23ms request_id=daa737e8
+2025-03-14T09:18:45.894Z INFO     [billing-api] PUT /api/v1/orders/98492 200 125ms request_id=1d343ca0
+2025-03-14T09:18:46.601Z INFO     [billing-api] GET /api/v1/orders/7414 200 11ms request_id=01307948
+2025-03-14T09:18:47.019Z INFO     [orders-api] GET /api/v1/cart 200 87ms request_id=152b5d9c
+2025-03-14T09:18:47.729Z INFO     [billing-api] GET /api/v1/users/me 200 26ms request_id=e960afdb
+2025-03-14T09:18:50.107Z INFO     [orders-api] GET /api/v1/orders/89148 200 39ms request_id=31ccd862
+2025-03-14T09:18:50.482Z INFO     [billing-api] GET /healthz 200 95ms request_id=0e8c4619
+2025-03-14T09:18:51.291Z INFO     [orders-api] PUT /api/v1/orders/39282 200 94ms request_id=fe0b2ce9
+2025-03-14T09:18:52.026Z INFO     [billing-api] POST /api/v1/orders 200 92ms request_id=542338df
+2025-03-14T09:18:55.318Z INFO     [api-gateway] POST /api/v1/users/me 200 34ms request_id=ad02f17e
+2025-03-14T09:18:56.411Z INFO     [billing-api] PUT /healthz 200 110ms request_id=9d8623a1
+2025-03-14T09:18:56.875Z INFO     [billing-api] GET /api/v1/catalog 200 22ms request_id=8228fedd
+2025-03-14T09:18:57.106Z INFO     [orders-api] GET /api/v1/cart 200 31ms request_id=2b744a19
+2025-03-14T09:18:57.404Z INFO     [api-gateway] GET /api/v1/cart 200 41ms request_id=2ead03e8
+2025-03-14T09:18:57.505Z INFO     [orders-api] POST /healthz 200 71ms request_id=aea73839
+2025-03-14T09:18:58.594Z INFO     [orders-api] GET /api/v1/orders/67454 200 8ms request_id=71387bb2
+2025-03-14T09:19:02.389Z INFO     [billing-api] GET /healthz 200 65ms request_id=1065435d
+2025-03-14T09:19:04.417Z INFO     [api-gateway] GET /api/v1/search 200 12ms request_id=935f7314
+2025-03-14T09:19:04.894Z INFO     [billing-api] GET /api/v1/orders 200 41ms request_id=d80141e9
+2025-03-14T09:19:05.025Z INFO     [api-gateway] POST /healthz 200 50ms request_id=dfc086a8
+2025-03-14T09:19:05.351Z INFO     [billing-api] GET /api/v1/users/me 200 100ms request_id=825698e6
+2025-03-14T09:19:06.108Z INFO     [orders-api] POST /api/v1/users/me 200 136ms request_id=09b9c23a
+2025-03-14T09:19:07.373Z INFO     [billing-api] GET /api/v1/orders 200 42ms request_id=af693da5
+2025-03-14T09:19:08.548Z INFO     [api-gateway] GET /api/v1/orders/11645 200 90ms request_id=60012ff1
+2025-03-14T09:19:09.506Z INFO     [api-gateway] PUT /api/v1/cart 200 70ms request_id=bfe9257c
+2025-03-14T09:19:10.496Z INFO     [billing-api] GET /api/v1/search 200 30ms request_id=c6823da8
+2025-03-14T09:19:11.011Z INFO     [api-gateway] GET /api/v1/orders/54796 200 66ms request_id=e2e0f1a8
+2025-03-14T09:19:12.658Z INFO     [api-gateway] POST /api/v1/orders/51689 200 103ms request_id=ed1dc143
+2025-03-14T09:19:12.763Z INFO     [orders-api] POST /api/v1/catalog 200 120ms request_id=f620106c
+2025-03-14T09:19:13.408Z INFO     [api-gateway] POST /api/v1/orders 200 137ms request_id=87cb9d74
+2025-03-14T09:19:13.463Z INFO     [api-gateway] GET /api/v1/orders/85931 200 68ms request_id=3cb611a6
+2025-03-14T09:19:14.865Z INFO     [orders-api] GET /api/v1/users/me 200 67ms request_id=59182284
+2025-03-14T09:19:15.139Z INFO     [orders-api] PUT /healthz 200 70ms request_id=4511d38b
+2025-03-14T09:19:15.214Z INFO     [api-gateway] GET /api/v1/search 200 35ms request_id=151a3f7f
+2025-03-14T09:19:15.503Z INFO     [orders-api] GET /healthz 200 18ms request_id=795f1038
+2025-03-14T09:19:17.548Z INFO     [billing-api] GET /api/v1/users/me 200 131ms request_id=6cf30c44
+2025-03-14T09:19:20.110Z INFO     [api-gateway] GET /api/v1/catalog 200 114ms request_id=7287cbe9
+2025-03-14T09:19:21.119Z INFO     [api-gateway] GET /api/v1/cart 200 24ms request_id=cac6b38d
+2025-03-14T09:19:23.606Z INFO     [billing-api] GET /api/v1/cart 200 127ms request_id=23d0594d
+2025-03-14T09:19:24.368Z INFO     [orders-api] PUT /api/v1/users/me 200 21ms request_id=36ee1ebb
+2025-03-14T09:19:24.503Z INFO     [api-gateway] GET /api/v1/search 200 74ms request_id=40d13e19
+2025-03-14T09:19:24.914Z INFO     [billing-api] GET /api/v1/catalog 200 127ms request_id=c1617b7a
+2025-03-14T09:19:26.180Z INFO     [billing-api] POST /healthz 200 54ms request_id=cbfb63fe
+2025-03-14T09:19:26.724Z INFO     [api-gateway] GET /api/v1/search 200 99ms request_id=a9dd03fe
+2025-03-14T09:19:27.449Z INFO     [billing-api] GET /api/v1/users/me 200 6ms request_id=3318c5f4
+2025-03-14T09:19:27.528Z INFO     [api-gateway] GET /api/v1/search 200 123ms request_id=85ac2a3b
+2025-03-14T09:19:28.390Z INFO     [orders-api] POST /api/v1/orders 200 62ms request_id=6c027971
+2025-03-14T09:19:28.466Z INFO     [orders-api] GET /api/v1/cart 200 15ms request_id=804d6f30
+2025-03-14T09:19:31.772Z INFO     [api-gateway] GET /api/v1/catalog 200 52ms request_id=e104f5a6
+2025-03-14T09:19:33.151Z INFO     [orders-api] POST /healthz 200 101ms request_id=1bdc2e25
+2025-03-14T09:19:33.448Z INFO     [api-gateway] GET /api/v1/search 200 136ms request_id=d844a82d
+2025-03-14T09:19:36.535Z INFO     [orders-api] GET /api/v1/cart 200 64ms request_id=7ff811f2
+2025-03-14T09:19:37.587Z INFO     [api-gateway] POST /api/v1/orders/84485 200 126ms request_id=67780b76
+2025-03-14T09:19:39.853Z INFO     [api-gateway] GET /api/v1/cart 200 93ms request_id=48b72580
+2025-03-14T09:19:40.565Z INFO     [orders-api] GET /api/v1/search 200 29ms request_id=cd1ba81b
+2025-03-14T09:19:42.591Z INFO     [orders-api] PUT /healthz 200 86ms request_id=dede6bad
+2025-03-14T09:19:42.843Z INFO     [billing-api] GET /api/v1/catalog 200 10ms request_id=dde13da0
+2025-03-14T09:19:42.986Z INFO     [billing-api] POST /api/v1/orders 200 96ms request_id=c6084fcf
+2025-03-14T09:19:44.655Z INFO     [billing-api] GET /api/v1/orders/75287 200 125ms request_id=a8ae02f0
+2025-03-14T09:19:45.419Z INFO     [orders-api] POST /api/v1/orders/70187 200 78ms request_id=cb4e958b
+2025-03-14T09:19:45.727Z INFO     [api-gateway] GET /api/v1/cart 200 20ms request_id=8cb588fa
+2025-03-14T09:19:51.382Z INFO     [api-gateway] POST /api/v1/orders 200 116ms request_id=aaaa897f
+2025-03-14T09:19:51.410Z INFO     [orders-api] POST /api/v1/users/me 200 53ms request_id=23a0f3a8
+2025-03-14T09:19:52.789Z INFO     [orders-api] PUT /api/v1/orders 200 77ms request_id=5b2293e5
+2025-03-14T09:19:52.814Z INFO     [billing-api] GET /api/v1/catalog 200 118ms request_id=98e8245e
+2025-03-14T09:19:53.753Z INFO     [api-gateway] GET /api/v1/users/me 200 131ms request_id=cbbb52b9
+2025-03-14T09:19:55.365Z INFO     [api-gateway] POST /api/v1/search 200 113ms request_id=acafda49
+2025-03-14T09:19:57.105Z INFO     [orders-api] PUT /api/v1/users/me 200 109ms request_id=e49f8e4b
+2025-03-14T09:19:57.716Z INFO     [orders-api] PUT /api/v1/cart 200 35ms request_id=6ca56207
+2025-03-14T09:19:58.010Z INFO     [billing-api] POST /api/v1/cart 200 105ms request_id=33d4d64d

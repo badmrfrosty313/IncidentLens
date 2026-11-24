@@ -208,5 +208,4 @@ test("layout is usable at this viewport", async ({ page }) => {
   // the primary controls are reachable by tap/click at this size
   await page.getByRole("button", { name: "Export Markdown" }).scrollIntoViewIfNeeded();
   await expect(page.getByRole("button", { name: "Export Markdown" })).toBeEnabled();
-  await shot(page, "layout");
 });

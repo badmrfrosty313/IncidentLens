@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from collections import Counter
 from datetime import datetime
 from statistics import StatisticsError, correlation
 
@@ -98,11 +99,15 @@ def pairwise_correlations(
     """Correlate per-service error-count series (zero lag and +-3 buckets)."""
     if n_buckets < 8:
         return []
-    series: dict[str, list[int]] = {}
+    # Count first, select the top services, and only then allocate per-bucket arrays. Allocating
+    # for every service up front costs O(services x buckets) and is attacker-controlled.
+    totals = Counter(e.service for e in events if is_error(e) and e.id in index)
+    services = [s for s, n in sorted(totals.items(), key=lambda kv: (-kv[1], kv[0])) if n >= MIN_SERVICE_ERRORS][:top_services]
+    wanted = set(services)
+    series: dict[str, list[int]] = {s: [0] * n_buckets for s in services}
     for e in events:
-        if is_error(e) and e.id in index:
-            series.setdefault(e.service, [0] * n_buckets)[index[e.id]] += 1
-    services = sorted((s for s, v in series.items() if sum(v) >= MIN_SERVICE_ERRORS), key=lambda s: (-sum(series[s]), s))[:top_services]
+        if e.service in wanted and is_error(e) and e.id in index:
+            series[e.service][index[e.id]] += 1
     pairs: list[CorrelationPair] = []
     for i, sa in enumerate(services):
         for sb in services[i + 1 :]:

@@ -6,6 +6,7 @@ import os
 from typing import Literal
 
 from fastapi import FastAPI, Query, Request
+from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, Response
 
@@ -16,6 +17,7 @@ from .errors import IncidentLensError
 from .middleware import BodySizeLimitMiddleware
 from .models import AnalysisResponse, AnalyzeRequest, DemoResponse, ScenarioInfo
 from .pipeline import analyze_text
+from .redaction import redact_text
 from .reporting import render_json, render_markdown
 
 DESCRIPTION = """
@@ -42,6 +44,21 @@ app.add_middleware(
 @app.exception_handler(IncidentLensError)
 async def _domain_error(_: Request, exc: IncidentLensError) -> JSONResponse:
     return JSONResponse(status_code=exc.status_code, content={"code": exc.code, "detail": exc.message})
+
+
+@app.exception_handler(RequestValidationError)
+async def _validation_error(_: Request, exc: RequestValidationError) -> JSONResponse:
+    """FastAPI's default 422 body echoes the offending ``input`` - for this API that is the raw,
+    unredacted log upload (or whatever a client put in a field). Return only where and what kind
+    of error occurred; never the submitted value, the message text or the error context."""
+    errors = [
+        {"loc": [redact_text(str(part))[:64] for part in err.get("loc", ())][:6], "type": str(err.get("type", "invalid"))[:64]}
+        for err in exc.errors()[:20]
+    ]
+    return JSONResponse(
+        status_code=422,
+        content={"code": "validation_error", "detail": "Request validation failed; submitted values are not echoed.", "errors": errors},
+    )
 
 
 @app.get("/api/health", tags=["system"], summary="Liveness check")

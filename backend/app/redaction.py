@@ -31,7 +31,7 @@ _SECRET_WORDS = ("passw", "pwd", "secret", "token", "key", "credential")
 RULES: tuple[_Rule, ...] = (
     _Rule(
         "private_key",
-        re.compile(r"-----BEGIN [A-Z ]{0,30}PRIVATE KEY-----.*?(?:-----END [A-Z ]{0,30}PRIVATE KEY-----|$)", re.DOTALL),
+        re.compile(r"-----BEGIN [A-Z ]{0,30}PRIVATE KEY(?: BLOCK)?-----.*?(?:-----END [A-Z ]{0,30}PRIVATE KEY(?: BLOCK)?-----|$)", re.DOTALL),
         "[REDACTED_PRIVATE_KEY]",
         lambda t, _l: "PRIVATE KEY" in t,
     ),
@@ -81,8 +81,9 @@ RULES: tuple[_Rule, ...] = (
     _Rule(
         "secret_assignment",
         re.compile(
-            r"((?:password|passwd|pwd|secret|token|api[_-]?key|apikey|access[_-]?key|credential)[\w.-]{0,32}[\"']?\s*[:=]\s*)"
-            r"(?!\[REDACTED)(?:\"[^\"]*\"|'[^']*'|[^\s,;&}\])\"']+)",
+            r"((?:password|passwd|pwd|secret|token|api[_-]?key|apikey|access[_-]?key|credential)[\w.-]{0,32}(?:\\?[\"'])?\s*[:=]\s*)"
+            # quoted values may be JSON-escaped (\") or unterminated (clipped line): take them to the end
+            r"(?!\[REDACTED)(?:\\?\"(?:[^\"\\]|\\[^\"])*(?:\\?\"|$)|'[^']*(?:'|$)|[^\s,;&}\])\"']+)",
             re.IGNORECASE,
         ),
         lambda m: m.group(1) + "[REDACTED]",

@@ -26,10 +26,14 @@ def md_text(value: object, limit: int = 200) -> str:
     return s
 
 
-def md_code(value: object, limit: int = 200) -> str:
+def md_code(value: object, limit: int = 200, *, cell: bool = False) -> str:
+    """Inline code span. Pass ``cell=True`` inside a table row: GFM splits cells on every ``|``,
+    even within a code span, unless it is escaped as ``\\|``."""
     s = _CTRL.sub(" ", str(value)).strip().replace("`", "'")
     if len(s) > limit:
         s = s[: limit - 1] + "…"
+    if cell:
+        s = s.replace("|", "\\|")
     return f"`{s}`" if s else "``"
 
 
@@ -116,7 +120,7 @@ def render_markdown(r: AnalysisResponse) -> str:
     out += ["## Recommended investigation steps", ""]
     out += [f"{st.priority}. {md_text(st.text, 400)}" for st in r.recommended_steps] or ["No investigation steps; no incident was detected."]
     out += ["", "## Most frequent warning/error patterns", "", "| Count | Severity | Services | Pattern |", "| ---: | --- | --- | --- |"]
-    out += [f"| {g.count} | {g.severity.value} | {_cell(', '.join(g.services[:3]))} | {md_code(g.signature, 160)} |" for g in r.groups[:10]]
+    out += [f"| {g.count} | {g.severity.value} | {_cell(', '.join(g.services[:3]))} | {md_code(g.signature, 160, cell=True)} |" for g in r.groups[:10]]
     if r.correlations:
         out += ["", "## Temporal correlation", ""]
         out += [f"- {md_text(c.interpretation)} (r = {c.correlation:.2f})" for c in r.correlations[:5]]

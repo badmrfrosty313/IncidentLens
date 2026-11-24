@@ -10,10 +10,6 @@ Receive = Callable[[], Awaitable[dict[str, Any]]]
 Send = Callable[[dict[str, Any]], Awaitable[None]]
 
 
-class _BodyTooLarge(Exception):
-    pass
-
-
 class BodySizeLimitMiddleware:
     """Reject request bodies above ``max_body_bytes`` with 413 before they are buffered.
 
@@ -40,28 +36,42 @@ class BodySizeLimitMiddleware:
                 return
 
         received = 0
+        overflow = False
         started = False
 
         async def limited_receive() -> dict[str, Any]:
-            nonlocal received
+            # Do not raise from here: FastAPI wraps any exception raised while reading the body in an
+            # HTTP 400, so a chunked upload over the limit would be reported as "bad request". Report a
+            # disconnect to the app instead and replace whatever it answers with a 413 below.
+            nonlocal received, overflow
+            if overflow:
+                return {"type": "http.disconnect"}
             message = await receive()
             if message["type"] == "http.request":
                 received += len(message.get("body", b""))
                 if received > self.max_body_bytes:
-                    raise _BodyTooLarge
+                    overflow = True
+                    return {"type": "http.disconnect"}
             return message
 
-        async def tracking_send(message: dict[str, Any]) -> None:
+        async def guarded_send(message: dict[str, Any]) -> None:
             nonlocal started
+            if overflow:
+                if not started:
+                    started = True
+                    await self._reject(send)
+                return  # swallow the app's own (400/500) response
             if message["type"] == "http.response.start":
                 started = True
             await send(message)
 
         try:
-            await self.app(scope, limited_receive, tracking_send)
-        except _BodyTooLarge:
-            if not started:
-                await self._reject(send)
+            await self.app(scope, limited_receive, guarded_send)
+        except Exception:
+            if not overflow:
+                raise
+        if overflow and not started:
+            await self._reject(send)
 
     async def _reject(self, send: Send) -> None:
         body = json.dumps(

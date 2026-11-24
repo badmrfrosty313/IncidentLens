@@ -79,13 +79,28 @@ def _parse_plain_line(line: str) -> RawRecord | None:
     return RawRecord(0, ts, None, svc, msg)
 
 
-def _clip(line: str, limit: int) -> tuple[str, bool]:
-    if len(line) <= limit:
-        return line, False
-    cut = line[:limit]
-    # Drop the trailing partial token so a clipped secret cannot survive half-visible.
-    head = cut.rsplit(None, 1)[0] if re.search(r"\s", cut) else cut
-    return head, True
+def safe_clip(text: str, limit: int) -> tuple[str, bool]:
+    """Clip ``text`` to ``limit`` characters without leaving a half-cut token behind.
+
+    Clipping happens before redaction (the length bound is what keeps redaction cheap), so a
+    secret straddling the cut would otherwise survive as a prefix too short for any pattern to
+    recognise. The partial trailing token is therefore dropped; if the cut lands inside the only
+    token, nothing is kept.
+    """
+    if len(text) <= limit:
+        return text, False
+    if text[limit].isspace():
+        return text[:limit].rstrip(), True
+    cut = text[:limit]
+    i = len(cut)
+    while i > 0 and not cut[i - 1].isspace():
+        i -= 1
+    return cut[:i].rstrip(), True
+
+
+_PEM_BEGIN = re.compile(r"-----BEGIN [A-Z ]{0,30}PRIVATE KEY(?: BLOCK)?-----")
+_PEM_END = re.compile(r"-----END [A-Z ]{0,30}PRIVATE KEY(?: BLOCK)?-----")
+_MAX_KEY_BLOCK_LINES = 200
 
 
 def _check_count(n: int, limits: Limits) -> None:
@@ -101,17 +116,29 @@ def parse_plaintext(text: str, limits: Limits = DEFAULT_LIMITS) -> ParseResult:
     prev: RawRecord | None = None
     continuation = 0
     clipped = 0
+    key_lines = -1  # >= 0 while inside a PEM private-key block
     for number, raw_line in enumerate(text.splitlines(), start=1):
         if not raw_line.strip():
             continue
-        line, was_clipped = _clip(raw_line.replace("\x00", ""), limits.max_line_chars)
+        if key_lines >= 0:
+            # Key bodies are bare base64 lines that match no log shape; without this they would be
+            # kept as "malformed" samples, outside the reach of the multi-line private-key rule.
+            ends = _PEM_END.search(raw_line) is not None
+            if ends or key_lines >= _MAX_KEY_BLOCK_LINES or _parse_plain_line(raw_line[: limits.max_line_chars]) is not None:
+                key_lines = -1
+                if ends:
+                    continue
+            else:
+                key_lines += 1
+                continue
+        line, was_clipped = safe_clip(raw_line.replace("\x00", ""), limits.max_line_chars)
         clipped += was_clipped
         rec = _parse_plain_line(line)
         if rec is not None:
             rec.line_number = number
             result.records.append(rec)
             prev, continuation = rec, 0
-        elif prev is not None and _CONTINUATION.match(line):
+        elif prev is not None and (_CONTINUATION.match(line) or _PEM_BEGIN.search(line)):
             if continuation < limits.max_continuation_lines and len(prev.message) < limits.max_line_chars:
                 prev.message += "\n" + line.strip()
                 continuation += 1
@@ -124,9 +151,11 @@ def parse_plaintext(text: str, limits: Limits = DEFAULT_LIMITS) -> ParseResult:
                 prev, continuation = rec, 0
             else:
                 result.malformed.append(
-                    MalformedRecord(line_number=number, reason="no timestamp or severity found", sample=line[:200])
+                    MalformedRecord(line_number=number, reason="no timestamp or severity found", sample=safe_clip(line, 200)[0])
                 )
                 prev = None
+        if key_lines < 0 and _PEM_BEGIN.search(line) and not _PEM_END.search(line):
+            key_lines = 0
         _check_count(len(result.records) + len(result.malformed), limits)
     if clipped:
         result.warnings.append(f"{clipped} over-long line(s) were clipped at {limits.max_line_chars:,} characters.")
@@ -153,22 +182,22 @@ def _first(m: dict[str, Any], keys: tuple[str, ...]) -> Any:
 
 def _stringify(v: Any, cap: int = 1000) -> str:
     if isinstance(v, str):
-        return v[:cap]
+        return safe_clip(v, cap)[0]
     if isinstance(v, dict):
         parts = [str(v[k]) for k in ("type", "name", "code", "message", "stack") if k in v and v[k] is not None]
         if parts:
-            return " ".join(parts)[:cap]
+            return safe_clip(" ".join(parts), cap)[0]
     try:
-        return json.dumps(v, ensure_ascii=False, default=str)[:cap]
+        return safe_clip(json.dumps(v, ensure_ascii=False, default=str), cap)[0]
     except (TypeError, ValueError, RecursionError):
-        return str(v)[:cap]
+        return safe_clip(str(v), cap)[0]
 
 
 def _record_from_obj(obj: Any, number: int) -> RawRecord | MalformedRecord:
     if isinstance(obj, str):
         rec = _parse_plain_line(obj.strip())
         if rec is None:
-            return MalformedRecord(line_number=number, reason="string entry has no timestamp", sample=obj[:200])
+            return MalformedRecord(line_number=number, reason="string entry has no timestamp", sample=safe_clip(obj, 200)[0])
         rec.line_number = number
         return rec
     if not isinstance(obj, dict):
@@ -212,13 +241,13 @@ def parse_jsonl(text: str, limits: Limits = DEFAULT_LIMITS) -> ParseResult:
             continue
         if len(line) > limits.max_line_chars:
             result.malformed.append(
-                MalformedRecord(line_number=number, reason="line exceeds maximum length", sample=line[:200])
+                MalformedRecord(line_number=number, reason="line exceeds maximum length", sample=safe_clip(line, 200)[0])
             )
         else:
             try:
                 obj = json.loads(line)
             except (ValueError, RecursionError):
-                result.malformed.append(MalformedRecord(line_number=number, reason="invalid JSON", sample=line[:200]))
+                result.malformed.append(MalformedRecord(line_number=number, reason="invalid JSON", sample=safe_clip(line, 200)[0]))
             else:
                 out = _record_from_obj(obj, number)
                 (result.records if isinstance(out, RawRecord) else result.malformed).append(out)  # type: ignore[arg-type]

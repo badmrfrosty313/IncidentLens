@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 import re
 from datetime import datetime, timezone
 from typing import Any
@@ -25,19 +26,33 @@ _CONTROL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
 _SERVICE_BAD = re.compile(r"[^a-z0-9._/-]+")
 
 
+_NUMERIC_LEVEL = re.compile(r"[0-9]{1,4}")  # ASCII digits only: str.isdigit() also accepts e.g. "²"
+_MAX_NUMERIC_LEVEL = 1000
+
+
 def normalize_severity(value: Any) -> Severity | None:
-    """Map a raw level (name, syslog number or pino-style number) to Severity; None if unknown."""
+    """Map a raw level (name, syslog number or pino-style number) to Severity; None if unknown.
+
+    Malformed numerics (NaN, infinity, absurdly long or non-ASCII digit strings, out-of-range
+    values) are treated as an unknown level and never raise.
+    """
     if value is None or isinstance(value, bool):
         return None
     if isinstance(value, str):
         text = value.strip()
-        if text.isdigit():
+        if _NUMERIC_LEVEL.fullmatch(text):
             value = int(text)
         else:
             return _SEVERITY_NAMES.get(text.upper())
-    if isinstance(value, (int, float)):
-        n = int(value)
-        if 0 <= n <= 7:
+    if isinstance(value, float):
+        if not math.isfinite(value) or not 0 <= value <= _MAX_NUMERIC_LEVEL:
+            return None
+        value = int(value)
+    if isinstance(value, int):
+        n = value
+        if not 0 <= n <= _MAX_NUMERIC_LEVEL:
+            return None
+        if n <= 7:
             return _SYSLOG[n]
         if n < 30:
             return Severity.DEBUG

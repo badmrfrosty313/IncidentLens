@@ -71,3 +71,52 @@ def test_non_http_scopes_are_ignored():
 
     run(BodySizeLimitMiddleware(inner, 1)({"type": "lifespan"}, None, None))
     assert called == ["lifespan"]
+
+
+async def _framework_like_app(scope, receive, send):
+    """Mimics FastAPI/Starlette: any failure while reading the body becomes an HTTP 400."""
+    try:
+        body = b""
+        while True:
+            msg = await receive()
+            if msg["type"] == "http.disconnect":
+                raise RuntimeError("client disconnected")
+            body += msg.get("body", b"")
+            if not msg.get("more_body"):
+                break
+    except Exception:
+        await send({"type": "http.response.start", "status": 400, "headers": []})
+        await send({"type": "http.response.body", "body": b"There was an error parsing the body"})
+        return
+    await send({"type": "http.response.start", "status": 200, "headers": []})
+    await send({"type": "http.response.body", "body": b"ok"})
+
+
+def test_oversized_chunked_body_is_413_even_when_the_app_turns_read_errors_into_400():
+    app = BodySizeLimitMiddleware(_framework_like_app, 100)
+    status, body = run(_call(app, [b"x" * 60, b"x" * 60, b"x" * 60]))
+    assert status == 413 and json.loads(body)["code"] == "input_too_large"
+
+
+def test_oversized_chunked_body_is_413_when_the_app_raises():
+    async def raising_app(scope, receive, send):
+        while (await receive())["type"] != "http.disconnect":
+            pass
+        raise RuntimeError("boom")
+
+    app = BodySizeLimitMiddleware(raising_app, 100)
+    status, _ = run(_call(app, [b"x" * 60, b"x" * 60]))
+    assert status == 413
+
+
+def test_exceptions_unrelated_to_the_limit_still_propagate():
+    async def broken(scope, receive, send):
+        raise RuntimeError("real bug")
+
+    app = BodySizeLimitMiddleware(broken, 100)
+    try:
+        run(_call(app, [b"x"]))
+    except RuntimeError as exc:
+        assert "real bug" in str(exc)
+    else:
+        raise AssertionError("expected the app error to propagate")

@@ -2,14 +2,17 @@ import { expect, test as base } from "@playwright/test";
 import type { Page } from "@playwright/test";
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const HERE = path.dirname(fileURLToPath(import.meta.url));
 
 /* --------------------------------------------------------------------------------------------
  * Real-browser smoke test of the static demonstration build. Expected values come from the
  * generated fixtures in public/demo-data (the same files the page loads), never from literals.
  * ------------------------------------------------------------------------------------------ */
 
-const DATA = path.resolve(__dirname, "../public/demo-data");
-const SHOTS = path.resolve(__dirname, "../../docs/screenshots");
+const DATA = path.resolve(HERE, "../public/demo-data");
+const SHOTS = path.resolve(HERE, "../../docs/screenshots");
 const capture = Boolean(process.env.CAPTURE_SCREENSHOTS);
 
 interface ScenarioInfo { id: string; name: string }

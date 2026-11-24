@@ -7,8 +7,7 @@
 **Turn raw application logs into an incident report**: severity, an event timeline, ranked root-cause hypotheses with
 supporting evidence and a transparent score, and concrete next diagnostic steps. Paste or drop in plaintext, JSON or JSONL logs.
 
-- **Live demo (static, no backend):** <https://badmrfrosty313.github.io/IncidentLens/> *(published by the Pages workflow once the
-  owner merges to `main` and enables GitHub Pages; until then, build it locally with the commands below).*
+- **Live demo (static, no backend):** <https://badmrfrosty313.github.io/IncidentLens/> (deployed by the Pages workflow after CI passes on `main`; you can also build it locally with the commands below).
 - **Deterministic by design.** The analysis is rule-based and explainable. **No LLM is called, no API keys are needed, nothing is
   stored.** An extension point exists for a possible future, optional LLM layer (see [below](#deterministic-analysis-vs-a-possible-future-llm-layer)).
 

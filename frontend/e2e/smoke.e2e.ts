@@ -197,6 +197,13 @@ test("layout is usable at this viewport", async ({ page }) => {
   await open(page, "cascading-microservice-failure");
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   expect(overflow, "no horizontal page overflow").toBeLessThanOrEqual(1);
+  // The page itself can look fine while a wide child is clipped: every panel must sit inside the viewport.
+  const clipped = await page.evaluate(() =>
+    [...document.querySelectorAll(".panel")]
+      .filter((el) => el.getBoundingClientRect().right > window.innerWidth + 1)
+      .map((el) => el.getAttribute("aria-label") ?? el.className),
+  );
+  expect(clipped, "panels wider than the viewport").toEqual([]);
   const vp = page.viewportSize()!;
   expect(vp.width).toBe(isMobile() ? 412 : 1440);
   for (const name of ["Ranked root-cause hypotheses", "Recommended investigation steps"]) {

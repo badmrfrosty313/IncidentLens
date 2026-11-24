@@ -107,8 +107,8 @@ export default function App() {
           The IncidentLens API is not reachable. Start the backend (see README) and reload.
         </div>
       )}
-      <main className="mx-auto grid max-w-[1600px] gap-4 p-4 lg:grid-cols-[340px_minmax(0,1fr)]">
-        <aside className="space-y-4">
+      <main className="mx-auto grid max-w-[1600px] grid-cols-1 gap-4 p-4 lg:grid-cols-[340px_minmax(0,1fr)]">
+        <aside className="min-w-0 space-y-4">
           <IngestPanel
             scenarios={scenarios}
             busy={busy}

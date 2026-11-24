@@ -45,3 +45,4 @@ jobs:
           git commit -m "docs: add application screenshots captured by the Playwright suite"
           git push
 # retrigger (previous run lost a push race)
+# retrigger after layout fix

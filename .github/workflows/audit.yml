@@ -5,7 +5,7 @@ name: Dependency audit
 on:
   workflow_dispatch:
   push:
-    branches: [sprint-1-mvp]
+    branches: [main]
     paths: ["backend/requirements*.txt", "frontend/package*.json", ".github/workflows/audit.yml"]
   schedule:
     - cron: "17 6 * * 1"
@@ -45,5 +45,3 @@ jobs:
         with:
           name: dependency-audit
           path: audit
-# re-run after lockfile update
-# rerun audit with updated lockfile

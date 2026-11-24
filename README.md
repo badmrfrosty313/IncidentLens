@@ -231,6 +231,6 @@ Backend: `fastapi`, `pydantic`, `uvicorn` (tests: `pytest`, `httpx`). Frontend: 
 
 ## License
 
-No license has been chosen yet; until the repository owner adds one, all rights are reserved.
+[MIT](LICENSE) © 2026 badmrfrosty313.
 
 Release notes: [docs/RELEASE_NOTES_v0.1.0.md](docs/RELEASE_NOTES_v0.1.0.md).

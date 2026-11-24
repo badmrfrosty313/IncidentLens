@@ -44,12 +44,20 @@ See `docs/LIMITATIONS.md` and `docs/SECURITY.md`. In short: heuristic analysis t
 pattern-based redaction misses secrets with no recognizable shape; no authentication, so do not expose the full
 application to the public internet; plaintext parsing covers common shapes only.
 
-## Release blockers (owner decisions)
+## License
 
-- **License:** none included. Choosing one (MIT was suggested) requires explicit owner authorization.
-- **Merge and GitHub Pages:** the deployment workflow only runs after CI succeeds on `main`, and the Pages source
-  must be set to "GitHub Actions" in repository settings. Nothing is deployed until then.
-- **Dependency audit:** see "Dependency audit" in `docs/SECURITY.md`.
+Released under the [MIT License](../LICENSE).
+
+## Deployment
+
+The static demonstration is published to GitHub Pages by `.github/workflows/pages.yml` after CI succeeds on `main`.
+The full application (with the FastAPI backend) is run locally or with Docker and is not exposed publicly.
+
+## Known open items
+
+- Six advisories remain in development-only tooling (Vitest 2.x / Vite 5.x); production dependencies and Python
+  dependencies have none. Details and applicability: "Dependency audit" in `docs/SECURITY.md`.
+- Base container images were not scanned.
 
 ## Upgrading / running
 

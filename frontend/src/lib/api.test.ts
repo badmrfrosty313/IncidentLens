@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { ApiError, analyze, fetchReport, getHealth, runScenario } from "./api";
+import { ApiError, analyze, fetchReport, getHealth, listScenarios, runScenario } from "./api";
 
 function mockFetch(response: { status?: number; body?: unknown; text?: string } | Error) {
   const fn = vi.fn(async () => {
